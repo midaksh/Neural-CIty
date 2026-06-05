@@ -18,10 +18,10 @@ export function SortPills({ value, onChange }: SortPillsProps) {
       transition={{ delay: 0.25, duration: 0.45 }}
       className="mb-5"
     >
-      <p className="mb-3 text-center text-xs font-medium tracking-wide text-muted uppercase">
+      <p className="mb-2.5 text-left text-[10px] font-medium tracking-wide text-muted uppercase">
         Sort by
       </p>
-      <div className="pill-scroll flex justify-start gap-2 overflow-x-auto pb-1 md:flex-wrap md:justify-center">
+      <div className="pill-scroll flex justify-start gap-1.5 overflow-x-auto pb-1 md:flex-wrap">
         {sortOptions.map((option) => {
           const isActive = value === option.value;
 
@@ -32,7 +32,7 @@ export function SortPills({ value, onChange }: SortPillsProps) {
               onClick={() => onChange(option.value)}
               whileTap={{ scale: 0.97 }}
               className={cn(
-                "shrink-0 rounded-full px-4 py-2.5 text-sm font-medium transition-all duration-200",
+                "shrink-0 rounded-full px-3 py-2 text-xs font-medium transition-all duration-200",
                 isActive
                   ? "border border-[#f37021] bg-[#f37021] text-white shadow-[inset_0_1px_0_0_rgba(255,255,255,0.15)]"
                   : "glass text-muted hover:border-brand/25 hover:text-foreground active:border-[#f37021] active:bg-[#f37021] active:text-white",

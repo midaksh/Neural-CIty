@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import type { City, ScoreCategory } from "@/types/city";
 import { PerformanceTags } from "@/components/rankings/PerformanceTags";
-import { cn } from "@/lib/utils";
+import { cn, getScoreBandStyles } from "@/lib/utils";
 
 interface RankingRowProps {
   city: City;
@@ -57,6 +57,7 @@ export function RankingRow({
 }: RankingRowProps) {
   const highlightKey = getHighlightKey(sortBy);
   const activeScore = getSortScore(city, sortBy);
+  const scoreStyles = getScoreBandStyles(activeScore);
 
   return (
     <motion.tr
@@ -75,41 +76,37 @@ export function RankingRow({
         displayRank === 1 && "border-b-2",
       )}
     >
-      <td className="p-3 md:p-4">
+      <td className="p-2.5 md:p-3">
         <div className="flex flex-col items-center">
-          <span className="text-lg font-bold text-brand md:text-xl">
+          <span className="text-sm font-bold text-muted md:text-base">
             #{displayRank}
           </span>
         </div>
       </td>
 
-      <td className="p-3 md:p-4">
+      <td className="p-2.5 md:p-3">
         <div>
-          <p className="text-base font-semibold text-foreground md:text-lg">
-            {city.name}
-          </p>
-          <p className="mt-1 text-xs text-muted">
-            pts • km • wards
-          </p>
+          <p className="text-sm font-semibold text-foreground">{city.name}</p>
+          <p className="mt-0.5 text-[10px] text-muted">pts • km • wards</p>
         </div>
       </td>
 
-      <td className="p-3 md:p-4">
+      <td className="p-2.5 md:p-3">
         <div className="flex flex-col items-center">
           <motion.span
             key={`${city.id}-${activeScore}`}
             initial={{ scale: 0.9, opacity: 0.6 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ type: "spring", stiffness: 300, damping: 22 }}
-            className="text-2xl font-bold text-brand md:text-3xl"
+            className={cn("text-lg font-bold md:text-xl", scoreStyles.text)}
           >
             {activeScore.toFixed(1)}
           </motion.span>
-          <span className="text-xs text-muted">/100.0</span>
+          <span className="mt-0.5 text-[10px] text-muted">/100.0</span>
         </div>
       </td>
 
-      <td className="p-3 md:p-4">
+      <td className="p-2.5 md:p-3">
         <PerformanceTags scores={city.scores} highlightKey={highlightKey} />
       </td>
     </motion.tr>

@@ -6,6 +6,7 @@ import { cities } from "@/data/cities";
 import type { City, ScoreCategory } from "@/types/city";
 import { RankingRow, getSortScore } from "@/components/rankings/RankingRow";
 import { SortPills } from "@/components/rankings/SortPills";
+import { ScoreLegend } from "@/components/rankings/ScoreLegend";
 
 function sortCities(list: City[], sortBy: ScoreCategory): City[] {
   return [...list].sort(
@@ -29,10 +30,10 @@ export function RankingsTable() {
         transition={{ delay: 0.15, duration: 0.45 }}
         className="mb-2 text-center"
       >
-        <h2 className="text-xl font-semibold tracking-tight text-foreground md:text-2xl">
+        <h2 className="text-base font-semibold tracking-tight text-foreground md:text-lg">
           City Rankings
         </h2>
-        <p className="mt-2 text-sm text-muted">
+        <p className="mt-1.5 text-xs text-muted">
           {sortedCities.length} cities compared by street-level outcomes
         </p>
       </motion.div>
@@ -49,10 +50,10 @@ export function RankingsTable() {
           <table className="w-full min-w-[720px] border-collapse">
             <thead>
               <tr className="border-b border-border bg-surface/60 text-left text-xs font-medium tracking-wider text-muted uppercase">
-                <th className="p-3 md:p-4">Rank</th>
-                <th className="p-3 md:p-4">City</th>
-                <th className="p-3 md:p-4 text-center">Score</th>
-                <th className="p-3 md:p-4 text-right">Performance</th>
+                <th className="p-2.5 md:p-3">Rank</th>
+                <th className="p-2.5 md:p-3">City</th>
+                <th className="p-2.5 md:p-3 text-center">Score</th>
+                <th className="p-2.5 md:p-3 text-right">Performance</th>
               </tr>
             </thead>
             <tbody>
@@ -76,20 +77,8 @@ export function RankingsTable() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.45 }}
-        className="mt-6 flex flex-wrap justify-center gap-4 text-xs text-muted"
       >
-        <span className="flex items-center gap-2">
-          <span className="h-2 w-2 rounded-full bg-red-500/80" />
-          0–35 Poor
-        </span>
-        <span className="flex items-center gap-2">
-          <span className="h-2 w-2 rounded-full bg-brand/80" />
-          35–65 Manageable
-        </span>
-        <span className="flex items-center gap-2">
-          <span className="h-2 w-2 rounded-full bg-emerald-500/80" />
-          65+ Good
-        </span>
+        <ScoreLegend />
       </motion.div>
     </section>
   );

@@ -1,3 +1,4 @@
+import { DashboardLayout } from "@/components/layout/DashboardLayout";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { HeroSection } from "@/components/dashboard/HeroSection";
@@ -6,7 +7,7 @@ import { FloatingChatButton } from "@/components/ui/FloatingChatButton";
 
 export default function Home() {
   return (
-    <>
+    <DashboardLayout>
       <Header />
       <main className="flex-1">
         <HeroSection />
@@ -14,6 +15,6 @@ export default function Home() {
       </main>
       <Footer />
       <FloatingChatButton />
-    </>
+    </DashboardLayout>
   );
 }

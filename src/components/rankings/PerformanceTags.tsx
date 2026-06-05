@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import type { CityScores } from "@/types/city";
 import { performanceMetrics } from "@/data/cities";
-import { cn } from "@/lib/utils";
+import { cn, getScoreBandStyles } from "@/lib/utils";
 
 interface PerformanceTagsProps {
   scores: CityScores;
@@ -16,6 +16,7 @@ export function PerformanceTags({ scores, highlightKey }: PerformanceTagsProps) 
       {performanceMetrics.map((metric, index) => {
         const value = scores[metric.key];
         const isHighlighted = highlightKey === metric.key;
+        const bandStyles = getScoreBandStyles(value);
 
         return (
           <motion.div
@@ -23,18 +24,18 @@ export function PerformanceTags({ scores, highlightKey }: PerformanceTagsProps) 
             initial={{ opacity: 0, scale: 0.96 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: index * 0.03, duration: 0.28 }}
-            title={`${metric.fullLabel}: ${value.toFixed(1)}`}
+            title={`${metric.fullLabel}: ${value.toFixed(1)} (${bandStyles.label})`}
             className={cn(
-              "flex min-w-[52px] flex-col items-center rounded-lg border px-2 py-1 text-center transition-colors",
-              isHighlighted
-                ? "border-brand/40 bg-brand-muted"
-                : "border-border bg-elevated/80",
+              "flex min-w-[46px] flex-col items-center rounded-md border px-1.5 py-0.5 text-center transition-colors",
+              bandStyles.bg,
+              bandStyles.border,
+              isHighlighted && "border-2 shadow-sm",
             )}
           >
-            <span className="text-[10px] font-medium tracking-wide text-muted uppercase">
+            <span className="text-[9px] font-medium tracking-wide text-muted uppercase">
               {metric.label}
             </span>
-            <span className="text-xs font-semibold text-brand md:text-sm">
+            <span className={cn("text-[11px] font-semibold", bandStyles.text)}>
               {value.toFixed(1)}
             </span>
           </motion.div>

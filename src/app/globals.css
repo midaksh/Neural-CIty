@@ -15,9 +15,17 @@
   --border: hsl(0 0% 86%);
   --score: #f37021;
   --score-muted: #f370211a;
+  --score-poor: hsl(0 72% 50%);
+  --score-poor-muted: hsl(0 72% 50% / 0.12);
+  --score-manageable: hsl(217 91% 55%);
+  --score-manageable-muted: hsl(217 91% 55% / 0.12);
+  --score-good: hsl(142 76% 36%);
+  --score-good-muted: hsl(142 76% 36% / 0.14);
   --glass-bg: hsl(0 0% 100% / 0.72);
   --glass-border: hsl(0 0% 0% / 0.06);
   --glass-highlight: hsl(0 0% 100% / 0.9);
+  --app-shell: hsl(0 0% 94%);
+  --sidebar-shadow: 0 4px 24px hsl(0 0% 0% / 0.06), 0 1px 3px hsl(0 0% 0% / 0.04);
 }
 
 .dark {
@@ -30,9 +38,17 @@
   --border: hsl(0 0% 14%);
   --score: #f37021;
   --score-muted: #f3702124;
+  --score-poor: hsl(0 84% 62%);
+  --score-poor-muted: hsl(0 84% 62% / 0.16);
+  --score-manageable: hsl(217 91% 68%);
+  --score-manageable-muted: hsl(217 91% 68% / 0.16);
+  --score-good: hsl(142 71% 52%);
+  --score-good-muted: hsl(142 71% 52% / 0.16);
   --glass-bg: hsl(0 0% 100% / 0.04);
   --glass-border: hsl(0 0% 100% / 0.08);
   --glass-highlight: hsl(0 0% 100% / 0.06);
+  --app-shell: hsl(0 0% 0%);
+  --sidebar-shadow: 0 8px 32px hsl(0 0% 0% / 0.45), 0 1px 0 hsl(0 0% 100% / 0.04);
 }
 
 @theme inline {
@@ -49,6 +65,13 @@
   --color-brand-muted: var(--brand-muted);
   --color-score: var(--score);
   --color-score-muted: var(--score-muted);
+  --color-score-poor: var(--score-poor);
+  --color-score-poor-muted: var(--score-poor-muted);
+  --color-score-manageable: var(--score-manageable);
+  --color-score-manageable-muted: var(--score-manageable-muted);
+  --color-score-good: var(--score-good);
+  --color-score-good-muted: var(--score-good-muted);
+  --color-app-shell: var(--app-shell);
   --font-sans: var(--font-inter);
 }
 
@@ -116,4 +139,9 @@ body {
 
 .pill-scroll::-webkit-scrollbar {
   display: none;
+}
+
+.sidebar-panel {
+  box-shadow: var(--sidebar-shadow);
+  border: 1px solid var(--border);
 }

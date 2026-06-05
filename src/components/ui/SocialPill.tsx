@@ -22,7 +22,7 @@ export function SocialPill({ href, icon, label, ariaLabel }: SocialPillProps) {
       whileTap={{ scale: 0.97 }}
       transition={{ type: "spring", stiffness: 420, damping: 26 }}
       className={cn(
-        "glass inline-flex h-10 items-center gap-2 rounded-full px-3.5 text-sm font-medium text-foreground",
+        "glass inline-flex h-9 items-center gap-1.5 rounded-full px-3 text-xs font-medium text-foreground",
         "transition-colors hover:border-brand/30 active:border-[#f37021] active:bg-[#f37021] active:text-white",
       )}
     >

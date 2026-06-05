@@ -29,7 +29,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="flex min-h-full flex-col bg-background text-foreground">
+      <body className="flex min-h-full flex-col bg-background text-[13px] leading-normal text-foreground md:text-sm">
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
