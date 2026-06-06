@@ -5,6 +5,8 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
+![Python pipeline](https://img.shields.io/badge/Pipeline-Stdlib_only-3776AB?logo=python&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-0055FF?logo=framer&logoColor=white)
 ![License](https://img.shields.io/badge/License-Private-lightgrey)
 
@@ -79,7 +81,7 @@ flowchart LR
 | Motion | Framer Motion | Page and chart animations |
 | Icons | Lucide React | Navigation and section icons |
 | Language | TypeScript | Type-safe app code |
-| Data pipeline | Python 3 | Score normalization scripts |
+| Data pipeline | Python 3 (stdlib only) | Score normalization scripts — `csv`, `json`, `math`, `pathlib`, `dataclasses`, `glob`, `statistics` |
 | Storage | JSON (static) | Processed scores served from `public/data/` |
 | Deploy | Vercel | Hosted prototype |
 
@@ -223,5 +225,4 @@ neural-city-project/
     ├── data/           # TypeScript data adapters
     └── lib/            # Helpers and aggregators
 ```
-
 ---
