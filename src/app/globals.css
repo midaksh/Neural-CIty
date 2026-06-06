@@ -169,3 +169,81 @@ body {
 .group:hover .city-name-arrow {
   transform: translateX(6px);
 }
+
+.compare-form-shell {
+  isolation: isolate;
+}
+
+.compare-form-shell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      ellipse 90% 70% at 92% 98%,
+      rgba(72, 168, 220, 0.55) 0%,
+      rgba(120, 198, 235, 0.28) 32%,
+      transparent 68%
+    ),
+    radial-gradient(
+      ellipse 55% 45% at 88% 92%,
+      rgba(210, 240, 255, 0.85) 0%,
+      rgba(168, 220, 245, 0.35) 40%,
+      transparent 72%
+    ),
+    radial-gradient(
+      ellipse 50% 40% at 10% 12%,
+      rgba(186, 228, 248, 0.35) 0%,
+      transparent 62%
+    );
+}
+
+.compare-form-shell::after {
+  content: "";
+  position: absolute;
+  right: -4%;
+  bottom: -6%;
+  z-index: 0;
+  width: min(480px, 55vw);
+  height: min(480px, 55vw);
+  pointer-events: none;
+  border-radius: 9999px;
+  background: radial-gradient(
+    circle,
+    rgba(140, 210, 245, 0.65) 0%,
+    rgba(90, 175, 225, 0.35) 38%,
+    transparent 72%
+  );
+  filter: blur(40px);
+}
+
+.dark .compare-form-shell::before {
+  background:
+    radial-gradient(
+      ellipse 90% 70% at 92% 98%,
+      rgba(243, 112, 33, 0.28) 0%,
+      rgba(243, 112, 33, 0.12) 32%,
+      transparent 68%
+    ),
+    radial-gradient(
+      ellipse 55% 45% at 88% 92%,
+      rgba(255, 180, 120, 0.18) 0%,
+      transparent 72%
+    ),
+    radial-gradient(
+      ellipse 50% 40% at 10% 12%,
+      rgba(243, 112, 33, 0.08) 0%,
+      transparent 62%
+    );
+}
+
+.dark .compare-form-shell::after {
+  background: radial-gradient(
+    circle,
+    rgba(243, 112, 33, 0.35) 0%,
+    rgba(243, 112, 33, 0.12) 38%,
+    transparent 72%
+  );
+}
