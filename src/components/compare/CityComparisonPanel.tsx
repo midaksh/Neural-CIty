@@ -26,7 +26,7 @@ export function CityComparisonPanel({ data, index }: CityComparisonPanelProps) {
       <div className="grid gap-4 lg:grid-cols-[minmax(220px,280px)_1fr]">
         <ScoreGauge score={data.overall} />
 
-        <div className="flex flex-col gap-3">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
           {data.categories.map((category, categoryIndex) => (
             <CategoryBreakdownCell
               key={category.title}

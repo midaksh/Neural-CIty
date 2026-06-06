@@ -1,11 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { GitCompare, Loader2 } from "lucide-react";
 import { motion } from "framer-motion";
 import { CitySelectDropdown } from "@/components/compare/CitySelectDropdown";
 import { CityComparisonPanel } from "@/components/compare/CityComparisonPanel";
-import { WinnerModal } from "@/components/compare/WinnerModal";
 import { getCityCompareData } from "@/lib/compare-data";
 
 type ViewState = "form" | "loading" | "results";
@@ -14,7 +13,6 @@ export function ComparePageContent() {
   const [cityAId, setCityAId] = useState<string | null>(null);
   const [cityBId, setCityBId] = useState<string | null>(null);
   const [view, setView] = useState<ViewState>("form");
-  const [showWinner, setShowWinner] = useState(false);
   const [resultIds, setResultIds] = useState<{ a: string; b: string } | null>(
     null,
   );
@@ -22,32 +20,17 @@ export function ComparePageContent() {
   const canCompare =
     cityAId !== null && cityBId !== null && cityAId !== cityBId;
 
-  const cityAData = useMemo(
-    () => (resultIds ? getCityCompareData(resultIds.a) : null),
-    [resultIds],
-  );
-  const cityBData = useMemo(
-    () => (resultIds ? getCityCompareData(resultIds.b) : null),
-    [resultIds],
-  );
-
-  const winnerName = useMemo(() => {
-    if (!cityAData || !cityBData) return "";
-    if (cityAData.overall > cityBData.overall) return cityAData.cityName;
-    if (cityBData.overall > cityAData.overall) return cityBData.cityName;
-    return "It's a tie";
-  }, [cityAData, cityBData]);
+  const cityAData = resultIds ? getCityCompareData(resultIds.a) : null;
+  const cityBData = resultIds ? getCityCompareData(resultIds.b) : null;
 
   function handleCompare() {
     if (!canCompare || !cityAId || !cityBId) return;
 
     setView("loading");
-    setShowWinner(false);
 
     window.setTimeout(() => {
       setResultIds({ a: cityAId, b: cityBId });
       setView("results");
-      window.setTimeout(() => setShowWinner(true), 300);
     }, 1500);
   }
 
@@ -155,12 +138,6 @@ export function ComparePageContent() {
           <CityComparisonPanel data={cityBData} index={1} />
         </section>
       )}
-
-      <WinnerModal
-        open={showWinner && view === "results"}
-        winnerName={winnerName}
-        onClose={() => setShowWinner(false)}
-      />
     </>
   );
 }
