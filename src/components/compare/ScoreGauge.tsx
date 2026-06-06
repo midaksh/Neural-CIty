@@ -3,9 +3,14 @@
 interface ScoreGaugeProps {
   score: number;
   label?: string;
+  fillHeight?: boolean;
 }
 
-export function ScoreGauge({ score, label = "Overall Score" }: ScoreGaugeProps) {
+export function ScoreGauge({
+  score,
+  label = "Overall Score",
+  fillHeight = false,
+}: ScoreGaugeProps) {
   const clamped = Math.min(100, Math.max(0, score));
   const radius = 68;
   const stroke = 24;
@@ -15,11 +20,17 @@ export function ScoreGauge({ score, label = "Overall Score" }: ScoreGaugeProps) 
   const offset = circumference - (clamped / 100) * circumference;
 
   return (
-    <div className="flex flex-col items-center justify-center self-start rounded-2xl border border-brand/40 bg-card px-5 py-5 text-foreground shadow-[0_0_0_1px_rgba(243,112,33,0.25),0_0_28px_rgba(243,112,33,0.14)]">
+    <div
+      className={
+        fillHeight
+          ? "flex h-full min-h-[240px] flex-col items-center justify-center rounded-2xl border border-brand/40 bg-card px-5 py-6 text-foreground shadow-[0_0_0_1px_rgba(243,112,33,0.25),0_0_28px_rgba(243,112,33,0.14)]"
+          : "flex flex-col items-center justify-center self-start rounded-2xl border border-brand/40 bg-card px-5 py-5 text-foreground shadow-[0_0_0_1px_rgba(243,112,33,0.25),0_0_28px_rgba(243,112,33,0.14)]"
+      }
+    >
       <p className="mb-3 text-[10px] font-semibold tracking-[0.15em] text-muted uppercase">
         {label}
       </p>
-      <div className="relative w-full max-w-[188px]">
+      <div className={`relative w-full ${fillHeight ? "max-w-[210px] flex-1" : "max-w-[188px]"}`}>
         <svg viewBox="0 0 200 112" className="w-full" aria-hidden>
           <path
             d={`M ${cx - radius} ${cy} A ${radius} ${radius} 0 0 1 ${cx + radius} ${cy}`}

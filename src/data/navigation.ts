@@ -1,6 +1,6 @@
 import type { LucideIcon } from "lucide-react";
 import {
-  BarChart3,
+  Building2,
   Database,
   GitCompare,
   LayoutGrid,
@@ -16,7 +16,7 @@ export interface NavItem {
 
 export const mainNavItems: NavItem[] = [
   { id: "overview", label: "Overview", icon: LayoutGrid, href: "/" },
-  { id: "rankings", label: "City Rankings", icon: BarChart3, href: "#" },
+  { id: "rankings", label: "City Details", icon: Building2, href: "/#city-details" },
   { id: "compare", label: "Compare Cities", icon: GitCompare, href: "/compare" },
   { id: "data", label: "Data Sources", icon: Database, href: "#" },
 ];

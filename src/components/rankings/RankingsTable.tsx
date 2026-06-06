@@ -116,7 +116,7 @@ export function RankingsTable() {
     sector === "governance";
 
   return (
-    <section className="mx-auto max-w-7xl px-4 pb-16 md:px-8">
+    <section id="city-details" className="mx-auto max-w-7xl px-4 pb-16 md:px-8">
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
@@ -124,10 +124,10 @@ export function RankingsTable() {
         className="mb-2 text-center"
       >
         <h2 className="text-base font-semibold tracking-tight text-foreground md:text-lg">
-          City Rankings
+          City Details
         </h2>
         <p className="mt-1.5 mb-10 text-xs text-muted">
-          {cities.length} cities compared by street-level outcomes
+          {cities.length} cities compared by street-level outcomes · Click a row for full city profile
         </p>
       </motion.div>
 

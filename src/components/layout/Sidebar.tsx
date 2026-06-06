@@ -89,7 +89,7 @@ export function Sidebar() {
               href={item.href}
               label={item.label}
               icon={item.icon}
-              isActive={isNavItemActive(pathname, item.href)}
+              isActive={isNavItemActive(pathname, item)}
             />
           ))}
         </nav>
@@ -101,7 +101,7 @@ export function Sidebar() {
               href={item.href}
               label={item.label}
               icon={item.icon}
-              isActive={isNavItemActive(pathname, item.href)}
+              isActive={isNavItemActive(pathname, item)}
             />
           ))}
 

@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import type {
   City,
@@ -39,8 +40,13 @@ export function RankingRow({
   coverage,
   index,
 }: RankingRowProps) {
+  const router = useRouter();
   const hasScore = sectorScore !== null;
   const scoreStyles = hasScore ? getScoreBandStyles(sectorScore.score) : null;
+
+  function openCityDetail() {
+    router.push(`/city/${city.id}`);
+  }
 
   return (
     <motion.tr
@@ -51,8 +57,18 @@ export function RankingRow({
         delay: index * 0.03,
         ease: [0.22, 1, 0.36, 1],
       }}
+      onClick={openCityDetail}
+      onKeyDown={(event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          openCityDetail();
+        }
+      }}
+      tabIndex={0}
+      role="link"
+      aria-label={`View details for ${city.name}`}
       className={cn(
-        "group border-b border-border transition-colors hover:bg-elevated/50",
+        "group cursor-pointer border-b border-border transition-colors hover:bg-elevated/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/40",
         displayRank === 1 && "border-b-2",
       )}
     >

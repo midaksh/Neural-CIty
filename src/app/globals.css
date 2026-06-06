@@ -148,7 +148,7 @@ body {
 
 .city-name-arrow {
   display: block;
-  width: 30%;
+  width: 2.5rem;
   height: 1.5px;
   background: color-mix(in srgb, var(--brand) 70%, transparent);
   position: relative;
