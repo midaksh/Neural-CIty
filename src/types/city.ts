@@ -29,6 +29,17 @@ export interface ConvenienceIndicators {
   access: CitySectorScore | null;
 }
 
+export interface GovernanceIndicators {
+  spendRatio: CitySectorScore | null;
+  invest: CitySectorScore | null;
+}
+
+export interface OverallIndicators {
+  safety: CitySectorScore | null;
+  convenience: CitySectorScore | null;
+  governance: CitySectorScore | null;
+}
+
 export interface CityCoverage {
   dataPoints: number | null;
 }

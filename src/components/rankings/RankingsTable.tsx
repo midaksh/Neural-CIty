@@ -4,6 +4,16 @@ import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { cities } from "@/data/cities";
 import {
+  overallCoverageByCityId,
+  overallIndicatorsByCityId,
+  overallScoresByCityId,
+} from "@/data/overall-scores";
+import {
+  governanceCoverageByCityId,
+  governanceIndicatorsByCityId,
+  governanceScoresByCityId,
+} from "@/data/governance-scores";
+import {
   convenienceCoverageByCityId,
   convenienceIndicatorsByCityId,
   convenienceScoresByCityId,
@@ -18,6 +28,8 @@ import type {
   CityCoverage,
   CitySectorScore,
   ConvenienceIndicators,
+  GovernanceIndicators,
+  OverallIndicators,
   SafetyIndicators,
   Sector,
 } from "@/types/city";
@@ -26,11 +38,17 @@ import { SortPills } from "@/components/rankings/SortPills";
 import { ScoreLegend } from "@/components/rankings/ScoreLegend";
 
 function getSectorScore(cityId: string, sector: Sector): CitySectorScore | null {
+  if (sector === "overall_score") {
+    return overallScoresByCityId[cityId] ?? null;
+  }
   if (sector === "safety") {
     return safetyScoresByCityId[cityId] ?? null;
   }
   if (sector === "convenience") {
     return convenienceScoresByCityId[cityId] ?? null;
+  }
+  if (sector === "governance") {
+    return governanceScoresByCityId[cityId] ?? null;
   }
   return null;
 }
@@ -45,21 +63,31 @@ function getConvenienceIndicators(cityId: string): ConvenienceIndicators | null 
   return indicators;
 }
 
+function getGovernanceIndicators(cityId: string): GovernanceIndicators | null {
+  return governanceIndicatorsByCityId[cityId] ?? null;
+}
+
+function getOverallIndicators(cityId: string): OverallIndicators | null {
+  return overallIndicatorsByCityId[cityId] ?? null;
+}
+
 function getCoverage(cityId: string, sector: Sector): CityCoverage | null {
+  if (sector === "overall_score") {
+    return overallCoverageByCityId[cityId] ?? null;
+  }
   if (sector === "safety") {
     return safetyCoverageByCityId[cityId] ?? null;
   }
   if (sector === "convenience") {
     return convenienceCoverageByCityId[cityId] ?? null;
   }
+  if (sector === "governance") {
+    return governanceCoverageByCityId[cityId] ?? null;
+  }
   return null;
 }
 
 function orderCities(list: City[], sector: Sector): City[] {
-  if (sector === "overall_score" || sector === "governance") {
-    return [...list].sort((a, b) => a.name.localeCompare(b.name));
-  }
-
   return [...list].sort((a, b) => {
     const scoreA = getSectorScore(a.id, sector)?.score ?? -1;
     const scoreB = getSectorScore(b.id, sector)?.score ?? -1;
@@ -76,13 +104,16 @@ export function RankingsTable() {
   );
 
   const scoredCount = useMemo(() => {
-    if (sector === "overall_score" || sector === "governance") return 0;
     return orderedCities.filter((city) => getSectorScore(city.id, sector)).length;
   }, [orderedCities, sector]);
 
   const hasRankings = scoredCount > 0;
 
-  const showLegend = sector === "safety" || sector === "convenience";
+  const showLegend =
+    sector === "overall_score" ||
+    sector === "safety" ||
+    sector === "convenience" ||
+    sector === "governance";
 
   return (
     <section className="mx-auto max-w-7xl px-4 pb-16 md:px-8">
@@ -129,6 +160,8 @@ export function RankingsTable() {
                   sectorScore={getSectorScore(city.id, sector)}
                   safetyIndicators={getSafetyIndicators(city.id)}
                   convenienceIndicators={getConvenienceIndicators(city.id)}
+                  governanceIndicators={getGovernanceIndicators(city.id)}
+                  overallIndicators={getOverallIndicators(city.id)}
                   coverage={getCoverage(city.id, sector)}
                   index={index}
                 />
@@ -157,13 +190,23 @@ export function RankingsTable() {
           </div>
         )}
 
-        {(sector === "overall_score" || sector === "governance") && (
+        {sector === "governance" && scoredCount > 0 && (
           <div className="border-t border-border bg-surface/40 px-4 py-3">
             <p className="text-[11px] text-muted">
-              No scores for this sector yet. Select{" "}
-              <span className="font-medium text-foreground">Safety</span> or{" "}
-              <span className="font-medium text-foreground">Convenience</span> to
-              view processed data.
+              Composite = 60% spend ratio (target 1.0; overspend penalized more,
+              severe kick only above 1.36× or below 0.69×, floor 10) + 40%
+              per-capita investment (municipal spend per lakh pop, overspend
+              haircut when avg ratio &gt; 1.10). Higher = better governance.
+            </p>
+          </div>
+        )}
+
+        {sector === "overall_score" && scoredCount > 0 && (
+          <div className="border-t border-border bg-surface/40 px-4 py-3">
+            <p className="text-[11px] text-muted">
+              Overall = equal blend of Safety, Convenience, and Governance pillar
+              scores (each city&apos;s composite from its sector indicators).
+              Higher = stronger street-level outcomes across all three pillars.
             </p>
           </div>
         )}

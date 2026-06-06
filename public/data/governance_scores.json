@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "sector": "Governance \u2014 Municipal Budget Discipline & Investment",
+    "source": "data/raw/governance/*/*_municipal_spending_budget_ratio.csv",
+    "population_source": "data/raw/population-data.csv (Census 2011)",
+    "indicators": {
+      "spend_ratio": "Distance from spending/budget ratio = 1.0; overspend penalized 1.35\u00d7 vs underspend; extra penalty beyond ratio 1.36 or below 0.69; floor 10.0",
+      "invest": "Latest municipal spending per lakh residents; sqrt min\u2013max to 15.0\u2013100; haircut when avg ratio > 1.1"
+    },
+    "formula": {
+      "avg_ratio": "Mean of valid non-zero year rows per city",
+      "spend_ratio": "100 \u2212 asymmetric_deviation\u00d7100, floor 10",
+      "invest_raw": "latest_spend_rupees / pop \u00d7 100k \u00d7 overspend_haircut",
+      "composite": "spend_ratio\u00d70.6 + invest\u00d70.4"
+    },
+    "bands": {
+      "poor": "0\u201335",
+      "manageable": "35\u201365",
+      "good": "65+"
+    },
+    "cities_processed": 11
+  },
+  "cities": [
+    {
+      "city_id": "delhi",
+      "city_name": "NCT of Delhi",
+      "source_folder": "delhi",
+      "budget_years_used": 4,
+      "population_2011": 11007835,
+      "unit_detected": "lakh",
+      "notes": [],
+      "year_rows": [
+        {
+          "year": "2022-23 (Actual)",
+          "spending": 871585.24,
+          "budget": 950657.63,
+          "ratio": 0.9168,
+          "is_actual": true
+        },
+        {
+          "year": "2023-24 (BE)",
+          "spending": 1602445.85,
+          "budget": 1552395.71,
+          "ratio": 1.0322,
+          "is_actual": false
+        },
+        {
+          "year": "2023-24 (RBE)",
+          "spending": 1622405.01,
+          "budget": 1595252.32,
+          "ratio": 1.017,
+          "is_actual": false
+        },
+        {
+          "year": "2024-25 (BE)",
+          "spending": 1668401.91,
+          "budget": 1568699.19,
+          "ratio": 1.0636,
+          "is_actual": false
+        }
+      ],
+      "raw_metrics": {
+        "avg_spending_to_budget_ratio": 1.0074,
+        "latest_spending_rupees": 166840191000.0,
+        "spend_per_100k_residents": 1515649453.32,
+        "invest_haircut_multiplier": 1.0,
+        "invest_raw_per_100k": 1515649453.32,
+        "spend_ratio_score_absolute": 99.0
+      },
+      "normalized_scores": {
+        "spend_ratio_score": 99.0,
+        "invest_score": 62.57,
+        "composite_score": 84.43
+      },
+      "bands": {
+        "spend_ratio": "good",
+        "invest": "manageable",
+        "composite": "good"
+      },
+      "governance_rank": 1,
+      "band": "good"
+    },
+    {
+      "city_id": "mumbai",
+      "city_name": "Mumbai",
+      "source_folder": "mumbai",
+      "budget_years_used": 3,
+      "population_2011": 12442373,
+      "unit_detected": "rupees",
+      "notes": [],
+      "year_rows": [
+        {
+          "year": "Unnamed: 3",
+          "spending": 242935938479.0,
+          "budget": 391051350298.0,
+          "ratio": 0.6212,
+          "is_actual": false
+        },
+        {
+          "year": "Unnamed: 4",
+          "spending": 341880515214.0,
+          "budget": 660236827737.0,
+          "ratio": 0.5178,
+          "is_actual": false
+        },
+        {
+          "year": "Unnamed: 5",
+          "spending": 339400711969.0,
+          "budget": 489819228724.0,
+          "ratio": 0.6929,
+          "is_actual": false
+        }
+      ],
+      "raw_metrics": {
+        "avg_spending_to_budget_ratio": 0.6107,
+        "latest_spending_rupees": 339400711969.0,
+        "spend_per_100k_residents": 2727781203.55,
+        "invest_haircut_multiplier": 1.0,
+        "invest_raw_per_100k": 2727781203.55,
+        "spend_ratio_score_absolute": 59.81
+      },
+      "normalized_scores": {
+        "spend_ratio_score": 59.81,
+        "invest_score": 100.0,
+        "composite_score": 75.89
+      },
+      "bands": {
+        "spend_ratio": "manageable",
+        "invest": "good",
+        "composite": "good"
+      },
+      "governance_rank": 2,
+      "band": "good"
+    },
+    {
+      "city_id": "surat",
+      "city_name": "Surat",
+      "source_folder": "surat",
+      "budget_years_used": 3,
+      "population_2011": 4467797,
+      "unit_detected": "rupees",
+      "notes": [],
+      "year_rows": [
+        {
+          "year": "2021-22",
+          "spending": 34441038354.0,
+          "budget": 32639770799.0,
+          "ratio": 1.0552,
+          "is_actual": false
+        },
+        {
+          "year": "2022-23",
+          "spending": 38929698792.0,
+          "budget": 34805309383.0,
+          "ratio": 1.1185,
+          "is_actual": false
+        },
+        {
+          "year": "2023-24",
+          "spending": 44044107515.0,
+          "budget": 43502847899.0,
+          "ratio": 1.0124,
+          "is_actual": false
+        }
+      ],
+      "raw_metrics": {
+        "avg_spending_to_budget_ratio": 1.062,
+        "latest_spending_rupees": 44044107515.0,
+        "spend_per_100k_residents": 985812639.09,
+        "invest_haircut_multiplier": 1.0,
+        "invest_raw_per_100k": 985812639.09,
+        "spend_ratio_score_absolute": 91.62
+      },
+      "normalized_scores": {
+        "spend_ratio_score": 91.62,
+        "invest_score": 41.36,
+        "composite_score": 71.52
+      },
+      "bands": {
+        "spend_ratio": "good",
+        "invest": "manageable",
+        "composite": "good"
+      },
+      "governance_rank": 3,
+      "band": "good"
+    },
+    {
+      "city_id": "ahmedabad",
+      "city_name": "Ahmedabad",
+      "source_folder": "ahm",
+      "budget_years_used": 3,
+      "population_2011": 5570585,
+      "unit_detected": "rupees",
+      "notes": [],
+      "year_rows": [
+        {
+          "year": "Unnamed: 3",
+          "spending": 45123338150.0,
+          "budget": 49773612094.0,
+          "ratio": 0.9066,
+          "is_actual": false
+        },
+        {
+          "year": "Unnamed: 4",
+          "spending": 50038417766.0,
+          "budget": 62950387885.0,
+          "ratio": 0.7949,
+          "is_actual": false
+        },
+        {
+          "year": "Unnamed: 5",
+          "spending": 58832203521.0,
+          "budget": 83032768590.0,
+          "ratio": 0.7085,
+          "is_actual": false
+        }
+      ],
+      "raw_metrics": {
+        "avg_spending_to_budget_ratio": 0.8033,
+        "latest_spending_rupees": 58832203521.0,
+        "spend_per_100k_residents": 1056122535.08,
+        "invest_haircut_multiplier": 1.0,
+        "invest_raw_per_100k": 1056122535.08,
+        "spend_ratio_score_absolute": 80.33
+      },
+      "normalized_scores": {
+        "spend_ratio_score": 80.33,
+        "invest_score": 44.46,
+        "composite_score": 65.98
+      },
+      "bands": {
+        "spend_ratio": "good",
+        "invest": "manageable",
+        "composite": "good"
+      },
+      "governance_rank": 4,
+      "band": "good"
+    },
+    {
+      "city_id": "gurgaon",
+      "city_name": "Gurgaon",
+      "source_folder": "gur",
+      "budget_years_used": 1,
+      "population_2011": 876824,
+      "unit_detected": "rupees",
+      "notes": [
+        "Single valid year \u2014 lower confidence"
+      ],
+      "year_rows": [
+        {
+          "year": "Unnamed: 5",
+          "spending": 5771072948.0,
+          "budget": 6313879904.0,
+          "ratio": 0.914,
+          "is_actual": false
+        }
+      ],
+      "raw_metrics": {
+        "avg_spending_to_budget_ratio": 0.914,
+        "latest_spending_rupees": 5771072948.0,
+        "spend_per_100k_residents": 658179172.56,
+        "invest_haircut_multiplier": 1.0,
+        "invest_raw_per_100k": 658179172.56,
+        "spend_ratio_score_absolute": 91.4
+      },
+      "normalized_scores": {
+        "spend_ratio_score": 91.4,
+        "invest_score": 25.2,
+        "composite_score": 64.92
+      },
+      "bands": {
+        "spend_ratio": "good",
+        "invest": "poor",
+        "composite": "manageable"
+      },
+      "governance_rank": 5,
+      "band": "manageable"
+    },
+    {
+      "city_id": "lucknow",
+      "city_name": "Lucknow",
+      "source_folder": "lucknow",
+      "budget_years_used": 3,
+      "population_2011": 2815601,
+      "unit_detected": "rupees",
+      "notes": [],
+      "year_rows": [
+        {
+          "year": "Unnamed: 3",
+          "spending": 12994907464.0,
+          "budget": 14549100186.0,
+          "ratio": 0.8932,
+          "is_actual": false
+        },
+        {
+          "year": "Unnamed: 4",
+          "spending": 14565079277.0,
+          "budget": 15303687238.0,
+          "ratio": 0.9517,
+          "is_actual": false
+        },
+        {
+          "year": "Unnamed: 5",
+          "spending": 17924917323.0,
+          "budget": 19689032842.0,
+          "ratio": 0.9104,
+          "is_actual": false
+        }
+      ],
+      "raw_metrics": {
+        "avg_spending_to_budget_ratio": 0.9184,
+        "latest_spending_rupees": 17924917323.0,
+        "spend_per_100k_residents": 636628461.31,
+        "invest_haircut_multiplier": 1.0,
+        "invest_raw_per_100k": 636628461.31,
+        "spend_ratio_score_absolute": 91.84
+      },
+      "normalized_scores": {
+        "spend_ratio_score": 91.84,
+        "invest_score": 24.0,
+        "composite_score": 64.7
+      },
+      "bands": {
+        "spend_ratio": "good",
+        "invest": "poor",
+        "composite": "manageable"
+      },
+      "governance_rank": 6,
+      "band": "manageable"
+    },
+    {
+      "city_id": "vizag",
+      "city_name": "Vizag",
+      "source_folder": "vizag",
+      "budget_years_used": 3,
+      "population_2011": 1730320,
+      "unit_detected": "rupees",
+      "notes": [],
+      "year_rows": [
+        {
+          "year": "Unnamed: 3",
+          "spending": 8203308330.0,
+          "budget": 9735537243.0,
+          "ratio": 0.8426,
+          "is_actual": false
+        },
+        {
+          "year": "Unnamed: 4",
+          "spending": 8666150601.0,
+          "budget": 10310341612.0,
+          "ratio": 0.8405,
+          "is_actual": false
+        },
+        {
+          "year": "Unnamed: 5",
+          "spending": 11387150596.0,
+          "budget": 11529106306.0,
+          "ratio": 0.9877,
+          "is_actual": false
+        }
+      ],
+      "raw_metrics": {
+        "avg_spending_to_budget_ratio": 0.8903,
+        "latest_spending_rupees": 11387150596.0,
+        "spend_per_100k_residents": 658095068.89,
+        "invest_haircut_multiplier": 1.0,
+        "invest_raw_per_100k": 658095068.89,
+        "spend_ratio_score_absolute": 89.03
+      },
+      "normalized_scores": {
+        "spend_ratio_score": 89.03,
+        "invest_score": 25.19,
+        "composite_score": 63.49
+      },
+      "bands": {
+        "spend_ratio": "good",
+        "invest": "poor",
+        "composite": "manageable"
+      },
+      "governance_rank": 7,
+      "band": "manageable"
+    },
+    {
+      "city_id": "indore",
+      "city_name": "Indore",
+      "source_folder": "indore",
+      "budget_years_used": 3,
+      "population_2011": 1960631,
+      "unit_detected": "rupees",
+      "notes": [],
+      "year_rows": [
+        {
+          "year": "Unnamed: 3",
+          "spending": 13327700569.0,
+          "budget": 18778600205.0,
+          "ratio": 0.7097,
+          "is_actual": false
+        },
+        {
+          "year": "Unnamed: 4",
+          "spending": 15774287090.0,
+          "budget": 19518629002.0,
+          "ratio": 0.8082,
+          "is_actual": false
+        },
+        {
+          "year": "Unnamed: 5",
+          "spending": 16214241758.0,
+          "budget": 19865338543.0,
+          "ratio": 0.8162,
+          "is_actual": false
+        }
+      ],
+      "raw_metrics": {
+        "avg_spending_to_budget_ratio": 0.778,
+        "latest_spending_rupees": 16214241758.0,
+        "spend_per_100k_residents": 826990992.08,
+        "invest_haircut_multiplier": 1.0,
+        "invest_raw_per_100k": 826990992.08,
+        "spend_ratio_score_absolute": 77.8
+      },
+      "normalized_scores": {
+        "spend_ratio_score": 77.8,
+        "invest_score": 33.93,
+        "composite_score": 60.25
+      },
+      "bands": {
+        "spend_ratio": "good",
+        "invest": "poor",
+        "composite": "manageable"
+      },
+      "governance_rank": 8,
+      "band": "manageable"
+    },
+    {
+      "city_id": "hyderabad",
+      "city_name": "Hyderabad",
+      "source_folder": "hyd",
+      "budget_years_used": 3,
+      "population_2011": 6809970,
+      "unit_detected": "rupees",
+      "notes": [],
+      "year_rows": [
+        {
+          "year": "Unnamed: 3",
+          "spending": 28246748000.0,
+          "budget": 35237134000.0,
+          "ratio": 0.8016,
+          "is_actual": false
+        },
+        {
+          "year": "Unnamed: 4",
+          "spending": 30649920000.0,
+          "budget": 38829829000.0,
+          "ratio": 0.7893,
+          "is_actual": false
+        },
+        {
+          "year": "Unnamed: 5",
+          "spending": 33059378000.0,
+          "budget": 39699485000.0,
+          "ratio": 0.8327,
+          "is_actual": false
+        }
+      ],
+      "raw_metrics": {
+        "avg_spending_to_budget_ratio": 0.8079,
+        "latest_spending_rupees": 33059378000.0,
+        "spend_per_100k_residents": 485455560.01,
+        "invest_haircut_multiplier": 1.0,
+        "invest_raw_per_100k": 485455560.01,
+        "spend_ratio_score_absolute": 80.79
+      },
+      "normalized_scores": {
+        "spend_ratio_score": 80.79,
+        "invest_score": 15.0,
+        "composite_score": 54.47
+      },
+      "bands": {
+        "spend_ratio": "good",
+        "invest": "poor",
+        "composite": "manageable"
+      },
+      "governance_rank": 9,
+      "band": "manageable"
+    },
+    {
+      "city_id": "bengaluru",
+      "city_name": "Bengaluru",
+      "source_folder": "blr",
+      "budget_years_used": 2,
+      "population_2011": 8425970,
+      "unit_detected": "rupees",
+      "notes": [],
+      "year_rows": [
+        {
+          "year": "2021-22",
+          "spending": 64648653961.0,
+          "budget": 55867806918.0,
+          "ratio": 1.1572,
+          "is_actual": false
+        },
+        {
+          "year": "2023-24",
+          "spending": 64506500000.0,
+          "budget": 48663200000.0,
+          "ratio": 1.3256,
+          "is_actual": false
+        }
+      ],
+      "raw_metrics": {
+        "avg_spending_to_budget_ratio": 1.2414,
+        "latest_spending_rupees": 64506500000.0,
+        "spend_per_100k_residents": 765567643.84,
+        "invest_haircut_multiplier": 0.7879,
+        "invest_raw_per_100k": 603223870.74,
+        "spend_ratio_score_absolute": 67.41
+      },
+      "normalized_scores": {
+        "spend_ratio_score": 67.41,
+        "invest_score": 22.12,
+        "composite_score": 49.29
+      },
+      "bands": {
+        "spend_ratio": "good",
+        "invest": "poor",
+        "composite": "manageable"
+      },
+      "governance_rank": 10,
+      "band": "manageable"
+    },
+    {
+      "city_id": "chennai",
+      "city_name": "Chennai",
+      "source_folder": "chennai",
+      "budget_years_used": 1,
+      "population_2011": 4681087,
+      "unit_detected": "crore",
+      "notes": [
+        "Amounts scaled from crore to rupees (values < 1e8)",
+        "Severe overspend \u2014 spend-ratio score floored at minimum",
+        "Single valid year \u2014 lower confidence"
+      ],
+      "year_rows": [
+        {
+          "year": "Unnamed: 1",
+          "spending": 3913.0,
+          "budget": 1691.0,
+          "ratio": 2.314,
+          "is_actual": false
+        }
+      ],
+      "raw_metrics": {
+        "avg_spending_to_budget_ratio": 2.314,
+        "latest_spending_rupees": 39130000000.0,
+        "spend_per_100k_residents": 835916956.89,
+        "invest_haircut_multiplier": 0.65,
+        "invest_raw_per_100k": 543346021.98,
+        "spend_ratio_score_absolute": 10.0
+      },
+      "normalized_scores": {
+        "spend_ratio_score": 10.0,
+        "invest_score": 18.59,
+        "composite_score": 13.44
+      },
+      "bands": {
+        "spend_ratio": "poor",
+        "invest": "poor",
+        "composite": "poor"
+      },
+      "governance_rank": 11,
+      "band": "poor"
+    }
+  ]
+}

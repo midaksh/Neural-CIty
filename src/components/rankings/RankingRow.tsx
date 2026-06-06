@@ -6,6 +6,8 @@ import type {
   CityCoverage,
   CitySectorScore,
   ConvenienceIndicators,
+  GovernanceIndicators,
+  OverallIndicators,
   SafetyIndicators,
   Sector,
 } from "@/types/city";
@@ -19,6 +21,8 @@ interface RankingRowProps {
   sectorScore: CitySectorScore | null;
   safetyIndicators: SafetyIndicators | null;
   convenienceIndicators: ConvenienceIndicators | null;
+  governanceIndicators: GovernanceIndicators | null;
+  overallIndicators: OverallIndicators | null;
   coverage: CityCoverage | null;
   index: number;
 }
@@ -30,6 +34,8 @@ export function RankingRow({
   sectorScore,
   safetyIndicators,
   convenienceIndicators,
+  governanceIndicators,
+  overallIndicators,
   coverage,
   index,
 }: RankingRowProps) {
@@ -134,6 +140,42 @@ export function RankingRow({
               title="Resident access (per lakh pop)"
               score={convenienceIndicators.access?.score ?? null}
               index={1}
+            />
+          </div>
+        ) : sector === "governance" && governanceIndicators ? (
+          <div className="flex flex-wrap justify-end gap-1.5 md:gap-2">
+            <CategoryScoreTile
+              label="Ratio"
+              title="Spend ratio (distance from 1.0)"
+              score={governanceIndicators.spendRatio?.score ?? null}
+              index={0}
+            />
+            <CategoryScoreTile
+              label="Invest"
+              title="Per-capita municipal spend (per lakh pop)"
+              score={governanceIndicators.invest?.score ?? null}
+              index={1}
+            />
+          </div>
+        ) : sector === "overall_score" && overallIndicators ? (
+          <div className="flex flex-wrap justify-end gap-1.5 md:gap-2">
+            <CategoryScoreTile
+              label="Safe"
+              title="Safety pillar score"
+              score={overallIndicators.safety?.score ?? null}
+              index={0}
+            />
+            <CategoryScoreTile
+              label="Conv"
+              title="Convenience pillar score"
+              score={overallIndicators.convenience?.score ?? null}
+              index={1}
+            />
+            <CategoryScoreTile
+              label="Gov"
+              title="Governance pillar score"
+              score={overallIndicators.governance?.score ?? null}
+              index={2}
             />
           </div>
         ) : (
