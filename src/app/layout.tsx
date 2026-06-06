@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   title: "Neural City | State of Indian Streets 2026",
   description:
     "Outcome based automated street assessment. Compare Indian cities on cleanliness, walkability, road quality, and more.",
+  icons: {
+    icon: "/MP.png",
+    shortcut: "/MP.png",
+    apple: "/MP.png",
+  },
 };
 
 export default function RootLayout({
