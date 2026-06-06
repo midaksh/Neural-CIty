@@ -16,7 +16,7 @@ export interface NavItem {
 
 export const mainNavItems: NavItem[] = [
   { id: "overview", label: "Overview", icon: LayoutGrid, href: "/" },
-  { id: "rankings", label: "City Details", icon: Building2, href: "/#city-details" },
+  { id: "rankings", label: "City Details", icon: Building2, href: "/city" },
   { id: "compare", label: "Compare Cities", icon: GitCompare, href: "/compare" },
   { id: "data", label: "Data Sources", icon: Database, href: "#" },
 ];

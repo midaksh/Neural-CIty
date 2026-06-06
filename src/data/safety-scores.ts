@@ -82,7 +82,7 @@ export const safetyCoverageByCityId: Record<string, CityCoverage> =
     ]),
   );
 
-/** Combined safety row score — average of infrastructure + accidents when both exist. */
+/** Combined safety row score: average of infrastructure + accidents when both exist. */
 export const safetyScoresByCityId: Record<string, CitySectorScore> =
   Object.fromEntries(
     signals.cities.map((city) => {

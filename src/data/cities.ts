@@ -1,6 +1,6 @@
 import type { City } from "@/types/city";
 
-/** Cities in scope for this prototype (Jhansi excluded — no signals dataset). */
+/** Cities in scope for this prototype (Jhansi excluded: no signals dataset). */
 export const cities: City[] = [
   { id: "ahmedabad", name: "Ahmedabad" },
   { id: "bengaluru", name: "Bengaluru" },

@@ -79,7 +79,7 @@ export function RankingRow({
               #{displayRank}
             </span>
           ) : (
-            <span className="text-sm font-medium text-muted">—</span>
+            <span className="text-sm font-medium text-muted">N/A</span>
           )}
         </div>
       </td>
@@ -109,7 +109,7 @@ export function RankingRow({
               <span className="mt-0.5 text-[11px] text-muted">/100.0</span>
             </>
           ) : (
-            <span className="text-sm font-medium text-muted">—</span>
+            <span className="text-sm font-medium text-muted">N/A</span>
           )}
         </div>
       </td>
@@ -123,7 +123,7 @@ export function RankingRow({
             </span>
           </p>
         ) : (
-          <p className="text-[11px] text-muted">Data pts: —</p>
+          <p className="text-[11px] text-muted">Data pts: N/A</p>
         )}
       </td>
 

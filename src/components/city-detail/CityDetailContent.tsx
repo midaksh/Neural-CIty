@@ -13,7 +13,8 @@ import {
 } from "lucide-react";
 import { ScoreGauge } from "@/components/compare/ScoreGauge";
 import { BudgetRatioChart } from "@/components/city-detail/BudgetRatioChart";
-import { RoadHarmBreakdownChart } from "@/components/city-detail/RoadHarmBreakdownChart";
+import { AccidentHarmBreakdown } from "@/components/city-detail/AccidentHarmBreakdown";
+import { ConvenienceScorePanel } from "@/components/city-detail/ConvenienceScorePanel";
 import { TransportMixChart } from "@/components/city-detail/TransportMixChart";
 import {
   BandBadge,
@@ -107,7 +108,7 @@ export function CityDetailContent({ data }: { data: CityDetailData }) {
               {data.cityName}
             </h1>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
-              Street-level intelligence across safety, convenience, and governance —
+              Street-level intelligence across safety, convenience, and governance,
               ranked #{data.overallRank} overall among {data.totalCities} cities in this proof of concept.
             </p>
 
@@ -159,34 +160,33 @@ export function CityDetailContent({ data }: { data: CityDetailData }) {
           title="Safety"
           subtitle="Road infrastructure from OpenStreetMap and annual accident harm outcomes"
         >
-          <div className="grid gap-6 lg:grid-cols-2">
-            <div className="space-y-4">
+          <div className="grid gap-6 lg:grid-cols-2 lg:items-stretch">
+            <div className="flex flex-col gap-4">
               <ScoreProgressBar
                 label="Infrastructure"
                 score={data.safetyIndicators.infrastructure?.score ?? 0}
-                description="Signals, signs, crossings & calming — OSM coverage per capita and density"
+                description="Signals, signs, crossings & calming. OSM coverage per capita and density"
               />
               <ScoreProgressBar
                 label="Accidents"
                 score={data.safetyIndicators.accidents?.score ?? 0}
                 description="Inverted harm score from deaths, injuries & incidents (higher = safer)"
               />
-              <NoteCallout>
-                Accident data year: {data.accidents.data_year} · Source:{" "}
-                {data.accidents.source.split("/").slice(-1)[0] ?? "city report"}
-              </NoteCallout>
+              <div className="mt-auto">
+                <NoteCallout>
+                  Accident data year: {data.accidents.data_year} · Source:{" "}
+                  {data.accidents.source.split("/").slice(-1)[0] ?? "city report"}
+                </NoteCallout>
+              </div>
             </div>
 
-            <div>
-              <p className="mb-3 text-xs font-semibold tracking-wide text-muted uppercase">
-                Annual road harm counts
-              </p>
-              <RoadHarmBreakdownChart
+            <div className="flex flex-col gap-4">
+              <AccidentHarmBreakdown
                 deaths={data.accidents.annual_counts.deaths}
                 injuries={data.accidents.annual_counts.injuries}
                 incidents={data.accidents.annual_counts.incidents}
               />
-              <div className="mt-4 grid grid-cols-2 gap-3">
+              <div className="mt-auto grid grid-cols-2 gap-3">
                 <StatCard
                   label="Danger rate"
                   value={`${data.accidents.computed.danger_rate_per_100k.toFixed(1)}`}
@@ -205,36 +205,32 @@ export function CityDetailContent({ data }: { data: CityDetailData }) {
         <DetailSection
           icon={Bus}
           title="Convenience"
-          subtitle="Public transport reach from OpenStreetMap — spatial coverage vs resident access"
+          subtitle="Public transport reach from OpenStreetMap: spatial coverage vs resident access"
         >
-          <div className="grid gap-6 lg:grid-cols-2">
-            <div className="space-y-4">
-              <ScoreProgressBar
-                label="Spatial coverage"
-                score={data.convenienceIndicators.spatial?.score ?? 0}
-                description="Weighted stops per km² — rewards land-area coverage"
+          <div className="grid gap-6 lg:grid-cols-2 lg:items-stretch">
+            <div className="flex flex-col gap-4">
+              <ConvenienceScorePanel
+                spatialScore={data.convenienceIndicators.spatial?.score ?? 0}
+                accessScore={data.convenienceIndicators.access?.score ?? 0}
+                coverageDensity={data.convenienceRaw.raw_metrics.coverage_density}
+                convenienceRank={data.ranks.convenience}
+                totalCities={data.totalCities}
               />
-              <ScoreProgressBar
-                label="Resident access"
-                score={data.convenienceIndicators.access?.score ?? 0}
-                description="Weighted stops per 100k population"
-              />
-              <NoteCallout>
-                Composite blends 55% spatial + 45% access. Bus, rail, and metro stops are weighted
-                by catchment radius (bus 1×, metro 4×, railway 6.25×).
-              </NoteCallout>
+              <div className="mt-auto">
+                <NoteCallout>
+                  Composite blends 55% spatial + 45% access. Bus, rail, and metro stops are weighted
+                  by catchment radius (bus 1×, metro 4×, railway 6.25×).
+                </NoteCallout>
+              </div>
             </div>
 
-            <div>
-              <p className="mb-3 text-xs font-semibold tracking-wide text-muted uppercase">
-                Transport stop inventory
-              </p>
+            <div className="flex flex-col gap-4">
               <TransportMixChart
                 bus={data.convenienceRaw.counts.bus}
                 metro={data.convenienceRaw.counts.metro}
                 railway={data.convenienceRaw.counts.railway}
               />
-              <div className="mt-4 grid grid-cols-2 gap-3">
+              <div className="mt-auto grid grid-cols-2 gap-3">
                 <StatCard
                   label="Weighted stops"
                   value={data.convenienceRaw.raw_metrics.weighted_stops.toFixed(0)}
@@ -258,7 +254,7 @@ export function CityDetailContent({ data }: { data: CityDetailData }) {
               <ScoreProgressBar
                 label="Spend ratio"
                 score={data.governanceIndicators.spendRatio?.score ?? 0}
-                description="Distance from spending/budget ratio of 1.0 — overspend penalized asymmetrically"
+                description="Distance from spending/budget ratio of 1.0. Overspend penalized asymmetrically"
               />
               <ScoreProgressBar
                 label="Investment"

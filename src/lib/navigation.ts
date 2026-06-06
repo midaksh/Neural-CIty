@@ -8,7 +8,7 @@ export function isNavItemActive(pathname: string, item: NavItem): boolean {
   }
 
   if (item.id === "rankings") {
-    return pathname.startsWith("/city/");
+    return pathname === "/city" || pathname.startsWith("/city/");
   }
 
   if (item.href === "/") {

@@ -46,7 +46,7 @@ export function CategoryScoreTile({
           {score.toFixed(1)}
         </span>
       ) : (
-        <span className="mt-0.5 text-[11px] font-medium text-muted">—</span>
+        <span className="mt-0.5 text-[11px] font-medium text-muted">N/A</span>
       )}
     </motion.div>
   );

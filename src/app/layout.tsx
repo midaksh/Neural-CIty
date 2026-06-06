@@ -12,7 +12,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Neural City | State of Indian Streets 2026",
   description:
-    "Outcome based automated street assessment — compare Indian cities on cleanliness, walkability, road quality, and more.",
+    "Outcome based automated street assessment. Compare Indian cities on cleanliness, walkability, road quality, and more.",
 };
 
 export default function RootLayout({

@@ -175,7 +175,7 @@ export function RankingsTable() {
             <p className="text-[11px] text-muted">
               Infrastructure from OSM signals &amp; signs. Accidents use harm-weighted
               rates (deaths×10 + injuries×3 + incidents×1) per lakh population,
-              combined with severity index — higher score = safer.
+              combined with severity index. Higher score = safer.
             </p>
           </div>
         )}
