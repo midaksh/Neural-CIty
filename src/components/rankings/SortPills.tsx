@@ -11,8 +11,6 @@ interface SortPillsProps {
 }
 
 export function SortPills({ value, onChange }: SortPillsProps) {
-  const activeSector = sectorOptions.find((option) => option.value === value);
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 12 }}
@@ -45,12 +43,6 @@ export function SortPills({ value, onChange }: SortPillsProps) {
           })}
         </div>
       </div>
-
-      {activeSector && (
-        <p className="mt-3 max-w-2xl text-left text-xs leading-relaxed text-muted">
-          {activeSector.description}
-        </p>
-      )}
     </motion.div>
   );
 }

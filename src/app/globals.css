@@ -145,3 +145,27 @@ body {
   box-shadow: var(--sidebar-shadow);
   border: 1px solid var(--border);
 }
+
+.city-name-arrow {
+  display: block;
+  width: 30%;
+  height: 1.5px;
+  background: color-mix(in srgb, var(--brand) 70%, transparent);
+  position: relative;
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.city-name-arrow::after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-left: 4px solid color-mix(in srgb, var(--brand) 70%, transparent);
+}
+
+.group:hover .city-name-arrow {
+  transform: translateX(6px);
+}

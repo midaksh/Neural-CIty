@@ -17,6 +17,7 @@ from __future__ import annotations
 import csv
 import json
 import glob
+import math
 from dataclasses import dataclass, asdict
 from pathlib import Path
 
@@ -171,6 +172,22 @@ def load_city_rows(folder: str) -> list[dict[str, str]]:
     return [r for r in rows if in_india(r.get("@lat", ""), r.get("@lon", ""))]
 
 
+def normalize_sqrt_min_max(
+    values: dict[str, float], floor: float = 10.0
+) -> dict[str, float]:
+    """Sqrt-compress raw values then min–max to floor–100 (reduces outlier stretch)."""
+    compressed = {k: math.sqrt(max(v, 0.0)) for k, v in values.items()}
+    vmin = min(compressed.values())
+    vmax = max(compressed.values())
+    if vmax == vmin:
+        return {k: 50.0 for k in compressed}
+    span = 100.0 - floor
+    return {
+        k: round(floor + (v - vmin) / (vmax - vmin) * span, 2)
+        for k, v in compressed.items()
+    }
+
+
 def normalize_min_max(values: dict[str, float]) -> dict[str, float]:
     if not values:
         return {}
@@ -227,8 +244,8 @@ def main() -> None:
         r["city_id"]: r["raw_metrics"]["traffic_signals_per_km2"] for r in raw_records
     }
 
-    per_capita_scores = normalize_min_max(per_capita_raw)
-    density_scores = normalize_min_max(density_raw)
+    per_capita_scores = normalize_sqrt_min_max(per_capita_raw)
+    density_scores = normalize_sqrt_min_max(density_raw)
 
     for record in raw_records:
         cid = record["city_id"]
@@ -261,7 +278,10 @@ def main() -> None:
                 "infrastructure_per_100k": "(traffic_signals + stops + crossings + calming) / population × 100,000",
                 "traffic_signals_per_km2": "traffic_signal_count / city_area_km²",
             },
-            "normalization": "Min–max scaled to 0–100 across 11 cities; higher = better coverage",
+            "normalization": (
+                "Sqrt-compressed then min–max scaled to 0–100 across 11 cities; "
+                "higher = better coverage"
+            ),
             "bands": {"poor": "0–35", "manageable": "35–65", "good": "65+"},
             "cities_processed": len(raw_records),
             "note": "Jhansi excluded — no OSM signals dataset provided",

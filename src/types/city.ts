@@ -12,7 +12,6 @@ export interface City {
 export interface SectorOption {
   value: Sector;
   label: string;
-  description: string;
 }
 
 export interface CitySectorScore {
@@ -23,6 +22,11 @@ export interface CitySectorScore {
 export interface SafetyIndicators {
   infrastructure: CitySectorScore | null;
   accidents: CitySectorScore | null;
+}
+
+export interface ConvenienceIndicators {
+  spatial: CitySectorScore | null;
+  access: CitySectorScore | null;
 }
 
 export interface CityCoverage {

@@ -8,7 +8,7 @@
       "infrastructure_per_100k": "(traffic_signals + stops + crossings + calming) / population \u00d7 100,000",
       "traffic_signals_per_km2": "traffic_signal_count / city_area_km\u00b2"
     },
-    "normalization": "Min\u2013max scaled to 0\u2013100 across 11 cities; higher = better coverage",
+    "normalization": "Sqrt-compressed then min\u2013max scaled to 0\u2013100 across 11 cities; higher = better coverage",
     "bands": {
       "poor": "0\u201335",
       "manageable": "35\u201365",
@@ -37,13 +37,13 @@
         "traffic_signals_per_km2": 1.8367
       },
       "normalized_scores": {
-        "per_capita_score": 92.49,
-        "signal_density_score": 59.17,
-        "composite_score": 75.83
+        "per_capita_score": 96.05,
+        "signal_density_score": 78.68,
+        "composite_score": 87.37
       },
       "bands": {
         "per_capita": "good",
-        "signal_density": "manageable",
+        "signal_density": "good",
         "composite": "good"
       },
       "safety_rank": 1
@@ -67,14 +67,14 @@
         "traffic_signals_per_km2": 3.1024
       },
       "normalized_scores": {
-        "per_capita_score": 27.38,
+        "per_capita_score": 51.31,
         "signal_density_score": 100.0,
-        "composite_score": 63.69
+        "composite_score": 75.66
       },
       "bands": {
-        "per_capita": "poor",
+        "per_capita": "manageable",
         "signal_density": "good",
-        "composite": "manageable"
+        "composite": "good"
       },
       "safety_rank": 2
     },
@@ -98,8 +98,8 @@
       },
       "normalized_scores": {
         "per_capita_score": 100.0,
-        "signal_density_score": 3.19,
-        "composite_score": 51.59
+        "signal_density_score": 24.24,
+        "composite_score": 62.12
       },
       "bands": {
         "per_capita": "good",
@@ -107,36 +107,6 @@
         "composite": "manageable"
       },
       "safety_rank": 3
-    },
-    {
-      "city_id": "gurgaon",
-      "city_name": "Gurgaon",
-      "source_folder": "gur",
-      "osm_nodes_in_india": 374,
-      "population_2011": 876824,
-      "area_km2": 732.0,
-      "counts": {
-        "traffic_signals": 82,
-        "stop_signs": 0,
-        "crossings": 220,
-        "traffic_calming": 73,
-        "total_infrastructure": 372
-      },
-      "raw_metrics": {
-        "infrastructure_per_100k_population": 42.4258,
-        "traffic_signals_per_km2": 0.112
-      },
-      "normalized_scores": {
-        "per_capita_score": 69.81,
-        "signal_density_score": 3.54,
-        "composite_score": 36.68
-      },
-      "bands": {
-        "per_capita": "good",
-        "signal_density": "poor",
-        "composite": "manageable"
-      },
-      "safety_rank": 4
     },
     {
       "city_id": "delhi",
@@ -157,14 +127,44 @@
         "traffic_signals_per_km2": 0.6833
       },
       "normalized_scores": {
-        "per_capita_score": 46.2,
-        "signal_density_score": 21.97,
-        "composite_score": 34.09
+        "per_capita_score": 67.14,
+        "signal_density_score": 50.93,
+        "composite_score": 59.03
       },
       "bands": {
-        "per_capita": "manageable",
+        "per_capita": "good",
+        "signal_density": "manageable",
+        "composite": "manageable"
+      },
+      "safety_rank": 4
+    },
+    {
+      "city_id": "gurgaon",
+      "city_name": "Gurgaon",
+      "source_folder": "gur",
+      "osm_nodes_in_india": 374,
+      "population_2011": 876824,
+      "area_km2": 732.0,
+      "counts": {
+        "traffic_signals": 82,
+        "stop_signs": 0,
+        "crossings": 220,
+        "traffic_calming": 73,
+        "total_infrastructure": 372
+      },
+      "raw_metrics": {
+        "infrastructure_per_100k_population": 42.4258,
+        "traffic_signals_per_km2": 0.112
+      },
+      "normalized_scores": {
+        "per_capita_score": 83.08,
+        "signal_density_score": 25.11,
+        "composite_score": 54.09
+      },
+      "bands": {
+        "per_capita": "good",
         "signal_density": "poor",
-        "composite": "poor"
+        "composite": "manageable"
       },
       "safety_rank": 5
     },
@@ -187,14 +187,14 @@
         "traffic_signals_per_km2": 0.8638
       },
       "normalized_scores": {
-        "per_capita_score": 18.96,
-        "signal_density_score": 27.79,
-        "composite_score": 23.38
+        "per_capita_score": 42.57,
+        "signal_density_score": 56.33,
+        "composite_score": 49.45
       },
       "bands": {
-        "per_capita": "poor",
-        "signal_density": "poor",
-        "composite": "poor"
+        "per_capita": "manageable",
+        "signal_density": "manageable",
+        "composite": "manageable"
       },
       "safety_rank": 6
     },
@@ -217,13 +217,13 @@
         "traffic_signals_per_km2": 0.3662
       },
       "normalized_scores": {
-        "per_capita_score": 8.27,
-        "signal_density_score": 11.74,
-        "composite_score": 10.0
+        "per_capita_score": 28.34,
+        "signal_density_score": 39.3,
+        "composite_score": 33.82
       },
       "bands": {
         "per_capita": "poor",
-        "signal_density": "poor",
+        "signal_density": "manageable",
         "composite": "poor"
       },
       "safety_rank": 7
@@ -247,9 +247,9 @@
         "traffic_signals_per_km2": 0.2264
       },
       "normalized_scores": {
-        "per_capita_score": 11.51,
-        "signal_density_score": 7.23,
-        "composite_score": 9.37
+        "per_capita_score": 33.2,
+        "signal_density_score": 32.52,
+        "composite_score": 32.86
       },
       "bands": {
         "per_capita": "poor",
@@ -277,9 +277,9 @@
         "traffic_signals_per_km2": 0.0507
       },
       "normalized_scores": {
-        "per_capita_score": 8.14,
-        "signal_density_score": 1.56,
-        "composite_score": 4.85
+        "per_capita_score": 28.12,
+        "signal_density_score": 19.36,
+        "composite_score": 23.74
       },
       "bands": {
         "per_capita": "poor",
@@ -307,9 +307,9 @@
         "traffic_signals_per_km2": 0.1307
       },
       "normalized_scores": {
-        "per_capita_score": 3.87,
-        "signal_density_score": 4.14,
-        "composite_score": 4.0
+        "per_capita_score": 20.26,
+        "signal_density_score": 26.52,
+        "composite_score": 23.39
       },
       "bands": {
         "per_capita": "poor",
@@ -337,9 +337,9 @@
         "traffic_signals_per_km2": 0.0022
       },
       "normalized_scores": {
-        "per_capita_score": 0.0,
-        "signal_density_score": 0.0,
-        "composite_score": 0.0
+        "per_capita_score": 10.0,
+        "signal_density_score": 10.0,
+        "composite_score": 10.0
       },
       "bands": {
         "per_capita": "poor",

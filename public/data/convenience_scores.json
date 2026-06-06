@@ -1,0 +1,374 @@
+{
+  "metadata": {
+    "sector": "Convenience \u2014 Public Transport (OpenStreetMap)",
+    "source": "data/raw/convenience/*/interpreter.csv",
+    "area_source": "data/raw/india_cities_area.csv",
+    "population_source": "data/raw/population-data.csv (Census 2011)",
+    "weights": {
+      "bus": "1.0 (400m catchment baseline)",
+      "railway": "6.25 (1000m catchment, r\u00b2 ratio 6.25)",
+      "metro": "4.0 (800m catchment, r\u00b2 ratio 4.0)"
+    },
+    "formula": {
+      "weighted_stops": "bus\u00d71.0 + railway\u00d76.25 + metro\u00d74.0",
+      "coverage_density": "weighted_stops / city_area_km\u00b2",
+      "access_per_100k": "weighted_stops / population \u00d7 100,000",
+      "composite": "spatial_score\u00d70.55 + access_score\u00d70.45 (fair trade: land coverage vs resident access)"
+    },
+    "classification": {
+      "bus": "highway=bus_stop",
+      "railway": "railway=station|halt",
+      "metro": "station=subway|metro|monorail OR railway=stop"
+    },
+    "normalization": "Sqrt-compress each raw metric, scale to 15\u2013100, then blend; higher = better",
+    "bands": {
+      "poor": "0\u201335",
+      "manageable": "35\u201365",
+      "good": "65+"
+    },
+    "cities_processed": 11
+  },
+  "cities": [
+    {
+      "city_id": "mumbai",
+      "city_name": "Mumbai",
+      "source_folder": "mumbai",
+      "osm_nodes_in_india": 2944,
+      "area_km2": 603.4,
+      "population_2011": 12442373,
+      "counts": {
+        "bus": 2049,
+        "railway": 63,
+        "metro": 563,
+        "unclassified": 269
+      },
+      "raw_metrics": {
+        "weighted_stops": 4694.75,
+        "coverage_density": 7.7805,
+        "access_per_100k": 37.732
+      },
+      "normalized_scores": {
+        "spatial_score": 100.0,
+        "access_score": 80.79,
+        "composite_score": 91.36
+      },
+      "bands": {
+        "spatial": "good",
+        "access": "good",
+        "composite": "good"
+      },
+      "convenience_rank": 1,
+      "band": "good"
+    },
+    {
+      "city_id": "bengaluru",
+      "city_name": "Bengaluru",
+      "source_folder": "blr",
+      "osm_nodes_in_india": 5055,
+      "area_km2": 741.0,
+      "population_2011": 8425970,
+      "counts": {
+        "bus": 2869,
+        "railway": 23,
+        "metro": 264,
+        "unclassified": 1899
+      },
+      "raw_metrics": {
+        "weighted_stops": 4068.75,
+        "coverage_density": 5.4909,
+        "access_per_100k": 48.2882
+      },
+      "normalized_scores": {
+        "spatial_score": 81.49,
+        "access_score": 100.0,
+        "composite_score": 89.82
+      },
+      "bands": {
+        "spatial": "good",
+        "access": "good",
+        "composite": "good"
+      },
+      "convenience_rank": 2,
+      "band": "good"
+    },
+    {
+      "city_id": "delhi",
+      "city_name": "NCT of Delhi",
+      "source_folder": "del",
+      "osm_nodes_in_india": 3858,
+      "area_km2": 1484.0,
+      "population_2011": 11007835,
+      "counts": {
+        "bus": 2043,
+        "railway": 54,
+        "metro": 655,
+        "unclassified": 1106
+      },
+      "raw_metrics": {
+        "weighted_stops": 5000.5,
+        "coverage_density": 3.3696,
+        "access_per_100k": 45.4267
+      },
+      "normalized_scores": {
+        "spatial_score": 60.42,
+        "access_score": 95.02,
+        "composite_score": 75.99
+      },
+      "bands": {
+        "spatial": "manageable",
+        "access": "good",
+        "composite": "good"
+      },
+      "convenience_rank": 3,
+      "band": "good"
+    },
+    {
+      "city_id": "chennai",
+      "city_name": "Chennai",
+      "source_folder": "chennai",
+      "osm_nodes_in_india": 1428,
+      "area_km2": 426.0,
+      "population_2011": 4681087,
+      "counts": {
+        "bus": 741,
+        "railway": 46,
+        "metro": 185,
+        "unclassified": 456
+      },
+      "raw_metrics": {
+        "weighted_stops": 1768.5,
+        "coverage_density": 4.1514,
+        "access_per_100k": 37.7797
+      },
+      "normalized_scores": {
+        "spatial_score": 68.8,
+        "access_score": 80.89,
+        "composite_score": 74.24
+      },
+      "bands": {
+        "spatial": "good",
+        "access": "good",
+        "composite": "good"
+      },
+      "convenience_rank": 4,
+      "band": "good"
+    },
+    {
+      "city_id": "hyderabad",
+      "city_name": "Hyderabad",
+      "source_folder": "hyd",
+      "osm_nodes_in_india": 1039,
+      "area_km2": 650.0,
+      "population_2011": 6809970,
+      "counts": {
+        "bus": 512,
+        "railway": 45,
+        "metro": 245,
+        "unclassified": 237
+      },
+      "raw_metrics": {
+        "weighted_stops": 1773.25,
+        "coverage_density": 2.7281,
+        "access_per_100k": 26.039
+      },
+      "normalized_scores": {
+        "spatial_score": 52.79,
+        "access_score": 56.03,
+        "composite_score": 54.25
+      },
+      "bands": {
+        "spatial": "manageable",
+        "access": "manageable",
+        "composite": "manageable"
+      },
+      "convenience_rank": 5,
+      "band": "manageable"
+    },
+    {
+      "city_id": "gurgaon",
+      "city_name": "Gurgaon",
+      "source_folder": "gur",
+      "osm_nodes_in_india": 243,
+      "area_km2": 732.0,
+      "population_2011": 876824,
+      "counts": {
+        "bus": 151,
+        "railway": 12,
+        "metro": 44,
+        "unclassified": 36
+      },
+      "raw_metrics": {
+        "weighted_stops": 402.0,
+        "coverage_density": 0.5492,
+        "access_per_100k": 45.8473
+      },
+      "normalized_scores": {
+        "spatial_score": 15.0,
+        "access_score": 95.76,
+        "composite_score": 51.34
+      },
+      "bands": {
+        "spatial": "poor",
+        "access": "good",
+        "composite": "manageable"
+      },
+      "convenience_rank": 6,
+      "band": "manageable"
+    },
+    {
+      "city_id": "ahmedabad",
+      "city_name": "Ahmedabad",
+      "source_folder": "ahm",
+      "osm_nodes_in_india": 374,
+      "area_km2": 505.0,
+      "population_2011": 5570585,
+      "counts": {
+        "bus": 122,
+        "railway": 51,
+        "metro": 116,
+        "unclassified": 85
+      },
+      "raw_metrics": {
+        "weighted_stops": 904.75,
+        "coverage_density": 1.7916,
+        "access_per_100k": 16.2416
+      },
+      "normalized_scores": {
+        "spatial_score": 39.79,
+        "access_score": 30.48,
+        "composite_score": 35.6
+      },
+      "bands": {
+        "spatial": "manageable",
+        "access": "poor",
+        "composite": "manageable"
+      },
+      "convenience_rank": 7,
+      "band": "manageable"
+    },
+    {
+      "city_id": "vizag",
+      "city_name": "Vizag",
+      "source_folder": "vizag",
+      "osm_nodes_in_india": 388,
+      "area_km2": 681.96,
+      "population_2011": 1730320,
+      "counts": {
+        "bus": 336,
+        "railway": 7,
+        "metro": 0,
+        "unclassified": 45
+      },
+      "raw_metrics": {
+        "weighted_stops": 379.75,
+        "coverage_density": 0.5569,
+        "access_per_100k": 21.9468
+      },
+      "normalized_scores": {
+        "spatial_score": 15.21,
+        "access_score": 46.07,
+        "composite_score": 29.1
+      },
+      "bands": {
+        "spatial": "poor",
+        "access": "manageable",
+        "composite": "poor"
+      },
+      "convenience_rank": 8,
+      "band": "poor"
+    },
+    {
+      "city_id": "lucknow",
+      "city_name": "Lucknow",
+      "source_folder": "lucknow",
+      "osm_nodes_in_india": 237,
+      "area_km2": 631.0,
+      "population_2011": 2815601,
+      "counts": {
+        "bus": 29,
+        "railway": 31,
+        "metro": 65,
+        "unclassified": 112
+      },
+      "raw_metrics": {
+        "weighted_stops": 482.75,
+        "coverage_density": 0.7651,
+        "access_per_100k": 17.1455
+      },
+      "normalized_scores": {
+        "spatial_score": 20.54,
+        "access_score": 33.11,
+        "composite_score": 26.2
+      },
+      "bands": {
+        "spatial": "poor",
+        "access": "poor",
+        "composite": "poor"
+      },
+      "convenience_rank": 9,
+      "band": "poor"
+    },
+    {
+      "city_id": "indore",
+      "city_name": "Indore",
+      "source_folder": "indore",
+      "osm_nodes_in_india": 205,
+      "area_km2": 530.0,
+      "population_2011": 1960631,
+      "counts": {
+        "bus": 82,
+        "railway": 24,
+        "metro": 30,
+        "unclassified": 69
+      },
+      "raw_metrics": {
+        "weighted_stops": 352.0,
+        "coverage_density": 0.6642,
+        "access_per_100k": 17.9534
+      },
+      "normalized_scores": {
+        "spatial_score": 18.07,
+        "access_score": 35.41,
+        "composite_score": 25.87
+      },
+      "bands": {
+        "spatial": "poor",
+        "access": "manageable",
+        "composite": "poor"
+      },
+      "convenience_rank": 10,
+      "band": "poor"
+    },
+    {
+      "city_id": "surat",
+      "city_name": "Surat",
+      "source_folder": "surat",
+      "osm_nodes_in_india": 213,
+      "area_km2": 461.6,
+      "population_2011": 4467797,
+      "counts": {
+        "bus": 10,
+        "railway": 34,
+        "metro": 72,
+        "unclassified": 97
+      },
+      "raw_metrics": {
+        "weighted_stops": 510.5,
+        "coverage_density": 1.1059,
+        "access_per_100k": 11.4262
+      },
+      "normalized_scores": {
+        "spatial_score": 27.89,
+        "access_score": 15.0,
+        "composite_score": 22.09
+      },
+      "bands": {
+        "spatial": "poor",
+        "access": "poor",
+        "composite": "poor"
+      },
+      "convenience_rank": 11,
+      "band": "poor"
+    }
+  ]
+}

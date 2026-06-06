@@ -5,6 +5,7 @@ import type {
   City,
   CityCoverage,
   CitySectorScore,
+  ConvenienceIndicators,
   SafetyIndicators,
   Sector,
 } from "@/types/city";
@@ -17,6 +18,7 @@ interface RankingRowProps {
   sector: Sector;
   sectorScore: CitySectorScore | null;
   safetyIndicators: SafetyIndicators | null;
+  convenienceIndicators: ConvenienceIndicators | null;
   coverage: CityCoverage | null;
   index: number;
 }
@@ -27,6 +29,7 @@ export function RankingRow({
   sector,
   sectorScore,
   safetyIndicators,
+  convenienceIndicators,
   coverage,
   index,
 }: RankingRowProps) {
@@ -43,7 +46,7 @@ export function RankingRow({
         ease: [0.22, 1, 0.36, 1],
       }}
       className={cn(
-        "border-b border-border transition-colors hover:bg-elevated/50",
+        "group border-b border-border transition-colors hover:bg-elevated/50",
         displayRank === 1 && "border-b-2",
       )}
     >
@@ -60,7 +63,12 @@ export function RankingRow({
       </td>
 
       <td className="p-2.5 md:p-3">
-        <p className="text-sm font-semibold text-foreground">{city.name}</p>
+        <div className="inline-flex flex-col">
+          <span className="text-lg font-semibold tracking-tight text-foreground md:text-lg">
+            {city.name}
+          </span>
+          <span className="city-name-arrow mt-1.5" aria-hidden />
+        </div>
       </td>
 
       <td className="p-2.5 md:p-3">
@@ -72,11 +80,11 @@ export function RankingRow({
                 initial={{ scale: 0.95, opacity: 0.7 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 300, damping: 22 }}
-                className={cn("text-lg font-bold md:text-xl", scoreStyles.text)}
+                className={cn("text-xl font-bold md:text-2xl", scoreStyles.text)}
               >
                 {sectorScore.score.toFixed(1)}
               </motion.span>
-              <span className="mt-0.5 text-[10px] text-muted">/100.0</span>
+              <span className="mt-0.5 text-[11px] text-muted">/100.0</span>
             </>
           ) : (
             <span className="text-sm font-medium text-muted">—</span>
@@ -110,6 +118,21 @@ export function RankingRow({
               label="Infra"
               title="Infrastructure"
               score={safetyIndicators.infrastructure?.score ?? null}
+              index={1}
+            />
+          </div>
+        ) : sector === "convenience" && convenienceIndicators ? (
+          <div className="flex flex-wrap justify-end gap-1.5 md:gap-2">
+            <CategoryScoreTile
+              label="Spat"
+              title="Spatial coverage (per km²)"
+              score={convenienceIndicators.spatial?.score ?? null}
+              index={0}
+            />
+            <CategoryScoreTile
+              label="Access"
+              title="Resident access (per lakh pop)"
+              score={convenienceIndicators.access?.score ?? null}
               index={1}
             />
           </div>

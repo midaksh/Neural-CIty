@@ -1,0 +1,292 @@
+{
+  "metadata": {
+    "sector": "Safety \u2014 Road Accidents",
+    "sources": "data/raw/safety/accidents/ (city CSVs + many-cities.csv)",
+    "population_source": "data/raw/population-data.csv (Census 2011)",
+    "weights": {
+      "harm_score": "deaths\u00d710 + injuries\u00d73 + incidents\u00d71",
+      "danger_rate": "harm_score / population \u00d7 100,000",
+      "severity_index": "deaths / (deaths + injuries)",
+      "raw_composite": "danger_rate\u00d70.65 + severity_index\u00d7100\u00d70.35",
+      "final_score": "invert sqrt(raw): floor + (max \u2212 \u221araw) / (max \u2212 min) \u00d7 (100 \u2212 floor) \u2014 higher = safer; outliers harm-calibrated to cohort median"
+    },
+    "annualization": {
+      "hyderabad": "2025 Total row (full year)",
+      "surat": "average of 2022 and 2023 columns",
+      "default": "latest annual row in city CSV",
+      "many_cities": "Ahmedabad, Indore, Lucknow, Vizag \u2014 skip Bangalore & Chennai"
+    },
+    "bands": {
+      "poor": "0\u201335",
+      "manageable": "35\u201365",
+      "good": "65+"
+    },
+    "cities_processed": 11
+  },
+  "cities": [
+    {
+      "city_id": "mumbai",
+      "city_name": "Mumbai",
+      "source": "data/raw/safety/accidents/mumbai/Mumbai_Road_Safety_Annual_Report_Formatted.csv",
+      "data_year": 2023,
+      "annualization": "latest annual row",
+      "notes": "",
+      "population_2011": 12442373,
+      "annual_counts": {
+        "deaths": 374,
+        "injuries": 2125,
+        "incidents": 2499
+      },
+      "computed": {
+        "harm_score": 12614,
+        "danger_rate_per_100k": 101.3794,
+        "severity_index": 0.14966,
+        "raw_safety_score": 71.1347,
+        "compressed_score": 8.4341,
+        "final_score": 100.0
+      },
+      "band": "good",
+      "accidents_rank": 1
+    },
+    {
+      "city_id": "ahmedabad",
+      "city_name": "Ahmedabad",
+      "source": "data/raw/safety/accidents/many-cities.csv (Ahmedabad, 2018)",
+      "data_year": 2018,
+      "annualization": "latest annual row",
+      "notes": "Incidents estimated as deaths + round(injuries / 1.2)",
+      "population_2011": 5570585,
+      "annual_counts": {
+        "deaths": 320,
+        "injuries": 1525,
+        "incidents": 1591
+      },
+      "computed": {
+        "harm_score": 9366,
+        "danger_rate_per_100k": 168.1331,
+        "severity_index": 0.173442,
+        "raw_safety_score": 115.357,
+        "compressed_score": 10.7404,
+        "final_score": 87.85
+      },
+      "band": "good",
+      "accidents_rank": 2
+    },
+    {
+      "city_id": "hyderabad",
+      "city_name": "Hyderabad",
+      "source": "data/raw/safety/accidents/hyd/hyderabad_accidents_2025_2026.csv",
+      "data_year": 2025,
+      "annualization": "2025 Total row (full calendar year)",
+      "notes": "2026 column is partial YTD \u2014 excluded",
+      "population_2011": 6809970,
+      "annual_counts": {
+        "deaths": 305,
+        "injuries": 3097,
+        "incidents": 2801
+      },
+      "computed": {
+        "harm_score": 15142,
+        "danger_rate_per_100k": 222.3505,
+        "severity_index": 0.089653,
+        "raw_safety_score": 147.6657,
+        "compressed_score": 12.1518,
+        "final_score": 80.41
+      },
+      "band": "good",
+      "accidents_rank": 3
+    },
+    {
+      "city_id": "surat",
+      "city_name": "Surat",
+      "source": "data/raw/safety/accidents/surat/Surat_Road_Accident_Data.csv",
+      "data_year": "2022\u20132023 avg",
+      "annualization": "(2022 + 2023) / 2 per metric",
+      "notes": "",
+      "population_2011": 4467797,
+      "annual_counts": {
+        "deaths": 778,
+        "injuries": 912,
+        "incidents": 1341
+      },
+      "computed": {
+        "harm_score": 11857,
+        "danger_rate_per_100k": 265.3881,
+        "severity_index": 0.460355,
+        "raw_safety_score": 188.6147,
+        "compressed_score": 13.7337,
+        "final_score": 72.08
+      },
+      "band": "good",
+      "accidents_rank": 4
+    },
+    {
+      "city_id": "bengaluru",
+      "city_name": "Bengaluru",
+      "source": "data/raw/safety/accidents/blr/aad98dbe-7451-4ab1-aa8a-8d5c1e46b9a7.csv",
+      "data_year": 2025,
+      "annualization": "latest annual row",
+      "notes": "",
+      "population_2011": 8425970,
+      "annual_counts": {
+        "deaths": 878,
+        "injuries": 4050,
+        "incidents": 4893
+      },
+      "computed": {
+        "harm_score": 25823,
+        "danger_rate_per_100k": 306.4692,
+        "severity_index": 0.178166,
+        "raw_safety_score": 205.4408,
+        "compressed_score": 14.3332,
+        "final_score": 68.92
+      },
+      "band": "good",
+      "accidents_rank": 5
+    },
+    {
+      "city_id": "delhi",
+      "city_name": "NCT of Delhi",
+      "source": "data/raw/safety/accidents/delhi/5e135450-0134-4718-ae14-1bbfb40eff01.csv",
+      "data_year": 2023,
+      "annualization": "latest annual row",
+      "notes": "Injuries estimated as non-fatal crashes (Road Crashes \u2212 Fatal Road Crashes)",
+      "population_2011": 11007835,
+      "annual_counts": {
+        "deaths": 1457,
+        "injuries": 4402,
+        "incidents": 5834
+      },
+      "computed": {
+        "harm_score": 33610,
+        "danger_rate_per_100k": 305.328,
+        "severity_index": 0.248677,
+        "raw_safety_score": 207.1669,
+        "compressed_score": 14.3933,
+        "final_score": 68.6
+      },
+      "band": "good",
+      "accidents_rank": 6
+    },
+    {
+      "city_id": "chennai",
+      "city_name": "Chennai",
+      "source": "data/raw/safety/accidents/chennai/chennai-road-crashes-1998-2025.csv",
+      "data_year": 2025,
+      "annualization": "latest annual row",
+      "notes": "",
+      "population_2011": 4681087,
+      "annual_counts": {
+        "deaths": 500,
+        "injuries": 4392,
+        "incidents": 4104
+      },
+      "computed": {
+        "harm_score": 22280,
+        "danger_rate_per_100k": 475.9578,
+        "severity_index": 0.102208,
+        "raw_safety_score": 312.9499,
+        "compressed_score": 17.6904,
+        "final_score": 51.23
+      },
+      "band": "manageable",
+      "accidents_rank": 7
+    },
+    {
+      "city_id": "vizag",
+      "city_name": "Vizag",
+      "source": "data/raw/safety/accidents/many-cities.csv (Visakhapatnam, 2018)",
+      "data_year": 2018,
+      "annualization": "latest annual row",
+      "notes": "Incidents estimated as deaths + round(injuries / 1.2)",
+      "population_2011": 1730320,
+      "annual_counts": {
+        "deaths": 315,
+        "injuries": 1525,
+        "incidents": 1586
+      },
+      "computed": {
+        "harm_score": 9311,
+        "danger_rate_per_100k": 538.1086,
+        "severity_index": 0.171196,
+        "raw_safety_score": 355.7624,
+        "compressed_score": 18.8617,
+        "final_score": 45.06
+      },
+      "band": "manageable",
+      "accidents_rank": 8
+    },
+    {
+      "city_id": "indore",
+      "city_name": "Indore",
+      "source": "data/raw/safety/accidents/many-cities.csv (Indore, 2018)",
+      "data_year": 2018,
+      "annualization": "latest annual row",
+      "notes": "Incidents estimated as deaths + round(injuries / 1.2)",
+      "population_2011": 1960631,
+      "annual_counts": {
+        "deaths": 322,
+        "injuries": 2954,
+        "incidents": 2784
+      },
+      "computed": {
+        "harm_score": 14866,
+        "danger_rate_per_100k": 758.2253,
+        "severity_index": 0.098291,
+        "raw_safety_score": 496.2866,
+        "compressed_score": 22.2775,
+        "final_score": 27.06
+      },
+      "band": "poor",
+      "accidents_rank": 9
+    },
+    {
+      "city_id": "lucknow",
+      "city_name": "Lucknow",
+      "source": "data/raw/safety/accidents/many-cities.csv (Lucknow, 2017)",
+      "data_year": 2017,
+      "annualization": "latest annual row",
+      "notes": "Incidents estimated as deaths + round(injuries / 1.2); Harm scaled \u00d70.106 (NCRB outlier vs cohort median 13740)",
+      "population_2011": 2815601,
+      "annual_counts": {
+        "deaths": 1394,
+        "injuries": 1914,
+        "incidents": 2989
+      },
+      "computed": {
+        "harm_score": 22671,
+        "danger_rate_per_100k": 805.1922,
+        "severity_index": 0.421403,
+        "raw_safety_score": 538.124,
+        "compressed_score": 23.1975,
+        "final_score": 22.21
+      },
+      "band": "poor",
+      "accidents_rank": 10
+    },
+    {
+      "city_id": "gurgaon",
+      "city_name": "Gurgaon",
+      "source": "data/raw/safety/accidents/gur/Gurugram_Crash_Report_Table8_Yearly_Trend_2017_2023.csv",
+      "data_year": 2023,
+      "annualization": "latest year column (2023)",
+      "notes": "",
+      "population_2011": 876824,
+      "annual_counts": {
+        "deaths": 439,
+        "injuries": 1020,
+        "incidents": 1190
+      },
+      "computed": {
+        "harm_score": 8640,
+        "danger_rate_per_100k": 985.3745,
+        "severity_index": 0.300891,
+        "raw_safety_score": 651.0246,
+        "compressed_score": 25.5152,
+        "final_score": 10.0
+      },
+      "band": "poor",
+      "accidents_rank": 11
+    }
+  ]
+}
