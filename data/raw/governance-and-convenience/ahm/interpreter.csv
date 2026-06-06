@@ -1,0 +1,375 @@
+@id,@type,name,@lat,@lon,railway,station,highway,amenity,public_transport
+322770856,node,Naroda,23.0854097,72.6580946,station,,,,station
+322983346,node,Vastrapur,23.0079064,72.5174367,station,,,,station
+323120091,node,Maninagar,22.9986596,72.6114013,station,,,,station
+323189766,node,Sabarmati,23.0770712,72.5890677,station,,,,station
+429460556,node,,23.0241439,72.5804883,,,,,stop_position
+440310550,node,Paldi Bus Stand,23.0140725,72.5645878,,,,bus_station,
+566222693,node,Asarva,23.0440925,72.6132157,station,,,,station
+566223451,node,Sardargram,23.0715012,72.6424393,station,,,,station
+611572689,node,Acher,23.0987428,72.5883112,,,bus_stop,,
+611572692,node,Gujarat Stadium (Motera),23.0945534,72.5951643,,,bus_stop,,
+611572694,node,Shiv Shakti Nagar,23.1104959,72.5845990,,,bus_stop,,
+611572695,node,Chandkheda Bus Depo,23.1151091,72.5832285,,,bus_stop,,
+611572696,node,Janta Nagar (Parshwanath Nagar),23.1071309,72.5856397,,,bus_stop,,
+611572697,node,ONGC Bus Depo,23.1036376,72.5867663,,,bus_stop,,
+611573336,node,Police Stadium,23.0563204,72.5884185,,,bus_stop,,
+611573340,node,Subhash Bridge,23.0655502,72.5837193,,,bus_stop,,
+611573343,node,RTO Circle,23.0684819,72.5808869,,,bus_stop,,
+611573366,node,Shahibaug Underbridge,23.0527171,72.5904999,,,bus_stop,,
+631801190,node,,23.0119174,72.5689346,,,bus_stop,,
+713294758,node,Viramgam Junction,23.1276285,72.0534930,station,,,,station
+1206485486,node,Ahmedabad Junction,23.0251057,72.6017011,stop,,,,stop_position
+1206485574,node,Ahmedabad Junction,23.0251068,72.6020896,stop,,,,stop_position
+1206490577,node,Ahmedabad Junction,23.0251064,72.6019452,stop,,,,stop_position
+1349429257,node,Kali Road,23.0980898,72.5780885,station,,,,station
+1349429275,node,D-cabin,23.1023628,72.5702646,,,,bus_station,
+1349429278,node,Vallabhpark,23.1015240,72.5765190,,,,bus_station,
+1517258904,node,Koth Gangad,22.6271131,72.3006679,station,,,,station
+1517908650,node,Bavla,22.8335871,72.3647449,station,,,,station
+1545721824,node,Sarkhej,22.9821021,72.4975186,station,,,,station
+1545874634,node,Arnej,22.5814229,72.2677840,halt,,,,halt
+1782729611,node,,23.0268403,72.5806381,,,,,stop_position
+1952514121,node,Nava-Vadaj,23.0682646,72.5624497,,,bus_stop,,
+2068421652,node,Katosan Road Junction,23.4061031,72.2436640,station,,,,station
+2068422100,node,Bhoyani,23.3610646,72.2343140,station,,,,station
+2068743668,node,Jhund Junction,23.1607179,71.9341583,station,,,,station
+2211705413,node,GST Crossing 1 (AMTS),23.0844751,72.5661042,,,bus_stop,,
+2265925488,node,GMDC,23.0397128,72.5386288,,,bus_stop,,
+2265925489,node,Bimanagar / Jhansi Ki Rani,23.0230285,72.5363300,,,bus_stop,,
+2265925490,node,Nehru Nagar,23.0225299,72.5416944,,,bus_stop,,
+2265925491,node,IIM,23.0346324,72.5360081,,,bus_stop,,platform
+2265925492,node,,23.0242856,72.5312229,,,bus_stop,,
+2265925493,node,Himmatlal Park,23.0297528,72.5324140,,,bus_stop,,
+2265926056,node,Manek Baug,23.0183103,72.5440487,,,bus_stop,,
+2265953631,node,Anjali Cross Road,23.0037230,72.5538743,,,bus_stop,,
+2265953635,node,Rambaug,22.9999238,72.6006692,,,bus_stop,,
+2265953636,node,Amarkunj /Swaminarayan College,23.0013898,72.5870103,,,bus_stop,,
+2265953637,node,Bhairavnath,22.9954570,72.5990646,,,bus_stop,,
+2265953638,node,Swaminarayan Mandir,22.9948853,72.6117044,,,bus_stop,,
+2265953639,node,Shah Alam,22.9998665,72.5829655,,,bus_stop,,
+2265953642,node,Jawahar Chowk,22.9951368,72.6050988,,,bus_stop,,platform
+2265953643,node,Maninagar,22.9972369,72.6064312,,,bus_stop,,
+2265953644,node,National Cloth Factory,22.9955236,72.5702090,,,bus_stop,,
+2265953647,node,Gokulnath Chowk /Meera Cinema Char Rasta,22.9990894,72.5932198,,,bus_stop,,
+2265953648,node,Kankaria Lake,23.0031799,72.5990158,,,bus_stop,,platform
+2265953649,node,Maninagar Railway Station,22.9978049,72.6113755,,,bus_stop,,
+2265953650,node,Kankaria Telephone Exchange,23.0024169,72.5928227,,,bus_stop,,
+2265953651,node,Dharnidhar,23.0082114,72.5492824,,,bus_stop,,
+2265953652,node,Chandranagar BRT,22.9997529,72.5580988,,,bus_stop,,
+2265953653,node,Dani Limda,22.9964913,72.5774026,,,bus_stop,,
+2288824667,node,AMTS,23.0660707,72.5321646,,,bus_stop,,
+2288824668,node,Gulab Tower,23.0631171,72.5255748,,,bus_stop,,
+2376612715,node,Ambli Road,23.0535306,72.4934085,station,,,,station
+2668715940,node,Dholka,22.7315548,72.4344198,station,,,,station
+2669084968,node,Ahmedabad Junction,23.0263312,72.6010000,station,,,,station
+3161575026,node,Navrangpura,23.0355882,72.5641854,,,,bus_station,
+3231323519,node,Airport Circle bus stop,23.0813883,72.6167476,,,bus_stop,,
+3306683243,node,,22.9913719,72.6317562,,,,,stop_position
+3306683465,node,,23.0117408,72.5621660,,,,,stop_position
+3306683481,node,,23.0197224,72.5860957,,,bus_stop,,platform
+3306683587,node,,23.0282432,72.5814362,,,,,stop_position
+3306683590,node,,23.0326462,72.5701007,,,,,stop_position
+3306683591,node,,23.0338698,72.5695244,,,,,stop_position
+3306683598,node,,23.0345110,72.5692593,,,,,stop_position
+3306683627,node,,23.0423375,72.5695809,,,,,stop_position
+3306683628,node,,23.0433539,72.5697209,,,,,stop_position
+3306683629,node,,23.0519878,72.5902552,,,,,stop_position
+3306683638,node,,23.0555329,72.5719936,,,,,stop_position
+3306683639,node,,23.0560223,72.5910561,,,,,stop_position
+3306683642,node,,23.0603256,72.5919869,,,,,stop_position
+3306683643,node,,23.0612354,72.5803090,,,,,stop_position
+3306683644,node,,23.0621551,72.5952829,,,,,stop_position
+3306683645,node,,23.0645512,72.5996029,,,,,stop_position
+3306683646,node,,23.0719488,72.6038956,,,,,stop_position
+3306683647,node,,23.0788487,72.6100908,,,,,stop_position
+3306683648,node,,23.0804623,72.6171044,,,,,stop_position
+3316875855,node,,23.0220727,72.5791010,,,bus_stop,,platform
+3333487128,node,Maninagar Bus stop,22.9974600,72.6259649,,,,bus_station,
+3333942359,node,Maninagar Railway Station,22.9986995,72.6109437,,,,bus_station,
+3333960611,node,,22.9739626,72.5953013,,,bus_stop,,
+3333960612,node,,22.9740487,72.5952484,,,bus_stop,,
+3333960613,node,,22.9761795,72.6023816,,,bus_stop,,
+3333960614,node,,22.9762426,72.6023401,,,bus_stop,,
+3333960615,node,,22.9784932,72.6101868,,,bus_stop,,
+3333960616,node,,22.9785615,72.6101750,,,bus_stop,,
+3335600154,node,Naroda Gam,23.0770964,72.6558075,,,,bus_station,station
+3336777167,node,Ahmedabad,23.0218734,72.5984903,,,,bus_station,station
+3355748461,node,,23.0186671,72.5883471,,,,,stop_position
+3355794772,node,Lal Darwaja AMTS Bus Stop,23.0241902,72.5785562,,,,bus_station,station
+3393851425,node,Meghaninagar,23.0594578,72.6180264,,,bus_stop,,platform
+3415672552,node,GMDC,23.0397496,72.5385489,,,bus_stop,,
+3415672553,node,Memnagar,23.0455534,72.5424176,,,bus_stop,,platform
+3415672554,node,Memnagar,23.0455543,72.5424739,,,bus_stop,,platform
+4079869343,node,,22.6447945,72.2054925,,,bus_stop,,
+4210649810,node,Bhavsar Hostel,23.0676729,72.5756845,,,bus_stop,,
+4376679089,node,Bus stop Riverside School,23.0530366,72.5258779,,,bus_stop,,platform
+4398457021,node,Vatva,22.9589978,72.6297981,station,,,,station
+4424522589,node,Viramgam,23.1271417,72.0510567,,,bus_stop,,
+4454478189,node,Viramgam,23.1270255,72.0511173,,,,bus_station,
+4455252300,node,Viramgam bus stop,23.1292655,72.0492023,,,bus_stop,,
+4456612194,node,Bagodra bus stop,22.6408431,72.1973594,,,bus_stop,,
+4481510492,node,Hanspura Bus stop,23.0847663,72.6800838,,,bus_stop,,
+4485407989,node,Iscon ST bus stop,23.0315615,72.5085005,,,bus_stop,,platform
+4486398588,node,Sabarmati Junction,23.0712603,72.5870272,station,,,,station
+4515049690,node,Barejadi Nandej,22.8953959,72.6771064,station,,,,station
+4525895498,node,Geratpur,22.9168572,72.6551837,station,,,,station
+4530241653,node,Ahmedabad Junction,23.0251063,72.6018905,stop,,,,stop_position
+4585304001,node,Chandlodiya,23.0847978,72.5512141,,,bus_stop,,
+4585304002,node,JUNA VADAJ,23.0670122,72.5620316,,,bus_stop,,
+4588982754,node,Pvt travels Sahjanand Travels,23.0257390,72.5252397,,,bus_stop,,
+4588990189,node,Shree Sahjanand Travels,23.0256200,72.5253330,,,bus_stop,,
+4590687293,node,Kadambari Society,23.0060914,72.5310458,,,bus_stop,,
+4702938189,node,Bus to Udaipur,23.0655907,72.6433040,,,bus_stop,,platform
+4794246527,node,Ranip Bus stop,23.0810390,72.5771961,,,bus_stop,,
+5327118488,node,,23.0243207,72.5312150,,,bus_stop,,
+5327118489,node,,23.0243186,72.5313857,,,bus_stop,,
+5327118490,node,Shivranjani,23.0242849,72.5313961,,,bus_stop,,platform
+5445054647,node,Maninagar Railway stop,22.9977864,72.6113064,,,bus_stop,,platform
+5445054648,node,Lala LAjpat marg,22.9979864,72.6104161,,,bus_stop,,platform
+5445054650,node,Rambaug Post office,22.9989051,72.6013622,,,bus_stop,,platform
+5540117734,node,Maninagr Railway Station,22.9978087,72.6113901,,,bus_stop,,platform
+5540117735,node,Maninagar Cross Road,22.9972438,72.6064340,,,bus_stop,,platform
+5540117736,node,Rambaug,22.9999248,72.6006742,,,bus_stop,,platform
+5540117738,node,Kankaria Telephone exchange,23.0024253,72.5928352,,,,bus_station,station
+5545191206,node,"ISRO , Ahmedabad",23.0276860,72.5177376,,,bus_stop,,platform
+5545191207,node,Ramdev Nagar,23.0275153,72.5126258,,,bus_stop,,platform
+5545191837,node,ISKCON Mandir,23.0274858,72.5049454,,,bus_stop,,platform
+5545191838,node,Antariksh Colony,23.0277628,72.5009162,,,bus_stop,,platform
+5622697516,node,Rabari Colony,23.0054130,72.6355917,stop,,,,stop_position
+5622701027,node,Apparel Park,23.0106557,72.6182366,stop,,,,stop_position
+5622701037,node,Kankaria East,23.0154543,72.6069352,stop,,,,stop_position
+5622701044,node,Kalupur Railway Station,23.0246945,72.6030930,stop,,,,stop_position
+5622701055,node,Gheekanta,23.0287794,72.5867490,stop,,,,stop_position
+5622701067,node,Old High Court,23.0375426,72.5670608,stop,,,,stop_position
+5622701075,node,Commerce Six Roads,23.0406790,72.5530608,stop,,,,stop_position
+5622701095,node,Doordarshan Kendra,23.0481400,72.5245036,stop,,,,stop_position
+5622701102,node,Thaltej,23.0497505,72.5159937,stop,,,,stop_position
+5622776290,node,Vijay Nagar,23.0564338,72.5622541,stop,,,,stop_position
+5622776434,node,Sabarmati,23.0856228,72.5921818,stop,,,,stop_position
+5622776445,node,Motera Stadium,23.0967876,72.5966689,stop,,,,stop_position
+5711617727,node,Little Wings BRTS stop,23.0320762,72.4596133,,,bus_stop,,
+5711622445,node,Ghuma BRTS terminal,23.0309359,72.4483279,,,,bus_station,
+5711634722,node,AMTS Ghuma Bus terminal,23.0305560,72.4501878,,,,bus_station,
+5725638703,node,Chandlodiya,23.0751633,72.5440359,station,,,,station
+5725639222,node,Gora Ghuma,23.0386730,72.4517314,station,,,,station
+5725639271,node,Sanand,23.0238876,72.3851475,station,,,,station
+5725639283,node,Chharodi,23.0393458,72.2748933,station,,,,station
+5725639292,node,Virochannagar,23.0649138,72.2215612,halt,,,,halt
+5725639293,node,Jakhvada,23.0843576,72.1553051,station,,,,station
+5725639432,node,Vani Road,23.0939093,72.0026027,station,,,,station
+5745061855,node,Sabli Road,23.0370241,71.9558158,station,,,,station
+6422003787,node,Sabarmati Junction,23.0778134,72.5885153,stop,,,,stop_position
+6432742906,node,Amraiwadi,23.0078462,72.6283735,stop,,,,stop_position
+6432742907,node,Vastral,23.0034916,72.6476943,stop,,,,stop_position
+6432742908,node,Nirant Cross Roads,22.9998991,72.6585088,stop,,,,stop_position
+6432742909,node,Vastral Gam,22.9971313,72.6674512,stop,,,,stop_position
+6564864665,node,Sahijpur,23.0652172,72.6360457,halt,,,,halt
+6571836455,node,Detroj,23.3400361,72.1844358,station,,,,station
+6571849133,node,Ghelda,23.3675649,72.2092395,station,,,,station
+6571849177,node,Jaksi,23.1974863,72.0985192,station,,,,station
+6571860282,node,Bhankoda,23.2704312,72.1283990,station,,,,station
+6571867204,node,Kanjh,23.3049820,72.1547920,station,,,,station
+6727553050,node,Vasan Iyava,23.0252667,72.3363409,station,,,,station
+6727610645,node,Sokali,23.0981869,72.1052332,station,,,,station
+6728806680,node,Khareshwar Road,23.0642682,71.9829190,station,,,,station
+6738428335,node,Chandlodiya 'B',23.0807984,72.5408184,station,,,,station
+6758793148,node,Sanathal,22.9645191,72.4704112,station,,,,station
+6759274176,node,Moraiya,22.9306513,72.4407996,station,,,,station
+6759428796,node,Matoda,22.8838171,72.3995579,station,,,,station
+6759458893,node,Saljida,22.7847862,72.3977349,station,,,,station
+6759461164,node,Lothal Bhurkhi,22.5537636,72.2240773,station,,,,station
+6759467645,node,Loliya,22.5128858,72.1677295,halt,,,,halt
+6759472646,node,Godhaneshwar,22.6827169,72.3700695,halt,,,,halt
+6759490755,node,Rayaka,22.4209023,72.0353466,halt,,,,halt
+6759527039,node,Dhandhuka,22.3849802,71.9765847,station,,,,station
+6759527369,node,Tagdi,22.2963499,71.9481290,station,,,,station
+7020233387,node,,23.0430359,72.5895319,,,,bus_station,station
+7556326461,node,Chandkheda Road,23.1103339,72.5637712,station,,,,
+7707085294,node,Sabarmati Junction,23.0777093,72.5882396,stop,,,,stop_position
+7707519215,node,Sabarmati Junction,23.0777671,72.5883938,stop,,,,stop_position
+7707519216,node,Ahmedabad Junction,23.0251070,72.6021398,stop,,,,stop_position
+7944287415,node,Kalupur Railway Station,23.0246913,72.6031447,station,subway,,,station
+7944287418,node,Kankaria East,23.0154573,72.6070016,station,subway,,,station
+7944287421,node,Shahpur Station,23.0392105,72.5810327,station,subway,,,station
+7944287424,node,Gheekanta,23.0287940,72.5867752,station,subway,,,station
+8153486313,node,Rojka Bus station,22.3471227,72.0362629,,,bus_stop,,
+8153542476,node,Bopal gam,23.0340108,72.4641074,,,,bus_station,
+8153545458,node,Sterling City,23.0323222,72.4691519,,,,bus_station,
+8157583232,node,Bopal gam,23.0340068,72.4640698,,,bus_stop,,
+8229760639,node,Dhandhuka bus station,22.3809167,71.9772907,,,,bus_station,
+8969141342,node,Vatva,22.9590328,72.6295542,stop,,,,stop_position
+8969141343,node,Vatva,22.9589775,72.6293801,stop,,,,stop_position
+8969141344,node,Vatva,22.9589613,72.6293371,stop,,,,stop_position
+8969141345,node,Vatva,22.9589093,72.6292144,stop,,,,stop_position
+9503556232,node,Ranip,23.0677222,72.5741509,stop,,,,stop_position
+9655564621,node,Apparel Park,23.0107028,72.6182378,stop,,,,stop_position
+9655564654,node,Amraiwadi,23.0078943,72.6284005,stop,,,,stop_position
+9655564655,node,Rabari Colony,23.0054549,72.6356280,stop,,,,stop_position
+9655564690,node,Vastral,23.0035358,72.6477227,stop,,,,stop_position
+9655564707,node,Nirant Cross Roads,22.9999759,72.6585492,stop,,,,stop_position
+9655564728,node,Vastral Gam,22.9972131,72.6674915,stop,,,,stop_position
+10076537485,node,Kankaria East,23.0154585,72.6070566,stop,,,,stop_position
+10076537499,node,Kalupur Railway Station,23.0246998,72.6032110,stop,,,,stop_position
+10076537516,node,Gheekanta,23.0287972,72.5868045,stop,,,,stop_position
+10076565224,node,Shahpur Station,23.0392509,72.5810332,stop,,,,stop_position
+10076565225,node,Shahpur Station,23.0391575,72.5810285,stop,,,,stop_position
+10076565256,node,Old High Court,23.0375956,72.5670605,stop,,,,stop_position
+10076565279,node,Stadium,23.0398916,72.5616387,stop,,,,stop_position
+10076565280,node,Stadium,23.0398351,72.5616387,stop,,,,stop_position
+10076565295,node,Commerce Six Roads,23.0407242,72.5530873,stop,,,,stop_position
+10076565314,node,Gujarat University Station,23.0448371,72.5435125,stop,,,,stop_position
+10076565315,node,Gujarat University Station,23.0448892,72.5435282,stop,,,,stop_position
+10076565330,node,Gurukul Road,23.0459280,72.5348776,stop,,,,stop_position
+10076565331,node,Gurukul Road,23.0458688,72.5348755,stop,,,,stop_position
+10076565352,node,Doordarshan Kendra,23.0481838,72.5245109,stop,,,,stop_position
+10076565366,node,Thaltej,23.0497820,72.5160136,stop,,,,stop_position
+10076616651,node,APMC,22.9978151,72.5371344,stop,,,,stop_position
+10076616652,node,APMC,22.9978001,72.5370953,stop,,,,stop_position
+10076616710,node,Gandhigram,23.0271728,72.5688973,stop,,,,stop_position
+10076616711,node,Gandhigram,23.0271754,72.5688202,stop,,,,stop_position
+10076616712,node,Vadaj,23.0676950,72.5658899,stop,,,,stop_position
+10076616713,node,Vadaj,23.0676478,72.5658920,stop,,,,stop_position
+10076616748,node,Vijay Nagar,23.0564531,72.5623294,stop,,,,stop_position
+10076616753,node,Usmanpura,23.0459092,72.5649270,stop,,,,stop_position
+10076616754,node,Usmanpura,23.0459360,72.5649953,stop,,,,stop_position
+10076616759,node,Old High Court,23.0374805,72.5670541,stop,,,,stop_position
+10076616764,node,Old High Court,23.0374696,72.5668751,stop,,,,stop_position
+10076836152,node,Motera Stadium,23.0967601,72.5967207,stop,,,,stop_position
+10076836172,node,Sabarmati,23.0856327,72.5922247,stop,,,,stop_position
+10076836189,node,AEC,23.0751227,72.5932705,stop,,,,stop_position
+10076836190,node,AEC,23.0750932,72.5933161,stop,,,,stop_position
+10076859828,node,Ranip,23.0676615,72.5741529,stop,,,,stop_position
+10076859848,node,Paldi,23.0185472,72.5623281,stop,,,,stop_position
+10076859849,node,Paldi,23.0184541,72.5623806,stop,,,,stop_position
+10076859862,node,Shreyas,23.0136478,72.5492445,stop,,,,stop_position
+10076859863,node,Shreyas,23.0136045,72.5492643,stop,,,,stop_position
+10076859881,node,Rajiv Nagar,23.0097711,72.5367573,stop,,,,stop_position
+10076859882,node,Rajiv Nagar,23.0097320,72.5367627,stop,,,,stop_position
+10076859907,node,Jivraj Park,23.0055338,72.5334739,stop,,,,stop_position
+10076859908,node,Jivraj Park,23.0055517,72.5335036,stop,,,,stop_position
+10177919684,node,South Bopal BRTS Terminal,23.0161011,72.4656001,,,bus_stop,,
+11115111903,node,Thaltej Gam,23.0501817,72.5070211,stop,,,,stop_position
+11115111904,node,Thaltej Gam,23.0502330,72.5070056,stop,,,,stop_position
+11115121913,node,Vishwakarma College,23.1142071,72.6083780,stop,,,,stop_position
+11115121962,node,Vishwakarma College,23.1141890,72.6083924,stop,,,,stop_position
+11115121970,node,Koteshwar Road,23.1031046,72.6021530,stop,,,,stop_position
+11115121971,node,Koteshwar Road,23.1031194,72.6021114,stop,,,,stop_position
+11974676614,node,,22.5641936,72.2939325,,,bus_stop,,platform
+11974676615,node,,22.5635128,72.2938708,,,bus_stop,,platform
+12196641348,node,Vishwakarma College,23.1141999,72.6083864,station,subway,,,station
+12196641349,node,Koteshwar Road,23.1031114,72.6021329,station,subway,,,station
+12196641362,node,AEC,23.0751088,72.5932910,station,subway,,,station
+12196641364,node,Sabarmati,23.0856303,72.5922060,station,subway,,,station
+12196641366,node,Motera Stadium,23.0967726,72.5966920,station,subway,,,station
+12406995811,node,Thaltej,23.0497480,72.5160152,station,subway,,,station
+12408894281,node,Thaltej Gam,23.0502062,72.5070123,station,subway,,,station
+12794883035,node,Sabarmati Junction,23.0775605,72.5878977,stop,,,,stop_position
+12794883088,node,Sabarmati Junction,23.0776675,72.5881298,stop,,,,stop_position
+12794883137,node,Sabarmati Junction,23.0776023,72.5880078,stop,,,,stop_position
+12912651330,node,,23.0523056,72.6100622,,,bus_stop,,platform
+12912651331,node,,23.0521516,72.6101214,,,bus_stop,,platform
+13081325157,node,Mahapragnaji Bridge Approach,23.0528796,72.5952154,,,bus_stop,,platform
+13324639910,node,Naroda S.T. Workshop,23.0642483,72.6429675,,,bus_stop,,platform
+13324639911,node,Dhanush Dhari Mandir,23.0598077,72.6429405,,,bus_stop,,platform
+13324639912,node,Nada Chiloda,23.0549301,72.6424602,,,bus_stop,,platform
+13324639913,node,Vijay Park,23.0513889,72.6418538,,,bus_stop,,platform
+13324639914,node,Hirawadi,23.0456662,72.6409989,,,bus_stop,,platform
+13324639915,node,Thakkar Nagar Approach,23.0412083,72.6405530,,,bus_stop,,platform
+13324639916,node,Lilanagar,23.0369762,72.6400507,,,bus_stop,,platform
+13324639917,node,Bapunagar Approach,23.0326239,72.6392784,,,bus_stop,,platform
+13324639918,node,Viratnagar,23.0275605,72.6388022,,,bus_stop,,platform
+13324639919,node,Soni ni Chali,23.0205533,72.6384382,,,bus_stop,,platform
+13324639920,node,Geeta Gauri Cinema,23.0174077,72.6384534,,,bus_stop,,platform
+13324639921,node,Rameshwar Park,23.0136638,72.6384727,,,bus_stop,,platform
+13324639922,node,Ram Rajya Nagar,23.0080678,72.6381291,,,bus_stop,,platform
+13324639923,node,Rabari Colony,23.0043839,72.6369046,,,bus_stop,,platform
+13324639924,node,Jogeshwari Society,23.0005139,72.6356334,,,bus_stop,,platform
+13324639925,node,Purvdeep Society,22.9961731,72.6342048,,,bus_stop,,platform
+13324639926,node,CTM Cross Road,22.9913284,72.6317678,,,bus_stop,,platform
+13324639927,node,Express Highway Junction,22.9873084,72.6276786,,,bus_stop,,platform
+13324639928,node,Jashodanagar Char Rasta,22.9838660,72.6239988,,,bus_stop,,platform
+13324639929,node,Ghodasar,22.9785228,72.6101796,,,bus_stop,,platform
+13324639930,node,Isanpur,22.9762160,72.6023849,,,bus_stop,,platform
+13324639931,node,Mukesh Industries,22.9740123,72.5953065,,,bus_stop,,platform
+13324639932,node,Narol,22.9729765,72.5895984,,,bus_stop,,platform
+13324639933,node,Kashiram Textiles,22.9768712,72.5867831,,,bus_stop,,platform
+13324639934,node,Chandola Octroi Naka,22.9821643,72.5857084,,,bus_stop,,platform
+13324639935,node,Chandola Lake,22.9864945,72.5826202,,,bus_stop,,platform
+13324639936,node,Chhipa Society,22.9915528,72.5816699,,,bus_stop,,platform
+13324639937,node,Danilimda Road,22.9961364,72.5791374,,,bus_stop,,platform
+13582340756,node,Sakar School Bus Stop,23.1091079,72.5909683,,,bus_stop,,platform
+13582340757,node,Sakar School Bus Stop,23.1092205,72.5910153,,,bus_stop,,platform
+13582340758,node,Swagat Bungalows Bus Stop,23.1093569,72.5927065,,,bus_stop,,platform
+13582340759,node,Swagat Bungalows Bus Stop,23.1091859,72.5929077,,,bus_stop,,platform
+13831008601,node,Sola bridge BRTS,23.0651818,72.5292900,,,bus_stop,,
+13831023302,node,Bhadaj circle BRTS,23.0830981,72.4951871,,,bus_stop,,
+37231778,way,Gita Mandir Bus Station,23.0154853,72.5918516,,,,bus_station,
+314450134,way,Gujarat State Road Transport Corporation | Bus Station | Gita Mandir,23.0141035,72.5924600,,,,bus_station,station
+323895527,way,Nava vadej bus stop,23.0550841,72.5710994,,,,bus_station,
+328553143,way,Helmet Cross Roads Bus Station,23.0444180,72.5422948,,,,bus_station,station
+328733432,way,Vasna Bus Station,23.0022282,72.5476347,,,,bus_station,
+328753119,way,Lal Darwaja AMTS Bus Stop,23.0245732,72.5784278,,,,bus_station,station
+378473414,way,Parasnagar BRTS stand,23.0555446,72.5432309,,,,bus_station,station
+378473566,way,Sola cross road BRTS stand,23.0527423,72.5468030,,,,bus_station,station
+451501638,way,Ranip GSRTC,23.0683844,72.5757899,,,,bus_station,
+456784607,way,Platform 8-9,23.0263337,72.6022261,platform,,,,platform
+456784615,way,Platform 1,23.0257067,72.6010805,platform,,,,platform
+456784617,way,Platform 2-2A-3,23.0262404,72.6014522,platform,,,,platform
+456784624,way,Platform 12,23.0246835,72.6026586,platform,,,,platform
+456784626,way,Platform 10-11,23.0255241,72.6024441,platform,,,,platform
+456784629,way,Platform 6-7,23.0250872,72.6020256,platform,,,,platform
+456784631,way,Platform 4-5,23.0264109,72.6018983,platform,,,,platform
+487641400,way,Platform 1,23.0773754,72.5887150,platform,,,,platform
+487641402,way,Platform 2-3,23.0776757,72.5881357,platform,,,,platform
+487641405,way,Platform 4-5,23.0776066,72.5879111,platform,,,,platform
+519828737,way,,22.9169268,72.6553593,platform,,,,platform
+519828738,way,,22.9172269,72.6557861,platform,,,,platform
+519839569,way,,22.9595202,72.6292308,platform,,,,platform
+519839570,way,,22.9587316,72.6293794,platform,,,,platform
+551617841,way,Shivranjani,23.0243043,72.5312954,,,,bus_station,
+559508822,way,,23.1573751,72.5470685,platform,,,,platform
+602995032,way,,23.0540231,72.4936867,platform,,,,platform
+602995033,way,,23.0536018,72.4932104,platform,,,,platform
+602995041,way,,23.0242899,72.3856099,platform,,,,platform
+602995042,way,,23.0240767,72.3856591,platform,,,,platform
+602995057,way,Platform 2-3,23.1290960,72.0526088,platform,,,,platform
+602995058,way,Platform 1,23.1290618,72.0522922,platform,,,,platform
+602995059,way,,23.1292374,72.0526816,platform,,,,platform
+605818578,way,,23.0373658,71.9554840,platform,,,,platform
+605818579,way,,23.0371832,71.9557752,platform,,,,platform
+972959138,way,Iskcon Cross Road BRTS,23.0271523,72.5085231,,,,bus_station,station
+972959139,way,Ashok Vatika BRTS,23.0279387,72.4957020,,,,bus_station,station
+972959140,way,Jaintilal Park BRTS,23.0284246,72.4910095,,,,bus_station,station
+972959141,way,Swagat Bunglows BRTS,23.0278834,72.4858847,,,,bus_station,station
+972959142,way,Ambli Gam BRTS,23.0264618,72.4821927,,,,bus_station,station
+972959143,way,Bopal Appoach BRTS,23.0258481,72.4779140,,,,bus_station,station
+1006803615,way,,23.0458807,72.6147309,platform,,,,platform
+1006803616,way,,23.0456265,72.6147447,platform,,,,platform
+1015046805,way,Naroda Gam,23.0771064,72.6557867,,,,bus_station,station
+1023381274,way,Dholera Bus Stand,22.2470049,72.1920312,,,,bus_station,
+1101028012,way,APMC,22.9977445,72.5371222,station,subway,,,station
+1101058047,way,Ranip,23.0676741,72.5740838,station,subway,,,station
+1101058050,way,Shreyas,23.0135977,72.5492225,station,subway,,,station
+1101058051,way,Rajiv Nagar,23.0097229,72.5367523,station,subway,,,station
+1101058052,way,Jivraj Park,23.0054989,72.5334928,station,subway,,,station
+1107137235,way,,22.7285890,72.4369141,,,,bus_station,
+1107146505,way,Gandhigram,23.0270955,72.5690238,station,subway,,,station
+1198134736,way,Stadium,23.0398414,72.5616768,station,subway,,,station
+1198134737,way,Commerce Sixth Road,23.0407013,72.5529730,station,subway,,,station
+1198134738,way,Gurukul Road,23.0458829,72.5348734,station,subway,,,station
+1198134739,way,Doordarshan Kendra,23.0481764,72.5244209,station,subway,,,station
+1198134744,way,Vadaj,23.0676671,72.5657588,station,subway,,,station
+1198134745,way,Vijay Nagar,23.0561913,72.5623389,station,subway,,,station
+1198134747,way,Usmanpura,23.0458371,72.5649820,station,subway,,,station
+1198134751,way,Gujarat University Station,23.0448477,72.5435296,station,subway,,,station
+1198134752,way,Old High Court,23.0372892,72.5672065,station,subway,,,station
+1198140890,way,Vastral Gam,22.9971397,72.6673910,station,subway,,,station
+1198140891,way,Nirant Cross Roads,22.9997169,72.6588890,station,subway,,,station
+1198140892,way,Vastral,23.0035988,72.6475942,station,subway,,,station
+1198140893,way,Rabari Colony,23.0054703,72.6354063,station,subway,,,station
+1198140894,way,Amraiwadi,23.0076672,72.6287279,station,subway,,,station
+1198140895,way,Apparel Park,23.0106696,72.6180098,station,subway,,,station
+1198140896,way,Paldi,23.0185053,72.5624076,station,subway,,,station
+1288731476,way,Sabarmati Swimming Pool BRTS Stand,23.0815189,72.5933647,,,,,platform
+1418561379,way,LD Engineering College,23.0349572,72.5488773,,,platform,,platform

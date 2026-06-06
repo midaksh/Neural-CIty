@@ -1,0 +1,244 @@
+@id,@type,name,@lat,@lon,railway,station,highway,amenity,public_transport
+250871658,node,MDI,28.4740653,77.0572176,,,bus_stop,,platform
+266593729,node,MDI,28.4742372,77.0570497,,,bus_stop,,platform
+271335327,node,M G Road,28.4795243,77.0798993,stop,,,,stop_position
+271335545,node,Guru Dronacharya,28.4819976,77.1022720,stop,,,,stop_position
+273281839,node,IFFCO Chowk,28.4782782,77.0690925,,,bus_stop,,platform
+277793688,node,Sukhrali,28.4763883,77.0629162,,,bus_stop,,platform
+413317779,node,IFFCO Chowk,28.4723308,77.0724516,stop,,,,stop_position
+477905074,node,Maruti Kunj More Bus Stop,28.3611120,77.0605403,,,bus_stop,,
+484649663,node,Kendriya Vihar Bus Stop,28.4248118,77.0948700,,,bus_stop,,platform
+535297593,node,Sikanderpur,28.4812716,77.0930017,station,subway,,,station
+922909980,node,Millennium City Centre Gurugram,28.4593314,77.0726864,stop,,,,stop_position
+1646599506,node,Millennium City Centre Gurugram Metro Station,28.4597249,77.0738784,,,bus_stop,,platform
+1774430929,node,Gurgaon,28.4890874,77.0111572,station,regular,,information,station
+1811444172,node,Inchhapuri,28.3200927,76.7188545,station,,,,station
+1988848864,node,Belvedere Towers,28.4917023,77.0881318,station,subway,,,stop_position
+1988848882,node,DLF Phase 2,28.4875596,77.0929909,station,subway,,,station
+1988848900,node,Sikanderpur RMRG Station,28.4809969,77.0944367,station,subway,,,station
+2225581671,node,Gurgaon,28.4650125,77.0330992,,,,,stop_position
+2296624568,node,,28.4444230,77.0374370,,,bus_stop,,platform
+2297784994,node,,28.4063790,77.0432030,,,bus_stop,,platform
+2410174120,node,Garhi Harsaru Junction,28.4382985,76.9307249,station,,,,station
+2511127144,node,Cyber City,28.4980613,77.0891604,stop,,,,stop_position
+2533456421,node,Moulsari Avenue Station,28.5007775,77.0946306,station,subway,,,stop_position
+2533456422,node,Phase 3 Station,28.4935677,77.0936610,station,subway,,,stop_position
+3181132316,node,Sector 54 Chowk,28.4329768,77.1048971,station,subway,,,station
+3181132336,node,Sector 53-54,28.4463829,77.1004632,station,subway,,,station
+3181132346,node,Sector 42-43,28.4574254,77.0969529,station,subway,,,station
+3735982884,node,Sultanpur Kaliawas,28.4604562,76.8696750,halt,,,,halt
+3735985541,node,Farrukhnagar,28.4672250,76.8253658,station,,,,station
+3736001854,node,Palam Vihar,28.5164657,77.0339696,halt,,,,halt
+3953773571,node,DLF Phase 1,28.4714258,77.0939606,station,subway,,,station
+3953773598,node,Sector 55–56,28.4233556,77.1051327,station,subway,,,station
+4212600960,node,Palam Vihar bus stop,28.5149894,77.0344564,,,bus_stop,,platform
+4789904280,node,DLF Phase 1,28.4714259,77.0939371,stop,,,,stop_position
+5698863055,node,Basai Dhankot,28.4645841,76.9828171,station,,,,station
+5698863060,node,Pataudi Road,28.3478790,76.7522376,station,,,,station
+5768476016,node,DLF Cyber City,28.4979218,77.0886929,,,bus_stop,,platform
+5768476017,node,"M Block, DLF City Phase 2",28.4909180,77.0820383,,,bus_stop,,platform
+5768476018,node,IFFCO Chowk,28.4790487,77.0708269,,,bus_stop,,platform
+5777601797,node,Guru Dronacharya,28.4820507,77.1022640,stop,,,,stop_position
+5777601807,node,Sikanderpur,28.4812957,77.0929927,stop,,,,stop_position
+5777601815,node,M G Road,28.4795882,77.0798784,stop,,,,stop_position
+5777601824,node,IFFCO Chowk,28.4723240,77.0723912,stop,,,,stop_position
+5777602022,node,Millennium City Centre Gurugram,28.4593643,77.0726383,stop,,,,stop_position
+6071161050,node,Stop No.222,28.4887922,77.0553820,,,bus_stop,,platform
+6071161053,node,Sikanderpur Metro Station,28.4813386,77.0923940,,,bus_stop,,platform
+6221553472,node,,28.4166202,77.0407961,,,bus_stop,,platform
+6221553473,node,Subhash Chowk,28.4277156,77.0371069,,,bus_stop,,platform
+6221553771,node,Malibu Town,28.4219079,77.0392456,,,bus_stop,,platform
+6221553772,node,CD Chowk,28.4123958,77.0414941,,,bus_stop,,platform
+6221554149,node,CD Chowk,28.4125773,77.0419837,,,bus_stop,,platform
+6263258205,node,Khalilpur,28.2753229,76.6783583,station,,,,station
+6321910004,node,Sector 42-43,28.4574292,77.0969755,stop,,,,stop_position
+6388592702,node,Patli,28.4010774,76.8570790,station,,,,station
+6388606320,node,Jataula Jauri Sampka,28.3728138,76.7994236,station,,,,station
+6388609523,node,Tajnagar,28.3855640,76.8259249,halt,,,,halt
+6547772094,node,Sikanderpur,28.4812437,77.0930074,stop,,,,stop_position
+6547772095,node,Sikanderpur,28.4809994,77.0944203,stop,,,,stop_position
+6911979904,node,Sikandarpur,28.4807009,77.1103329,,,bus_stop,,platform
+6911979915,node,Shiv Nadar School,28.4637446,77.1021402,,,,,platform
+6911979924,node,Kushboo Chowk,28.4684774,77.1088227,,,bus_stop,,platform
+6911979929,node,Khushboo Chowk,28.4663341,77.1067005,,,bus_stop,,platform
+6912102268,node,Aravali Biodiversity Park,28.4818155,77.1136661,,,bus_stop,,platform
+7018301879,node,Guru Dronacharya,28.4820212,77.1022685,station,subway,,,station
+7018301881,node,M G Road,28.4795543,77.0798926,station,subway,,,station
+7018301882,node,IFFCO Chowk,28.4723277,77.0724222,station,subway,,,station
+7018316590,node,Millennium City Centre Gurugram,28.4593429,77.0726571,station,subway,,,station
+7131270005,node,Sikandarpur,28.4824296,77.1070381,,,,,platform
+7131331963,node,"Sukhrali, Sector 17C",28.4750175,77.0594224,,,bus_stop,,platform
+7131372271,node,ITI Colony/Old DLF,28.4698091,77.0461626,,,,,platform
+7131372274,node,ITI Colony/Old DLF,28.4694367,77.0460453,,,,,platform
+7131394590,node,IFFCO Chowk,28.4780132,77.0704796,,,bus_stop,,platform
+7131394591,node,,28.4807013,77.0865850,,,bus_stop,,platform
+7131394592,node,M G Road Metro Station,28.4796088,77.0792887,,,bus_stop,,platform
+7141070969,node,"Sukhrali, Sector 17C",28.4752116,77.0592994,,,bus_stop,,platform
+7141186237,node,ITI Colony,28.4696816,77.0459309,,,bus_stop,,platform
+7141186238,node,"Government Girls College, Mehrauli-Gurgaon Road",28.4671351,77.0416850,,,bus_stop,,platform
+7141186239,node,Patel Nagar,28.4657746,77.0391986,,,bus_stop,,platform
+7141186254,node,Gurgaon Bus Stop,28.4655156,77.0329221,,,bus_stop,,platform
+7141186255,node,Gurgaon,28.4654605,77.0331168,,,,,stop_position
+7141186256,node,ITI Colony,28.4694709,77.0460772,,,bus_stop,,platform
+7141186257,node,"Government Girls College, Mehrauli-Gurgaon Road",28.4669502,77.0418294,,,bus_stop,,platform
+7141186258,node,Patel Nagar,28.4655641,77.0392943,,,bus_stop,,platform
+7141186259,node,,28.4640035,77.0354407,,,bus_stop,,platform
+7141186260,node,Gurgaon Bus Stop,28.4650465,77.0328696,,,bus_stop,,platform
+7141186261,node,IFFCO Chowk,28.4774862,77.0700676,,,bus_stop,,platform
+7141186262,node,M G Road Metro Station,28.4794579,77.0804652,,,bus_stop,,platform
+7707870463,node,Gurgaon,28.4892073,77.0108995,stop,,,,stop_position
+7707870464,node,Gurgaon,28.4891594,77.0109801,stop,,,,stop_position
+8064593902,node,DLF Phase 1,28.4714278,77.0939848,stop,,,,stop_position
+8064593903,node,DLF Phase 2,28.4875797,77.0930062,stop,,,,stop_position
+8064593904,node,DLF Phase 2,28.4875413,77.0929722,stop,,,,stop_position
+8064593905,node,Sikanderpur,28.4809937,77.0944544,stop,,,,stop_position
+8064593906,node,Sector 42-43,28.4574227,77.0969288,stop,,,,stop_position
+8064593907,node,Sector 53-54,28.4463871,77.1004853,stop,,,,stop_position
+8064593908,node,Sector 53-54,28.4463789,77.1004409,stop,,,,stop_position
+8064593909,node,Sector 54 Chowk,28.4329643,77.1048098,stop,,,,stop_position
+8064593910,node,Sector 54 Chowk,28.4329740,77.1048551,stop,,,,stop_position
+8064593911,node,Sector 55–56,28.4233013,77.1051377,stop,,,,stop_position
+8064593912,node,Sector 55–56,28.4232989,77.1050893,stop,,,,stop_position
+8393348400,node,Gurugram Railway Station,28.4854624,77.0086885,,,bus_stop,,platform
+9706919851,node,Udyog Vihar,28.4917349,77.0819718,,,bus_stop,,platform
+9714358892,node,,28.5087156,77.0935750,,,,,platform
+9714358894,node,DLF Cyber City,28.4984434,77.0883206,,,bus_stop,,platform
+9873576017,node,DLF Phase 1 Metro Station,28.4720487,77.0937129,,,bus_stop,,platform
+10064542582,node,Sikanderpur Metro Station,28.4803345,77.0939011,,,bus_stop,,platform
+10876163494,node,Sector 55/56,28.4288929,77.1054722,,,bus_stop,,platform
+10876178729,node,Sector 55-56 Metro Station,28.4240097,77.1049899,,,bus_stop,,platform
+10876178730,node,,28.4244619,77.1042627,,,bus_stop,,platform
+10876178731,node,,28.4245292,77.1038711,,,bus_stop,,platform
+10876191519,node,Sector 54 Chowk Metro Station,28.4325516,77.1053401,,,bus_stop,,platform
+10876191520,node,Sector 54 Chowk Metro Station,28.4332994,77.1044258,,,bus_stop,,platform
+10876201334,node,,28.4278869,77.1050499,,,bus_stop,,platform
+10876213382,node,DLF Phase 1 Metro Station,28.4707632,77.0942336,,,bus_stop,,platform
+10895365583,node,St Xaviers School,28.4058684,77.0566486,,,bus_stop,,platform
+10895371698,node,Nirvana Country,28.4102815,77.0684926,,,bus_stop,,platform
+10895372484,node,Sector 53/54 Metro Station,28.4453516,77.1003410,,,bus_stop,,platform
+10895381520,node,Sector 53/54 Metro Station,28.4459171,77.1009132,,,bus_stop,,platform
+10895389505,node,Genpact Chowk,28.4505242,77.0986683,,,bus_stop,,platform
+10899637071,node,Sector 42/43 Metro Station,28.4568919,77.0974669,,,bus_stop,,platform
+10899699418,node,Sector 42/43 Metro Station,28.4580487,77.0964521,,,bus_stop,,platform
+11037315936,node,Ambedkar Chowk/Indira Colony,28.4377669,77.0678043,,,bus_stop,,platform
+11037315939,node,Ardee City Sector 52,28.4448367,77.0821298,,,bus_stop,,platform
+11037384825,node,Sikanderpur Metro Station,28.4803227,77.0943651,,,bus_stop,,platform
+11091626075,node,Samaspur T Point,28.4315737,77.0619368,,,bus_stop,,platform
+11091626076,node,Mayfield Garden,28.4283365,77.0587858,,,bus_stop,,platform
+11091626081,node,,28.4479568,77.0785841,,,bus_stop,,platform
+11091626087,node,Sector 43/Sector 44 (A),28.4539232,77.0743257,,,bus_stop,,platform
+11091626088,node,Sector 43/44 (B),28.4510923,77.0763290,,,bus_stop,,platform
+11092799597,node,Fortis Memorial Research Institute,28.4570950,77.0740277,,,bus_stop,,platform
+11331156866,node,Gold Souk,28.4499738,77.0775403,,,bus_stop,,platform
+11598725342,node,,28.4396429,77.0423864,,,bus_stop,,platform
+11610976828,node,Gymkhana Club Sector 29/Sector 30,28.4658412,77.0619343,,,bus_stop,,platform
+11610978734,node,,28.4622659,77.0664828,,,bus_stop,,platform
+11610980159,node,,28.4731109,77.0561446,,,bus_stop,,platform
+11627309581,node,Samaspur T Point,28.4317945,77.0624515,,,bus_stop,,platform
+11630824454,node,Sector 45/South City 1,28.4506049,77.0643698,,,bus_stop,,platform
+11630877917,node,Fortis Memorial Research Institute / Millennium City Centre,28.4567614,77.0701711,,,bus_stop,,platform
+11630886968,node,,28.4727662,77.0556531,,,bus_stop,,platform
+11630890581,node,,28.4436069,77.0576767,,,bus_stop,,platform
+11630899415,node,,28.4626775,77.0654396,,,bus_stop,,platform
+11630904751,node,Sector 44,28.4542084,77.0678486,,,bus_stop,,platform
+11630908389,node,Unitech Cyber Park (B),28.4445246,77.0585474,,,bus_stop,,platform
+11630910271,node,Sector 29/Sector 30,28.4640732,77.0635700,,,bus_stop,,platform
+11630914567,node,Millennium City Centre Gurugram Metro Station,28.4585399,77.0706839,,,bus_stop,,platform
+11630917471,node,Sector 40,28.4472763,77.0611684,,,bus_stop,,platform
+11633737067,node,Housing Board Colony Sector 53,28.4415271,77.0858203,,,bus_stop,,platform
+11633737068,node,Wazirabad,28.4396234,77.0883169,,,bus_stop,,platform
+11633737876,node,,28.4398099,77.0544707,,,bus_stop,,platform
+11633737877,node,Sector 46,28.4415272,77.0556918,,,bus_stop,,platform
+11633737878,node,Sector 39/45,28.4459984,77.0598756,,,bus_stop,,platform
+11633737879,node,,28.4459553,77.0603101,,,bus_stop,,platform
+11633737880,node,Sector 45/South City 1,28.4514599,77.0656700,,,bus_stop,,platform
+11633737881,node,Sector 44,28.4544572,77.0685101,,,bus_stop,,platform
+11633737882,node,Fortis Memorial Research Institute,28.4575820,77.0713066,,,bus_stop,,platform
+11633737883,node,Millennium City Centre Gurugram Metro Station,28.4588595,77.0709890,,,bus_stop,,platform
+11633746969,node,,28.4252952,77.0910123,,,bus_stop,,platform
+11633746970,node,,28.4216475,77.0909730,,,bus_stop,,platform
+11633746971,node,,28.4185291,77.0909419,,,bus_stop,,platform
+11633746972,node,,28.4174184,77.0923732,,,bus_stop,,platform
+11633746973,node,,28.4173663,77.0972375,,,bus_stop,,platform
+11633746974,node,,28.4192940,77.1041184,,,bus_stop,,platform
+11633746975,node,,28.4159328,77.0854508,,,bus_stop,,platform
+11633746976,node,,28.4144695,77.0801979,,,bus_stop,,platform
+11633746983,node,Mayfield Garden,28.4259755,77.0566337,,,bus_stop,,platform
+11633746984,node,,28.4216951,77.0525307,,,bus_stop,,platform
+11633746985,node,,28.4215985,77.0526377,,,bus_stop,,platform
+11634027193,node,,28.5002852,77.0899787,,,bus_stop,,platform
+11634027194,node,Bakhtawar Chowk (B),28.4385589,77.0526503,,,bus_stop,,platform
+11636972431,node,Fortis Memorial Research Institute,28.4569353,77.0743370,,,bus_stop,,platform
+11665434317,node,,28.4294710,77.0196833,,,bus_stop,,platform
+11665480686,node,,28.4264835,77.0285068,,,bus_stop,,platform
+11665480687,node,,28.4309107,77.0176105,,,bus_stop,,platform
+11665480688,node,,28.4326041,77.0150699,,,bus_stop,,platform
+11665616327,node,,28.4311193,77.0177181,,,bus_stop,,platform
+11665704030,node,,28.4301387,77.0427901,,,bus_stop,,platform
+11665706451,node,,28.4312203,77.0456994,,,bus_stop,,platform
+11665710868,node,,28.4327518,77.0151975,,,bus_stop,,platform
+11665711158,node,,28.4266828,77.0278590,,,bus_stop,,platform
+11665712758,node,,28.4336627,77.0480401,,,bus_stop,,platform
+11665713510,node,,28.4299460,77.0195092,,,bus_stop,,platform
+11665717677,node,,28.4274758,77.0313342,,,bus_stop,,platform
+11772960312,node,,28.4466002,77.0374171,,,bus_stop,,platform
+11799198878,node,Sector 44 (B)/43,28.4513362,77.0765575,,,bus_stop,,platform
+11799198879,node,,28.4486532,77.0785128,,,bus_stop,,platform
+11834188742,node,,28.4031993,77.0507902,,,bus_stop,,platform
+11834195841,node,Vision Tower Sector 62,28.4157405,77.0858249,,,bus_stop,,
+11834282432,node,,28.4170611,77.0973878,,,bus_stop,,
+11834288798,node,Rajesh Pilot Gurjar Chowk,28.4168638,77.0898226,,,bus_stop,,
+11834303325,node,,28.4138262,77.0790733,,,bus_stop,,platform
+11834309976,node,,28.4171208,77.0926723,,,bus_stop,,
+11834312613,node,,28.4189773,77.1043402,,,bus_stop,,
+11834312808,node,Nirvana Country,28.4100049,77.0686973,,,bus_stop,,platform
+11834317285,node,,28.4116881,77.0732221,,,bus_stop,,platform
+11900398928,node,Sector 31 - NH48,28.4527426,77.0431979,,,bus_stop,,platform
+11924667924,node,Millennium City Centre Gurugram Metro Station,28.4586484,77.0707975,,,,,stop_position
+11924667925,node,Millennium City Centre Gurugram Metro Station,28.4587652,77.0709361,,,,,stop_position
+11924667926,node,Millennium City Centre Gurugram Metro Station,28.4596972,77.0738910,,,,,stop_position
+11924667927,node,Fortis Memorial Research Institute,28.4570864,77.0740941,,,,,stop_position
+11924667928,node,Fortis Memorial Research Institute,28.4566805,77.0742664,,,,,stop_position
+11924667929,node,IFFCO Chowk,28.4775766,77.0700387,,,,,stop_position
+11924667930,node,IFFCO Chowk,28.4779355,77.0704796,,,,,stop_position
+11924667931,node,IFFCO Chowk,28.4782742,77.0690879,,,,,stop_position
+11924667932,node,IFFCO Chowk,28.4791037,77.0707460,,,,,stop_position
+11924667933,node,Sector 43/Sector 44 (A),28.4539456,77.0743855,,,,,stop_position
+11924667934,node,Sector 43/44,28.4511255,77.0764001,,,,,stop_position
+11924667935,node,Sector 43/44,28.4512928,77.0764933,,,,,stop_position
+11924667936,node,,28.4485870,77.0784063,,,,,stop_position
+11924667937,node,,28.4480067,77.0786545,,,,,stop_position
+11924667938,node,Fortis Memorial Research Institute,28.4575809,77.0713866,,,,,stop_position
+11924667939,node,,28.4621578,77.0664154,,,,,stop_position
+11924667940,node,,28.4627339,77.0654794,,,,,stop_position
+11924667941,node,,28.4641394,77.0636094,,,,,stop_position
+11924667942,node,,28.4658547,77.0618376,,,,,stop_position
+11931091671,node,Fortis Memorial Research Institute / Millennium City Centre,28.4569973,77.0704065,,,bus_stop,,platform
+11934329865,node,Sector 43/Sector 44 (A),28.4536986,77.0748376,,,bus_stop,,platform
+12562792297,node,,28.4041220,77.0521075,,,bus_stop,,
+12593284424,node,,28.3334757,76.8826054,,,bus_stop,,platform
+12791885107,node,DLF Downtown/Ambience Mall,28.5033417,77.0939102,,,bus_stop,,platform
+12791890532,node,Moulsari Avenue Metro Station,28.5010289,77.0940074,,,bus_stop,,platform
+13124493514,node,Tigra Village Chowk/Gurugram University,28.4245157,77.0690683,,,bus_stop,,platform
+13148759191,node,,28.4683164,76.9732001,,,bus_stop,,platform
+13148759192,node,,28.4688233,76.9725162,,,bus_stop,,platform
+13148759195,node,,28.4661235,76.9709954,,,bus_stop,,platform
+13148759196,node,,28.4665456,76.9701236,,,bus_stop,,platform
+13176648984,node,DLF Phase 1,28.4782105,77.0954559,,,bus_stop,,platform
+13176650699,node,,28.4763557,77.0978150,,,bus_stop,,platform
+13176659859,node,Qutub Plaza,28.4771784,77.0966556,,,bus_stop,,platform
+13271497354,node,,28.4259062,77.0705157,,,bus_stop,,platform
+13289640468,node,Cyber City,28.4980703,77.0892567,station,subway,,,station
+13478717901,node,Marutikunj More,28.3612345,77.0608222,,,bus_stop,,
+13566005348,node,Sector 10,28.4502689,76.9965148,,,,,platform
+13821595101,node,Unitech Park (B),28.4434641,77.0580226,,,bus_stop,,platform
+24515754,way,Gurugram Bus Stand,28.4652485,77.0322077,,,,bus_station,station
+369855454,way,,28.4644375,76.9828675,platform,,,,platform
+369855455,way,,28.4641332,76.9825739,platform,,,,platform
+758027859,way,,28.4894070,77.0110178,platform,,,,platform
+758027860,way,,28.4893511,77.0112583,platform,,,,platform
+824913104,way,,28.3328628,76.7742563,,,,bus_station,
+1036072595,way,,28.2462081,77.0713690,,,,bus_station,
+1316295260,way,Sector 53/54 Metro Station,28.4464192,77.1003835,station,subway,,,station
+1360347817,way,,28.4809330,77.0942557,platform,,,,platform
+1360347818,way,,28.4808851,77.0945114,platform,,,,platform

@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "sector": "Safety \u2014 Signals & Signs (OpenStreetMap)",
+    "source": "data/raw/safety/signals-and-signs/*/interpreter.csv",
+    "population_source": "data/raw/population-data.csv (Census 2011)",
+    "area_source": "data/raw/india_cities_area.csv",
+    "metrics": {
+      "infrastructure_per_100k": "(traffic_signals + stops + crossings + calming) / population \u00d7 100,000",
+      "traffic_signals_per_km2": "traffic_signal_count / city_area_km\u00b2"
+    },
+    "normalization": "Min\u2013max scaled to 0\u2013100 across 11 cities; higher = better coverage",
+    "bands": {
+      "poor": "0\u201335",
+      "manageable": "35\u201365",
+      "good": "65+"
+    },
+    "cities_processed": 11,
+    "note": "Jhansi excluded \u2014 no OSM signals dataset provided"
+  },
+  "cities": [
+    {
+      "city_id": "bengaluru",
+      "city_name": "Bengaluru",
+      "source_folder": "blr",
+      "osm_nodes_in_india": 4713,
+      "population_2011": 8425970,
+      "area_km2": 741.0,
+      "counts": {
+        "traffic_signals": 1361,
+        "stop_signs": 26,
+        "crossings": 2553,
+        "traffic_calming": 944,
+        "total_infrastructure": 4701
+      },
+      "raw_metrics": {
+        "infrastructure_per_100k_population": 55.7918,
+        "traffic_signals_per_km2": 1.8367
+      },
+      "normalized_scores": {
+        "per_capita_score": 92.49,
+        "signal_density_score": 59.17,
+        "composite_score": 75.83
+      },
+      "bands": {
+        "per_capita": "good",
+        "signal_density": "manageable",
+        "composite": "good"
+      },
+      "safety_rank": 1
+    },
+    {
+      "city_id": "mumbai",
+      "city_name": "Mumbai",
+      "source_folder": "mumbai",
+      "osm_nodes_in_india": 2167,
+      "population_2011": 12442373,
+      "area_km2": 603.4,
+      "counts": {
+        "traffic_signals": 1872,
+        "stop_signs": 0,
+        "crossings": 51,
+        "traffic_calming": 267,
+        "total_infrastructure": 2167
+      },
+      "raw_metrics": {
+        "infrastructure_per_100k_population": 17.4163,
+        "traffic_signals_per_km2": 3.1024
+      },
+      "normalized_scores": {
+        "per_capita_score": 27.38,
+        "signal_density_score": 100.0,
+        "composite_score": 63.69
+      },
+      "bands": {
+        "per_capita": "poor",
+        "signal_density": "good",
+        "composite": "manageable"
+      },
+      "safety_rank": 2
+    },
+    {
+      "city_id": "vizag",
+      "city_name": "Vizag",
+      "source_folder": "vizag",
+      "osm_nodes_in_india": 1042,
+      "population_2011": 1730320,
+      "area_km2": 681.96,
+      "counts": {
+        "traffic_signals": 69,
+        "stop_signs": 1,
+        "crossings": 670,
+        "traffic_calming": 320,
+        "total_infrastructure": 1042
+      },
+      "raw_metrics": {
+        "infrastructure_per_100k_population": 60.2201,
+        "traffic_signals_per_km2": 0.1012
+      },
+      "normalized_scores": {
+        "per_capita_score": 100.0,
+        "signal_density_score": 3.19,
+        "composite_score": 51.59
+      },
+      "bands": {
+        "per_capita": "good",
+        "signal_density": "poor",
+        "composite": "manageable"
+      },
+      "safety_rank": 3
+    },
+    {
+      "city_id": "gurgaon",
+      "city_name": "Gurgaon",
+      "source_folder": "gur",
+      "osm_nodes_in_india": 374,
+      "population_2011": 876824,
+      "area_km2": 732.0,
+      "counts": {
+        "traffic_signals": 82,
+        "stop_signs": 0,
+        "crossings": 220,
+        "traffic_calming": 73,
+        "total_infrastructure": 372
+      },
+      "raw_metrics": {
+        "infrastructure_per_100k_population": 42.4258,
+        "traffic_signals_per_km2": 0.112
+      },
+      "normalized_scores": {
+        "per_capita_score": 69.81,
+        "signal_density_score": 3.54,
+        "composite_score": 36.68
+      },
+      "bands": {
+        "per_capita": "good",
+        "signal_density": "poor",
+        "composite": "manageable"
+      },
+      "safety_rank": 4
+    },
+    {
+      "city_id": "delhi",
+      "city_name": "NCT of Delhi",
+      "source_folder": "delhi",
+      "osm_nodes_in_india": 3156,
+      "population_2011": 11007835,
+      "area_km2": 1484.0,
+      "counts": {
+        "traffic_signals": 1014,
+        "stop_signs": 15,
+        "crossings": 1139,
+        "traffic_calming": 1009,
+        "total_infrastructure": 3138
+      },
+      "raw_metrics": {
+        "infrastructure_per_100k_population": 28.507,
+        "traffic_signals_per_km2": 0.6833
+      },
+      "normalized_scores": {
+        "per_capita_score": 46.2,
+        "signal_density_score": 21.97,
+        "composite_score": 34.09
+      },
+      "bands": {
+        "per_capita": "manageable",
+        "signal_density": "poor",
+        "composite": "poor"
+      },
+      "safety_rank": 5
+    },
+    {
+      "city_id": "chennai",
+      "city_name": "Chennai",
+      "source_folder": "chennai",
+      "osm_nodes_in_india": 585,
+      "population_2011": 4681087,
+      "area_km2": 426.0,
+      "counts": {
+        "traffic_signals": 368,
+        "stop_signs": 0,
+        "crossings": 97,
+        "traffic_calming": 135,
+        "total_infrastructure": 583
+      },
+      "raw_metrics": {
+        "infrastructure_per_100k_population": 12.4544,
+        "traffic_signals_per_km2": 0.8638
+      },
+      "normalized_scores": {
+        "per_capita_score": 18.96,
+        "signal_density_score": 27.79,
+        "composite_score": 23.38
+      },
+      "bands": {
+        "per_capita": "poor",
+        "signal_density": "poor",
+        "composite": "poor"
+      },
+      "safety_rank": 6
+    },
+    {
+      "city_id": "hyderabad",
+      "city_name": "Hyderabad",
+      "source_folder": "hyd",
+      "osm_nodes_in_india": 423,
+      "population_2011": 6809970,
+      "area_km2": 650.0,
+      "counts": {
+        "traffic_signals": 238,
+        "stop_signs": 0,
+        "crossings": 82,
+        "traffic_calming": 104,
+        "total_infrastructure": 419
+      },
+      "raw_metrics": {
+        "infrastructure_per_100k_population": 6.1527,
+        "traffic_signals_per_km2": 0.3662
+      },
+      "normalized_scores": {
+        "per_capita_score": 8.27,
+        "signal_density_score": 11.74,
+        "composite_score": 10.0
+      },
+      "bands": {
+        "per_capita": "poor",
+        "signal_density": "poor",
+        "composite": "poor"
+      },
+      "safety_rank": 7
+    },
+    {
+      "city_id": "indore",
+      "city_name": "Indore",
+      "source_folder": "indore",
+      "osm_nodes_in_india": 159,
+      "population_2011": 1960631,
+      "area_km2": 530.0,
+      "counts": {
+        "traffic_signals": 120,
+        "stop_signs": 0,
+        "crossings": 17,
+        "traffic_calming": 21,
+        "total_infrastructure": 158
+      },
+      "raw_metrics": {
+        "infrastructure_per_100k_population": 8.0586,
+        "traffic_signals_per_km2": 0.2264
+      },
+      "normalized_scores": {
+        "per_capita_score": 11.51,
+        "signal_density_score": 7.23,
+        "composite_score": 9.37
+      },
+      "bands": {
+        "per_capita": "poor",
+        "signal_density": "poor",
+        "composite": "poor"
+      },
+      "safety_rank": 8
+    },
+    {
+      "city_id": "lucknow",
+      "city_name": "Lucknow",
+      "source_folder": "lucknow",
+      "osm_nodes_in_india": 173,
+      "population_2011": 2815601,
+      "area_km2": 631.0,
+      "counts": {
+        "traffic_signals": 32,
+        "stop_signs": 0,
+        "crossings": 70,
+        "traffic_calming": 69,
+        "total_infrastructure": 171
+      },
+      "raw_metrics": {
+        "infrastructure_per_100k_population": 6.0733,
+        "traffic_signals_per_km2": 0.0507
+      },
+      "normalized_scores": {
+        "per_capita_score": 8.14,
+        "signal_density_score": 1.56,
+        "composite_score": 4.85
+      },
+      "bands": {
+        "per_capita": "poor",
+        "signal_density": "poor",
+        "composite": "poor"
+      },
+      "safety_rank": 9
+    },
+    {
+      "city_id": "ahmedabad",
+      "city_name": "Ahmedabad",
+      "source_folder": "ahm",
+      "osm_nodes_in_india": 199,
+      "population_2011": 5570585,
+      "area_km2": 505.0,
+      "counts": {
+        "traffic_signals": 66,
+        "stop_signs": 0,
+        "crossings": 136,
+        "traffic_calming": 1,
+        "total_infrastructure": 198
+      },
+      "raw_metrics": {
+        "infrastructure_per_100k_population": 3.5544,
+        "traffic_signals_per_km2": 0.1307
+      },
+      "normalized_scores": {
+        "per_capita_score": 3.87,
+        "signal_density_score": 4.14,
+        "composite_score": 4.0
+      },
+      "bands": {
+        "per_capita": "poor",
+        "signal_density": "poor",
+        "composite": "poor"
+      },
+      "safety_rank": 10
+    },
+    {
+      "city_id": "surat",
+      "city_name": "Surat",
+      "source_folder": "surat",
+      "osm_nodes_in_india": 58,
+      "population_2011": 4467797,
+      "area_km2": 461.6,
+      "counts": {
+        "traffic_signals": 1,
+        "stop_signs": 0,
+        "crossings": 55,
+        "traffic_calming": 1,
+        "total_infrastructure": 57
+      },
+      "raw_metrics": {
+        "infrastructure_per_100k_population": 1.2758,
+        "traffic_signals_per_km2": 0.0022
+      },
+      "normalized_scores": {
+        "per_capita_score": 0.0,
+        "signal_density_score": 0.0,
+        "composite_score": 0.0
+      },
+      "bands": {
+        "per_capita": "poor",
+        "signal_density": "poor",
+        "composite": "poor"
+      },
+      "safety_rank": 11
+    }
+  ]
+}

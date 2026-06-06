@@ -1,0 +1,244 @@
+@id,@type,name,@lat,@lon,railway,station,highway,amenity,public_transport
+564713410,node,Lucknow Charbagh,26.8305073,80.9244154,stop,,,,stop_position
+564716972,node,Daliganj,26.8753418,80.9275723,station,,,,station
+564718427,node,Lucknow Charbagh,26.8311583,80.9243609,station,,,,station
+564718469,node,Lucknow City,26.8593065,80.9180893,station,,,,station
+602511667,node,Hazratganj Chauraha,26.8473816,80.9465827,,,,,stop_position
+602511669,node,Hazratganj Chauraha,26.8472227,80.9466409,,,,,stop_position
+1783319261,node,Lalbagh,26.7908341,80.8701804,,,bus_stop,,
+2194362044,node,Nigohan,26.5675416,81.0459214,station,,,,station
+2194710817,node,Lucknow Amausi Airport,26.7774158,80.9026554,station,,,,
+2196598017,node,Malhaur,26.8536826,81.0407980,station,,,,station
+2198300221,node,Nishatganj,26.8706570,80.9571923,,,,,stop_position
+2198300261,node,Gol Market Chauraha,26.8728374,80.9575272,,,,,stop_position
+2198309508,node,Chowk,26.8675005,80.9241066,,,,,stop_position
+2207518133,node,Lucknow Main Hotel ANR,26.8370396,80.9213257,,,bus_stop,,stop_position
+2213444018,node,,26.8532581,80.9164529,station,,,,
+2219662699,node,Mohibullapur,26.9096328,80.9395109,station,,,,station
+2231837068,node,Alamnagar,26.8414971,80.8682121,stop,,,,stop_position
+2240084472,node,Dilawarnagar,26.9596844,80.6678072,station,,,,station
+2240084487,node,Kakori,26.8839720,80.8001979,station,,,,station
+2240099004,node,Rahimabad,26.9977600,80.6040580,station,,,,station
+2240232329,node,Bakshi Ka Talab,26.9868010,80.9216781,station,,,,station
+2240232330,node,Itaunja,27.0777934,80.8929942,station,,,,
+2242712145,node,Jugaur,26.8815593,81.0888944,station,,,,station
+2271710740,node,Malihabad,26.9309149,80.7148515,station,,,,station
+3997322400,node,Alambagh Bus Station,26.8184732,80.9072927,station,subway,,,station
+3997322401,node,Alambagh,26.8140101,80.9025123,station,subway,,,station
+3997322402,node,Krishna Nagar,26.7943910,80.8917620,station,subway,,,station
+3997322403,node,Mawaiya,26.8253101,80.9098575,station,subway,,,station
+3997322776,node,Singar Nagar,26.8030998,80.8964272,station,subway,,,station
+3997322777,node,Transport Nagar,26.7781141,80.8828258,stop,,,,stop_position
+4170031601,node,Lucknow Junction,26.8315101,80.9222977,station,,,,station
+4244207702,node,Charbagh Railway Station,26.8324023,80.9231133,station,subway,,,station
+4244207703,node,Durgapuri,26.8320029,80.9154077,station,subway,,,station
+4244207745,node,Sachivalaya,26.8415965,80.9399056,station,subway,,,station
+4977531262,node,Amausi,26.7711411,80.8785885,stop,,,,stop_position
+4977535798,node,KD Singh Babu Stadium,26.8539423,80.9368471,,,,,stop_position
+4977535810,node,Vishwavidyalaya,26.8654923,80.9395636,,,,,stop_position
+4977535811,node,Lekhraj Market,26.8708981,80.9739102,stop,,,,stop_position
+4977535820,node,Badshah Nagar,26.8706788,80.9610675,,,,,stop_position
+4977536038,node,Indira Nagar,26.8726989,80.9908838,stop,,,,stop_position
+5777575720,node,Sachivalaya,26.8416132,80.9398970,,,,,stop_position
+5777576802,node,Charbagh Railway Station,26.8324200,80.9231122,stop,,,,stop_position
+5777576803,node,Amausi,26.7715478,80.8787836,stop,,,,stop_position
+5777576804,node,Transport Nagar,26.7776382,80.8824633,stop,,,,stop_position
+5777576805,node,Krishna Nagar,26.7944007,80.8917436,,,,,stop_position
+5777576806,node,Singar Nagar,26.8030987,80.8964109,stop,,,,stop_position
+5777576807,node,Alambagh,26.8140230,80.9024999,,,,,stop_position
+5777576808,node,Alambagh Bus Station,26.8184851,80.9072782,,,,,stop_position
+5777576809,node,Mawaiya,26.8253110,80.9098370,,,,,stop_position
+5777576810,node,Durgapuri,26.8320186,80.9154080,,,,,stop_position
+5790401034,node,Lucknow Main 221 KTM Bike,26.8394343,80.9334646,,,bus_stop,,platform
+5790401035,node,Hotel Nexus,26.8383138,80.9299112,,,bus_stop,,platform
+5790401036,node,Lucknow Main 221,26.8373486,80.9264760,,,bus_stop,,platform
+5790401037,node,Lucknow Hotel ANR,26.8371478,80.9213289,,,bus_stop,,platform
+5790401039,node,Lucknow Main 332,26.8369886,80.9232779,,,bus_stop,,platform
+5790401040,node,Lucknow Main,26.8374181,80.9242831,,,bus_stop,,platform
+5790401044,node,Lucknow Main 221 KTM Bike,26.8392677,80.9335726,,,bus_stop,,stop_position
+5790401045,node,Lucknow Main 221,26.8390031,80.9295848,,,bus_stop,,stop_position
+5790401046,node,Lucknow Main 221,26.8374784,80.9263134,,,bus_stop,,stop_position
+5790401047,node,Lucknow Main,26.8372860,80.9243269,,,bus_stop,,stop_position
+5790401048,node,Lucknow Main,26.8370973,80.9231744,,,bus_stop,,stop_position
+6444506071,node,Munshipulia,26.8878924,80.9959029,stop,,,,stop_position
+6444506695,node,IT College,26.8710043,80.9456080,,,,,stop_position
+6445132135,node,Bhootnath Market,26.8722077,80.9823048,stop,,,,stop_position
+6445132136,node,Hazratganj,26.8500472,80.9416143,,,,,stop_position
+6445132137,node,Hussainganj,26.8384284,80.9343300,station,subway,,,station
+6630617479,node,Lohia Park Chauraha,26.8583632,80.9842459,,,,,platform
+7597064035,node,Rahmatnagar,26.7441288,81.1552232,station,,,,
+7597064036,node,Anupganj,26.7615215,81.1032475,station,,,,
+7597064037,node,Bakkas,26.7711792,81.0245555,station,,,,
+7597064038,node,Utrahtia,26.7633752,80.9742674,station,,,,station
+7605542414,node,Kankaha,26.6191297,81.0080002,station,,,,
+7605542522,node,Mohanlalganj,26.6865989,80.9839231,stop,,,,stop_position
+7605542523,node,Mohanlalganj,26.6859542,80.9844783,stop,,,,stop_position
+7605542524,node,Mohanlalganj,26.6859433,80.9843190,stop,,,,stop_position
+7605542525,node,Mohanlalganj,26.6859327,80.9841606,stop,,,,stop_position
+7605542526,node,Mohanlalganj,26.6859435,80.9842399,station,,,,station
+7605969608,node,Aishbagh,26.8373590,80.9097954,station,,,,station
+7620685578,node,Lucknow Charbagh,26.8300322,80.9244101,stop,,,,stop_position
+7620685579,node,Lucknow Charbagh,26.8302051,80.9243900,stop,,,,stop_position
+7620685580,node,Lucknow Charbagh,26.8302437,80.9243891,stop,,,,stop_position
+7620685581,node,Lucknow Charbagh,26.8307654,80.9243676,stop,,,,stop_position
+7620685582,node,Lucknow Charbagh,26.8306811,80.9243746,stop,,,,stop_position
+7620685583,node,Lucknow Charbagh,26.8304265,80.9244120,stop,,,,stop_position
+7705617346,node,Alamnagar,26.8416254,80.8683309,stop,,,,stop_position
+7705617347,node,Alamnagar,26.8415940,80.8682984,stop,,,,stop_position
+7705617348,node,Alamnagar,26.8415195,80.8682662,station,,,,station
+7716638873,node,Piparsand,26.7419429,80.7967169,stop,,,,stop_position
+7716638874,node,Piparsand,26.7418755,80.7967737,stop,,,,stop_position
+7716640279,node,Harauni,26.7066081,80.7481362,stop,,,,stop_position
+7716640280,node,Harauni,26.7065452,80.7481923,stop,,,,stop_position
+7716640283,node,Harauni,26.7067310,80.7480265,stop,,,,stop_position
+7716640292,node,Harauni,26.7063431,80.7478850,station,,,,station
+7716640312,node,Piparsand,26.7418222,80.7968152,station,,,,station
+7716649884,node,Amausi,26.7742875,80.8414257,station,,,,station
+7716995066,node,Manak Nagar,26.8106778,80.8909379,station,,,,station
+8001538669,node,Chaudhary Charan Singh International Airport,26.7662824,80.8836391,station,subway,,,station
+8001987860,node,Chaudhary Charan Singh International Airport,26.7662799,80.8841756,stop,,,,stop_position
+8001987861,node,Chaudhary Charan Singh International Airport,26.7663145,80.8830062,stop,,,,stop_position
+8006089152,node,Sachivalaya,26.8415797,80.9399191,,,,,stop_position
+8006089153,node,Hussainganj,26.8384239,80.9343499,stop,,,,stop_position
+8006089154,node,Charbagh Railway Station,26.8323812,80.9231145,,,,,stop_position
+8006089155,node,Durgapuri,26.8319799,80.9154112,,,,,stop_position
+8006089156,node,Mawaiya,26.8253033,80.9098797,,,,,stop_position
+8006089157,node,Alambagh Bus Station,26.8184598,80.9073112,,,,,stop_position
+8006089158,node,Alambagh,26.8139957,80.9025308,,,,,stop_position
+8006089159,node,Singar Nagar,26.8030829,80.8964507,,,,,stop_position
+8006089160,node,Krishna Nagar,26.7943833,80.8917825,,,,,stop_position
+8006089161,node,Transport Nagar,26.7778770,80.8826512,station,subway,,,station
+8006089162,node,Amausi,26.7713636,80.8786976,station,subway,,,station
+8006089163,node,Hussainganj,26.8384335,80.9343110,stop,,,,stop_position
+8386242217,node,,26.8494510,80.9426039,,,,bus_station,
+8429904747,node,Lucknow Junction,26.8315435,80.9215211,stop,,,,stop_position
+8429904748,node,Lucknow Junction,26.8316258,80.9215193,stop,,,,stop_position
+8429904749,node,Lucknow Junction,26.8317473,80.9215122,stop,,,,stop_position
+8429904750,node,Lucknow Junction,26.8317840,80.9215138,stop,,,,stop_position
+8429904751,node,Lucknow Junction,26.8319396,80.9215177,stop,,,,stop_position
+8429904752,node,Lucknow Junction,26.8320053,80.9215123,stop,,,,stop_position
+8744180036,node,4612 Mitchell Hwy,-33.3473155,149.1634352,,,bus_stop,,platform
+9103917914,node,IT Crossing,26.8712923,80.9406694,,,bus_stop,,platform
+9655708793,node,Lekhraj Market,26.8709686,80.9738961,station,subway,,,station
+9655708794,node,Munshipulia,26.8879654,80.9959863,station,subway,,,station
+9655708795,node,Indira Nagar,26.8727659,80.9909732,station,subway,,,station
+9655708796,node,Bhootnath Market,26.8722368,80.9823474,station,subway,,,station
+9655708797,node,Badshah Nagar,26.8706977,80.9610133,station,subway,,,station
+9655708798,node,IT College,26.8710268,80.9456475,station,subway,,,station
+9655708799,node,Vishwavidyalaya,26.8655290,80.9395458,station,subway,,,station
+9655708800,node,KD Singh Babu Stadium,26.8539449,80.9368084,station,subway,,,station
+9655708801,node,Hazratganj,26.8500335,80.9415944,station,subway,,,station
+9655708803,node,Munshipulia,26.8878962,80.9958426,stop,,,,stop_position
+9655728217,node,Indira Nagar,26.8727682,80.9908727,stop,,,,stop_position
+9655728224,node,Bhootnath Market,26.8722671,80.9823039,stop,,,,stop_position
+9655728230,node,Lekhraj Market,26.8709474,80.9738950,stop,,,,stop_position
+9655728244,node,Badshah Nagar,26.8707280,80.9610619,,,,,stop_position
+9655728255,node,IT College,26.8710537,80.9456100,,,,,stop_position
+9655728269,node,Vishwavidyalaya,26.8655077,80.9395110,,,,,stop_position
+9655728294,node,KD Singh Babu Stadium,26.8539129,80.9368026,,,,,stop_position
+9655728299,node,Hazratganj,26.8500069,80.9415821,,,,,stop_position
+9776724720,node,,26.8478639,80.9353989,,,,bus_station,
+9776745317,node,,26.8498640,80.9314374,,,bus_stop,,
+10610257536,node,,26.8719852,80.9957971,,,bus_stop,,platform
+10610407745,node,Polytechnic Chauraha,26.8713839,80.9962507,,,bus_stop,,platform
+10617826026,node,,26.8803185,80.9867662,,,bus_stop,,platform
+10617826028,node,,26.8802839,80.9908161,,,bus_stop,,platform
+11943885464,node,Honeyman rode bus stop,26.8731425,81.0265410,,,bus_stop,,platform
+11960637343,node,Gol Market Chauraha,26.8729975,80.9576907,,,,,stop_position
+12749589593,node,Parivartan Chowk,26.8556576,80.9357681,,,,,platform
+12751882251,node,Bara Imambara Rumi Gate,26.8712219,80.9129773,,,,,platform
+13067951501,node,Medanta Bus Stop,26.7786816,80.9836193,,,bus_stop,,
+13168783932,node,,26.9981532,80.8680613,,,bus_stop,,platform
+13168783933,node,,26.9987447,80.8677194,,,bus_stop,,platform
+13168817614,node,,26.8526682,80.8034174,,,bus_stop,,platform
+13168817615,node,,26.8538288,80.8031881,,,bus_stop,,platform
+13362123032,node,Alambagh West Cabin,26.8286092,80.9072094,station,,,,station
+13388077706,node,Badshahnagar,26.8688372,80.9613678,stop,,,,stop_position
+13404122387,node,,26.8512320,80.9316990,,,bus_stop,,platform
+13429967645,node,IT Chauraha,26.8712431,80.9406754,,,,,stop_position
+13429967646,node,Chowk,26.8675406,80.9240872,,,,,platform
+13447389376,node,Gole Market,26.8730850,80.9575299,,,bus_stop,,platform
+13462249535,node,Nishat Ganj,26.8674065,80.9564558,,,bus_stop,,platform
+13592178134,node,Mitchell Hwy opp Wentworth Main Mine,-33.3481629,149.1641661,,,bus_stop,,platform
+13710632402,node,Hazratganj Chauraha,26.8472065,80.9466702,,,,,platform
+13710632406,node,Gol Market Chauraha,26.8729941,80.9577466,,,,,platform
+13710632411,node,Gol Market Chauraha,26.8728491,80.9574928,,,,,platform
+13710632415,node,Hazratganj Chauraha,26.8473927,80.9465598,,,,,platform
+13711998447,node,Ghantaghar,26.8725936,80.9091929,,,,,stop_position
+13711998454,node,Ghantaghar,26.8725431,80.9091641,,,,,platform
+13712007063,node,Medical College Chauraha,26.8648235,80.9143249,,,,,platform
+13712007086,node,IT Crossing,26.8710988,80.9405751,,,,,platform
+13712007103,node,Charak Chowk,26.8655546,80.9116648,,,,,platform
+13712007186,node,Ghantaghar,26.8727128,80.9092320,,,,,platform
+13716101853,node,Sitapur Road,26.8967851,80.9375687,,,,,platform
+13716101866,node,Purania Chauraha,26.8937286,80.9423857,,,,,platform
+13716101867,node,Kapoorthala Chauraha,26.8817969,80.9485425,,,,,platform
+13716101868,node,Gole Market,26.8730758,80.9575360,,,,,stop_position
+13716774299,node,Lekhraj Market,26.8710840,80.9737819,,,,,platform
+13716816906,node,Polytechnic,26.8724524,80.9963493,,,,,platform
+13716816957,node,,26.8722533,80.9805150,,,,,platform
+13716816995,node,Polytechnic,26.8734799,80.9957201,,,,,platform
+13717163863,node,Charbagh,26.8324518,80.9261975,,,,,platform
+13718890306,node,Daliganj Chauraha,26.8689729,80.9255793,,,,,platform
+13718890307,node,Nishatganj,26.8706367,80.9566064,,,,,platform
+13718890308,node,Nishatganj,26.8706585,80.9566095,,,,,stop_position
+13718890309,node,Polytechnic,26.8734423,80.9957525,,,,,stop_position
+13718890310,node,Indira Nagar,26.8729135,80.9908837,,,,,platform
+13718890311,node,Bhootnath Market,26.8723811,80.9823208,,,,,platform
+13718890312,node,Nishatganj,26.8706689,80.9571925,,,,,platform
+13718890315,node,Polytechnic,26.8724720,80.9963497,,,,,stop_position
+13718890316,node,Charbagh,26.8325034,80.9261932,,,,,stop_position
+13718890317,node,Nishatganj,26.8706139,80.9571036,,,,,platform
+13718890318,node,Nishatganj,26.8706143,80.9570916,,,,,stop_position
+13797914563,node,Charles St/Buchanan St,-37.8159872,147.6497698,,,bus_stop,,platform
+13797914564,node,Princes Hwy/Charles St,-37.8184590,147.6509014,,,bus_stop,,platform
+13806513068,node,Burlington Chauraha,26.8407473,80.9374178,,,bus_stop,,platform
+13813717272,node,opp 154 Princes Hwy,-37.8195058,147.6562730,,,bus_stop,,platform
+13813717298,node,150 Princes Hwy,-37.8196114,147.6561577,,,bus_stop,,platform
+209210965,way,Vridavan,26.7692369,80.9565229,,,,bus_station,
+209413201,way,,26.8106715,80.8908881,platform,,,,platform
+209413219,way,,26.8105648,80.8910226,platform,,,,platform
+210669885,way,Kaiserbagh Bus Station,26.8532527,80.9284464,,,,bus_station,
+213249437,way,Charbagh Bus Station,26.8326902,80.9202265,,,,bus_station,station
+213501578,way,,26.8417443,80.8679731,platform,,,,platform
+213501584,way,,26.8418740,80.8680668,platform,,,,platform
+214259725,way,,26.8600590,80.9181890,platform,,,,platform
+217760913,way,,26.6860310,80.9840866,platform,,,,platform
+487169836,way,,26.9978106,80.6041606,platform,,,,platform
+487169838,way,,26.9979390,80.6036027,platform,,,,platform
+487173802,way,,26.9594188,80.6680321,platform,,,,platform
+487173803,way,,26.9594912,80.6682510,platform,,,,platform
+487211058,way,,26.9310287,80.7148136,platform,,,,platform
+487211061,way,,26.9304027,80.7154916,platform,,,,platform
+487217519,way,,26.8840953,80.7997665,platform,,,,platform
+510835273,way,,26.8313733,80.9188668,platform,,,,platform
+510835274,way,,26.8315531,80.9183574,platform,,,,platform
+510835275,way,,26.8316965,80.9182510,platform,,,,platform
+510835276,way,,26.8318945,80.9181804,platform,,,,platform
+510835281,way,Platform  6-7,26.8301312,80.9244226,platform,,,,platform
+510835282,way,Platform 4-5,26.8303442,80.9242362,platform,,,,platform
+510835283,way,Platform 8-9,26.8308588,80.9277660,platform,,,,platform
+510835284,way,Platform 2-3,26.8305964,80.9242773,platform,,,,platform
+814161907,way,,26.6200352,81.0075003,platform,,,,platform
+814161922,way,,26.6192071,81.0081136,platform,,,,platform
+814161937,way,,26.6865168,80.9843378,platform,,,,platform
+814238458,way,,26.8372743,80.9096536,platform,,,,platform
+814290282,way,,26.8380769,80.9099685,platform,,,,platform
+826478178,way,,26.7065463,80.7479105,platform,,,,platform
+826478179,way,,26.7061384,80.7477623,platform,,,,platform
+826478180,way,,26.7420120,80.7967367,platform,,,,platform
+826478181,way,,26.7418698,80.7968273,platform,,,,platform
+927998046,way,Alambagh Bus Station,26.8193200,80.9068497,,,,bus_station,station
+1258332319,way,Avadh Bus Station,26.8730607,81.0158166,,,,bus_station,station
+1376771335,way,Platform 1,26.8307577,80.9231903,platform,,,,platform
+1420221466,way,,26.8686892,80.9618093,platform,,,,platform
+1420221467,way,Platform No 1,26.8690706,80.9616348,platform,,,,platform
+1420221469,way,Platform no 2-3,26.8687728,80.9619668,platform,,,,platform
+1455918546,way,Gomti Nagar,26.8611754,81.0039190,station,,,,station
+1455918549,way,,26.8605767,81.0027454,platform,,,,platform
+1455918550,way,,26.8607392,81.0032762,platform,,,,platform
+1455918551,way,,26.8609005,81.0033222,platform,,,,platform
+1455918552,way,,26.8610961,81.0035473,platform,,,,platform
+1455923413,way,Badshahnagar,26.8687698,80.9613514,station,,,,station
+1461493189,way,,26.8839893,80.8002858,platform,,,,platform
+1467868702,way,,26.8594145,80.9178342,platform,,,,platform

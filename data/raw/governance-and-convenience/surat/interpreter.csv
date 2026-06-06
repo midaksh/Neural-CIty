@@ -1,0 +1,216 @@
+@id,@type,name,@lat,@lon,railway,station,highway,amenity,public_transport
+391291052,node,Udhna Junction,21.1704484,72.8514242,stop,,,,stop_position
+391345820,node,Bardoli,21.1338291,73.1053896,station,,,,station
+414782961,node,Surat,21.2050293,72.8407427,station,,,,station
+414849419,node,Madhi,21.1457123,73.2424025,station,,,,station
+1065469730,node,Udhna Junction,21.1704282,72.8512486,stop,,,,stop_position
+1523485478,node,Kosad,21.2611962,72.8674830,station,,,,station
+1598977159,node,Vankal,21.4398176,73.2302637,station,,,,station
+1600192524,node,Mota Miya Mangrol,21.4615072,73.1537192,station,,,,station
+1600192526,node,Zankhvav,21.4514569,73.3167235,station,,,,station
+2360855198,node,Surat,21.2052000,72.8408402,stop,,,,stop_position
+4730516847,node,Udhna Junction,21.1704267,72.8509905,station,,,,station
+4734513821,node,Harikunj soc,21.2214510,72.8801994,,,bus_stop,,
+5333535305,node,Bus Stop,21.1479302,72.8133342,,,bus_stop,,
+5333535310,node,Bus Stop,21.1490194,72.8182597,,,bus_stop,,
+5333535315,node,Bus Stop,21.1495182,72.8231183,,,bus_stop,,
+5333535325,node,Bus Stop,21.1512156,72.8372486,,,bus_stop,,
+5333535406,node,Bus Stop,21.1501105,72.8280888,,,bus_stop,,
+5333535722,node,,21.1463403,72.8062797,,,bus_stop,,platform
+5341283853,node,Utran,21.2335705,72.8551871,station,,,,station
+5351369951,node,Bhestan,21.1225832,72.8630342,station,,,,station
+5568408848,node,Sachin,21.0778781,72.8744643,station,,,,station
+5571100123,node,Gothangam,21.2908388,72.8790724,station,,,,station
+5571100124,node,Sayan,21.3174619,72.8900005,station,,,,station
+5571414263,node,Kim,21.3996957,72.9265900,station,,,,station
+5571414299,node,Hathuran,21.5007279,72.9695268,station,,,,station
+5696119551,node,Surat - Monument aux morts,45.9380212,3.2510197,,,bus_stop,,platform
+5696119904,node,Surat - Monument aux morts,45.9378283,3.2512383,,,bus_stop,,platform
+5746301709,node,Surat,21.2053209,72.8412199,stop,,,,stop_position
+5746301821,node,Kosamba Junction,21.4647981,72.9549409,station,,,,station
+6177088576,node,Mangrolia,21.1542737,73.1971369,halt,,,,halt
+6177088577,node,Timbarva,21.1518908,73.1675720,station,,,,station
+6177088578,node,Gangadhara,21.1403084,73.0466366,station,,,,station
+6177088579,node,Bagumra,21.1488774,72.9976958,halt,,,,halt
+6177088580,node,Chalthan,21.1573690,72.9563212,station,,,,station
+6177088581,node,Niyol,21.1602786,72.9031608,station,,,,station
+6670834985,node,Surat,21.2052025,72.8408989,stop,,,,stop_position
+6670835165,node,Kudsad,21.3745059,72.9152571,halt,,,,halt
+6684999217,node,Anaval,20.8430733,73.2677930,halt,,,,halt
+6689898446,node,Limbara,21.4395307,73.0385749,station,,,,station
+6689911258,node,Kosadi,21.4621171,73.1010376,halt,,,,halt
+6689918574,node,Velachha,21.4331608,73.0123660,station,,,,station
+6689919741,node,Asarma,21.4589330,73.0643576,station,,,,station
+6689925613,node,Simodara,21.4596673,73.0912591,station,,,,station
+6689929511,node,Kevedi,21.4911577,73.4561587,station,,,,station
+6689940611,node,Chitalda,21.4740651,73.3979950,station,,,,station
+6689946193,node,Umarpada,21.4583979,73.4750771,station,,,,station
+7553741861,node,Surat,21.2052789,72.8410882,stop,,,,stop_position
+7944681327,node,Adajan Gam,21.1901059,72.7890318,station,subway,,,station
+7944685514,node,Ugat Vaarigruh,21.2185073,72.7811788,station,subway,,,station
+7944685542,node,Maskati Hospital,21.1980723,72.8334970,station,subway,,,station
+7944685634,node,Varaccha Chopati Garden,21.2234482,72.8867155,station,subway,,,station
+7944685690,node,Kadarsha Ni Nal,21.1870443,72.8193423,station,subway,,,station
+7944685781,node,Surat Railway Station,21.2038763,72.8416751,station,subway,,,station
+7944685803,node,Bharat Cancer Hospital,21.1897025,72.8796512,station,subway,,,station
+7944686032,node,Central Warehouse,21.2059681,72.8482250,station,subway,,,station
+7944686103,node,Performing Art Centre,21.1953202,72.7857985,station,subway,,,station
+7944686191,node,Palanpur Road,21.2087435,72.7825931,station,subway,,,station
+7944686216,node,Botanical Garden,21.2214427,72.7769411,station,subway,,,station
+7944686305,node,Kapodra,21.2164638,72.8675472,station,subway,,,station
+7944686322,node,Labheshwar Chowk,21.2094807,72.8549362,station,subway,,,station
+7944686379,node,Anjana Farm,21.1852262,72.8492992,station,subway,,,station
+7944686516,node,Majura Gate,21.1809637,72.8183933,station,subway,,,station
+7944686517,node,LP Savani School,21.1996868,72.7828411,station,subway,,,station
+7944686610,node,Badri Narayan Temple,21.1875752,72.8006090,station,subway,,,station
+7944686902,node,Rupali Canal,21.1708668,72.8158508,station,subway,,,station
+7944687002,node,Althan Tenament,21.1619549,72.8116873,station,subway,,,station
+7944687014,node,Shri Swaminarayan Mandir Kalakunj,21.2195656,72.8768759,station,subway,,,station
+7944687263,node,Nature Park,21.2268945,72.8942256,station,subway,,,station
+7944687288,node,Saroli,21.1890207,72.8929830,station,subway,,,station
+7944687322,node,Athwa Chopati,21.1846971,72.8079714,station,subway,,,station
+7944687381,node,Magob,21.1902027,72.8685756,station,subway,,,station
+8410042387,node,Udhna Junction,21.1704068,72.8511547,stop,,,,stop_position
+8468073428,node,Chowk Bazar,21.1957218,72.8191985,station,subway,,,station
+8468073675,node,Convention Center;કન્વેન્શન સેન્ટર,21.1220565,72.7993591,station,subway,,,station
+8468073676,node,Bhesan,21.2197174,72.7690064,station,subway,,,station
+8468073746,node,Althan Gam,21.1525979,72.8079385,station,subway,,,station
+8780546324,node,Bhimrad ભીમરાડ,21.1287356,72.7981777,station,subway,,,station
+8780546326,node,Surat Women ITI,21.1359796,72.8008788,station,subway,,,station
+8780546327,node,VIP Road,21.1452026,72.8050529,station,subway,,,station
+9121310815,node,Anaval,20.8431066,73.2676981,,,,,stop_position
+11627383202,node,Bardoli,21.1341394,73.1059018,stop,,,,stop_position
+11627383203,node,Bardoli,21.1345575,73.1062572,stop,,,,stop_position
+11627383204,node,Bardoli,21.1344670,73.1063020,stop,,,,stop_position
+11627383205,node,Gangadhara,21.1403756,73.0468747,stop,,,,stop_position
+11627383206,node,Gangadhara,21.1405522,73.0469162,stop,,,,stop_position
+12782633070,node,Surat,21.1787232,72.9321934,station,,,,station
+12784857292,node,Udhna Junction,21.1704435,72.8513841,stop,,,,stop_position
+13136830881,node,Dream City,21.1111703,72.7979275,station,subway,,,station
+13630108485,node,Sarthana,21.2315946,72.9031155,station,subway,,,station
+13630108499,node,Shyamdham Mandir BRTS,21.2370592,72.9097013,,,bus_stop,,platform
+13640908896,node,Utran R.O.B. Bridge,21.2331751,72.8632580,,,bus_stop,,platform
+13640955513,node,Shree Swami Dayanand Saraswati Bridge,21.2303986,72.8663088,,,bus_stop,,platform
+13658501829,node,Central Warehouse,21.2060108,72.8482135,,,,,stop_position
+13658501830,node,Central Warehouse,21.2059143,72.8482353,,,,,stop_position
+455148522,way,Surat,21.2056152,72.8411928,platform,,,,platform
+455148523,way,Surat,21.2063623,72.8408106,platform,,,,platform
+455148524,way,Surat,21.2058090,72.8407066,platform,,,,platform
+455148525,way,Bus Station,21.2038379,72.8396931,,,,bus_station,
+552417574,way,,21.1463357,72.8062405,,,,,platform
+553322823,way,,21.2338590,72.8555918,,,,,platform
+553322824,way,,21.2339514,72.8554744,,,,,platform
+554524925,way,,21.2611406,72.8675348,platform,,,,platform
+582160321,way,,21.0764429,72.8750354,platform,,,,platform
+582160322,way,,21.0778536,72.8745182,platform,,,,platform
+582160328,way,2,21.1233123,72.8632425,platform,,,,platform
+582160329,way,1,21.1236166,72.8629163,platform,,,,platform
+582160332,way,,21.1704488,72.8513161,platform,,,,platform
+582160333,way,,21.1720327,72.8506752,platform,,,,platform
+582543942,way,,21.3177294,72.8904635,platform,,,,platform
+582543943,way,,21.3177547,72.8903068,platform,,,,platform
+582590130,way,1,21.3981833,72.9257109,platform,,,,platform
+582590134,way,2,21.3974703,72.9256118,platform,,,,platform
+582590143,way,2,21.4639728,72.9548957,platform,,,,platform
+582590144,way,,21.4640388,72.9547233,platform,,,,platform
+986799918,way,,20.8430882,73.2680194,platform,,,,platform
+1227523072,way,,21.2564141,73.3012989,,,,bus_station,
+1232487998,way,,21.1709797,72.8397985,,,,,platform
+1250858622,way,,21.1342665,73.1063339,platform,,,,platform
+1250858623,way,,21.1351323,73.1077711,platform,,,,platform
+1250861392,way,,21.1405626,73.0471683,platform,,,,platform
+1250861393,way,,21.1402762,73.0471113,platform,,,,platform
+1323359386,way,,21.1673883,72.7840814,,,,,platform
+1323370258,way,,21.1662399,72.7822154,,,,,platform
+1380669545,way,,21.1788373,72.9322641,platform,,,,platform
+1380669546,way,,21.1788417,72.9321404,platform,,,,platform
+1486844815,way,,21.1875909,72.8005931,station,subway,,,station
+1486844821,way,,21.1876464,72.8005632,platform,,,,platform
+1486844822,way,,21.1875347,72.8006234,platform,,,,platform
+1486844823,way,,21.1862260,72.7923053,station,subway,,,station
+1486844828,way,,21.1862708,72.7923318,platform,,,,platform
+1486844829,way,,21.1861838,72.7922803,platform,,,,platform
+1486852405,way,,21.1901222,72.7890280,station,subway,,,station
+1486852410,way,,21.1900883,72.7889653,platform,,,,platform
+1486852411,way,,21.1901550,72.7890884,platform,,,,platform
+1486852416,way,,21.1953058,72.7857955,station,subway,,,station
+1486852417,way,,21.1952792,72.7857492,platform,,,,platform
+1486852418,way,,21.1953338,72.7858442,platform,,,,platform
+1486852419,way,,21.1997315,72.7828122,station,subway,,,station
+1486857560,way,,21.1996879,72.7827439,platform,,,,platform
+1486857561,way,,21.1997750,72.7828799,platform,,,,platform
+1486857566,way,,21.2087571,72.7825951,station,subway,,,station
+1486857567,way,,21.2087636,72.7826487,platform,,,,platform
+1486857568,way,,21.2087506,72.7825407,platform,,,,platform
+1486865534,way,,21.2195938,72.8769411,station,subway,,,station
+1486865539,way,,21.2196474,72.8769211,platform,,,,platform
+1486865540,way,,21.2195386,72.8769627,platform,,,,platform
+1486874244,way,,21.1111873,72.7979247,station,subway,,,station
+1486874245,way,,21.1111884,72.7979831,platform,,,,platform
+1486874246,way,,21.1111866,72.7978678,platform,,,,platform
+1486885702,way,,21.2268918,72.8942188,station,subway,,,station
+1486885703,way,,21.2268640,72.8942645,platform,,,,platform
+1486885704,way,,21.2269216,72.8941697,platform,,,,platform
+1486885709,way,,21.2315925,72.9031208,station,subway,,,station
+1486885710,way,,21.2315511,72.9031557,platform,,,,platform
+1486885711,way,,21.2316356,72.9030847,platform,,,,platform
+1486885712,way,,21.2370510,72.9096933,,,,,platform
+1486892579,way,,21.2185969,72.7811746,station,subway,,,station
+1486892580,way,,21.2185982,72.7812334,platform,,,,platform
+1486892581,way,,21.2185957,72.7811167,platform,,,,platform
+1486892586,way,,21.2214505,72.7769401,station,subway,,,station
+1486892587,way,,21.2215026,72.7769305,platform,,,,platform
+1486892588,way,,21.2213982,72.7769497,platform,,,,platform
+1486898524,way,,21.2197223,72.7690076,station,subway,,,station
+1486898525,way,,21.2196710,72.7690245,platform,,,,platform
+1486898526,way,,21.2197689,72.7689923,platform,,,,platform
+1487150729,way,,21.1574873,72.9556581,platform,,,,platform
+1487150730,way,,21.1577036,72.9557477,platform,,,,platform
+1487150731,way,,21.1572763,72.9563003,station,,,,station
+1487254693,way,,21.1852552,72.8492372,station,subway,,,station
+1487254694,way,,21.1852054,72.8492171,platform,,,,platform
+1487254695,way,,21.1853051,72.8492576,platform,,,,platform
+1487264814,way,,21.1902144,72.8685779,station,subway,,,station
+1487264815,way,,21.1901620,72.8685825,platform,,,,platform
+1487264816,way,,21.1902718,72.8685729,platform,,,,platform
+1487264821,way,,21.1897211,72.8796487,station,subway,,,station
+1487264822,way,,21.1896570,72.8796399,platform,,,,platform
+1487264823,way,,21.1897794,72.8796566,platform,,,,platform
+1487264832,way,,21.1890261,72.8929844,station,subway,,,station
+1487264833,way,,21.1890890,72.8930072,platform,,,,platform
+1487264834,way,,21.1889648,72.8929623,platform,,,,platform
+1487589148,way,,21.1221143,72.7993792,station,subway,,,station
+1487589149,way,,21.1220969,72.7994374,platform,,,,platform
+1487589150,way,,21.1221313,72.7993225,platform,,,,platform
+1487589154,way,,21.1287374,72.7981766,station,subway,,,station
+1487589155,way,,21.1287387,72.7982389,platform,,,,platform
+1487589156,way,,21.1287362,72.7981166,platform,,,,platform
+1487593937,way,,21.1359835,72.8008795,station,subway,,,station
+1487593941,way,,21.1359640,72.8009297,platform,,,,platform
+1487593942,way,,21.1360015,72.8008333,platform,,,,platform
+1487596774,way,,21.1452128,72.8050533,station,subway,,,station
+1487596775,way,,21.1451914,72.8051089,platform,,,,platform
+1487596776,way,,21.1452342,72.8049979,platform,,,,platform
+1487643144,way,,21.1526040,72.8079412,station,subway,,,station
+1487643145,way,,21.1525802,72.8079900,platform,,,,platform
+1487643146,way,,21.1526285,72.8078912,platform,,,,platform
+1487643151,way,,21.1619607,72.8116868,station,subway,,,station
+1487643152,way,,21.1619393,72.8117392,platform,,,,platform
+1487643153,way,,21.1619823,72.8116342,platform,,,,platform
+1487697844,way,,21.1708393,72.8158413,station,subway,,,station
+1487697845,way,,21.1708245,72.8158845,platform,,,,platform
+1487697846,way,,21.1708602,72.8157879,platform,,,,platform
+1487697847,way,,21.1709856,72.8163558,,,,,platform
+1487708298,way,,21.1819213,72.8186257,station,subway,,,station
+1487708299,way,,21.1819118,72.8186898,platform,,,,platform
+1487708300,way,,21.1819300,72.8185668,platform,,,,platform
+1487708305,way,,21.1870557,72.8193400,station,subway,,,station
+1487708306,way,,21.1870678,72.8193866,platform,,,,platform
+1487708307,way,,21.1870439,72.8192944,platform,,,,platform
+1487995446,way,,21.2331764,72.8632599,,,,,platform
+1487995454,way,,21.2303995,72.8663102,,,,,platform
+1488018133,way,,21.2610935,72.8677216,platform,,,,platform
+1509477325,way,,21.2910095,72.8794371,,,,,platform
+1509477326,way,,21.2908906,72.8792378,,,,,platform
+1509683000,way,,21.5014477,72.9698663,,,,,platform
+1509683001,way,,21.5015446,72.9697482,,,,,platform

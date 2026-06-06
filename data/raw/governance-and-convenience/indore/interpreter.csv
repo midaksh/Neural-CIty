@@ -1,0 +1,206 @@
+@id,@type,name,@lat,@lon,railway,station,highway,amenity,public_transport
+560706957,node,Indore Junction,22.7170064,75.8684722,station,,,,station
+919494613,node,Fatehabad Chandrawatiganj Junction,23.0110743,75.6735156,station,,,,station
+1065167152,node,Dr. Ambedkar Nagar,22.5555977,75.7709215,station,,,,station
+1065167160,node,Laxmibainagar (MG),22.7451884,75.8565460,,,,,stop_position
+1065167266,node,Laxmibainagar (BG),22.7447276,75.8566346,,,,,stop_position
+1583841162,node,Patal Pani,22.5139628,75.7969037,station,,,,station
+1802033826,node,Industry House iBus Stop,22.7289769,75.8886233,,,bus_stop,,platform
+2025365349,node,Rajendra Nagar,22.6700186,75.8292229,station,,,,station
+2026936915,node,Rau,22.6336511,75.8051046,station,,,,station
+2028576763,node,Press Complex iBus stop,22.7373981,75.8913006,,,bus_stop,,
+3688270179,node,,22.6920028,75.8668422,,,,,platform
+3688270213,node,,22.6951058,75.8721983,,,,,platform
+3688273791,node,,22.6980806,75.8775271,,,,,platform
+3688274744,node,,22.6838326,75.8581293,,,,,platform
+3688274765,node,,22.6865300,75.8612273,,,,,platform
+3688274784,node,,22.6892545,75.8639664,,,,,platform
+3688275048,node,,22.7034699,75.8764793,,,,,platform
+3738582805,node,,22.7210763,75.8451903,,,,bus_station,station
+3738699912,node,Lakshmibai Nagar,22.7466348,75.8556564,station,,,,station
+3769818959,node,Mata Gujri,22.6865320,75.8612221,,,bus_stop,,
+3769846154,node,Vishnupuri,22.6892050,75.8639958,,,bus_stop,,
+3769849902,node,Bhanwar Kuan,22.6919679,75.8669011,,,bus_stop,,
+3902805922,node,Satya Sai Bus stop,22.7546172,75.8965754,,,bus_stop,,
+3902805923,node,Shalimar Township iBus Stop,22.7623008,75.8989549,,,bus_stop,,
+4133879808,node,Palasia,22.7247478,75.8872048,,,bus_stop,,
+5458547246,node,Zam Zam Square,22.7318875,75.9132552,,,bus_stop,,
+5467544623,node,Khizrabad Square (Chouraha),22.7332824,75.9140534,,,bus_stop,,
+6113901551,node,Tihi,22.6189995,75.7339334,station,,,,station
+6155544116,node,Gautampura Road,23.0267776,75.5287674,station,,,,station
+6155544117,node,Ajnod,22.9314205,75.7383947,station,,,,station
+6175491932,node,Choral,22.4496338,75.9456731,station,,,,station
+6175499311,node,Kalakund,22.4776771,75.8598337,station,,,,station
+6179509942,node,Balauda Takun,22.8737579,75.7564381,halt,,,,halt
+6179509943,node,Palia,22.8303630,75.7994854,station,,,,station
+6183215254,node,acropolis bus stop,22.8189897,75.9428698,,,bus_stop,,platform
+6201584695,node,Khajrana Square,22.7319962,75.9023972,,,bus_stop,,
+6201743115,node,Anand Bazar Road,22.7280657,75.8944089,,,bus_stop,,
+6202033680,node,Near Malwa Mill Bridge,22.7308477,75.8714211,,,bus_stop,,
+6202815857,node,City Bus Stop- Rajkumar Mill Over Bridge,22.7325200,75.8749294,,,bus_stop,,
+6207061972,node,AICTSL,22.7145191,75.8843493,,,bus_stop,,
+6207129382,node,City Bus Stop Zanjeerwala Square,22.7260090,75.8794664,,,bus_stop,,
+6207167689,node,City bus stop near Dawa Bazar,22.7133748,75.8772367,,,bus_stop,,
+6207167690,node,Sarvate Bus Stand,22.7144564,75.8684785,,,bus_stop,,platform
+6207573926,node,Outside m y main gate,22.7130216,75.8786221,,,bus_stop,,
+6207573927,node,Bus stop near madhumilan Mandir,22.7139552,75.8741669,,,bus_stop,,
+6207573928,node,Near Railway Reservation Office,22.7159509,75.8708258,,,bus_stop,,
+6207573939,node,Near Yeshwant club,22.7248411,75.8753420,,,bus_stop,,
+6207763629,node,Gayatri Mandir,22.7231414,75.8926166,,,bus_stop,,
+6207763630,node,Patrakar Square,22.7231513,75.8934320,,,bus_stop,,
+6213650895,node,Gangwal Bus Stand,22.7128849,75.8409753,,,bus_stop,,platform
+6216255216,node,Badwali Chowki,22.7224511,75.8494316,,,bus_stop,,platform
+6216509199,node,Annapurna Mandir,22.6903010,75.8374925,,,bus_stop,,
+6224334190,node,Rajendra Nagar Bus Stop,22.6703727,75.8321750,,,bus_stop,,
+6234108921,node,City Bus Stop Near Bhanwarkua Square,22.6919279,75.8679103,,,bus_stop,,platform
+6308432129,node,City Bus Stop-Patrakar Choraha,22.7230452,75.8933338,,,bus_stop,,
+6308497731,node,Bapat Square Bus Stop,22.7553716,75.8781749,,,bus_stop,,
+6308500490,node,Niranjanpur Square - iBus Stop,22.7713004,75.9016826,,,bus_stop,,platform
+6308536023,node,City Bus Stop-Opposite Dhakkan Wala Kua School,22.7178092,75.8796413,,,bus_stop,,
+6308541912,node,City Bus Stop-Near DhakkanWala Kua School,22.7177284,75.8796706,,,bus_stop,,
+6308554057,node,City Bus Stop-Near Samrat Hotel,22.7209846,75.8761836,,,bus_stop,,
+6308558174,node,Sayaji VijayNagar Bus Stop,22.7521786,75.8910442,,,bus_stop,,
+6308558476,node,City Bus Stop-Opposite Pakiza,22.7202622,75.8721756,,,bus_stop,,
+6308558956,node,Sayaji Petrol Pump Bus Stop,22.7518593,75.8912823,,,bus_stop,,
+6308569030,node,City Bus Stop-Near University(R.N.T),22.7174660,75.8725980,,,bus_stop,,
+6308577004,node,VijayNagar Square Ibus Stop,22.7492335,75.8949220,,,bus_stop,,
+6308596059,node,IT Park Bus Stop,22.6857945,75.8728253,,,bus_stop,,platform
+6308596060,node,IT Park Bus Stop,22.6860169,75.8730741,,,bus_stop,,platform
+6308596062,node,Bhanwarkua Bus Stop,22.6918785,75.8683607,,,bus_stop,,platform
+6308596063,node,Musakhedi Square,22.6925846,75.8997465,,,bus_stop,,
+6308596065,node,Imli Bus Stop-3,22.6892024,75.8843094,,,bus_stop,,
+6308599924,node,Bombay Hospital Bus Stop,22.7532224,75.9042369,,,bus_stop,,
+6308601391,node,Malviya Petrol Pump Bus Stop,22.7485719,75.9035395,,,bus_stop,,
+6308603776,node,Near Velocity Bus Stop,22.7453974,75.9030757,,,bus_stop,,
+6308608510,node,Robot Square Bus Stop,22.7398034,75.9024188,,,bus_stop,,
+6308611680,node,Khajrana Square Bus Stop,22.7321927,75.9019702,,,bus_stop,,
+6308627576,node,MR 9 Ibus Stop,22.7432391,75.8930692,,,bus_stop,,platform
+6308636523,node,Janjeervala Square Bus Stop,22.7267287,75.8805776,,,bus_stop,,
+6310883189,node,Scheme No. 78 i-Bus stop,22.7661652,75.9001073,,,bus_stop,,platform
+6310883193,node,Bharat Mata Stop,22.7545801,75.8808464,,,bus_stop,,
+6310883194,node,Fortune Landmark,22.7530267,75.8848375,,,bus_stop,,
+6310883195,node,Meghdoot Garden,22.7521536,75.8883217,,,bus_stop,,
+6310883196,node,Meghdoot Garden,22.7530097,75.8880722,,,bus_stop,,
+6310883198,node,Vijyanagar Bus Stop,22.7507907,75.8946195,,,bus_stop,,
+6310883199,node,Vijyanagar Police Station,22.7515328,75.8946866,,,bus_stop,,
+6310883200,node,Satya Sai Square,22.7551485,75.8975914,,,bus_stop,,
+6310940779,node,SGSITS Bus Stop,22.7251292,75.8740121,,,bus_stop,,
+6310940780,node,SGSITS Square Bus Stop,22.7251095,75.8745164,,,bus_stop,,
+6310953366,node,Janjeerwala Square Bus Stop,22.7259197,75.8794892,,,bus_stop,,
+6310953367,node,Latern Square Bus Stop,22.7246048,75.8752352,,,bus_stop,,
+6310953368,node,Lantern Square Bus Stop,22.7249511,75.8751279,,,bus_stop,,
+6310970080,node,Y N Road Bus Stop,22.7226701,75.8738512,,,bus_stop,,
+6311041504,node,AICTSL Geeta Bhawan,22.7190245,75.8844700,,,bus_stop,,
+6311041505,node,AICTSL Stop Palasia,22.7249167,75.8869753,,,bus_stop,,
+6311041506,node,Palasia City Bus Stop,22.7253054,75.8881963,,,bus_stop,,
+6311041507,node,Palasia City Bus Stop,22.7255615,75.8881843,,,bus_stop,,
+6311073332,node,Atal Indore City Transport,22.7144251,75.8843869,,,bus_stop,,
+6311073333,node,AICTSL Navratan Bagh,22.7145587,75.8836761,,,bus_stop,,
+6311075123,node,Gram Piplyahana Bus Stop,22.7075640,75.9004158,,,bus_stop,,
+6313673734,node,Bus Stop - Limbodi Square,22.6683778,75.8821070,,,bus_stop,,platform
+6532034249,node,Osra,23.0303696,75.6112976,halt,,,,halt
+6532380331,node,Lokmanya Nagar,22.6913514,75.8470973,halt,,,,halt
+6532380332,node,Saifee Nagar,22.6995977,75.8542953,halt,,,,halt
+6532428768,node,Haranyakheri,22.5850299,75.7775218,halt,,,,halt
+6546890491,node,Platform 5&6,22.7248791,75.8687429,,,,bus_station,
+6699123335,node,Dakchya,22.8568688,75.9502022,station,,,,station
+6699126850,node,Barlai,22.8940168,75.9621005,station,,,,station
+6699153808,node,Mangliyagaon,22.8105511,75.9149289,station,,,,station
+6847161823,node,DAVV Takshashila Bus Stop,22.6888986,75.8706383,,,bus_stop,,platform
+7191300868,node,Dr. Ambedkar Nagar,22.5557212,75.7708490,stop,,,,stop_position
+8489237317,node,Mhow Bus Stand,22.5565181,75.7699825,,,,bus_station,
+9044408364,node,Dr. Ambedkar Nagar,22.5551180,75.7707940,,,,,stop_position
+9044408373,node,Dr. Ambedkar Nagar,22.5558778,75.7710146,,,,,stop_position
+9047771669,node,Tihi,22.6189578,75.7341282,,,,,stop_position
+9504378456,node,,22.6930222,75.8679895,,,bus_stop,,platform
+9504378471,node,,22.6930156,75.8673196,,,bus_stop,,platform
+9504416158,node,,22.6850359,75.8737207,,,,bus_station,station
+9504416159,node,,22.6849608,75.8729982,,,,bus_station,station
+9515553161,node,,22.6686448,75.8818456,,,bus_stop,,platform
+10032755372,node,Patalpani Waterfall,22.5052358,75.7995547,station,,,,station
+11097502005,node,Maheshwar bus stop here,22.6887292,75.8847122,,,bus_stop,,
+11097504205,node,Maheshwar bus stops here,22.7059165,75.9061342,,,bus_stop,,
+12368938240,node,Prerana Sadan Bus Stop,22.6822196,75.7568553,,,bus_stop,,platform
+12886603681,node,Super Corridor 6,22.7453255,75.8009361,stop,,,,stop_position
+12886603682,node,Super Corridor 6,22.7453396,75.8008986,stop,,,,stop_position
+12886603697,node,Super Corridor 4,22.7630932,75.8111650,stop,,,,stop_position
+12886613804,node,Super Corridor 4,22.7631142,75.8111308,stop,,,,stop_position
+12886613805,node,Super Corridor 5,22.7540671,75.8042634,stop,,,,stop_position
+12886613806,node,Super Corridor 5,22.7540868,75.8042299,stop,,,,stop_position
+12886613820,node,Super Corridor 3,22.7717884,75.8189545,stop,,,,stop_position
+12886613835,node,Super Corridor 3,22.7718249,75.8189156,stop,,,,stop_position
+12886613836,node,Gandhi Nagar,22.7389932,75.7974581,stop,,,,stop_position
+12886613837,node,Gandhi Nagar,22.7389773,75.7975077,stop,,,,stop_position
+12886613838,node,Gandhi Nagar,22.7390316,75.7973523,stop,,,,stop_position
+12886613839,node,Gandhi Nagar,22.7390002,75.7974981,station,subway,,,station
+12886613840,node,Super Corridor 6,22.7453322,75.8009181,station,subway,,,station
+12886613841,node,Super Corridor 5,22.7540767,75.8042463,station,subway,,,station
+12886613842,node,Super Corridor 4,22.7631039,75.8111477,station,subway,,,station
+12886613843,node,Veerangana Jhalkari Bai,22.7718010,75.8189403,station,subway,,,station
+13018369001,node,Bus Stop Collectorate,22.7085084,75.8548684,,,,bus_station,
+13912310461,node,56 Market,22.7235065,75.8845387,,,,,platform
+13913872389,node,,22.7211533,75.8421073,,,,,platform
+13913872391,node,Airport,22.7291476,75.8075949,,,,,platform
+13914261229,node,,22.7058770,75.8423690,,,,,platform
+191817178,way,Navlakha Bus stand,22.7007311,75.8766696,,,,bus_station,
+191817528,way,Sarvate Bus Station,22.7138164,75.8686762,,,,bus_station,station
+370144493,way,Gangawal Bus Stand,22.7125225,75.8410107,,,,bus_station,station
+630450724,way,,22.8185651,75.9438713,,,,bus_station,station
+643077048,way,Bus Stand,22.6873724,75.8841345,,,,bus_station,station
+665802070,way,,22.7066485,75.8788092,,,,,platform
+665802072,way,,22.7110348,75.8820950,,,,,platform
+701853932,way,,22.7249306,75.8869826,,,,,platform
+770241634,way,,22.7170622,75.8678537,platform,,,,platform
+770241635,way,,22.7173334,75.8681676,platform,,,,platform
+770241638,way,,22.7174052,75.8683915,platform,,,,platform
+770383543,way,,22.7464142,75.8556846,platform,,,,platform
+770383544,way,,22.7455902,75.8561076,platform,,,,platform
+770389769,way,,22.5565051,75.7709291,platform,,,,platform
+780163797,way,,22.6328960,75.8046561,platform,,,,platform
+780163798,way,,22.6328122,75.8048922,platform,,,,platform
+977820068,way,,22.6192506,75.7357228,platform,,,,platform
+1098181063,way,,23.0109677,75.6733111,platform,,,,platform
+1098181064,way,,23.0102931,75.6734322,platform,,,,platform
+1218177797,way,,22.5146882,75.7967657,platform,,,,platform
+1218177798,way,Patalpani,22.5138943,75.7968846,station,,,,station
+1218177804,way,,22.5049866,75.7998526,station,,,,station
+1218178321,way,,22.4778581,75.8599878,platform,,,,platform
+1218178322,way,,22.4779453,75.8600432,platform,,,,platform
+1414390129,way,,22.7247482,75.8872146,,,,,platform
+1464563335,way,Devi Ahilya Bai Holkar Terminal,22.7389565,75.7974300,station,subway,,,station
+1464573897,way,Super Corridor 1,22.7866249,75.8370927,station,subway,,,station
+1464573900,way,,22.7865722,75.8371294,platform,,,,platform
+1464573901,way,,22.7866822,75.8370526,platform,,,,platform
+1464573905,way,Bhawarsala Square,22.7899040,75.8461201,station,subway,,,station
+1464573906,way,,22.7898439,75.8461169,platform,,,,platform
+1464573907,way,,22.7899635,75.8461234,platform,,,,platform
+1464573913,way,ISBT / MR 10 Flyover,22.7695469,75.8641565,station,subway,,,station
+1464573914,way,,22.7695160,75.8640998,platform,,,,platform
+1464573915,way,,22.7695793,75.8642160,platform,,,,platform
+1464573917,way,MR 10 Road,22.7828258,75.8543593,station,subway,,,station
+1464573918,way,,22.7827921,75.8543089,platform,,,,platform
+1464573919,way,,22.7828614,75.8544122,platform,,,,platform
+1464584814,way,Super Corridor 2,22.7781718,75.8257613,station,subway,,,station
+1464584819,way,,22.7782165,75.8257186,platform,,,,platform
+1464584820,way,,22.7781338,75.8258087,platform,,,,platform
+1464584827,way,Veerangana Jhalkari Bai,22.7717659,75.8188895,station,subway,,,station
+1464584828,way,,22.7718086,75.8188433,platform,,,,platform
+1464584829,way,,22.7717227,75.8189352,platform,,,,platform
+1465075349,way,Chandragupta Square,22.7647921,75.8698325,station,subway,,,station
+1465075350,way,,22.7647435,75.8697894,platform,,,,platform
+1465075351,way,,22.7648319,75.8698672,platform,,,,platform
+1465078486,way,Hira Nagar,22.7596374,75.8756957,station,subway,,,station
+1465078487,way,,22.7596184,75.8756345,platform,,,,platform
+1465078488,way,,22.7596533,75.8757475,platform,,,,platform
+1465081225,way,Bapat Square,22.7544861,75.8801907,station,subway,,,station
+1465081226,way,,22.7544272,75.8801754,platform,,,,platform
+1465081227,way,,22.7545372,75.8802039,platform,,,,platform
+1465115692,way,Meghdoot Garden,22.7526384,75.8884820,station,subway,,,station
+1465115693,way,,22.7525849,75.8884681,platform,,,,platform
+1465115694,way,,22.7526886,75.8884952,platform,,,,platform
+1465119006,way,Vijay Nagar Square,22.7513425,75.8942717,station,subway,,,station
+1465119007,way,,22.7514030,75.8942875,platform,,,,platform
+1465119008,way,,22.7512838,75.8942564,platform,,,,platform
+1465125360,way,Radisson Square,22.7473765,75.9032208,station,subway,,,station
+1465125361,way,,22.7473704,75.9032719,platform,,,,platform
+1465125362,way,,22.7473823,75.9031726,platform,,,,platform

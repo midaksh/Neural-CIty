@@ -1,35 +1,30 @@
-export type ScoreCategory =
+export type Sector =
   | "overall_score"
-  | "cleanliness"
-  | "walkability"
-  | "road_quality"
-  | "dust_control"
-  | "encroachment_control"
-  | "aesthetics";
-
-export interface CityScores {
-  overall: number;
-  cleanliness: number;
-  walkability: number;
-  roadQuality: number;
-  dustControl: number;
-  encroachmentControl: number;
-  aesthetics: number;
-}
+  | "safety"
+  | "convenience"
+  | "governance";
 
 export interface City {
   id: string;
-  rank: number;
   name: string;
-  scores: CityScores;
-  coverage: {
-    points: number;
-    kilometers: number;
-    wards: number;
-  };
 }
 
-export interface SortOption {
-  value: ScoreCategory;
+export interface SectorOption {
+  value: Sector;
   label: string;
+  description: string;
+}
+
+export interface CitySectorScore {
+  score: number;
+  band: "poor" | "manageable" | "good";
+}
+
+export interface SafetyIndicators {
+  infrastructure: CitySectorScore | null;
+  accidents: CitySectorScore | null;
+}
+
+export interface CityCoverage {
+  dataPoints: number | null;
 }

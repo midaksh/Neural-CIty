@@ -1,26 +1,68 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { cities } from "@/data/cities";
-import type { City, ScoreCategory } from "@/types/city";
-import { RankingRow, getSortScore } from "@/components/rankings/RankingRow";
+import {
+  safetyCoverageByCityId,
+  safetyIndicatorsByCityId,
+  safetyScoresByCityId,
+} from "@/data/safety-scores";
+import type {
+  City,
+  CityCoverage,
+  CitySectorScore,
+  SafetyIndicators,
+  Sector,
+} from "@/types/city";
+import { RankingRow } from "@/components/rankings/RankingRow";
 import { SortPills } from "@/components/rankings/SortPills";
 import { ScoreLegend } from "@/components/rankings/ScoreLegend";
 
-function sortCities(list: City[], sortBy: ScoreCategory): City[] {
-  return [...list].sort(
-    (a, b) => getSortScore(b, sortBy) - getSortScore(a, sortBy),
-  );
+function getSectorScore(cityId: string, sector: Sector): CitySectorScore | null {
+  if (sector === "safety") {
+    return safetyScoresByCityId[cityId] ?? null;
+  }
+  return null;
+}
+
+function getSafetyIndicators(cityId: string): SafetyIndicators | null {
+  return safetyIndicatorsByCityId[cityId] ?? null;
+}
+
+function getCoverage(cityId: string, sector: Sector): CityCoverage | null {
+  if (sector === "safety") {
+    return safetyCoverageByCityId[cityId] ?? null;
+  }
+  return null;
+}
+
+function orderCities(list: City[], sector: Sector): City[] {
+  if (sector !== "safety") {
+    return [...list].sort((a, b) => a.name.localeCompare(b.name));
+  }
+
+  return [...list].sort((a, b) => {
+    const scoreA = getSectorScore(a.id, sector)?.score ?? -1;
+    const scoreB = getSectorScore(b.id, sector)?.score ?? -1;
+    return scoreB - scoreA;
+  });
 }
 
 export function RankingsTable() {
-  const [sortBy, setSortBy] = useState<ScoreCategory>("overall_score");
+  const [sector, setSector] = useState<Sector>("overall_score");
 
-  const sortedCities = useMemo(
-    () => sortCities(cities, sortBy),
-    [sortBy],
+  const orderedCities = useMemo(
+    () => orderCities(cities, sector),
+    [sector],
   );
+
+  const scoredCount = useMemo(() => {
+    if (sector !== "safety") return 0;
+    return orderedCities.filter((city) => getSectorScore(city.id, sector)).length;
+  }, [orderedCities, sector]);
+
+  const hasRankings = sector === "safety" && scoredCount > 0;
 
   return (
     <section className="mx-auto max-w-7xl px-4 pb-16 md:px-8">
@@ -34,11 +76,11 @@ export function RankingsTable() {
           City Rankings
         </h2>
         <p className="mt-1.5 text-xs text-muted">
-          {sortedCities.length} cities compared by street-level outcomes
+          {cities.length} cities compared by street-level outcomes
         </p>
       </motion.div>
 
-      <SortPills value={sortBy} onChange={setSortBy} />
+      <SortPills value={sector} onChange={setSector} />
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -53,33 +95,57 @@ export function RankingsTable() {
                 <th className="p-2.5 md:p-3">Rank</th>
                 <th className="p-2.5 md:p-3">City</th>
                 <th className="p-2.5 md:p-3 text-center">Score</th>
+                <th className="p-2.5 md:p-3">Coverage</th>
                 <th className="p-2.5 md:p-3 text-right">Performance</th>
               </tr>
             </thead>
             <tbody>
-              <AnimatePresence mode="popLayout">
-                {sortedCities.map((city, index) => (
-                  <RankingRow
-                    key={city.id}
-                    city={city}
-                    displayRank={index + 1}
-                    sortBy={sortBy}
-                    index={index}
-                  />
-                ))}
-              </AnimatePresence>
+              {orderedCities.map((city, index) => (
+                <RankingRow
+                  key={city.id}
+                  city={city}
+                  displayRank={hasRankings ? index + 1 : null}
+                  sector={sector}
+                  sectorScore={getSectorScore(city.id, sector)}
+                  safetyIndicators={getSafetyIndicators(city.id)}
+                  coverage={getCoverage(city.id, sector)}
+                  index={index}
+                />
+              ))}
             </tbody>
           </table>
         </div>
+
+        {sector === "safety" && scoredCount > 0 && (
+          <div className="border-t border-border bg-surface/40 px-4 py-3">
+            <p className="text-[11px] text-muted">
+              Infrastructure scores from OSM signals &amp; signs. Data pts = mapped
+              OSM nodes. Accidents indicator pending NCRB processing across{" "}
+              {scoredCount} cities.
+            </p>
+          </div>
+        )}
+
+        {sector !== "safety" && (
+          <div className="border-t border-border bg-surface/40 px-4 py-3">
+            <p className="text-[11px] text-muted">
+              No scores for this sector yet. Select{" "}
+              <span className="font-medium text-foreground">Safety</span> to view
+              processed OpenStreetMap infrastructure data.
+            </p>
+          </div>
+        )}
       </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5, duration: 0.45 }}
-      >
-        <ScoreLegend />
-      </motion.div>
+      {sector === "safety" && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.45 }}
+        >
+          <ScoreLegend />
+        </motion.div>
+      )}
     </section>
   );
 }

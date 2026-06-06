@@ -25,7 +25,7 @@ export function HeroSection() {
         </h1>
 
         <p className="mt-2 max-w-lg text-xs leading-relaxed text-muted md:text-sm">
-          Outcome based automated street assessment.
+          Layering public secondary data onto street outcomes
         </p>
       </motion.div>
     </section>

@@ -1,0 +1,1429 @@
+@id,@type,name,@lat,@lon,railway,station,highway,amenity,public_transport
+186741980,node,Nungambakkam Police Station,13.0578356,80.2427521,,,,,stop_position
+243041570,node,Chennai Park Town,13.0794798,80.2760155,stop,,,,stop_position
+243041584,node,Chintadaripet,13.0730718,80.2739910,stop,,,,stop_position
+243041609,node,Chepauk,13.0620417,80.2806464,stop,,,,stop_position
+243041613,node,Thiruvallikeni,13.0543596,80.2806267,stop,,,,stop_position
+243041642,node,Mundakakanni Amman Koil,13.0401367,80.2697176,stop,,,,stop_position
+243041679,node,Greenways Road,13.0198754,80.2515301,stop,,,,stop_position
+243041698,node,Indira Nagar,12.9958128,80.2498100,stop,,,,stop_position
+243041721,node,Taramani,12.9786135,80.2410567,stop,,,,stop_position
+243041731,node,Perungudi,12.9758476,80.2320097,stop,,,,stop_position
+243041746,node,Velachery,12.9672994,80.2195714,stop,,,,stop_position
+243049436,node,Sterling Road,13.0633711,80.2434520,,,,,stop_position
+243060332,node,மைலாப்பூர்,13.0334336,80.2679457,,,,bus_station,station
+243064594,node,Express avenue,13.0608709,80.2652174,,,,,stop_position
+246866326,node,Thiruvanmiyur Moffusil bus stop,12.9873013,80.2594187,,,bus_stop,,stop_position
+247675520,node,T.Nagar,13.0349762,80.2307357,,,,,stop_position
+247677936,node,Foreshore Estate Bus Terminus,13.0224016,80.2763268,,,,bus_station,
+247678427,node,Thirumayilai,13.0347683,80.2669792,stop,,,,stop_position
+247691544,node,V House Bus Terminus,13.0512112,80.2778386,,,,bus_station,station
+248467412,node,Chennai Chetpet,13.0743424,80.2424210,station,,,,station
+248467432,node,,13.0513061,80.2305555,,,,,stop_position
+248545141,node,,13.1076189,80.2440927,,,,,stop_position
+249110189,node,Tiruvanmiyur,12.9888263,80.2515797,stop,,,,stop_position
+249497682,node,Banyan Tree,13.0109976,80.2591938,,,,,stop_position
+249497696,node,Malar Hospital,13.0070054,80.2583614,,,,,stop_position
+249497892,node,Sathya Studio,13.0148091,80.2593497,,,bus_stop,,platform
+250319253,node,Hindi Prachar Sabha,13.0363377,80.2394517,,,,,stop_position
+250327570,node,,13.0379784,80.2276266,,,,,stop_position
+252171269,node,Saint Thomas Mount,12.9949254,80.1993669,,,,,stop_position
+252171381,node,Pallavaram,12.9679000,80.1524000,stop,,,,stop_position
+254142204,node,,13.1041595,80.2931903,,,,,stop_position
+254142280,node,,13.1023579,80.2715583,,,,,stop_position
+254143113,node,,13.1089336,80.2820595,stop,,,,stop_position
+256039818,node,Guindy,13.0080754,80.2093905,,,bus_stop,,stop_position
+257932256,node,Saravana Theatre,13.0936754,80.2508682,,,,,stop_position
+259662367,node,Royapettah Police Station,13.0524541,80.2638200,,,,,stop_position
+262666364,node,,13.0505637,80.2796983,,,bus_stop,,stop_position
+273459875,node,,12.9075580,80.2283136,,,,,stop_position
+277912055,node,Ram Nagar,12.9652732,80.2071039,,,,,stop_position
+278744710,node,Velachery Vijayanagar Bus Terminus,12.9759510,80.2210664,,,bus_stop,,platform
+278745849,node,மூவரசம்பட்டு கூட்ரோடு,12.9682899,80.1894800,,,bus_stop,,platform
+278746364,node,Hindu Colony,12.9754924,80.1832630,,,bus_stop,,platform
+278746634,node,Nanganallur Bus Terminus,12.9778068,80.1812484,,,,bus_station,station
+278747097,node,Chidambaram Stores,12.9830658,80.1888463,,,bus_stop,,platform
+279150540,node,பரங்கிமலை ரயில் நிலையம்,12.9946395,80.2001930,,,bus_stop,,platform
+290656624,node,Villivakkam MTC Bus Terminus,13.1054562,80.2079273,,,,,stop_position
+293396820,node,Mehtha Nagar,13.0678104,80.2269115,,,,,stop_position
+299808136,node,Besant Nagar Depot,13.0002825,80.2653435,,,,,stop_position
+299882966,node,Andal Nagar,12.9810098,80.2066688,,,,,stop_position
+300134382,node,,12.9885010,80.1978190,,,,,stop_position
+300316947,node,Guindy Station,13.0081325,80.2133106,,,bus_stop,,platform
+300370338,node,Vanuvampet,12.9816619,80.1957195,,,,,stop_position
+301736148,node,Eldams Road,13.0389089,80.2500396,,,bus_stop,,platform
+301736149,node,Alwarpet,13.0380814,80.2559271,,,bus_stop,,platform
+301736152,node,ஆழ்வார் பேட்டை,13.0362220,80.2552101,,,bus_stop,,platform
+301736165,node,ஆழ்வார் பேட்டை,13.0387535,80.2588492,,,bus_stop,,stop_position
+301736187,node,Vanavil,13.0414948,80.2476472,,,bus_stop,,platform
+301736898,node,SIET,13.0379526,80.2468797,,,bus_stop,,platform
+301736902,node,Stella Maris,13.0479032,80.2538704,,,bus_stop,,platform
+301736903,node,Chola Sheraton,13.0458825,80.2566441,,,bus_stop,,platform
+301736912,node,Music Academy,13.0464693,80.2605344,,,bus_stop,,platform
+301736913,node,ஆழ்வார் பேட்டை,13.0351077,80.2571309,,,bus_stop,,platform
+303010139,node,TTK Road,13.0332207,80.2529435,,,bus_stop,,platform
+303010141,node,,13.0355237,80.2474418,,,bus_stop,,platform
+303284240,node,General Hospital,13.0817570,80.2767558,,,bus_stop,,platform
+303284248,node,Ripon Building,13.0812612,80.2718576,,,bus_stop,,platform
+303510894,node,Nandanam YMCA,13.0298352,80.2378848,,,bus_stop,,platform
+303512414,node,சைதாப்பேட்டை பாலம்,13.0195637,80.2246585,,,bus_stop,,platform
+303536869,node,,13.0292235,80.2541619,,,bus_stop,,platform
+303536872,node,,13.0293892,80.2598201,,,bus_stop,,platform
+303569588,node,,13.0290452,80.2492676,,,bus_stop,,platform
+303695784,node,Commissioner Office,13.0737672,80.2618156,,,bus_stop,,platform
+303695785,node,Egmore Court,13.0726877,80.2625412,,,bus_stop,,platform
+303695815,node,,13.0783875,80.2636552,,,bus_stop,,platform
+304278622,node,Anna Nagar West,13.0985386,80.2010061,station,,,,station
+304908971,node,,13.0353440,80.2505226,,,bus_stop,,platform
+304920824,node,Aalandur Metro,13.0036646,80.2007035,,,bus_stop,,platform
+304920825,node,,13.0024998,80.2007856,,,bus_stop,,platform
+304921944,node,Egmore Station,13.0779219,80.2623857,,,bus_stop,,platform
+305478863,node,Sadasiva Nagar,12.9656695,80.2037268,,,bus_stop,,platform
+306104406,node,Puratchi Thalaivar Dr. M.G.R Bus Terminus,13.0684600,80.2051255,,,,bus_station,station
+306113099,node,Taramani,12.9854773,80.2405635,,,,bus_station,station
+306551393,node,சைதாப்பேட்டை பாலம்,13.0192595,80.2242262,,,bus_stop,,platform
+306551395,node,Vanavil,13.0405526,80.2470139,,,bus_stop,,platform
+306551396,node,SIET,13.0373003,80.2463991,,,bus_stop,,platform
+308032774,node,Saligramam Bus Terminus,13.0533394,80.1970832,,,,bus_station,station
+308301022,node,DMS,13.0467908,80.2482982,,,bus_stop,,platform
+308313775,node,Ekkattuthangal,13.0191024,80.2063609,,,,,stop_position
+308317064,node,Ashok Pillar,13.0348314,80.2118803,,,,,stop_position
+308811912,node,Vanuvampet,12.9816928,80.1956168,,,bus_stop,,platform
+308917111,node,Pazhavanthangal Station,12.9880075,80.1856076,,,bus_stop,,platform
+309062093,node,Simson,13.0702882,80.2738035,,,bus_stop,,platform
+309062094,node,P.Orr & Sons,13.0706454,80.2736995,,,bus_stop,,platform
+309185794,node,Dams Road,13.0671092,80.2685713,,,bus_stop,,platform
+309185812,node,LIC,13.0627904,80.2636986,,,bus_stop,,platform
+309185820,node,TVS,13.0592286,80.2597052,,,bus_stop,,platform
+309185827,node,TVS,13.0593116,80.2594610,,,bus_stop,,platform
+309323593,node,,13.0627272,80.2446808,,,bus_stop,,platform
+309323867,node,ஜெமினி,13.0550350,80.2493071,,,bus_stop,,platform
+309812160,node,Guindy,13.0076778,80.2099257,,,,,stop_position
+310100943,node,IIT/CLRI,13.0068649,80.2407247,,,bus_stop,,platform
+310102879,node,VHS hospital,13.0034175,80.2475947,,,,,stop_position
+310591980,node,மூவரசம்பேட்டை,12.9699902,80.1863409,,,bus_stop,,platform
+310592291,node,Axis bank,12.9661338,80.1885663,,,bus_stop,,platform
+310593525,node,Balaiah Garden,12.9654812,80.2003039,,,bus_stop,,platform
+310593794,node,Kaiveli,12.9636419,80.2153047,,,bus_stop,,platform
+310729808,node,Yellow Pages,13.0445134,80.2685481,,,bus_stop,,stop_position
+311284385,node,Perambur MTC Terminus,13.1085691,80.2482521,,,,bus_station,station
+311337040,node,ICF MTC Terminus,13.1002428,80.2147138,,,,bus_station,station
+312031432,node,Gandhinagar,13.0068437,80.2493803,,,bus_stop,,
+312686129,node,Ajanta,13.0473146,80.2663311,,,bus_stop,,platform
+313106870,node,,13.0320887,80.2112050,,,,,stop_position
+313135889,node,,13.0565054,80.2549392,,,bus_stop,,platform
+313159416,node,Guru Nanak College,12.9909681,80.2199873,,,bus_stop,,platform
+313442701,node,Vetrivel Theatre,12.9796394,80.1829783,,,bus_stop,,platform
+313783576,node,Vannanthurai,12.9963185,80.2624567,,,bus_stop,,platform
+315888034,node,Royapettah High Road Police Station,13.0523172,80.2637555,,,bus_stop,,platform
+316066248,node,Secretariat,13.0803743,80.2883666,,,bus_stop,,
+316244808,node,,13.0520086,80.2576831,,,bus_stop,,
+316244809,node,Shanti Theatre,13.0672558,80.2705663,,,bus_stop,,platform
+316244810,node,Thousand Lights,13.0565217,80.2564362,,,bus_stop,,platform
+317827746,node,Jayanti,12.9885068,80.2558808,,,bus_stop,,stop_position
+317827781,node,Jayanti,12.9883987,80.2559590,,,bus_stop,,stop_position
+318066696,node,Marudeeswarar Temple,12.9853009,80.2596367,,,bus_stop,,stop_position
+318069500,node,Thiruvanmiyur ECR Moffusil Bus stop,12.9858076,80.2597253,,,bus_stop,,stop_position
+319473140,node,,13.0677732,80.2550430,,,bus_stop,,platform
+319489527,node,National Institute of Fashion Technology (N.I.F.T),12.9847385,80.2522404,,,,,stop_position
+322719303,node,Jayanthi,12.9876477,80.2553395,,,,,stop_position
+325191477,node,Madhya Kailash,13.0061894,80.2475374,,,bus_stop,,platform
+325191941,node,IIT/CLRI,13.0065151,80.2416004,,,bus_stop,,platform
+330654132,node,,12.9865619,80.2385165,,,bus_stop,,
+330780587,node,,12.9885153,80.2298190,,,bus_stop,,
+330780590,node,Taramani Guest House,12.9867147,80.2332146,,,bus_stop,,platform
+330780591,node,,12.9865599,80.2353872,,,bus_stop,,
+334222809,node,,13.0439822,80.2683767,,,bus_stop,,platform
+334222896,node,New Woodlands Hotel,13.0448129,80.2632997,,,bus_stop,,platform
+334267136,node,Spencers,12.9960126,80.2678000,,,bus_stop,,platform
+334713155,node,Banyan Tree,13.0110148,80.2592709,,,bus_stop,,platform
+334713159,node,Malar Hospital,13.0078478,80.2587288,,,bus_stop,,
+338250257,node,Balaiah Garden,12.9655423,80.2003456,,,,,stop_position
+343721497,node,ஆழ்வார் பேட்டை,13.0386195,80.2588399,,,bus_stop,,stop_position
+344411089,node,Sterling Road,13.0635006,80.2434529,,,bus_stop,,platform
+344420267,node,Ayanavaram MTC Terminus,13.0985912,80.2420039,,,,bus_station,station
+353719171,node,,12.9951542,80.1873759,,,bus_stop,,platform
+355515114,node,Chola Sheraton,13.0462093,80.2565580,,,bus_stop,,platform
+355550113,node,Egmore Station,13.0775116,80.2618805,,,bus_stop,,platform
+356274121,node,Ice House stop,13.0490450,80.2804835,,,bus_stop,,platform
+356277093,node,LIC,13.0665178,80.2687218,,,bus_stop,,platform
+357233537,node,Kannagi Statue,13.0563899,80.2817387,,,bus_stop,,platform
+357233543,node,Kannagi Statue,13.0567968,80.2820086,,,bus_stop,,platform
+360562773,node,Puzhuthivakkam Bus Stand,12.9739799,80.2029314,,,,bus_station,station
+360807238,node,,13.0594652,80.2476713,,,bus_stop,,platform
+360807295,node,Taj Hotel,13.0594687,80.2480638,,,bus_stop,,platform
+362227770,node,MRC Nagar,13.0207736,80.2699092,,,bus_stop,,
+365279752,node,DMS,13.0470132,80.2487062,,,bus_stop,,platform
+365957307,node,Nandambakkam,13.0166571,80.1892332,,,bus_stop,,platform
+365983874,node,Saidapet Court,13.0139810,80.2265266,,,bus_stop,,platform
+366083028,node,Guindy,13.0088683,80.2112087,,,,,stop_position
+366855005,node,DPI,13.0672505,80.2538570,,,bus_stop,,platform
+370969655,node,அய்யப்பன்தாங்கல்,13.0381632,80.1352380,,,bus_stop,,
+370969659,node,Ayyapanthangal,13.0377933,80.1349425,,,,bus_station,
+370969661,node,,13.0368549,80.1422989,,,bus_stop,,
+370969668,node,,13.0365785,80.1426413,,,bus_stop,,
+373156197,node,Jayanagar Bus Stop,12.8901528,80.1844457,,,bus_stop,,platform
+373156202,node,,12.9075148,80.1986767,,,bus_stop,,
+378688565,node,Woodlands,13.0513415,80.2516342,,,bus_stop,,platform
+378688568,node,Woodlands,13.0514752,80.2518854,,,bus_stop,,platform
+384486247,node,Purasawalkam,13.0799588,80.2547872,,,bus_stop,,platform
+386002530,node,,13.0303695,80.2382740,,,bus_stop,,platform
+386002531,node,,13.0295543,80.2437738,,,bus_stop,,platform
+389516314,node,SIET,13.0368739,80.2466823,,,bus_stop,,platform
+389964614,node,KK Nagar West MTC Terminus,13.0441595,80.1933034,,,,bus_station,station
+389964617,node,KK Nagar West MTC Terminus,13.0441881,80.1936767,,,bus_stop,,platform
+391823865,node,Kathipara,13.0073565,80.2018029,,,bus_stop,,platform
+391823888,node,Butt Road,13.0073386,80.1969623,,,bus_stop,,stop_position
+393765035,node,,13.0852627,80.2854922,,,bus_stop,,platform
+393765044,node,Law College,13.0875965,80.2852522,,,bus_stop,,platform
+393765046,node,உயர் நீதிமன்றம்,13.0885188,80.2881787,,,bus_stop,,platform
+400900464,node,,13.0470241,80.2119327,,,bus_stop,,platform
+400900776,node,,13.0489528,80.2071220,,,bus_stop,,
+401695312,node,Kannagi Nagar MTCTerminus,12.9256543,80.2383079,,,,bus_station,
+401769770,node,NGO Colony Bus Terminus,12.9947894,80.2068161,,,,bus_station,
+401769773,node,NGO Colony,12.9947061,80.2065370,,,bus_stop,,platform
+401880679,node,Chinmaya Nagar,13.0627931,80.1971800,,,bus_stop,,platform
+401880700,node,,13.0631192,80.1972144,,,bus_stop,,
+401880712,node,Koyambedu Market,13.0692689,80.2006237,,,bus_stop,,platform
+401880999,node,CMBT,13.0681190,80.2049305,,,bus_stop,,platform
+402292542,node,Puzhithivakkam,12.9738315,80.2033552,,,bus_stop,,platform
+402292545,node,,13.0574894,80.2041542,,,bus_stop,,platform
+402298612,node,Semmanchery MTC Terminus,12.8746970,80.2097654,,,,bus_station,station
+402750050,node,Parvathi Nagar MTC Terminus,13.1457511,80.2504410,,,,bus_station,station
+405508932,node,Stella Maris,13.0480237,80.2540873,,,bus_stop,,platform
+407981751,node,Luz Corner,13.0368855,80.2670356,,,bus_stop,,platform
+407983130,node,,13.0374290,80.2646410,,,bus_stop,,platform
+410293823,node,,13.0470929,80.2329094,,,bus_stop,,platform
+410293824,node,,13.0477362,80.2330399,,,bus_stop,,platform
+410613113,node,Mandaveli,13.0264512,80.2641778,,,bus_stop,,platform
+410613378,node,,13.0251384,80.2651734,,,bus_stop,,
+410614381,node,RK Mutt Road Mylapore Tank,13.0338433,80.2678513,,,bus_stop,,platform
+410614397,node,Mylapore Tank,13.0337179,80.2679245,,,bus_stop,,platform
+410615353,node,Luz Corner,13.0369967,80.2665843,,,bus_stop,,platform
+411316688,node,Virugambakkam,13.0490005,80.1923804,,,bus_stop,,platform
+412728360,node,Vivekananda College,13.0397952,80.2635513,,,bus_stop,,platform
+413858335,node,,13.0352016,80.2704429,,,bus_stop,,platform
+414712723,node,Royapettah Hospital,13.0546862,80.2641983,,,bus_stop,,platform
+414712727,node,Royapettah Hospital,13.0546528,80.2644300,,,bus_stop,,platform
+414713529,node,,13.0643489,80.2821764,,,bus_stop,,platform
+414713705,node,,13.0656532,80.2837300,,,bus_stop,,platform
+414713706,node,,13.0645078,80.2820391,,,bus_stop,,platform
+414714010,node,,13.0645245,80.2837471,,,bus_stop,,platform
+415913900,node,,13.0700162,80.2420245,,,bus_stop,,platform
+415913904,node,Chetpet,13.0704837,80.2421189,,,bus_stop,,platform
+416412294,node,Luz Corner,13.0375277,80.2677619,,,bus_stop,,platform
+416412351,node,,13.0378454,80.2675965,,,bus_stop,,platform
+417750649,node,,13.0007984,80.2672903,,,bus_stop,,platform
+417750654,node,Besant Nagar,12.9960874,80.2676685,,,bus_stop,,platform
+418116038,node,Mandaveli Post Office,13.0293213,80.2661449,,,bus_stop,,platform
+418116039,node,Devanathan Street,13.0288278,80.2638491,,,bus_stop,,platform
+418116040,node,Mandaveli,13.0271960,80.2662430,,,bus_stop,,platform
+418116041,node,,13.0248633,80.2651335,,,bus_stop,,platform
+418116043,node,Narada Gana Sabha,13.0414805,80.2586885,,,bus_stop,,platform
+418116044,node,Narada Gana Sabha,13.0417098,80.2590680,,,bus_stop,,platform
+418116045,node,ஆழ்வார் பேட்டை,13.0374839,80.2561629,,,bus_stop,,platform
+442506948,node,Ram Nagar,12.9652457,80.2069875,,,bus_stop,,platform
+442538699,node,Madipakkam Bus Stand,12.9628608,80.1982835,,,,bus_station,station
+459632401,node,,13.0545015,80.2039738,,,bus_stop,,platform
+459633603,node,,13.0544382,80.2042343,,,bus_stop,,platform
+459633606,node,,13.0546223,80.2013161,,,bus_stop,,platform
+571352244,node,Aalaiamman Koil,13.0394488,80.2455135,,,bus_stop,,platform
+577362217,node,CMBT,13.0687582,80.2052047,,,,,stop_position
+577376043,node,Madya Kailash,13.0065537,80.2463099,,,bus_stop,,platform
+595702075,node,Natesa Nagar,13.0573428,80.1940580,,,bus_stop,,platform
+595702076,node,Natesa Nagar,13.0576459,80.1945516,,,bus_stop,,platform
+595704144,node,Sai Nagar,13.0598825,80.1953348,,,bus_stop,,platform
+595706156,node,Vadapalani Koil bus stop,13.0498765,80.2148572,,,bus_stop,,platform
+595714972,node,Elango Nagar,13.0525853,80.1921188,,,bus_stop,,platform
+595735860,node,Avichi bus stop,13.0473925,80.1978450,,,bus_stop,,platform
+603015252,node,Mannadi,13.0953690,80.2860786,stop,subway,,,stop_position
+603015278,node,அரசினர் தோட்டம்,13.0697128,80.2730041,stop,subway,,,stop_position
+604693344,node,,13.0515688,80.2773605,,,bus_stop,,platform
+611743120,node,Binny Mills,13.1030788,80.2527847,,,,,stop_position
+618609725,node,Sayani,13.0977818,80.2399260,,,bus_stop,,
+652426042,node,Pachaiyappa's College,13.0755602,80.2328587,stop,,,,stop_position
+652426192,node,Nehru Park,13.0787915,80.2504722,stop,,,,stop_position
+652426199,node,Egmore Metro,13.0802886,80.2630538,stop,,,,stop_position
+674698187,node,,13.1023633,80.2717659,,,,,stop_position
+674698226,node,Royapuram,13.1041549,80.2935179,,,,,stop_position
+674698252,node,,13.1023304,80.2713764,,,,,stop_position
+674698261,node,,13.1088716,80.2819216,stop,,,,stop_position
+675752169,node,,13.1089416,80.2423446,,,bus_stop,,platform
+675754680,node,,13.1075776,80.2441079,,,,,stop_position
+687175415,node,சென்னை புறநகர் பேருந்து நிலையம்,13.0685084,80.2039344,stop,,,,stop_position
+729821770,node,Thirumalai Pillai Road,13.0463818,80.2394822,,,bus_stop,,platform
+919522123,node,Chennai Fort,13.0832295,80.2829442,stop,,,,stop_position
+919522182,node,Saidapet,13.0234333,80.2236757,,,,,stop_position
+919522213,node,Chennai Fort,13.0834778,80.2826722,stop,,,,stop_position
+941583422,node,Ampa Skywalk,13.0743151,80.2205217,,,bus_stop,,platform
+959609084,node,,13.0531886,80.2479182,,,bus_stop,,platform
+964604284,node,டோல் கேட்,12.9022643,80.2161796,,,bus_stop,,platform
+964604586,node,Sunnambu Kolathur Puliyamara Stop,12.9485883,80.1989320,,,bus_stop,,platform
+966544114,node,Ripon Building,13.0812054,80.2730145,,,bus_stop,,platform
+966556116,node,Chintadripet,13.0750408,80.2714362,,,bus_stop,,platform
+978588586,node,Narayanapuram,12.9404138,80.2056611,,,bus_stop,,platform
+978589169,node,Oil Mill,12.9290185,80.2025986,,,,,stop_position
+996517630,node,Virugambakkam,13.0463902,80.1902132,,,bus_stop,,platform
+998294040,node,அசோக் நகர்,13.0355403,80.2111917,stop,,,,stop_position
+1001424410,node,DPI,13.0675060,80.2534748,,,bus_stop,,platform
+1001424417,node,Ethiraj College,13.0644904,80.2589582,,,bus_stop,,platform
+1001424418,node,Ethiraj College,13.0643704,80.2588711,,,bus_stop,,platform
+1007625832,node,Vadapalani Junction,13.0488793,80.2119880,,,bus_stop,,platform
+1007625852,node,Guindy,13.0077290,80.2098628,,,bus_stop,,platform
+1008034321,node,Saint Thomas Mount,12.9951306,80.1992885,,,,,stop_position
+1008034345,node,Saint Thomas Mount,12.9947038,80.1994765,,,,,stop_position
+1008034381,node,Pallavaram,12.9679789,80.1522522,stop,,,,stop_position
+1015556637,node,Rampuram MIOT Hospital,13.0210492,80.1839234,,,bus_stop,,platform
+1015562222,node,MIOT Hospital,13.0208127,80.1838081,,,bus_stop,,platform
+1015575361,node,Ayyapan Koil,13.0393621,80.1969563,,,bus_stop,,platform
+1015575816,node,Amman Koil,13.0414839,80.1967337,,,bus_stop,,platform
+1015576952,node,PSBB,13.0388666,80.1992208,,,bus_stop,,platform
+1015577154,node,PSBB School,13.0411390,80.1992630,,,bus_stop,,platform
+1015578911,node,Pondicherry Guest house,13.0417139,80.1932226,,,bus_stop,,platform
+1015580858,node,Nesapakkam,13.0381601,80.1926862,,,bus_stop,,platform
+1015581126,node,Ajantha,13.0373344,80.1964198,,,bus_stop,,platform
+1015583032,node,MGR Nagar,13.0364268,80.2017334,,,bus_stop,,platform
+1015583945,node,Pilliayar Koil,13.0407523,80.2050136,,,bus_stop,,platform
+1015584175,node,Sivan Park,13.0411599,80.2053891,,,bus_stop,,platform
+1024558013,node,Ashok Pillar (Towards K.K Nagar & Porur),13.0316543,80.2122049,,,bus_stop,,platform
+1024560151,node,Ashok Pillar,13.0325550,80.2119909,,,bus_stop,,platform
+1024562407,node,Ashok Pillar,13.0350618,80.2119045,,,bus_stop,,platform
+1024570438,node,ESIC,13.0351977,80.2082567,,,bus_stop,,platform
+1024673452,node,Madanandhapuram,13.0229376,80.1467353,,,bus_stop,,
+1024674757,node,Moulivakkam (Bai kadai),13.0198426,80.1433427,,,bus_stop,,
+1067520553,node,R.A. Puram,13.0272893,80.2542630,,,bus_stop,,platform
+1069492323,node,Chataram Bus Stop,13.0867314,80.2757841,,,bus_stop,,platform
+1141163691,node,Velachery,12.9671675,80.2195576,stop,,,,stop_position
+1149067214,node,Manapakkam,13.0145999,80.1743748,,,,,stop_position
+1165551007,node,Shenoy Nagar,13.0776718,80.2251430,stop,,,,stop_position
+1183430572,node,Women's polytechnic,12.9966477,80.2490952,,,bus_stop,,platform
+1183430650,node,Women's polytechnic,12.9981822,80.2489226,,,bus_stop,,platform
+1183430763,node,Tidel park,12.9893849,80.2508691,,,bus_stop,,platform
+1183430887,node,Tidel Park,12.9911334,80.2506682,,,bus_stop,,platform
+1183431007,node,VHS Hospital,13.0034788,80.2474452,,,bus_stop,,platform
+1184256833,node,,13.1023555,80.2715142,,,,,stop_position
+1197445418,node,Saint Thomas Mount,12.9948463,80.1994107,,,,,stop_position
+1207423990,node,கோயம்பேடு,13.0734450,80.1948572,stop,,,,stop_position
+1207424028,node,Anna Nagar East,13.0846312,80.2203688,stop,,,,stop_position
+1207424080,node,Kilpauk,13.0776484,80.2426176,stop,,,,stop_position
+1240545660,node,Tidel Park,12.9880545,80.2524511,,,,,stop_position
+1280328281,node,Egmore Court,13.0715858,80.2646192,,,,,stop_position
+1311558790,node,Woodlands Theatre,13.0571946,80.2647294,,,bus_stop,,platform
+1311558791,node,Woodlands Theatre / Wesley school,13.0571110,80.2649869,,,bus_stop,,platform
+1311558792,node,L.I.C,13.0642263,80.2657999,,,bus_stop,,platform
+1311558793,node,Music Academy,13.0475472,80.2610060,,,bus_stop,,platform
+1311558794,node,Gowdia Mutt Road,13.0508912,80.2625181,,,bus_stop,,platform
+1311558795,node,Royapettah High Road Police Station,13.0521591,80.2639569,,,bus_stop,,platform
+1330414242,node,,12.9213092,80.1970496,,,,bus_station,station
+1330414243,node,Oil Mill,12.9284375,80.2022010,,,bus_stop,,platform
+1334303173,node,Narayanasamy Thottam,13.0202075,80.2626599,,,bus_stop,,
+1391028778,node,KK Nagar MTC Terminus,13.0354223,80.2057167,,,,bus_station,station
+1391573894,node,IOC MTC Terminus,13.1390688,80.2820311,,,,bus_station,
+1453592060,node,Arsasi Mandi,12.9639187,80.2564812,,,bus_stop,,platform
+1453592062,node,Kandanchavadi,12.9665741,80.2478057,,,bus_stop,,platform
+1457114931,node,Kandanchavadi,12.9669208,80.2482764,,,bus_stop,,platform
+1457114934,node,Kottivakkam,12.9690850,80.2577701,,,bus_stop,,platform
+1457114942,node,Kottivakkam,12.9694054,80.2576146,,,bus_stop,,platform
+1457114953,node,SRP Tools,12.9791430,80.2525895,,,bus_stop,,platform
+1457114954,node,SRP Tools,12.9794944,80.2528353,,,bus_stop,,platform
+1666841444,node,Oil Mill,12.9290533,80.2025500,,,bus_stop,,platform
+1676204804,node,National Institute of Fashion Technology (N.I.F.T),12.9847375,80.2523565,,,bus_stop,,platform
+1676204841,node,Spastic Society,12.9861494,80.2503872,,,bus_stop,,platform
+1676204843,node,Tech Park,12.9861778,80.2445710,,,bus_stop,,platform
+1676204850,node,Spastic Society,12.9863453,80.2502837,,,bus_stop,,platform
+1676204856,node,Tech Park,12.9863612,80.2444706,,,bus_stop,,platform
+1676252666,node,,13.0466924,80.2330053,,,bus_stop,,platform
+1685049528,node,C.I.T. Colony,13.0440218,80.2597715,,,bus_stop,,platform
+1685049537,node,C.I.T. Colony,13.0443128,80.2596312,,,bus_stop,,platform
+1703352021,node,Trisulam Airport,12.9755085,80.1577918,,,bus_stop,,platform
+1703352022,node,Trisulam Airport,12.9802128,80.1632657,,,bus_stop,,platform
+1711224934,node,கோவிலாம்பாக்கம்,12.9392427,80.1825888,,,bus_stop,,platform
+1764308008,node,Velachery Railway Station,12.9712721,80.2189421,,,bus_stop,,platform
+1863536092,node,,13.0505119,80.2143390,,,bus_stop,,platform
+1883603286,node,Sunnambu Kolathur,12.9463536,80.1973913,,,bus_stop,,platform
+1884890517,node,Pallavaram,12.9678546,80.1524644,stop,,,,stop_position
+1899719037,node,S.Kolathur Vinayagapuram Stop,12.9484438,80.1944768,,,bus_stop,,
+1899719039,node,,12.9486686,80.1944821,,,bus_stop,,
+1899719797,node,Sunnambu Kolathur Puliyamara Stop,12.9485908,80.1990259,,,bus_stop,,platform
+1899719800,node,Sunnambu Kolathur Puliyamara Stop,12.9485052,80.1989831,,,bus_stop,,platform
+1899720980,node,Narayana puram,12.9485432,80.2034407,,,bus_stop,,
+1899720981,node,Narayana puram,12.9487941,80.2033549,,,bus_stop,,
+1920364154,node,Roja Medicals,12.9806753,80.1880722,,,bus_stop,,platform
+1937584276,node,Medavakkam,12.9172490,80.1937685,,,,,stop_position
+1949567462,node,Kaiveli,12.9639064,80.2159702,,,bus_stop,,platform
+1949567464,node,Kaiveli,12.9633783,80.2160859,,,bus_stop,,platform
+1952553763,node,Postal Colony,13.0363098,80.2206213,,,bus_stop,,
+1952555473,node,Postal Colony,13.0370153,80.2208949,,,bus_stop,,platform
+1955951295,node,Ram Colony,13.0343805,80.2161535,,,bus_stop,,platform
+1955951298,node,Pudhur High School Bus Stop,13.0418514,80.2161173,,,bus_stop,,platform
+1955951301,node,Pudhur High School Bus Stop,13.0416992,80.2160469,,,bus_stop,,platform
+1955951303,node,Ram Colony,13.0343297,80.2162105,,,bus_stop,,platform
+1971862196,node,Anna University,13.0082459,80.2334763,,,,,stop_position
+1971877221,node,,13.0074903,80.2367344,,,,,stop_position
+1975496434,node,Independence Day Park,13.0566614,80.2426317,,,,,stop_position
+2077234674,node,Pallikaranai,12.9338132,80.2040466,,,bus_stop,,platform
+2082925056,node,மேட்டுக்குப்பம்,12.9371240,80.2341180,,,,,platform
+2082925057,node,D. B Jain College,12.9448917,80.2386779,,,,,platform
+2082925106,node,D. B Jain College,12.9459910,80.2396626,,,,,platform
+2083090321,node,Mettukuppam,12.9394621,80.2357344,,,,,platform
+2083090427,node,Mettukuppam,12.9400132,80.2356326,,,,,platform
+2099314355,node,Thoraipakkam Tea Shop bus stop,12.9526215,80.2418685,,,,,platform
+2099361681,node,PTC quarters,12.9358886,80.2339915,,,,,platform
+2137260915,node,,13.0085730,80.1977929,,,,,stop_position
+2142333096,node,,13.0148049,80.1744872,,,bus_stop,,
+2145422466,node,Pazhavanthangal,12.9878498,80.1852853,,,bus_stop,,platform
+2145429148,node,,12.9828496,80.1884958,,,bus_stop,,platform
+2151931377,node,Nanganallur Market,12.9858342,80.1884954,,,bus_stop,,platform
+2157590801,node,Five Furlong Road,12.9974380,80.2162638,,,bus_stop,,stop_position
+2158620128,node,Velachery Check Post,12.9974054,80.2165418,,,bus_stop,,stop_position
+2158620129,node,Velachery Check Post,12.9974127,80.2164502,,,bus_stop,,stop_position
+2166705605,node,Kaiveli,12.9636777,80.2157187,,,,,stop_position
+2188511086,node,Kapaleeshwar Temple,13.0343875,80.2680123,,,,,stop_position
+2197496797,node,Valluvar Kottam,13.0539962,80.2422574,,,,,stop_position
+2210065615,node,Valluvar Nagar Bus Stop,12.8933829,80.1834930,,,,bus_station,
+2237592529,node,Thyagaraya Nagar Bus Terminus,13.0342665,80.2304553,,,,,stop_position
+2239237792,node,West Saidapet,13.0244589,80.2198196,,,bus_stop,,platform
+2241055785,node,Guindy,13.0092567,80.2113470,,,bus_stop,,platform
+2241072260,node,,13.0208206,80.2252558,,,bus_stop,,platform
+2241832803,node,Chintadripet,13.0749522,80.2713710,,,bus_stop,,platform
+2245351858,node,,12.9902736,80.2276336,,,bus_stop,,platform
+2269384782,node,,13.1023311,80.2714212,,,,,stop_position
+2271085296,node,,13.0488035,80.2071743,,,bus_stop,,
+2271478018,node,Chennai Central Railway Station,13.0820442,80.2754967,,,,,platform
+2271478024,node,Chennai Central Railway Station,13.0820658,80.2756227,,,,,platform
+2271478031,node,Chennai Central Railway Station,13.0820790,80.2757368,,,,,platform
+2271478038,node,Chennai Central Railway Station,13.0821338,80.2754831,,,,,platform
+2271478046,node,Chennai Central Railway Station,13.0821553,80.2756074,,,,,platform
+2271478054,node,Chennai Central Railway Station,13.0821719,80.2757147,,,,,platform
+2272877093,node,Chennai Park Town,13.0795172,80.2760094,stop,,,,stop_position
+2274387931,node,Adyar,13.0064935,80.2543698,,,,,stop_position
+2394698615,node,K4 Police Station,13.0923311,80.2189211,,,bus_stop,,platform
+2438975982,node,Saint Thomas Mount,12.9949578,80.1993542,,,,,stop_position
+2439092458,node,Pallavaram,12.9678842,80.1524305,stop,,,,stop_position
+2440033626,node,Chepauk,13.0620574,80.2805626,stop,,,,stop_position
+2440045303,node,Velachery,12.9673597,80.2195756,stop,,,,stop_position
+2440045337,node,Indira Nagar,12.9974025,80.2492749,stop,,,,stop_position
+2440049183,node,Mandaveli,13.0272126,80.2602969,stop,,,,stop_position
+2440049207,node,Mundakakanni Amman Koil,13.0411205,80.2703694,stop,,,,stop_position
+2481258995,node,Chennai Park Town,13.0795870,80.2762947,station,,,,station
+2481258999,node,Chennai Park,13.0807537,80.2730879,station,,,,station
+2481259002,node,Kodambakkam,13.0516624,80.2306892,station,,,,station
+2481259006,node,Mambalam,13.0380662,80.2277752,station,,,,station
+2481259029,node,Saidapet,13.0233098,80.2237191,station,,,,station
+2481259034,node,,13.0741931,80.2422047,,,,,stop_position
+2481259036,node,,13.0776606,80.2600514,stop,,,,stop_position
+2481259037,node,,13.0776988,80.2600443,stop,,,,stop_position
+2481259038,node,,13.0780514,80.2615176,stop,,,,stop_position
+2481259039,node,,13.0781047,80.2615048,stop,,,,stop_position
+2481259040,node,,13.0782233,80.2614998,stop,,,,stop_position
+2481259041,node,,13.0783611,80.2614600,stop,,,,stop_position
+2481259042,node,,13.0784164,80.2614501,stop,,,,stop_position
+2481259043,node,,13.0785478,80.2614302,stop,,,,stop_position
+2481259044,node,,13.0785891,80.2614185,stop,,,,stop_position
+2481259045,node,,13.0787267,80.2614163,stop,,,,stop_position
+2481969291,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0824232,80.2759622,station,,,,station
+2481989471,node,L.I.C,13.0642741,80.2658589,,,bus_stop,,platform
+2481989472,node,L.I.C,13.0643262,80.2659171,,,bus_stop,,platform
+2481989473,node,L.I.C,13.0643752,80.2659784,,,bus_stop,,platform
+2482014614,node,TVS,13.0592806,80.2597741,,,bus_stop,,platform
+2482014616,node,TVS,13.0593336,80.2598375,,,bus_stop,,platform
+2482014617,node,TVS,13.0593726,80.2595362,,,bus_stop,,platform
+2482014618,node,TVS,13.0607702,80.2625400,,,bus_stop,,platform
+2482014620,node,TVS,13.0594322,80.2596151,,,bus_stop,,platform
+2482014623,node,TVS,13.0594885,80.2596874,,,bus_stop,,platform
+2482072866,node,General Hospital,13.0817908,80.2770347,,,bus_stop,,platform
+2482072867,node,General Hospital,13.0818202,80.2772826,,,bus_stop,,platform
+2482072870,node,General Hospital,13.0818538,80.2775047,,,bus_stop,,platform
+2482072873,node,General Hospital (Central),13.0818727,80.2777397,,,bus_stop,,platform
+2482072875,node,LIC,13.0628652,80.2637854,,,bus_stop,,platform
+2482072877,node,LIC,13.0629492,80.2638825,,,bus_stop,,platform
+2482072878,node,L.I.C,13.0646820,80.2663928,,,bus_stop,,platform
+2482072879,node,LIC,13.0647720,80.2661116,,,bus_stop,,platform
+2482072880,node,Secretariat,13.0810225,80.2883335,,,bus_stop,,platform
+2482072921,node,Pallavan Salai,13.0763656,80.2764590,,,bus_stop,,platform
+2482072922,node,Pallavan Salai,13.0768078,80.2761790,,,bus_stop,,platform
+2482072933,node,உயர் நீதிமன்றம்,13.0849072,80.2833818,,,bus_stop,,platform
+2482075364,node,Commissioner Office,13.0741660,80.2620635,,,bus_stop,,platform
+2482075367,node,,13.0689097,80.2673390,,,bus_stop,,platform
+2482075369,node,Egmore Court,13.0716607,80.2646506,,,bus_stop,,platform
+2482301305,node,,13.0503752,80.2403628,,,bus_stop,,platform
+2482301372,node,,13.0570031,80.2349394,,,bus_stop,,
+2485153591,node,Valluvar Statue,13.0417872,80.2683179,,,bus_stop,,platform
+2485153597,node,,13.0419830,80.2681148,,,bus_stop,,platform
+2485980398,node,,13.0652457,80.2737964,,,bus_stop,,platform
+2486085722,node,கஸ்தூரிபாய் மருத்துவமனை,13.0581355,80.2781176,,,bus_stop,,platform
+2486085724,node,,13.0602054,80.2776637,,,bus_stop,,platform
+2486106727,node,,13.0300269,80.2505676,,,bus_stop,,platform
+2486226649,node,Chennai Central Railway Station,13.0825901,80.2763077,,,bus_stop,,platform
+2486226651,node,Loane Square,13.0914641,80.2857380,,,bus_stop,,platform
+2486226652,node,,13.0919530,80.2751809,,,bus_stop,,platform
+2486226653,node,Beach Station,13.0943483,80.2923716,,,bus_stop,,platform
+2486226655,node,Mannadi,13.0961399,80.2863950,,,bus_stop,,platform
+2486226656,node,Clive Battery,13.0990436,80.2937634,,,bus_stop,,platform
+2486226657,node,,13.0996879,80.2866699,,,bus_stop,,platform
+2486226658,node,,13.1010909,80.2749364,,,bus_stop,,platform
+2486226659,node,,13.1034911,80.2867769,,,bus_stop,,platform
+2486239287,node,Chepauk,13.0619312,80.2805960,station,,,,station
+2486239288,node,Thiruvallikeni,13.0559352,80.2806044,station,,,,station
+2489157878,node,,13.0721350,80.2739713,,,bus_stop,,platform
+2495414567,node,பேசின் பிரிட்ஜ்,13.1023010,80.2706743,,,bus_stop,,platform
+2587520213,node,Adyar Depot,12.9988972,80.2559382,,,bus_stop,,
+2587520244,node,Sathya Studio,13.0162622,80.2595250,,,bus_stop,,platform
+2587520245,node,Sathya Studio,13.0163426,80.2595820,,,bus_stop,,platform
+2587520246,node,Sathya Studio,13.0164211,80.2596390,,,bus_stop,,platform
+2587520247,node,Sathya Studio,13.0165092,80.2596980,,,bus_stop,,platform
+2587530808,node,Adyar Depot,12.9984686,80.2561546,,,bus_stop,,platform
+2587530809,node,BSNL Office,13.0002744,80.2564084,,,bus_stop,,platform
+3030620399,node,Skywalk,13.0740453,80.2208523,,,,,stop_position
+3187977875,node,Palavanthangal,12.9906385,80.1879401,station,,,,station
+3215416374,node,Adayar Signal,13.0076573,80.2585701,,,bus_stop,,platform
+3215417205,node,Andhra Mahila Sabha,13.0160134,80.2594407,,,bus_stop,,
+3215420255,node,Rani Meyammai School,13.0202685,80.2627298,,,bus_stop,,
+3215424909,node,Mandaveli Telephone Exchange,13.0230542,80.2639113,,,,,stop_position
+3215426872,node,Mandaveli,13.0264662,80.2643155,,,bus_stop,,platform
+3215469782,node,Luz Corner,13.0370202,80.2664553,,,bus_stop,,platform
+3215471512,node,St Mary’s Road,13.0293180,80.2659968,,,bus_stop,,platform
+3215471942,node,AVM Rajeshwari,13.0445256,80.2653165,,,bus_stop,,platform
+3215474364,node,Valluvar Statue,13.0416655,80.2682136,,,bus_stop,,platform
+3215478754,node,Woodlands,13.0447900,80.2628089,,,bus_stop,,platform
+3215488159,node,Stella Maris College,13.0476081,80.2542024,,,bus_stop,,platform
+3215494190,node,Chola Hotel,13.0461435,80.2567561,,,bus_stop,,platform
+3215497011,node,Semozhi Poonga,13.0504157,80.2525025,,,bus_stop,,platform
+3215497034,node,Gemini,13.0553071,80.2493825,,,bus_stop,,platform
+3215500283,node,Chetpet,13.0695972,80.2421558,,,bus_stop,,platform
+3215503639,node,Sterling Road,13.0622840,80.2449997,,,bus_stop,,platform
+3215508149,node,Brick Kiln,13.0897099,80.2509902,,,bus_stop,,platform
+3215509332,node,KMC,13.0787644,80.2444050,,,bus_stop,,platform
+3215513362,node,Millers Road,13.0845368,80.2502683,,,bus_stop,,platform
+3215513434,node,Mekala Theatre,13.0872409,80.2507551,,,bus_stop,,platform
+3215523368,node,Saravana Theatre,13.0941477,80.2509589,,,bus_stop,,platform
+3215523791,node,Otteri,13.0972089,80.2513821,,,bus_stop,,platform
+3215524962,node,Mettupalayam,13.1049521,80.2531007,,,bus_stop,,platform
+3215525045,node,Jamalia,13.1064019,80.2493548,,,bus_stop,,platform
+3215525963,node,Mangalapuram,13.1071652,80.2458654,,,bus_stop,,platform
+3215525982,node,Perambur Railway Station,13.1080594,80.2445619,,,bus_stop,,platform
+3216954757,node,Perambur Railway Station Bus Stand,13.1081640,80.2444885,,,bus_stop,,platform
+3216957362,node,Mangalapuram,13.1073116,80.2467397,,,bus_stop,,platform
+3216958497,node,Jamalia,13.1062169,80.2505190,,,bus_stop,,platform
+3216970886,node,Mettupalayam,13.1050560,80.2531768,,,bus_stop,,platform
+3216970916,node,Binny Mills,13.1023363,80.2526445,,,bus_stop,,platform
+3216985354,node,Otteri,13.0972157,80.2514514,,,bus_stop,,platform
+3216985475,node,Chetpet,13.0694621,80.2433699,,,bus_stop,,platform
+3216986182,node,Saravana Theatre,13.0936235,80.2509794,,,bus_stop,,platform
+3216986939,node,R.K. Road,13.0906349,80.2511188,,,bus_stop,,platform
+3216986940,node,Mekala Theatre,13.0872089,80.2506503,,,bus_stop,,platform
+3216986967,node,Millers Road,13.0834502,80.2546030,,,bus_stop,,platform
+3216990390,node,KMC,13.0787415,80.2521255,,,bus_stop,,platform
+3216990971,node,College Road,13.0677838,80.2465225,,,bus_stop,,platform
+3216991399,node,Haddows Road,13.0666677,80.2478922,,,bus_stop,,platform
+3216991543,node,Income Tax Offrice,13.0573221,80.2487138,,,bus_stop,,platform
+3216992157,node,Valluvar Statue,13.0413309,80.2683208,,,bus_stop,,platform
+3216992158,node,VM Street,13.0442990,80.2691671,,,bus_stop,,platform
+3216993078,node,Sterling,13.0606301,80.2474960,,,bus_stop,,platform
+3216994236,node,Semozhi Poonga,13.0501996,80.2526129,,,bus_stop,,platform
+3216995418,node,Gemini,13.0549585,80.2496516,,,bus_stop,,platform
+3216995837,node,Stella Maris College,13.0480230,80.2538615,,,bus_stop,,platform
+3216995856,node,Chola Hotel,13.0459666,80.2567170,,,bus_stop,,platform
+3216996445,node,Mandaveli Telephone Exchange,13.0253858,80.2654342,,,,,stop_position
+3216997832,node,Kapaleeshwar Temple,13.0344064,80.2681224,,,bus_stop,,platform
+3216998093,node,Woodlands,13.0447018,80.2648393,,,bus_stop,,platform
+3216998713,node,Luz Corner,13.0376266,80.2677461,,,bus_stop,,platform
+3216999998,node,Mandaveli Market,13.0299144,80.2667491,,,bus_stop,,platform
+3217000237,node,Rani Meiyammai School,13.0222664,80.2634866,,,bus_stop,,
+3217004886,node,Andhra Mahila Sabha,13.0162141,80.2597582,,,bus_stop,,platform
+3217004899,node,Adyar Signal,13.0070713,80.2586412,,,bus_stop,,platform
+3217004939,node,Adyar Depot,12.9987410,80.2561722,,,bus_stop,,platform
+3217006341,node,Jayanthi Theatre,12.9889638,80.2560835,,,bus_stop,,platform
+3247299914,node,Thiruvanmiyur,12.9868818,80.2579993,,,bus_stop,,platform
+3247310920,node,Thiruvanmiyur RTO,12.9766865,80.2590590,,,bus_stop,,platform
+3247310921,node,Marundeeswarar Temple,12.9850797,80.2594959,,,bus_stop,,platform
+3247388390,node,Kottivakkam,12.9694759,80.2578950,,,bus_stop,,platform
+3247394198,node,Kotivakkam,12.9695400,80.2575889,,,bus_stop,,platform
+3247406935,node,Chinna Neelankarai,12.9540502,80.2552125,,,bus_stop,,
+3247410861,node,Vettuvankeni,12.9504769,80.2550489,,,bus_stop,,
+3247419936,node,Injambakkam,12.9273395,80.2514212,,,bus_stop,,
+3247421162,node,Saibaba,12.9384549,80.2528146,,,bus_stop,,platform
+3247421163,node,Vettuvankeni,12.9496587,80.2547230,,,bus_stop,,platform
+3247422104,node,Injambakkam,12.9273447,80.2514507,,,bus_stop,,platform
+3258044158,node,Water Tank,12.9140134,80.2503942,,,bus_stop,,platform
+3258044670,node,VGP,12.9205379,80.2513359,,,bus_stop,,platform
+3258047142,node,,12.8975923,80.2474836,,,bus_stop,,
+3258047153,node,Nainar Depot,12.8774931,80.2438102,,,bus_stop,,
+3258049393,node,Uthandi,12.8689025,80.2435911,,,bus_stop,,platform
+3258057378,node,Ragas,12.8597978,80.2419120,,,bus_stop,,
+3261260258,node,Ragas,12.8598425,80.2418337,,,bus_stop,,
+3261261651,node,Nainar Depot,12.8778797,80.2438159,,,bus_stop,,
+3261262160,node,Uthandi,12.8679009,80.2433625,,,bus_stop,,
+3261262339,node,VGP,12.9205826,80.2514870,,,bus_stop,,platform
+3261264219,node,Water Tank,12.9148864,80.2503116,,,bus_stop,,platform
+3262960162,node,Saibaba,12.9384795,80.2526055,,,bus_stop,,platform
+3262970161,node,Chinna Neelankarai,12.9544995,80.2550838,,,bus_stop,,platform
+3262996627,node,Gandhinagar,13.0066383,80.2547553,,,bus_stop,,platform
+3262998692,node,Pallavakkam,12.9612601,80.2562079,,,bus_stop,,platform
+3262998735,node,Madhya Kailash,13.0065479,80.2465371,,,bus_stop,,platform
+3263003853,node,Gandhi Mandapam,13.0074031,80.2367069,,,bus_stop,,platform
+3263010049,node,சைதாப்பேட்டை காவல் நிலையம்,13.0221248,80.2262769,,,bus_stop,,platform
+3263015762,node,Halcyon Technologies,13.0294483,80.2309064,,,bus_stop,,platform
+3263015885,node,சைதாப்பேட்டை,13.0232491,80.2274463,,,bus_stop,,platform
+3263015892,node,Little Mount,13.0143216,80.2262688,,,bus_stop,,platform
+3263017226,node,Anna University,13.0083174,80.2334438,,,bus_stop,,platform
+3264712327,node,Guindy,13.0086685,80.2126063,station,,,,station
+3264712469,node,Guindy,13.0072847,80.2097658,,,bus_stop,,platform
+3264719874,node,Kathipara,13.0073801,80.2014349,,,bus_stop,,platform
+3264719879,node,Butt Road,13.0072285,80.1970414,,,bus_stop,,platform
+3264826261,node,Ramachandra Hospital,13.0365019,80.1430003,,,bus_stop,,
+3264828694,node,அய்யப்பன்தாங்கல்,13.0379914,80.1351360,,,bus_stop,,
+3264869925,node,Ramachandra Hospital,13.0369540,80.1418335,,,bus_stop,,
+3264878737,node,Ramapuram,13.0209667,80.1839683,,,bus_stop,,platform
+3264882332,node,Nandambakkam,13.0168260,80.1893475,,,bus_stop,,platform
+3264883462,node,Butt Road,13.0086502,80.1975671,,,bus_stop,,platform
+3264883515,node,சின்ன மலை Little Mount Metro,13.0155768,80.2250330,,,bus_stop,,platform
+3264888779,node,Guindy Bus Stand,13.0090591,80.2107931,,,,bus_station,
+3298619178,node,Baby Nagar,12.9806290,80.2287544,,,bus_stop,,platform
+3298619179,node,Baby Nagar Stop,12.9817095,80.2303946,,,,,platform
+3377597538,node,Avvaai Illam,13.0073755,80.2615847,,,bus_stop,,
+3605047768,node,Independence Day Park,12.9816323,80.1856214,,,bus_stop,,platform
+3724408109,node,Thambiah Road,13.0412747,80.2247636,,,bus_stop,,platform
+3724408110,node,,13.0422860,80.2246214,,,bus_stop,,platform
+3725571283,node,Holy Angels Convent,13.0403357,80.2416011,,,bus_stop,,platform
+3732413818,node,,13.0404185,80.2392262,,,bus_stop,,platform
+3732415367,node,T. Nagar Pondy Bazaar Big Bazaar,13.0407738,80.2376491,,,bus_stop,,platform
+3969967347,node,Pallavaram,12.9681668,80.1485336,,,bus_stop,,platform
+3990598049,node,Virugambakkam,13.0465771,80.1915240,,,bus_stop,,platform
+4153840390,node,Oxford School,13.0290249,80.2242622,,,bus_stop,,platform
+4153840489,node,Srinivasa Theatre,13.0312050,80.2242183,,,bus_stop,,platform
+4153840589,node,Srinivasa Theatre,13.0311449,80.2240709,,,bus_stop,,platform
+4153840689,node,Oxford School,13.0290173,80.2240205,,,bus_stop,,platform
+4172727623,node,Tansi Nagar,12.9785526,80.2253586,,,,,stop_position
+4221545249,node,,13.0016750,80.1960093,,,bus_stop,,platform
+4221545250,node,,13.0017320,80.1960854,,,bus_stop,,platform
+4221545251,node,,13.0017833,80.1961615,,,bus_stop,,platform
+4221572806,node,Maduvankarai,13.0036032,80.2119807,,,bus_stop,,platform
+4221752111,node,Saint Thomas Mount,12.9947654,80.1993715,station,,,,station
+4221779489,node,Olympia Tech Park,13.0140912,80.2045927,,,bus_stop,,platform
+4308329989,node,West Saidapet,13.0241758,80.2130010,,,bus_stop,,platform
+4358666333,node,Bharathi Nagar,12.9816360,80.2334748,,,bus_stop,,stop_position
+4358676514,node,-IITM Velachery Gate,12.9877973,80.2230746,,,,,stop_position
+4384940991,node,,12.9985806,80.2391518,,,bus_stop,,platform
+4384940992,node,,12.9991260,80.2394049,,,bus_stop,,platform
+4384979890,node,,12.9960586,80.2359191,,,bus_stop,,platform
+4384980791,node,,12.9920732,80.2337735,,,bus_stop,,platform
+4384985391,node,,12.9921946,80.2336686,,,bus_stop,,platform
+4384995091,node,,12.9961354,80.2362203,,,bus_stop,,platform
+4384995092,node,,13.0026838,80.2402119,,,bus_stop,,platform
+4384996591,node,,12.9939545,80.2343355,,,bus_stop,,platform
+4385019891,node,,13.0025534,80.2400679,,,bus_stop,,platform
+4385019892,node,,13.0038121,80.2413768,,,bus_stop,,platform
+4385029489,node,,12.9941561,80.2347372,,,bus_stop,,platform
+4385062589,node,,12.9911913,80.2330109,,,bus_stop,,platform
+4385062689,node,,12.9910868,80.2321166,,,bus_stop,,platform
+4393828696,node,Moore Market Complex,13.0835855,80.2739849,stop,,,,stop_position
+4393828697,node,Moore Market Complex,13.0835994,80.2741136,stop,,,,stop_position
+4393828698,node,Moore Market Complex,13.0836030,80.2742550,stop,,,,stop_position
+4402620433,node,சோழிங்கநல்லூர்,12.9032844,80.2279555,,,bus_stop,,platform
+4402620434,node,,12.9032855,80.2280166,,,,,stop_position
+4402620444,node,Accenture,12.9075689,80.2282280,,,bus_stop,,platform
+4406456566,node,காரப்பாக்கம்,12.9132796,80.2293553,,,,,platform
+4406456567,node,,12.9132888,80.2292825,,,,,stop_position
+4407799377,node,Nagesh Theatre stop,13.0400117,80.2425430,,,bus_stop,,platform
+4407799419,node,Globus,13.0399858,80.2429146,,,bus_stop,,platform
+4411798690,node,மியாட் மருத்துவமனை,13.0204579,80.1845000,,,bus_stop,,platform
+4411849791,node,,13.0143770,80.1935118,,,bus_stop,,platform
+4411855089,node,,13.0210717,80.1833445,,,bus_stop,,platform
+4417314190,node,Doraiswamy Road,13.0407196,80.2306959,,,bus_stop,,platform
+4421925892,node,,13.0671220,80.2479405,,,bus_stop,,platform
+4421948892,node,Loyola College,13.0645529,80.2349783,,,bus_stop,,platform
+4421948893,node,,13.0679286,80.2486265,,,bus_stop,,platform
+4421967489,node,Loyola College,13.0647390,80.2346949,,,bus_stop,,platform
+4435694788,node,Pallavaram,12.9675742,80.1520504,station,,,,station
+4533572479,node,,13.1024603,80.2711188,,,,,stop_position
+4533572480,node,,13.1024641,80.2711741,,,,,stop_position
+4534763875,node,Thirumayilai,13.0353467,80.2674446,stop,,,,stop_position
+4534763876,node,Kotturpuram,13.0145658,80.2484112,stop,,,,stop_position
+4546369389,node,,13.0695129,80.1990870,,,,bus_station,station
+4666745989,node,கவுல் பஜார்,12.9905140,80.1499095,,,bus_stop,,
+4732042730,node,,13.0726445,80.2019974,,,bus_stop,,platform
+4739613829,node,Marriage Hall Bus Stop,13.0735659,80.2003418,,,bus_stop,,platform
+4763208284,node,கஸ்தூரிபாய் மருத்துவமனை,13.0580016,80.2782021,,,bus_stop,,platform
+4763208285,node,Bazullah road,13.0470676,80.2353100,,,bus_stop,,platform
+4763212040,node,,13.0486670,80.2600237,,,bus_stop,,
+4763212995,node,,13.0326478,80.2775015,,,bus_stop,,
+4763213172,node,,13.0334350,80.2772514,,,bus_stop,,
+4785434123,node,,13.0315010,80.1913595,,,bus_stop,,platform
+4788407922,node,,13.1088932,80.2867926,,,bus_stop,,platform
+4789389223,node,,13.1045270,80.2867247,,,bus_stop,,platform
+4864012223,node,,13.1078822,80.2913847,,,bus_stop,,platform
+4885083053,node,Tirusulam,12.9804609,80.1657933,station,,,,station
+4885094689,node,Meenambakkam,12.9846976,80.1750925,station,,,,station
+4948353021,node,,13.0289852,80.2543724,,,bus_stop,,platform
+5093966251,node,Sholinganallur,12.8988445,80.2279854,,,bus_stop,,platform
+5207918374,node,MGR Market,13.0363277,80.2016549,,,bus_stop,,platform
+5225963092,node,SRP Tools Bus Stand,12.9861355,80.2512974,,,bus_stop,,platform
+5227401703,node,Thirumangalam Metro,13.0853785,80.2013107,,,bus_stop,,platform
+5227454884,node,Ekkattuthangal,13.0190177,80.2064033,,,bus_stop,,platform
+5228340704,node,Kalaimagal Nagar,13.0243667,80.2066739,,,bus_stop,,platform
+5228342635,node,Kalaimagal Nagar,13.0243263,80.2069943,,,bus_stop,,platform
+5239594891,node,Thirumangalam EB Office Bus Stop,13.0870648,80.1981881,,,bus_stop,,platform
+5274761658,node,Korukkupet,13.1194248,80.2784559,station,,,,station
+5274913769,node,Kotturpuram,13.0137182,80.2484517,station,,,,station
+5275790188,node,Chennai Egmore,13.0777493,80.2612572,station,,,,station
+5276187591,node,Perambur Carriage Works,13.1072814,80.2388864,station,,,,station
+5276205560,node,Perambur,13.1077190,80.2444143,station,,,,station
+5276214842,node,Perambur Loco Works,13.1084975,80.2262155,station,,,,station
+5287023932,node,Vyasarpadi Jeeva,13.1091961,80.2572195,station,,,,station
+5287054301,node,V.O.C. Nagar,13.1408066,80.2876108,halt,,,,
+5308690568,node,Alandur,13.0042558,80.2014525,station,subway,,,station
+5310193401,node,Perungudi,12.9758902,80.2319760,stop,,,,stop_position
+5310193402,node,Chintadaripet,13.0744209,80.2737533,stop,,,,stop_position
+5310193406,node,Greenways Road,13.0214925,80.2525320,stop,,,,stop_position
+5310193407,node,Kasturiba Nagar,13.0062918,80.2477555,stop,,,,stop_position
+5310193408,node,Tiruvanmiyur,12.9905250,80.2510760,stop,,,,stop_position
+5310193409,node,Taramani,12.9786784,80.2410508,stop,,,,stop_position
+5311732458,node,Tondiarpet,13.1275202,80.2819242,station,,,,station
+5311755231,node,Chintadaripet,13.0737952,80.2738611,station,,,,station
+5311755232,node,Light House,13.0455374,80.2769885,station,,,,station
+5311755233,node,Mundakakanni Amman Koil,13.0406508,80.2698818,station,,,,station
+5311755234,node,Thirumayilai,13.0353976,80.2675129,station,,,,station
+5311755235,node,Mandaveli,13.0280931,80.2606181,station,,,,station
+5311755236,node,Greenways Road,13.0215846,80.2527292,station,,,,station
+5311755237,node,Kasturiba Nagar,13.0053823,80.2478604,station,,,,station
+5311755238,node,Indira Nagar,12.9960623,80.2497160,station,,,,station
+5311755239,node,Tiruvanmiyur,12.9889822,80.2515865,station,,,,station
+5311755240,node,Taramani,12.9786584,80.2416441,station,,,,station
+5311755241,node,Perungudi,12.9760584,80.2321916,station,,,,station
+5311755242,node,Velachery,12.9676192,80.2195082,station,,,,station
+5311755243,node,Puzhudivakkam,12.9771578,80.2054236,station,,,,station
+5311755244,node,Adambakkam,12.9823811,80.1968882,station,,,,station
+5311775881,node,Nungambakkam,13.0658410,80.2328390,station,,,,station
+5318529343,node,Vadapalani,13.0468396,80.2121426,,,bus_stop,,platform
+5318530216,node,Vadapalani (Nerkundram Pathai),13.0539550,80.2114618,,,bus_stop,,platform
+5318537692,node,MMDA,13.0630102,80.2115596,,,bus_stop,,platform
+5318548733,node,SRM Travels,13.0710975,80.2029962,,,,bus_station,station
+5319202812,node,Saint Thomas Mount,12.9950000,80.1985820,station,subway,,,station
+5319207344,node,சென்னை விமான நிலையம்,12.9807725,80.1641832,stop,subway,,,stop_position
+5319207346,node,மீனம்பாக்கம்,12.9876388,80.1764698,stop,subway,,,stop_position
+5319207355,node,Nanganallur Road,12.9998483,80.1940028,stop,subway,,,stop_position
+5319207378,node,Ekkattuthangal,13.0169222,80.2054236,station,subway,,,station
+5319972796,node,Ashok Nagar,13.0354768,80.2111075,station,subway,,,station
+5319972798,node,Vadapalani,13.0509304,80.2120661,station,subway,,,station
+5319972799,node,Arumbakkam,13.0616746,80.2116557,station,subway,,,station
+5320093328,node,CPWD Quarters Bus Stop,13.0821970,80.1983699,,,bus_stop,,platform
+5321248424,node,சின்னமலை,13.0146226,80.2241682,stop,subway,,,stop_position
+5321248425,node,கிண்டி,13.0092314,80.2130951,stop,subway,,,stop_position
+5321248890,node,CMBT,13.0685246,80.2039625,station,subway,,,station
+5321248896,node,Koyambedu,13.0734496,80.1948363,station,subway,,,station
+5321303011,node,கோயம்பேடு,13.0734450,80.1948856,stop,,,,stop_position
+5328279366,node,Shenoy Nagar,13.0799248,80.2251225,stop,,,,stop_position
+5328279392,node,Nehru Park,13.0787744,80.2504742,stop,,,,stop_position
+5328279403,node,Egmore Metro,13.0802705,80.2630584,stop,,,,stop_position
+5329907482,node,Pachaiyappa's College,13.0755466,80.2328522,station,subway,,,station
+5329907483,node,Pachaiyappa's College,13.0755402,80.2328695,stop,,,,stop_position
+5329907486,node,Kilpauk,13.0776268,80.2426237,stop,,,,stop_position
+5329907487,node,Kilpauk,13.0776371,80.2426191,station,subway,,,station
+5329907490,node,Nehru Park,13.0787841,80.2504730,station,subway,,,station
+5329907499,node,Egmore,13.0802807,80.2630546,station,subway,,,station
+5329907502,node,Central Metro,13.0817666,80.2739102,stop,,,,stop_position
+5332423915,node,Buhari Hotel Bus Stop,12.9420294,80.2533063,,,bus_stop,,
+5332440110,node,Thiruvanmiyur RTO,12.9767640,80.2592029,,,bus_stop,,platform
+5336301540,node,Aringar Anna Arch,13.0769390,80.2152668,,,bus_stop,,platform
+5336303647,node,Anna Arch,13.0753580,80.2176034,,,bus_stop,,platform
+5336309421,node,Kandhasamy College,13.0851915,80.2178689,,,bus_stop,,platform
+5336309429,node,S. S. Super Market Bus Stop,13.0906948,80.2180699,,,bus_stop,,platform
+5336311486,node,Anna Peripheral Hospital Stop,13.0957115,80.2187163,,,bus_stop,,platform
+5336393773,node,Kalpana Hotel Stop,13.1027785,80.2086858,,,bus_stop,,platform
+5337407333,node,சைதாப்பேட்டை,13.0239394,80.2280916,stop,subway,,,stop_position
+5337407335,node,நந்தனம்,13.0316813,80.2411933,stop,subway,,,stop_position
+5337407339,node,தேனாம்பேட்டை,13.0368085,80.2464553,stop,subway,,,stop_position
+5337407346,node,ஆயிரம் விளக்கு,13.0585155,80.2587833,station,subway,,,station
+5337407347,node,ஏ ஜி டி.எம்.எஸ்,13.0458615,80.2483032,stop,subway,,,stop_position
+5337407350,node,எல் ஐ சி,13.0643716,80.2658465,station,subway,,,station
+5337407354,node,அரசினர் தோட்டம்,13.0696345,80.2730362,station,subway,,,station
+5337658075,node,Mannadi,13.0953587,80.2861592,stop,subway,,,stop_position
+5337658083,node,High Court,13.0872681,80.2849845,station,subway,,,station
+5337658088,node,Mannadi,13.0954465,80.2861312,station,subway,,,station
+5337658099,node,Washermanpet,13.1078469,80.2809490,station,subway,,,station
+5338328029,node,SIDCO Nagar,13.1032312,80.1989924,,,bus_stop,,platform
+5338328041,node,Nathamuni Theatre Stop,13.1036674,80.2026581,,,bus_stop,,platform
+5338516190,node,South Redhills Road Market,13.1080663,80.2061553,,,bus_stop,,platform
+5338598421,node,Kallukadai Stop,13.1022099,80.2107409,,,bus_stop,,platform
+5338600702,node,ICF,13.1001091,80.2145485,,,bus_stop,,platform
+5338602064,node,Anna Peripheral Hospital Stop,13.0956228,80.2189413,,,bus_stop,,platform
+5338606117,node,14 Shops Stop,13.0900917,80.2182669,,,bus_stop,,platform
+5338606922,node,Kandasamy College,13.0858113,80.2181340,,,bus_stop,,platform
+5338612406,node,Anna Nagar Roundtana,13.0848033,80.2159601,,,bus_stop,,platform
+5338614518,node,Ayyappan Kovil,13.0848976,80.2132579,,,bus_stop,,platform
+5338616524,node,Ayyappan Kovil,13.0847224,80.2118818,,,bus_stop,,platform
+5338617221,node,Blue Star,13.0849958,80.2109928,,,bus_stop,,platform
+5338656232,node,Anna Nagar Tower Station,13.0848336,80.2095342,,,bus_stop,,platform
+5338658745,node,Anna Nagar Tower Station,13.0850967,80.2095483,,,bus_stop,,platform
+5355818030,node,Ekkattuthangal,13.0186408,80.2059235,,,bus_stop,,platform
+5356742026,node,ஆயிரம் விளக்கு,13.0541950,80.2537850,,,bus_stop,,platform
+5373987234,node,Thirumangalam EB Office,13.0873581,80.1974447,,,bus_stop,,platform
+5400380243,node,Jai Nagar Park,13.0692359,80.2065633,,,bus_stop,,platform
+5400380933,node,Vijayakanth Kalyana Mandapam,13.0739760,80.2002264,,,bus_stop,,platform
+5400381038,node,CPWD Quarters Bus Stop,13.0820746,80.1987027,,,bus_stop,,platform
+5400381616,node,Pondicherry Buses Only,13.0318973,80.2113404,,,bus_stop,,platform
+5400381618,node,Sivan Kovil,13.0476117,80.2123446,,,bus_stop,,platform
+5400382521,node,Thirunagar,13.0580044,80.2116987,,,bus_stop,,platform
+5400382522,node,MMDA,13.0651401,80.2112943,,,bus_stop,,platform
+5423870707,node,ஆலந்தூர்,13.0042124,80.2015605,stop,,,,stop_position
+5423870708,node,ஆலந்தூர்,13.0042231,80.2015330,stop,,,,stop_position
+5423870709,node,ஆலந்தூர்,13.0042275,80.2015164,stop,,,,stop_position
+5460685950,node,LIC,13.0653877,80.2676197,,,,,stop_position
+5486341834,node,Jayanti,12.9874595,80.2553985,,,bus_stop,,platform
+5486499215,node,Race Course (Guindy),13.0080900,80.2133600,,,bus_stop,,platform
+5628388498,node,Taramani Guest House,12.9866789,80.2333649,,,bus_stop,,platform
+5631301095,node,Marudeeswarar Temple,12.9852935,80.2597450,,,bus_stop,,platform
+5631301097,node,Sathya Studio,13.0148230,80.2591757,,,bus_stop,,platform
+5631301098,node,,13.0565227,80.2549486,,,bus_stop,,platform
+5631301100,node,Malar Hospital,13.0069536,80.2583912,,,bus_stop,,platform
+5631301101,node,Malar Hospital,13.0079179,80.2587553,,,bus_stop,,platform
+5631301102,node,,13.0700086,80.2420016,,,bus_stop,,platform
+5631301103,node,Binny Mills,13.1029895,80.2527264,,,bus_stop,,platform
+5631301107,node,Thiruvanmiyur Moffusil bus stop,12.9872302,80.2593997,,,bus_stop,,platform
+5631301108,node,Ashoknagar Moffussil,13.0319226,80.2111736,,,bus_stop,,platform
+5631301109,node,,13.0505248,80.2796732,,,bus_stop,,platform
+5631301110,node,,13.0148178,80.1744381,,,bus_stop,,platform
+5631301111,node,,13.0145924,80.1744052,,,bus_stop,,platform
+5631301112,node,ஆழ்வார் பேட்டை,13.0386017,80.2587935,,,bus_stop,,platform
+5631301113,node,ஆழ்வார் பேட்டை,13.0388081,80.2588606,,,bus_stop,,platform
+5631301114,node,Bharathi Nagar,12.9816579,80.2334990,,,bus_stop,,platform
+5631301115,node,Yellow Pages,13.0444719,80.2685434,,,bus_stop,,platform
+5631301116,node,Jayanti,12.9883854,80.2559973,,,bus_stop,,platform
+5631301117,node,Jayanti,12.9885252,80.2558203,,,bus_stop,,platform
+5631301118,node,Guru Nanak College,12.9906984,80.2202958,,,bus_stop,,platform
+5631301119,node,VHS Hospital,13.0034222,80.2477388,,,bus_stop,,platform
+5631301421,node,Adyar,13.0064420,80.2543612,,,bus_stop,,platform
+5631301422,node,IIT Gate Bus Stop,13.0058253,80.2424924,,,bus_stop,,platform
+5631301423,node,Thiruvanmiyur ECR Moffusil Bus stop,12.9858005,80.2598000,,,bus_stop,,platform
+5631301424,node,Five Furlong Road,12.9974701,80.2162966,,,bus_stop,,platform
+5631301425,node,Velachery Check Post,12.9973995,80.2166627,,,bus_stop,,platform
+5631301426,node,Velachery Check Post,12.9974859,80.2164321,,,bus_stop,,platform
+5631301427,node,Guindy,13.0080310,80.2093980,,,bus_stop,,platform
+5631301429,node,கிண்டி,13.0089182,80.2111924,,,bus_stop,,platform
+5632367706,node,,12.9907728,80.2300317,,,bus_stop,,platform
+5632367707,node,Campus cafe,12.9909124,80.2301226,,,bus_stop,,platform
+5760196458,node,ஏ ஜி டி.எம்.எஸ்,13.0458703,80.2482567,stop,subway,,,stop_position
+5760196466,node,தேனாம்பேட்டை,13.0368236,80.2463929,stop,subway,,,stop_position
+5760196474,node,நந்தனம்,13.0317226,80.2411721,stop,subway,,,stop_position
+5760196488,node,சைதாப்பேட்டை,13.0239750,80.2280614,stop,subway,,,stop_position
+5817838780,node,Chennai Fort,13.0832719,80.2828506,stop,,,,stop_position
+5895473215,node,Chennai Beach,13.0913914,80.2922474,stop,,,,stop_position
+5895473234,node,Chennai Beach,13.0930919,80.2926493,stop,,,,stop_position
+6057945756,node,Bus Stop,13.0290019,80.2537390,,,bus_stop,,platform
+6117608083,node,VOC Nagar Bus Stop,13.0912499,80.2276191,,,bus_stop,,platform
+6185888872,node,Abirami theatre bus stop,13.0858185,80.2465885,,,bus_stop,,platform
+6253855210,node,YBM Koyambedu,13.0752687,80.1968385,,,bus_stop,,platform
+6274949832,node,Ampa Skywalk,13.0743736,80.2206151,,,,,stop_position
+6285857236,node,Nanganallur Road,12.9998739,80.1939756,stop,subway,,,stop_position
+6285857237,node,Nanganallur Road,12.9998798,80.1940099,station,subway,,,station
+6285857238,node,மீனம்பாக்கம்,12.9876709,80.1764378,stop,subway,,,stop_position
+6285857239,node,Meenambakkam,12.9876728,80.1764787,station,subway,,,station
+6285857240,node,சென்னை விமான நிலையம்,12.9808178,80.1641592,stop,subway,,,stop_position
+6285857241,node,Chennai International Airport,12.9808092,80.1642026,station,subway,,,station
+6285857242,node,தேனாம்பேட்டை,13.0368003,80.2464194,station,subway,,,station
+6285857243,node,நந்தனம்,13.0317092,80.2411957,station,subway,,,station
+6285857244,node,சைதாப்பேட்டை,13.0239952,80.2281244,station,subway,,,station
+6285857245,node,சின்னமலை,13.0146778,80.2241109,stop,subway,,,stop_position
+6285857246,node,சின்னமலை,13.0146634,80.2241669,station,subway,,,station
+6285857247,node,கிண்டி,13.0092951,80.2130723,stop,subway,,,stop_position
+6285857248,node,கிண்டி,13.0092746,80.2130846,station,subway,,,station
+6285857249,node,ஏ ஜி டி.எம்.எஸ்,13.0458852,80.2482846,station,subway,,,station
+6285857250,node,Central Metro,13.0816876,80.2739223,stop,subway,,,stop_position
+6285857251,node,Central Metro,13.0817126,80.2739184,stop,subway,,,stop_position
+6285857252,node,Central Metro,13.0817435,80.2739136,stop,,,,stop_position
+6285857253,node,Central Metro,13.0817254,80.2739160,station,subway,,,station
+6286383211,node,ஆலந்தூர்,13.0042165,80.2015496,stop,,,,stop_position
+6367914551,node,,13.0154329,80.1912316,,,bus_stop,,platform
+6394588658,node,Vannanthurai,12.9961241,80.2627793,,,bus_stop,,platform
+6397600715,node,வண்ணாரப்பேட்டை,13.1079591,80.2810250,stop,subway,,,stop_position
+6397600716,node,வண்ணாரப்பேட்டை,13.1079711,80.2809437,stop,subway,,,stop_position
+6397600717,node,High Court,13.0872148,80.2849401,stop,subway,,,stop_position
+6397600718,node,High Court,13.0872079,80.2849935,stop,subway,,,stop_position
+6397600719,node,அரசினர் தோட்டம்,13.0696147,80.2731105,stop,subway,,,stop_position
+6397600720,node,எல் ஐ சி,13.0643478,80.2658620,stop,subway,,,stop_position
+6397600721,node,எல் ஐ சி,13.0643999,80.2658300,stop,subway,,,stop_position
+6397600722,node,ஆயிரம் விளக்கு,13.0586219,80.2587519,stop,subway,,,stop_position
+6397600723,node,ஆயிரம் விளக்கு,13.0585796,80.2587730,stop,subway,,,stop_position
+6460934200,node,Washermanpet,13.1089648,80.2820095,station,,,,station
+6497450229,node,Thyagaraya Nagar Bus Terminus,13.0342592,80.2303690,,,,,stop_position
+6518463385,node,திருமங்கலம்,13.0906674,80.1984558,,,bus_stop,,platform
+6518468529,node,Bus Stop,13.0917305,80.1984396,,,bus_stop,,
+7056229385,node,,13.0631374,80.2622149,,,bus_stop,,platform
+7155445050,node,TVS,13.0592866,80.2595105,,,,,stop_position
+7169395980,node,Military Quarters,13.0107563,80.1957259,,,bus_stop,,platform
+7169419214,node,ST Thomas Hospital,13.0107616,80.1959419,,,bus_stop,,platform
+7170102954,node,Panaiyur,12.8869167,80.2457574,,,bus_stop,,
+7252487207,node,Mofussil Bus Stop,13.0329587,80.2120330,,,bus_stop,,platform
+7255708042,node,Nungambakkam Police Station,13.0577143,80.2427631,,,bus_stop,,platform
+7255754030,node,Bus stop,13.0533162,80.2479376,,,bus_stop,,platform
+7412854052,node,IGP,12.9729954,80.2502408,,,bus_stop,,stop_position
+7412932325,node,Broadway,13.0883365,80.2838631,,,,,stop_position
+7412932327,node,CIT colony,13.0390729,80.2575264,,,,,stop_position
+7412932328,node,ஆழ்வார் பேட்டை,13.0356479,80.2548953,,,bus_stop,,stop_position
+7412932329,node,Kotturpuram,13.0231055,80.2427833,,,bus_stop,,stop_position
+7412932330,node,Kottur,13.0185768,80.2413141,,,bus_stop,,stop_position
+7412932331,node,Birla planetarium / CLRI,13.0100519,80.2405691,,,bus_stop,,stop_position
+7412932332,node,Ascendas IT park,12.9862169,80.2468241,,,bus_stop,,stop_position
+7416129840,node,Music Academy,13.0471019,80.2609805,,,bus_stop,,platform
+7424295245,node,Taramani,12.9854059,80.2406319,,,,,stop_position
+7433365963,node,SPIC / Chellammal College,13.0118730,80.2219855,,,,,stop_position
+7636804603,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0835557,80.2758420,stop,,,,stop_position
+7636804604,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0835516,80.2758095,stop,,,,stop_position
+7636804605,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0835400,80.2757000,stop,,,,stop_position
+7636804606,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0835318,80.2756071,stop,,,,stop_position
+7636804607,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0835264,80.2755696,stop,,,,stop_position
+7636804608,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0835100,80.2754328,stop,,,,stop_position
+7636804609,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0835056,80.2754043,stop,,,,stop_position
+7710665289,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0836730,80.2747381,stop,,,,stop_position
+7710665290,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0835317,80.2751985,stop,,,,stop_position
+7710665291,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0835267,80.2751567,stop,,,,stop_position
+7794528406,node,Loyola College,13.0646628,80.2347752,,,,,stop_position
+7796591114,node,Anna Nagar West,13.0937546,80.1984937,,,,bus_station,station
+7796591115,node,Anna Nagar West,13.0941517,80.1987163,,,bus_stop,,platform
+7802828807,node,Kumaran Theater,12.9726442,80.1914709,,,,,stop_position
+7843267872,node,Skywalk,13.0720107,80.2220136,,,bus_stop,,platform
+7843267873,node,Skywalk,13.0738150,80.2208333,,,bus_stop,,platform
+7843267874,node,Anna Arch,13.0760536,80.2181587,,,bus_stop,,platform
+7869100703,node,Mehtha Nagar,13.0678542,80.2269976,,,bus_stop,,platform
+7869100704,node,Choolaimedu,13.0666515,80.2309740,,,bus_stop,,platform
+7869148874,node,Choolaimedu,13.0666287,80.2305198,,,bus_stop,,platform
+7869208200,node,Mehtha Nagar,13.0678373,80.2268263,,,bus_stop,,platform
+7871877992,node,Valluvar Kottam,13.0538300,80.2423007,,,bus_stop,,platform
+8064696884,node,மூவரசம்பட்டு,12.9693839,80.1861325,,,bus_stop,,platform
+8429442682,node,தொண்டையார்பேட்டை,13.1245289,80.2888383,stop,,,,stop_position
+8430632406,node,Sir Theagaraya College,13.1157545,80.2847439,station,subway,,,station
+8430632416,node,Tondiarpet,13.1245276,80.2888557,station,subway,,,station
+8430636716,node,சுங்கச்சாவடி,13.1431344,80.2963291,station,subway,,,station
+8430636817,node,புது வண்ணாரப்பேட்டை,13.1345195,80.2930011,station,subway,,,station
+8477103081,node,சுங்கச்சாவடி,13.1431299,80.2963435,stop,,,,stop_position
+8477103083,node,புது வண்ணாரப்பேட்டை,13.1345123,80.2930205,stop,,,,stop_position
+8477103089,node,தொண்டையார்பேட்டை,13.1245171,80.2888785,stop,,,,stop_position
+8477103091,node,Sir Theagaraya College,13.1157558,80.2847560,stop,,,,stop_position
+8477103093,node,Sir Theagaraya College,13.1157667,80.2847109,stop,,,,stop_position
+8477103094,node,புது வண்ணாரப்பேட்டை,13.1345238,80.2929776,stop,,,,stop_position
+8477103095,node,சுங்கச்சாவடி,13.1431384,80.2963140,stop,,,,stop_position
+8601096138,node,Velachery Railway Station,12.9712759,80.2191310,,,,,stop_position
+9084570182,node,Amutham,13.0397523,80.1931123,,,bus_stop,,platform
+9368655291,node,Kumaran Theater,12.9726563,80.1914521,,,bus_stop,,platform
+9368672356,node,Guru Nanak College,12.9909955,80.2200242,,,,,stop_position
+9370267242,node,Dhandeeswaram,12.9829795,80.2219649,,,bus_stop,,platform
+9370267243,node,Gandhi Road,12.9864532,80.2229117,,,bus_stop,,platform
+9370267244,node,Five Furlong Road,12.9976865,80.2159576,,,bus_stop,,platform
+9370267245,node,Olympia Tech Park,13.0148569,80.2045846,,,bus_stop,,platform
+9370524480,node,Velachery Vijaynagar,12.9762731,80.2215630,,,bus_stop,,platform
+9370524481,node,National Institute of Fashion Technology (N.I.F.T),12.9831680,80.2524814,,,bus_stop,,platform
+9399662897,node,Baby Nagar,12.9806111,80.2287820,,,,,stop_position
+9399662898,node,Guru Nanak College,12.9907100,80.2201775,,,,,stop_position
+9399815493,node,Taramani 100 Feet Road,12.9814108,80.2427068,,,bus_stop,,platform
+9399815494,node,Taramani 100 Feet Road,12.9812324,80.2427187,,,bus_stop,,platform
+9399815495,node,Taramani 100 Feet Road,12.9814019,80.2427193,,,,,stop_position
+9399815496,node,Taramani 100 Feet Road,12.9812981,80.2427155,,,,,stop_position
+9400398352,node,Medavakkam,12.9173172,80.1936779,,,bus_stop,,platform
+9400398353,node,Jeyachandran,12.9211296,80.1968403,,,bus_stop,,platform
+9400398354,node,Jeyachandran Stop,12.9211347,80.1968921,,,,,stop_position
+9400398372,node,High School,12.9260465,80.1974301,,,bus_stop,,platform
+9400398373,node,High School,12.9260488,80.1974863,,,,,stop_position
+9400398374,node,Pallikkaranai,12.9336313,80.2037553,,,bus_stop,,platform
+9400398375,node,Pallikkaranai,12.9336154,80.2038226,,,,,stop_position
+9400398377,node,Narayanapuram,12.9404262,80.2056812,,,,,stop_position
+9400398378,node,Balaji Dental College,12.9442869,80.2082021,,,bus_stop,,platform
+9400398379,node,Kamatchi Memorial Hospital,12.9487590,80.2098257,,,bus_stop,,platform
+9400398380,node,Kamatchi Memorial Hospital,12.9487729,80.2098975,,,,,stop_position
+9400398381,node,Balaji Nagar,12.9534266,80.2118230,,,bus_stop,,platform
+9400398382,node,Balaji Nagar,12.9534440,80.2118662,,,,,stop_position
+9400398383,node,Kaiveli,12.9638777,80.2160234,,,,,stop_position
+9400398385,node,Velachery Railway Station,12.9713022,80.2190042,,,,,stop_position
+9401706170,node,Velachery Vijaya Nagar,12.9751658,80.2208286,,,bus_stop,,platform
+9402008106,node,Velachery Railway Station,12.9712086,80.2192719,,,bus_stop,,platform
+9402008107,node,Kaiveli,12.9634008,80.2159813,,,,,stop_position
+9402008108,node,Kamatchi Memorial Hospital,12.9482570,80.2100823,,,,,stop_position
+9402008109,node,Kamatchi Memorial Hospital,12.9482196,80.2101768,,,bus_stop,,platform
+9402008111,node,Balaji Dental College,12.9441308,80.2085060,,,bus_stop,,platform
+9402008112,node,Balaji Dental College,12.9441649,80.2083807,,,,,stop_position
+9402008113,node,Pallikaranai,12.9338309,80.2039389,,,,,stop_position
+9402008114,node,Oil Mill,12.9285291,80.2021939,,,,,stop_position
+9402008115,node,High School,12.9265939,80.1977637,,,bus_stop,,platform
+9402008116,node,High School,12.9266104,80.1976821,,,,,stop_position
+9402032617,node,Jeyachandran stores,12.9220034,80.1973341,,,bus_stop,,platform
+9402032618,node,Jeyachandran stores,12.9220218,80.1972500,,,,,stop_position
+9402032619,node,Medavakkam,12.9186199,80.1879064,,,bus_stop,,platform
+9402032620,node,Medavakkam,12.9185443,80.1881393,,,,,stop_position
+9404253942,node,Kasturiba Nagar,13.0043884,80.2477564,stop,,,,stop_position
+9404253943,node,Kotturpuram,13.0128428,80.2482501,stop,,,,stop_position
+9404253944,node,Mandaveli,13.0287697,80.2608444,stop,,,,stop_position
+9404253945,node,Light House,13.0458200,80.2769914,stop,,,,stop_position
+9404253946,node,Light House,13.0443521,80.2765589,stop,,,,stop_position
+9404253947,node,Thiruvallikeni,13.0559321,80.2805277,stop,,,,stop_position
+9404967419,node,Balaji Dental College,12.9443297,80.2082650,,,,,stop_position
+9412787717,node,கோவிலாம்பாக்கம்,12.9388017,80.1822560,,,,,platform
+9412787725,node,Balaiah Garden,12.9654380,80.2013584,,,bus_stop,,platform
+9412787727,node,Ram Nagar,12.9653278,80.2069929,,,bus_stop,,platform
+9412787728,node,Sadasiva Nagar,12.9656308,80.2043863,,,,,stop_position
+9412787729,node,Sadasiva Nagar,12.9658462,80.2031164,,,bus_stop,,platform
+9412787731,node,Gandhi Road,12.9864666,80.2229705,,,,,stop_position
+9412787732,node,Kannigapuram,13.0048514,80.2202225,,,,,stop_position
+9412787733,node,Kannigapuram,13.0048727,80.2202328,,,,,platform
+9412787734,node,Little Mount,13.0155164,80.2250894,,,,,stop_position
+9412787735,node,Saidapet,13.0221111,80.2262940,,,,,stop_position
+9412787736,node,C.I.T. Nagar,13.0279977,80.2309273,,,,,stop_position
+9412787737,node,C.I.T. Nagar,13.0280068,80.2309254,,,,,platform
+9412862312,node,Ashok Pillar,13.0343027,80.2121485,,,,,stop_position
+9412862313,node,Ashok Pillar,13.0342862,80.2122277,,,bus_stop,,platform
+9417619429,node,Kumaran Theater,12.9725096,80.1915348,,,bus_stop,,platform
+9417619430,node,Kumaran Theater,12.9725284,80.1914999,,,,,stop_position
+9417619431,node,Vanuvampet,12.9818042,80.1957994,,,,,stop_position
+9417619432,node,Vanuvampet,12.9817834,80.1958555,,,,,platform
+9417619433,node,பரங்கிமலை ரயில் நிலையம்,12.9946272,80.2002830,,,,,stop_position
+9417619434,node,கோவிலாம்பாக்கம்,12.9395353,80.1825973,,,,,stop_position
+9417619439,node,Axis Bank,12.9660970,80.1887047,,,,,platform
+9417619440,node,Axis Bank,12.9661068,80.1886704,,,,,stop_position
+9417619441,node,மூவரசம்பட்டு கூட்ரோடு,12.9682780,80.1895350,,,,,stop_position
+9417619442,node,மூவரசம்பட்டு கூட்ரோடு,12.9682552,80.1895960,,,,,stop_position
+9417619443,node,மூவரசம்பட்டு கூட்ரோடு,12.9682417,80.1896401,,,bus_stop,,platform
+9417619444,node,NGO Colony,12.9947010,80.2065590,,,,,stop_position
+9417619445,node,NGO Colony Bus Terminus,12.9947979,80.2067982,,,,,stop_position
+9419760484,node,Anna Arch,13.0753585,80.2176228,,,,,stop_position
+9481428042,node,பரங்கிமலை ரயில் நிலையம்,12.9946109,80.2003462,,,,,platform
+9500680214,node,Tansi Nagar,12.9784111,80.2253294,,,,,stop_position
+9500680215,node,Baby Nagar,12.9804402,80.2286896,,,,,stop_position
+9500680216,node,Baby Nagar,12.9803890,80.2287233,,,,,platform
+9500730217,node,Bharathi Nagar,12.9815365,80.2334379,,,,,stop_position
+9500730218,node,Bharathi Nagar,12.9814698,80.2334198,,,,,platform
+9500730219,node,Tidel Park,12.9873981,80.2516421,,,,,stop_position
+9500730220,node,Tidel Park,12.9873622,80.2517782,,,,,platform
+9500730221,node,Tidel Park,12.9881659,80.2524528,,,,,platform
+9500730222,node,N.I.F.T.,12.9831713,80.2525253,,,,,stop_position
+9500730223,node,SRP Tools,12.9803011,80.2514556,,,,,stop_position
+9500730224,node,SRP Tools,12.9803439,80.2514543,,,,,platform
+9500730225,node,Tansi Nagar,12.9786209,80.2253008,,,,,platform
+9500730226,node,Tansi Nagar,12.9783307,80.2253249,,,,,platform
+9500730227,node,Velachery Vijaya Nagar,12.9762478,80.2215821,,,,,stop_position
+9500730228,node,SRP Tools,12.9802174,80.2514209,,,,,stop_position
+9500730229,node,SRP Tools,12.9801263,80.2513960,,,,,platform
+9504474768,node,Royapettah Police Station,13.0524427,80.2638924,,,,,platform
+9504474769,node,Royapettah Hospital,13.0546591,80.2643733,,,,,stop_position
+9504474770,node,Woodlands Theatre / Wesley school,13.0571290,80.2648726,,,,,stop_position
+9504474771,node,Express Avenue,13.0608744,80.2652892,,,,,platform
+9504474772,node,LIC,13.0653566,80.2677424,,,,,platform
+9504474773,node,Simson,13.0703667,80.2737145,,,,,stop_position
+9504474774,node,Pallavan Salai,13.0763679,80.2763591,,,,,stop_position
+9504474775,node,General Hospital,13.0819350,80.2774889,,,,,stop_position
+9504474776,node,Flower Bazaar,13.0876798,80.2814746,,,bus_stop,,platform
+9504474777,node,Broadway,13.0882526,80.2838856,,,,,platform
+9506980944,node,Women's polytechnic,12.9981705,80.2488385,,,,,stop_position
+9514055804,node,,12.9886237,80.1977450,,,bus_stop,,platform
+9514055810,node,Mahalakshmi Colony,12.9977774,80.2073255,,,bus_stop,,platform
+9514055811,node,Mahalakshmi Apartments,12.9980198,80.2072705,,,bus_stop,,platform
+9514055812,node,Aalandur Metro,13.0048086,80.2015478,,,bus_stop,,platform
+9514055813,node,Cement Road,12.9957148,80.1892331,,,bus_stop,,platform
+9514055814,node,Pillayar Koil,12.9827924,80.1917198,,,bus_stop,,platform
+9514055815,node,Chellammal College,13.0121297,80.2202503,,,bus_stop,,platform
+9514055816,node,Todhunter Nagar,13.0254505,80.2297489,,,bus_stop,,platform
+9514067017,node,Nandanam,13.0294407,80.2369328,,,bus_stop,,platform
+9514067018,node,Vani Mahal,13.0465924,80.2427912,,,bus_stop,,platform
+9514067019,node,Vani Mahal,13.0470000,80.2439043,,,bus_stop,,platform
+9522345424,node,UTI Bank,12.9658799,80.1889584,,,bus_stop,,platform
+9522345425,node,UTI Bank,12.9648478,80.1882330,,,bus_stop,,platform
+9522345426,node,UTI Bank,12.9654012,80.1882967,,,bus_stop,,platform
+9524625506,node,Jai Gopal Garodia School,12.9853446,80.1857835,,,bus_stop,,platform
+9524638253,node,SPIC / Chellammal College,13.0117864,80.2219266,,,,,platform
+9524652864,node,Independence Day Park,12.9823175,80.1857694,,,bus_stop,,platform
+9524666195,node,Vetrivel Theatre,12.9798333,80.1829123,,,bus_stop,,platform
+9526100531,node,Gandhi Road,12.9868225,80.2230672,,,,,platform
+9526179496,node,வெள்ளைக்கல்,12.9313739,80.1814520,,,,,platform
+9526179497,node,வடக்குப்பட்டு,12.9348795,80.1823492,,,,,platform
+9526179498,node,வடக்குப்பட்டு,12.9348965,80.1821816,,,,,platform
+9526179499,node,கோவிலாம்பாக்கம்,12.9387939,80.1823586,,,,,stop_position
+9526179500,node,கோவிலாம்பாக்கம்,12.9392448,80.1825250,,,,,stop_position
+9526179501,node,MGR Nagar,12.9447569,80.1829380,,,,,platform
+9526179502,node,MGR Nagar,12.9447556,80.1830949,,,,,platform
+9526179506,node,மூவரசம்பட்டு,12.9694414,80.1862814,,,,,platform
+9529333083,node,Meenambakkam Metro,12.9873223,80.1761799,,,bus_stop,,platform
+9536043083,node,Pillayar Koil,12.9813930,80.2384985,,,bus_stop,,platform
+9536047321,node,Pillayar Koil,12.9811706,80.2381908,,,bus_stop,,platform
+9554098006,node,Phoenix Mall,12.9910579,80.2195223,,,bus_stop,,
+9554102404,node,Erikkarai,12.9871386,80.2183655,,,bus_stop,,platform
+9554116143,node,Rajalakshmi Nagar,12.9839239,80.2180709,,,bus_stop,,
+9554140669,node,Guindy Race Course,13.0046861,80.2203904,,,bus_stop,,platform
+9554140671,node,Nanganallur Metro Station,12.9992711,80.1934383,,,bus_stop,,platform
+9554147562,node,GN Chetty Road,13.0485705,80.2460822,,,bus_stop,,platform
+9554156480,node,Halda,13.0104553,80.2228615,,,bus_stop,,
+9554162872,node,Erikkarai,12.9873344,80.2181539,,,bus_stop,,platform
+9570575688,node,Ayanavaram Bus Terminus,13.0986329,80.2420053,,,,,stop_position
+9592492217,node,பரங்கிமலை,12.9950171,80.1983815,stop,,,,stop_position
+9592492218,node,பரங்கிமலை,12.9950609,80.1983631,stop,,,,stop_position
+9592492219,node,ஈக்காட்டுத்தாங்கல்,13.0169468,80.2054543,stop,,,,stop_position
+9592492220,node,ஈக்காட்டுத்தாங்கல்,13.0169572,80.2054139,stop,,,,stop_position
+9592492221,node,அசோக் நகர்,13.0355123,80.2112057,stop,,,,stop_position
+9592492222,node,வடபழநி,13.0509274,80.2120872,stop,,,,stop_position
+9592492223,node,வடபழநி,13.0509321,80.2120452,stop,,,,stop_position
+9592492224,node,அரும்பாக்கம்,13.0616640,80.2116769,stop,,,,stop_position
+9592492225,node,அரும்பாக்கம்,13.0616666,80.2116305,stop,,,,stop_position
+9592492226,node,சென்னை புறநகர் பேருந்து நிலையம்,13.0685576,80.2039409,stop,,,,stop_position
+9592492227,node,Thirumangalam,13.0852364,80.2015891,stop,,,,stop_position
+9592492228,node,Thirumangalam,13.0852530,80.2015898,stop,,,,stop_position
+9592492229,node,Anna Nagar Tower,13.0849684,80.2088930,stop,,,,stop_position
+9592492230,node,Anna Nagar Tower,13.0849998,80.2088936,stop,,,,stop_position
+9592492231,node,Anna Nagar East,13.0845849,80.2186077,stop,,,,stop_position
+9734354380,node,New Woodlands,13.0446727,80.2630248,,,bus_stop,,platform
+9734368257,node,New Woodlands,13.0448097,80.2631942,,,bus_stop,,platform
+9734386075,node,AVM Rajeshwari Thirumana Mandapam,13.0446914,80.2653248,,,bus_stop,,platform
+9734398142,node,Yellow Pages,13.0445686,80.2691766,,,bus_stop,,platform
+9734416560,node,Radha Krishnan Salai Kalyani Hospital,13.0438762,80.2715829,,,bus_stop,,platform
+9734417426,node,Yellow Pages,13.0445902,80.2691337,,,bus_stop,,platform
+9734424821,node,Kalyani Hospital,13.0438295,80.2718498,,,bus_stop,,platform
+9734428259,node,,13.0438575,80.2716913,,,bus_stop,,platform
+9796683105,node,Perumbakkam Bus Depot,12.8866626,80.2096881,,,,bus_station,station
+9819010214,node,Thirumalai Pillai Road,13.0463989,80.2395728,,,,,stop_position
+9849133813,node,JK Mahal,12.9760401,80.1832874,,,bus_stop,,platform
+9849200501,node,Baby Nagar,12.9801876,80.2284298,,,bus_stop,,platform
+9849235452,node,MMDA Colony,12.9710697,80.1830757,,,bus_stop,,platform
+9849242230,node,,13.0098921,80.2594022,,,bus_stop,,platform
+9849246448,node,Bharathy Nagar,12.9811430,80.2342733,,,bus_stop,,platform
+9849253327,node,Baby Nagar,12.9817272,80.2304834,,,bus_stop,,platform
+9872392719,node,The Esplanade,13.0888432,80.2893272,,,bus_stop,,platform
+9885031455,node,Moore Market Complex,13.0835608,80.2738737,stop,,,,stop_position
+9885031456,node,Moore Market Complex,13.0836178,80.2743736,stop,,,,stop_position
+9886329408,node,Foreshore Estate Bus Terminus,13.0223777,80.2762780,,,,,stop_position
+9886468231,node,Villivakkam MTC Bus Terminus,13.1054503,80.2080247,,,,,platform
+9886468232,node,New Woodlands,13.0446919,80.2630242,,,,,stop_position
+9894539902,node,Anna Nagar Roundtana,13.0846068,80.2159694,,,bus_stop,,platform
+9894539903,node,Amminjikarai,13.0813149,80.2177915,,,,,stop_position
+9894539904,node,Amminjikarai,13.0813176,80.2177262,,,,,platform
+9894539905,node,Choolaimedu,13.0666172,80.2307540,,,,,stop_position
+9894539906,node,Independence Day Park,13.0566553,80.2425863,,,,,platform
+9894539907,node,Valluvar Kottam,13.0539490,80.2421290,,,,,platform
+9894539908,node,Power House,13.0409609,80.2405902,,,,,stop_position
+9894539909,node,Power House,13.0409796,80.2405384,,,,,platform
+9894539910,node,Power House,13.0409508,80.2406524,,,,,platform
+9894539911,node,Hindi Prachar Sabha,13.0364341,80.2394012,,,,,platform
+9902231102,node,Puzhudivakkam,12.9771389,80.2054109,,,,,stop_position
+9902231103,node,Puzhudivakkam,12.9771754,80.2054350,,,,,stop_position
+9903138576,node,Thirunagar,13.0580042,80.2116331,,,,,stop_position
+9903138577,node,MMDA,13.0650987,80.2112453,,,,,stop_position
+9911349479,node,Thyagaraya Nagar Bus Terminus,13.0342685,80.2303661,,,,,platform
+9918041829,node,Nandanam YMCA,13.0289526,80.2367701,,,bus_stop,,
+9920341481,node,,13.0220342,80.2261973,,,bus_stop,,platform
+9920341482,node,,13.0195376,80.2064926,,,bus_stop,,platform
+9920341495,node,Guindy Railway Station,13.0080474,80.2131366,,,bus_stop,,platform
+9920362744,node,Taj Connemara,13.0633636,80.2615709,,,bus_stop,,platform
+9920370156,node,US Embassy,13.0536924,80.2530652,,,bus_stop,,platform
+9920370157,node,Anand Theater,13.0567190,80.2566529,,,bus_stop,,platform
+9920370158,node,Spencer Plaza,13.0606236,80.2610739,,,bus_stop,,platform
+9920387333,node,LIC,13.0630453,80.2639710,,,bus_stop,,platform
+9920387335,node,TTK Road Adyar Gate,13.0305766,80.2511416,,,bus_stop,,platform
+9920387336,node,TTK Road,13.0329132,80.2529106,,,bus_stop,,platform
+9920387338,node,Kotturpuram Bridge,13.0274071,80.2449173,,,bus_stop,,platform
+9920647758,node,Thyagaraya Nagar Bus Terminus,13.0345423,80.2300791,,,,,stop_position
+9921938866,node,Besant Nagar,12.9961023,80.2677142,,,,,stop_position
+9921938867,node,Vannanthurai,12.9962673,80.2624653,,,,,stop_position
+9921938868,node,Adyar Depot,12.9987579,80.2560900,,,,,stop_position
+9921938869,node,BSNL Office,13.0002568,80.2563936,,,,,stop_position
+9921938872,node,Mandaveli,13.0272678,80.2661383,,,,,stop_position
+9921938873,node,Mandaveli Market,13.0299143,80.2667084,,,,,stop_position
+9921938874,node,Mylapore Tank,13.0339289,80.2679807,,,,,stop_position
+9921938875,node,Luz Corner,13.0376257,80.2676931,,,,,stop_position
+9921938876,node,Valluvar Statue,13.0417805,80.2682611,,,,,stop_position
+9921938877,node,AVM Rajeshwari Thirumana Mandapam,13.0446682,80.2653247,,,,,stop_position
+9921938878,node,New Woodlands,13.0447817,80.2631832,,,,,stop_position
+9921938879,node,Chola Sheraton,13.0461759,80.2565485,,,,,stop_position
+9921938880,node,Stella Maris College,13.0480058,80.2540431,,,,,stop_position
+9921938881,node,Semozhi Poonga,13.0504670,80.2526125,,,,,stop_position
+9921938882,node,Woodlands,13.0514535,80.2518364,,,,,stop_position
+9921938883,node,Gemini,13.0549423,80.2496076,,,,,stop_position
+9921938884,node,Income Tax Offrice,13.0573111,80.2486595,,,,,stop_position
+9921938885,node,Taj Hotel,13.0594268,80.2479477,,,,,stop_position
+9921938886,node,Sterling,13.0606090,80.2474532,,,,,stop_position
+9921938887,node,Haddows Road,13.0666679,80.2478810,,,,,stop_position
+9921938888,node,College Road,13.0671202,80.2479099,,,,,stop_position
+9921938889,node,College Road,13.0677731,80.2465395,,,,,stop_position
+9921938890,node,Chetpet,13.0704688,80.2420456,,,,,stop_position
+9921938891,node,KMC,13.0787743,80.2521242,,,,,stop_position
+9921938892,node,Purasawalkam,13.0799617,80.2546471,,,,,stop_position
+9921938893,node,Millers Road,13.0834530,80.2545545,,,,,stop_position
+9921938894,node,Mekala Theatre,13.0872312,80.2507024,,,,,stop_position
+9921938895,node,RK Mutt Road,13.0906326,80.2510679,,,,,stop_position
+9921938896,node,Otteri,13.0972562,80.2513655,,,,,stop_position
+9921938897,node,Binny Mills,13.1023980,80.2525825,,,,,stop_position
+9921938898,node,Mettupalayam,13.1049467,80.2531140,,,,,stop_position
+9921938899,node,Jamalia,13.1061602,80.2505118,,,,,stop_position
+9921938901,node,Perambur Bus Terminus,13.1087237,80.2482805,,,,,stop_position
+9921938902,node,Perambur Bus Terminus,13.1086719,80.2482733,,,,,stop_position
+9921938903,node,Perambur Bus Terminus,13.1086249,80.2482670,,,,,stop_position
+9921938904,node,Perambur Bus Terminus,13.1085828,80.2482599,,,,,stop_position
+9921938905,node,Perambur Bus Terminus,13.1085087,80.2482512,,,,,stop_position
+9921942425,node,Besant Nagar Bus Terminus,13.0004016,80.2658040,,,,,stop_position
+9921942426,node,Besant Nagar Bus Terminus,13.0003026,80.2657987,,,,,stop_position
+9925164641,node,,12.9767683,80.2591481,,,,,stop_position
+9925164642,node,Tidel Park,12.9911149,80.2506166,,,,,stop_position
+9925164643,node,Madhya Kailash,13.0060208,80.2474155,,,,,stop_position
+9925164644,node,IIT/CLRI,13.0067764,80.2407171,,,,,stop_position
+9925164645,node,Olympia Tech Park,13.0141061,80.2045404,,,,,stop_position
+9925164646,node,Kalaimagal Nagar,13.0243279,80.2069309,,,,,stop_position
+9932032471,node,Tcs bus stop,12.9191476,80.2301533,,,bus_stop,,
+9992430694,node,,13.1064674,80.2801183,,,bus_stop,,platform
+9992430955,node,,13.1112707,80.2778500,,,bus_stop,,platform
+10016012917,node,Kanthanchavadi,12.9651441,80.2474527,,,bus_stop,,
+10016030270,node,Kanthanchavadi,12.9671399,80.2480544,,,bus_stop,,
+10036499425,node,Nandanam Officers Enclave,13.0320877,80.2422636,,,bus_stop,,platform
+10036499426,node,Nandanam Officers Enclave,13.0319260,80.2413030,,,bus_stop,,platform
+10102264735,node,General Post Office,13.0930674,80.2917553,,,bus_stop,,platform
+10102275912,node,Beach Station,13.0942257,80.2921033,,,bus_stop,,platform
+10115681436,node,Moolakothalam,13.1045485,80.2758378,,,bus_stop,,platform
+10115681437,node,Moolakothalam,13.1043930,80.2758788,,,bus_stop,,platform
+10115882544,node,Mannadi,13.0956730,80.2864412,,,bus_stop,,platform
+10115882552,node,Loyer Square,13.0936205,80.2861429,,,bus_stop,,platform
+10120161717,node,Velachery Vijaya Nagar Bus Terminus,12.9759280,80.2211155,,,,,stop_position
+10120161757,node,Velachery Vijaya Nagar,12.9752026,80.2207427,,,,,stop_position
+10187877326,node,Broadway Bus Terminus,13.0876838,80.2836744,,,,,stop_position
+10291068729,node,Thirumanglam,13.0906372,80.1987219,,,bus_stop,,platform
+10291068730,node,Annanagar,13.0949675,80.1985353,,,bus_stop,,platform
+10291068731,node,Annanagar,13.0950055,80.1988058,,,bus_stop,,platform
+10297987466,node,Tcs bus stop,12.9194230,80.2298567,,,bus_stop,,
+10308012376,node,Thyagaraya Nagar,13.0408309,80.2321597,,,bus_stop,,platform
+10536304466,node,Island Grounds,13.0747460,80.2862815,,,bus_stop,,platform
+10536304467,node,Island Grounds,13.0746770,80.2864212,,,bus_stop,,platform
+10798124380,node,Payaigada,13.0856683,80.2798513,,,bus_stop,,platform
+10893145245,node,Moolakkothanam,13.1039360,80.2738432,,,bus_stop,,platform
+10980207098,node,Koyambedu Mofussil Bus Terminal,13.0658350,80.2056011,,,,bus_station,station
+10980207099,node,Koyambedu Mofussil Bus Terminal,13.0665289,80.2062855,,,,bus_station,station
+10980207100,node,Koyambedu Mofussil Bus Terminal,13.0664020,80.2049735,,,,bus_station,station
+11220909946,node,KK Nagar MTC Terminus,13.0358165,80.2057589,,,,,stop_position
+11220909947,node,KK Nagar MTC Terminus,13.0356997,80.2057471,,,,,stop_position
+11228615338,node,,12.8871781,80.1842212,,,bus_stop,,
+11454500629,node,,13.0740459,80.2268379,,,bus_stop,,platform
+11502813606,node,Mint New Bus Stop,13.1039058,80.2760763,,,bus_stop,,platform
+11591395641,node,Kaiveli,12.9635886,80.2157109,,,,,stop_position
+11598619872,node,Bus to Mamallapuram,13.0685205,80.2049363,,,,bus_station,
+11898326816,node,Puzhuthivakkam Railway Station (Temporary),12.9781744,80.2041858,,,bus_stop,,
+11898334385,node,Temporary unmarked bus stop,12.9781744,80.2041858,,,bus_stop,,
+11906447555,node,Besant Nagar MTC Terminus,13.0003485,80.2657764,,,,bus_station,station
+11915150827,node,Senthil nagar,13.1235952,80.2014698,,,bus_stop,,platform
+11915150828,node,Senthil nagar,13.1237598,80.2022650,,,bus_stop,,platform
+11915150829,node,Senthil nagar,13.1238068,80.2028994,,,bus_stop,,platform
+11924536816,node,Mandaveli Post Office,13.0292816,80.2661397,,,,,stop_position
+11924536817,node,Mandaveli,13.0265016,80.2643143,,,,,stop_position
+11924536818,node,Mandaveli,13.0265316,80.2641813,,,,,stop_position
+11924536819,node,Devanathan Street,13.0288106,80.2639144,,,,,stop_position
+11924536820,node,Mylapore Tank,13.0338241,80.2678824,,,,,stop_position
+11924536821,node,Luz Corner,13.0369443,80.2670478,,,,,stop_position
+11949343659,node,Bus stop,12.9716840,80.2136385,,,,,platform
+11949343660,node,Sreenivasan Nagar,12.9732915,80.2135742,,,,,platform
+11949343661,node,Bus Stop,12.9757196,80.2130967,,,,,platform
+11949343662,node,Bus Stop,12.9759392,80.2129143,,,,,platform
+11949343663,node,Bus Stop,12.9767704,80.2107082,,,,,platform
+11949343664,node,AGS Colony,12.9779459,80.2092297,,,,,platform
+11949343665,node,AGS Colony,12.9779256,80.2094100,,,,,platform
+11949343666,node,Saraswati Nagar,12.9781452,80.2072173,,,,,platform
+11949343667,node,Bus Stop,12.9807379,80.2076411,,,,,platform
+11949343668,node,Andal Nagar,12.9809588,80.2067010,,,,,platform
+11949359786,node,Church,12.9919179,80.2058126,,,,,stop_position
+11949359787,node,Church,12.9918614,80.2058145,,,,,platform
+11949359788,node,Church,12.9919529,80.2057797,,,,,platform
+11949365488,node,Brindavan Nagar Bus Stop,12.9844281,80.2049489,,,,,stop_position
+11949365490,node,Brindavan Nagar,12.9871331,80.2053644,,,,,stop_position
+11949365491,node,Brindavan Nagar,12.9870499,80.2052942,,,,,platform
+11949365492,node,Brindavan Nagar,12.9872354,80.2054095,,,,,platform
+11949365493,node,Kakkan Bridge stop,12.9891277,80.2048999,,,,,stop_position
+11949365494,node,Sastri Nagar,12.9892400,80.2048570,,,,,platform
+11949365495,node,Kakkan Bridge stop,12.9890336,80.2049254,,,,,platform
+11949388469,node,Andal Nagar,12.9810751,80.2066205,,,,,platform
+11949388470,node,Annai Store,12.9832652,80.2070307,,,,,stop_position
+11949388471,node,Annai Store,12.9832340,80.2070752,,,,,platform
+11949388472,node,Annai Store,12.9832967,80.2069786,,,,,platform
+11949388473,node,Pillayar Koil,12.9844271,80.2048865,,,,,platform
+11953087580,node,Ambedkar nagar,13.1260395,80.2064145,,,bus_stop,,platform
+11953087581,node,Ambedkar nagar,13.1257782,80.2066103,,,bus_stop,,platform
+11953087582,node,Kolathur Metro Water,13.1299942,80.2139623,,,bus_stop,,platform
+11953087583,node,Kolathur Metro Water,13.1307073,80.2138201,,,bus_stop,,platform
+11953087613,node,Thirumangalam EB Office,13.0790989,80.1986859,,,bus_stop,,platform
+11959583808,node,Dhandeeswaram,12.9828708,80.2220062,,,bus_stop,,platform
+11959583813,node,Dhandeeswaram,12.9829338,80.2219894,,,,,stop_position
+11959593354,node,Olympia Tech Park,13.0148395,80.2046476,,,,,stop_position
+11959593355,node,,13.0186308,80.2059629,,,,,stop_position
+11959593356,node,,13.0243600,80.2067601,,,,,stop_position
+11959593357,node,BSNL,13.0316093,80.2093455,,,bus_stop,,platform
+11959593358,node,BSNL,13.0315928,80.2093923,,,,,stop_position
+11959593359,node,Udhayam Theatre,13.0351053,80.2111984,,,bus_stop,,platform
+11959593360,node,Udhayam Theatre,13.0351199,80.2111129,,,bus_stop,,platform
+11959593361,node,,13.0350987,80.2111199,,,,,stop_position
+11959599075,node,Guru Nanak,12.9903945,80.2203974,,,bus_stop,,platform
+11959599076,node,Five Furlong Road,12.9977277,80.2160004,,,,,stop_position
+11959617427,node,Jawaharlal Nehru Road,13.0462851,80.2121116,,,bus_stop,,platform
+11959617428,node,,13.0462840,80.2121909,,,,,stop_position
+11959650459,node,Koyambedu,13.0745102,80.1994378,,,,,stop_position
+11959664546,node,Koyambedu,13.0744576,80.1993985,,,bus_stop,,platform
+12108836587,node,Nest Apartment,12.8786189,80.2161601,,,bus_stop,,platform
+12167706507,node,,13.0772379,80.2251117,,,bus_stop,,
+12169680535,node,,13.0845003,80.2198834,,,bus_stop,,
+12169680536,node,,13.0846852,80.2198338,,,bus_stop,,
+12169834258,node,Kandaswamy College,13.0855408,80.2181648,,,bus_stop,,
+12169834259,node,Kandaswamy College,13.0855408,80.2178483,,,bus_stop,,
+12188084879,node,Senthil nagar,13.1228548,80.2015899,,,bus_stop,,platform
+12188084880,node,Srinivasa nagar,13.1185173,80.2050620,,,bus_stop,,platform
+12188084881,node,Srinivasa nagar,13.1186322,80.2050566,,,bus_stop,,platform
+12188084882,node,Ilankali amman koil,13.1139224,80.2067223,,,bus_stop,,platform
+12188084883,node,Ilankali amman koil,13.1139119,80.2068779,,,bus_stop,,platform
+12188084884,node,South Redhills Road Market,13.1083791,80.2059605,,,bus_stop,,platform
+12203059705,node,,13.1077295,80.2436354,,,,,platform
+12203183697,node,,13.0087993,80.2132503,,,,,platform
+12361399925,node,Sholinganallur bus stand,12.9010360,80.2275695,,,bus_stop,,platform
+12546626262,node,Kilpauk,13.0777478,80.2429070,,,,,stop_position
+12581645338,node,,13.1292868,80.2413545,,,bus_stop,,platform
+12794255583,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0834947,80.2749152,stop,,,,stop_position
+12794255584,node,Puratchi Thalaivar Dr. M. G. Ramachandran Central,13.0835005,80.2749680,stop,,,,stop_position
+12986091907,node,Karappakkam,12.9133328,80.2293073,,,bus_stop,,platform
+12986110301,node,Ponniyamman Koyil,12.8857366,80.2269108,,,bus_stop,,
+12986110401,node,Kumaran Nagar,12.8779737,80.2269472,,,bus_stop,,
+13439108501,node,Baby nagar,12.9806227,80.2287432,,,bus_stop,,
+13513843601,node,Valluvar kottam,13.0538791,80.2421911,,,bus_stop,,platform
+13513843701,node,Pushpa nagar,13.0589363,80.2401152,,,bus_stop,,platform
+13645694601,node,,13.1032304,80.2076601,,,bus_stop,,platform
+13654990211,node,Saint Thomas Mount,12.9952841,80.1989205,,,,,stop_position
+13654990212,node,Saint Thomas Mount,12.9952319,80.1989365,,,,,stop_position
+13738124426,node,,13.0963878,80.2591410,,,,,platform
+13740011786,node,,13.0067885,80.2435205,,,,,platform
+13740013410,node,,13.0067884,80.2434197,,,,,platform
+13740013450,node,,13.0067939,80.2436146,,,,,platform
+13743048350,node,,13.0397224,80.2445165,,,,,platform
+13743048370,node,Aalayamman Kovil Bus Stop,13.0396975,80.2446167,,,,,platform
+13747795016,node,,13.1088165,80.2820051,stop,,,,stop_position
+13839624069,node,மயிலாப்பூர் டேங்க்,13.0332722,80.2678137,,,bus_stop,,platform
+26399018,way,Royapuram,13.1043166,80.2935584,station,,,,station
+27618346,way,Broadway Bus Terminus,13.0869232,80.2841696,,,,bus_station,station
+28089286,way,Mandaveli Bus Terminus,13.0266258,80.2657383,,,,bus_station,
+28089412,way,Thyagaraya Nagar Bus Terminus,13.0345607,80.2300795,,,,bus_station,station
+28342504,way,,13.1085273,80.2482436,,,,bus_station,station
+31956728,way,Chennai Mofussil Bus Terminus,13.0670440,80.2056480,,,,bus_station,station
+35372225,way,Anna Square Bus Station,13.0664104,80.2842959,,,,bus_station,station
+125234675,way,Vadapalani Bus Terminus,13.0491904,80.2070942,,,,bus_station,station
+125234690,way,,13.0378337,80.1348934,,,,bus_station,
+125234691,way,சென்னை சென்ட்ரல்,13.0820121,80.2756225,,,,bus_station,station
+125234695,way,Anna Nagar West Depot,13.0939250,80.1980870,,,,bus_station,
+125234699,way,Pallavaram Bus Stand,12.9692951,80.1502490,,,,bus_station,station
+125234700,way,,13.0353740,80.2056885,,,,bus_station,station
+125234712,way,,13.0986131,80.2420080,,,,bus_station,station
+125234717,way,,13.1390570,80.2821304,,,,bus_station,station
+125234718,way,Thiruvanmiyur MTC Terminus,12.9868356,80.2593327,,,,bus_station,station
+125234719,way,,13.0688472,80.2050983,,,,bus_station,station
+125234722,way,Saidapet MTC Terminus,13.0234271,80.2277199,,,,bus_station,station
+177370822,way,,12.9628125,80.1984548,,,,bus_station,station
+209513222,way,,13.0399026,80.2283946,platform,,,,platform
+209558515,way,,13.0785246,80.2607019,platform,,,,platform
+209558520,way,,13.0779019,80.2601741,platform,,,,platform
+209558522,way,,13.0780829,80.2607105,platform,,,,platform
+209558524,way,,13.0781960,80.2604526,platform,,,,platform
+209558525,way,,13.0776920,80.2596412,platform,,,,platform
+209562041,way,Egmore Railway Station,13.0794560,80.2627747,,,,bus_station,station
+211339786,way,,13.0743220,80.2429243,platform,,,,platform
+211435493,way,,13.0805424,80.2729044,platform,,,,platform
+211435496,way,,13.0804805,80.2727298,platform,,,,platform
+211435498,way,,13.0806852,80.2728464,platform,,,,platform
+211435506,way,,13.0794799,80.2767877,platform,,,,platform
+214162279,way,,13.0378017,80.2276606,platform,,,,platform
+214598735,way,Guindy Estate MTC Terminus,13.0092002,80.2107465,,,,bus_station,
+214598986,way,,13.0520015,80.2307382,platform,,,,platform
+214599027,way,,13.0519041,80.2309271,platform,,,,platform
+215471625,way,,13.0854726,80.2755277,platform,,,,platform
+217653510,way,Chennai Beach,13.0915941,80.2918317,station,,,,station
+217653511,way,Chennai Fort,13.0835199,80.2830139,station,,,,station
+217753807,way,MMDA Colony,13.0625142,80.2153830,,,,bus_station,station
+217875228,way,,13.1084879,80.2828468,platform,,,,platform
+217875233,way,,13.1087734,80.2823598,platform,,,,platform
+217920756,way,,13.1198805,80.2326142,,,,bus_station,station
+217928912,way,Villivakkam MTC Bus Terminus,13.1053831,80.2083658,,,,bus_station,station
+217933047,way,,13.1162300,80.2240443,,,,bus_station,station
+217954808,way,,13.1026676,80.2712540,platform,,,,platform
+217954810,way,,13.1026694,80.2714088,platform,,,,platform
+217954811,way,,13.1026747,80.2716427,platform,,,,platform
+217954813,way,,13.1026526,80.2710741,platform,,,,platform
+217954831,way,Basin Bridge Junction,13.1020272,80.2712614,station,,,,station
+217960154,way,,13.0910259,80.2919477,platform,,,,platform
+217960155,way,,13.0914744,80.2918483,platform,,,,platform
+217960156,way,,13.0926835,80.2924467,platform,,,,platform
+217960162,way,,13.0922266,80.2924401,platform,,,,platform
+218156705,way,,13.0832378,80.2830315,platform,,,,platform
+218156708,way,,13.0834841,80.2827952,platform,,,,platform
+218156714,way,,13.0830987,80.2829200,platform,,,,platform
+218156716,way,,13.0832921,80.2828650,platform,,,,platform
+218156717,way,,13.0833757,80.2829301,platform,,,,platform
+235931387,way,Villivakkam,13.1103186,80.2091550,station,,,,station
+240512831,way,,13.0238179,80.2240391,platform,,,,platform
+240512832,way,,13.0236790,80.2238284,platform,,,,platform
+312878627,way,,12.9901024,80.1867776,platform,,,,platform
+312878628,way,,12.9911617,80.1897404,platform,,,,platform
+354810503,way,,12.9880994,80.2237300,,,,bus_station,station
+364335886,way,,12.9948541,80.2067196,,,,,platform
+369148292,way,Pallavaram Bus Stand,12.9689058,80.1496185,,,,bus_station,station
+369359549,way,,13.1103165,80.2090659,platform,,,,platform
+369957887,way,,12.9686259,80.1528380,platform,,,,platform
+369957888,way,,12.9684321,80.1529608,platform,,,,platform
+393560244,way,Shenoy Nagar Metro,13.0789536,80.2252010,station,subway,,,station
+397320032,way,,13.0853979,80.2753522,platform,,,,platform
+397320033,way,,13.0857816,80.2751676,platform,,,,platform
+397320034,way,,13.0854110,80.2750534,platform,,,,platform
+397320035,way,,13.0850526,80.2754996,platform,,,,platform
+397320042,way,,13.0859960,80.2748070,platform,,,,platform
+422432458,way,,12.9946388,80.1987649,platform,,,,platform
+422432459,way,,12.9947385,80.1992874,platform,,,,platform
+422432460,way,,12.9950989,80.1995835,platform,,,,platform
+438125658,way,Bus Shelter,12.9816603,80.2334831,,,,,platform
+441663214,way,,13.0847308,80.2741325,platform,,,,platform
+441663215,way,,13.0850906,80.2739448,platform,,,,platform
+441663216,way,,13.0848310,80.2738690,platform,,,,platform
+443147288,way,Kaviarasu Kannadasan Nagar(KKD) Nagar Bus Terminus,13.1361771,80.2567624,,,,bus_station,station
+443147289,way,Kodungaiyur Parvathi Nagar Bus Terminus,13.1425554,80.2491602,,,,bus_station,station
+496845711,way,,12.9800374,80.1656793,platform,,,,platform
+496845712,way,,12.9803185,80.1658523,platform,,,,platform
+496847198,way,,12.9847995,80.1754036,platform,,,,platform
+496847200,way,,12.9842886,80.1746500,platform,,,,platform
+604135756,way,,13.0773831,80.2586680,platform,,,,platform
+604135757,way,,13.0741432,80.2429229,platform,,,,platform
+604135758,way,,13.0634983,80.2326373,platform,,,,platform
+624157904,way,,13.0848222,80.2737388,platform,,,,platform
+669970060,way,,13.1042477,80.2929510,platform,,,,platform
+825938926,way,,13.1089051,80.2571091,platform,,,,platform
+845031644,way,,13.1077709,80.2449995,platform,,,,platform
+845031645,way,,13.1076223,80.2449979,platform,,,,platform
+845031646,way,,13.1073683,80.2443866,platform,,,,platform
+845261268,way,,13.0690703,80.2051345,,,,,platform
+845261269,way,,13.0691514,80.2051867,,,,,platform
+845261270,way,,13.0692369,80.2052338,,,,,platform
+845261271,way,,13.0693119,80.2052851,,,,,platform
+845261272,way,,13.0690714,80.2051331,,,,,platform
+845261273,way,,13.0691524,80.2051855,,,,,platform
+845261274,way,,13.0692347,80.2052341,,,,,platform
+845261275,way,,13.0693110,80.2052858,,,,,platform
+845261276,way,,13.0685177,80.2051585,,,,,platform
+845261277,way,,13.0684089,80.2052456,,,,,platform
+845261278,way,,13.0683400,80.2053269,,,,,platform
+845261279,way,,13.0683796,80.2054122,,,,,platform
+845261280,way,,13.0685162,80.2051570,,,,,platform
+845261281,way,,13.0683767,80.2054118,,,,,platform
+845261282,way,,13.0683367,80.2053272,,,,,platform
+845261283,way,,13.0684110,80.2052451,,,,,platform
+892117518,way,,13.0796137,80.2767513,platform,,,,platform
+919654467,way,,12.9252239,80.2382841,,,,bus_station,station
+919654468,way,,12.9248568,80.2383622,,,,bus_station,station
+1032599147,way,NGO Colony Bus Terminus,12.9943694,80.2067529,,,,bus_station,station
+1079915315,way,Koyambedu Omni Bus Station,13.0707797,80.1987927,,,,bus_station,station
+1081376690,way,,12.9876768,80.1765472,platform,,,,platform
+1081376691,way,,12.9877434,80.1764792,platform,,,,platform
+1082631130,way,Perambur Bus Terminus,13.1085446,80.2482678,,,,,platform
+1082631131,way,Perambur Bus Terminus,13.1087043,80.2482890,,,,,platform
+1082631132,way,Perambur Bus Terminus,13.1086403,80.2482847,,,,,platform
+1115820281,way,Chennai Suburban Terminal (Moore Market Complex),13.0831741,80.2740399,station,subway,,,station
+1134197655,way,Vallalar Nagar Bus Depot,13.1043349,80.2762568,,,,bus_station,
+1202024841,way,Vallalar Nagar Bus Terminal,13.1059081,80.2804330,,,,bus_station,station
+1314817095,way,Anna Nagar Tower,13.0851400,80.2086000,station,subway,,,station
+1314817096,way,Thirumangalam,13.0852800,80.2015200,station,subway,,,station
+1314817097,way,Anna Nagar East,13.0846594,80.2191116,station,subway,,,station
+1373915000,way,,13.1101573,80.2090521,platform,,,,platform
+1373915001,way,,13.1104736,80.2090891,platform,,,,platform
+1375449481,way,,13.1083773,80.2257230,platform,,,,platform
+1375449482,way,,13.1082167,80.2257099,platform,,,,platform
+1378821980,way,,13.1074815,80.2389990,platform,,,,platform
+1378821981,way,,13.1073283,80.2389682,platform,,,,platform
+1500746768,way,,13.0061072,80.2419472,,,,,platform
+1501132747,way,T. Nagar,13.0408049,80.2376948,,,bus_stop,,platform

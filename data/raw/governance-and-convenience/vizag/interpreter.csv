@@ -1,0 +1,389 @@
+@id,@type,name,@lat,@lon,railway,station,highway,amenity,public_transport
+600807132,node,Visakhapatnam,17.7214305,83.2906223,station,,,,station
+1054294098,node,Simhachalam North,17.7518491,83.2096998,station,,,,station
+1054294397,node,Old Post Office,17.6936318,83.2923058,,,,bus_station,station
+1054408140,node,Duvvada,17.7035979,83.1513762,station,,,,
+1465008132,node,Visakhapatnam Railway Station,17.7228599,83.2908589,,,bus_stop,,platform
+1474041919,node,Jagadamba,17.7121701,83.3024586,,,bus_stop,,platform
+1811267986,node,GVMC,17.7223754,83.3076067,,,bus_stop,,platform
+1811347313,node,Dwaraka bus stand city bus stop,17.7229823,83.3071441,,,bus_stop,,
+1815811154,node,Siripuram Junction,17.7236550,83.3178511,,,bus_stop,,
+1815835992,node,Siripuram (towards Pedda Waltair),17.7246574,83.3197938,,,bus_stop,,
+1824367441,node,,17.7438201,83.3352417,,,bus_stop,,
+1824367450,node,,17.7427301,83.3395959,,,bus_stop,,platform
+1824367474,node,,17.7438644,83.3355052,,,bus_stop,,
+1824367485,node,MVP,17.7425521,83.3387699,,,bus_stop,,platform
+1824367513,node,MVP,17.7430460,83.3384978,,,bus_stop,,platform
+2332910442,node,Seethammadhara,17.7435478,83.3156935,,,bus_stop,,platform
+2332910445,node,Seethammadhara,17.7433179,83.3144918,,,bus_stop,,
+2367108955,node,Simhachalam,17.7453138,83.2207916,station,,,,station
+2523216570,node,Pendurthi,17.8142250,83.1956798,station,,,,station
+2900563445,node,N.G.G.O's Colony Bus Stop,17.7454474,83.2711426,,,bus_stop,,
+2900563446,node,Murali Nagar,17.7467963,83.2643781,,,bus_stop,,
+2900563447,node,Tenneti Nagar,17.7478028,83.2611701,,,bus_stop,,platform
+2910967183,node,Marripalem,17.7364992,83.2525704,halt,,,,
+2965492164,node,Gopalapatnam,17.7410814,83.2318137,station,,,,station
+3913956293,node,Pedda Waltair,17.7306450,83.3356410,,,bus_stop,,platform
+3921525381,node,,17.7336080,83.2881297,,,bus_stop,,platform
+3921525801,node,,17.7336653,83.2878218,,,bus_stop,,
+3929866660,node,,17.7207619,83.3034116,,,bus_stop,,platform
+3929870658,node,,17.7290046,83.3066665,,,bus_stop,,platform
+3929887905,node,,17.7309583,83.3376268,,,bus_stop,,
+3969897577,node,,17.7266827,83.3239406,,,bus_stop,,
+3969897597,node,Andhra University,17.7263501,83.3237474,,,bus_stop,,platform
+3983367889,node,South Campus,17.7215123,83.3258714,,,bus_stop,,platform
+4031710987,node,Lumbini Park,17.7418203,83.3434170,,,bus_stop,,platform
+4049792839,node,Chinna Waltair,17.7231727,83.3314574,,,bus_stop,,platform
+4049792840,node,Chinna Waltair,17.7232646,83.3327314,,,bus_stop,,platform
+4049796505,node,Out Gate Stop,17.7223398,83.3291091,,,bus_stop,,platform
+4052917910,node,,17.7229682,83.3072582,,,bus_stop,,
+4052917920,node,APSRTC Complex South City Bus Stop,17.7232722,83.3073839,,,bus_stop,,platform
+4052917925,node,,17.7232932,83.3071251,,,bus_stop,,platform
+4300560630,node,,17.7220386,83.3282250,,,bus_stop,,
+4305483049,node,,17.7203974,83.3142225,,,bus_stop,,
+4346787392,node,Karasa,17.7409553,83.2439078,,,bus_stop,,platform
+4568477557,node,Pineapple Colony,17.7776156,83.2710815,,,bus_stop,,platform
+4965320294,node,Malkapuram Bus Stop,17.6885802,83.2453736,,,bus_stop,,
+4965348081,node,Janata Colony Bus Stop,17.6828547,83.2411382,,,,bus_station,
+5080814204,node,,17.6900861,83.2330656,,,bus_stop,,
+5080814205,node,,17.6896414,83.2371157,,,bus_stop,,
+5080814206,node,,17.6898612,83.2366168,,,bus_stop,,
+5267708146,node,Janata Colony Bus Stop,17.6830126,83.2412638,,,,bus_station,
+5837706058,node,Srinivasa Nagar,17.7678521,83.2282398,,,bus_stop,,platform
+5987878895,node,Port Quarters Bus Stop,17.6879216,83.2496752,,,bus_stop,,
+5993406217,node,APSRTC Simhachalam Hill Top Bus Station,17.7669294,83.2484553,,,,bus_station,station
+6628967843,node,,17.7104229,83.3109842,,,bus_stop,,platform
+7008025921,node,Nad Kotha Road Bus stop,17.7420928,83.2352837,,,bus_stop,,platform
+7082430985,node,"APSRTC City Bus Stop , Bheemili",17.8918517,83.4532326,,,,bus_station,station
+9022801664,node,Sector 5 Market Bus Stop,17.6567217,83.1546691,,,bus_stop,,platform
+9039455654,node,Sector 5 Bus Stop,17.6513498,83.1525524,,,bus_stop,,platform
+9039767993,node,Sector 1 Bus Stop,17.6508270,83.1572201,,,bus_stop,,platform
+9039774843,node,Sector 1,17.6500850,83.1573712,,,bus_stop,,platform
+9039774878,node,Hostel Bus Stop,17.6530354,83.1598469,,,bus_stop,,platform
+9039774889,node,Ukkunagaram Bus Stop,17.6534834,83.1668365,,,bus_stop,,platform
+9740746804,node,Gurudwara,17.7366117,83.3084926,,,bus_stop,,platform
+10300977434,node,Pedda Gadhili,17.7596989,83.3200257,,,bus_stop,,platform
+10300977447,node,,17.7716850,83.2798230,,,bus_stop,,platform
+10302756425,node,Sai Baba Temple,17.7603845,83.3158137,,,bus_stop,,platform
+10302756426,node,Sai Baba Temple,17.7609748,83.3138279,,,bus_stop,,platform
+10302756467,node,,17.7619781,83.3060861,,,bus_stop,,platform
+10302756468,node,,17.7622986,83.3040083,,,bus_stop,,platform
+10302756471,node,,17.7704356,83.2813795,,,bus_stop,,platform
+10302756472,node,Pineapple Colony,17.7762887,83.2725556,,,bus_stop,,platform
+10302756473,node,,17.7575761,83.3276090,,,bus_stop,,platform
+10302756474,node,,17.7567581,83.3293983,,,bus_stop,,platform
+10831949603,node,Tagarapuvalasa Bypass Bus Stop,17.9355148,83.4223653,,,bus_stop,,platform
+10831949604,node,Tagarapuvalasa Bypass,17.9357278,83.4229813,,,bus_stop,,platform
+10831953389,node,Bheemunipatnam Bus Stop,17.8950993,83.4482723,,,bus_stop,,platform
+10831953390,node,Bheemunipatnam Bus Stop,17.8953217,83.4477345,,,bus_stop,,platform
+10831953391,node,Tagarapuvalasa Town,17.9325447,83.4266426,,,bus_stop,,platform
+10831955005,node,Tagarapuvalasa Junction,17.9287608,83.4235777,,,bus_stop,,platform
+10831955006,node,Tagarapuvalasa Junction,17.9286124,83.4240877,,,bus_stop,,platform
+10831955007,node,Anandapuram,17.8948234,83.3769533,,,bus_stop,,platform
+10831955008,node,Anandapuram,17.8941308,83.3781552,,,bus_stop,,platform
+10831955009,node,Pyda Engineering College,17.8728521,83.3709375,,,bus_stop,,platform
+10831955010,node,Pyda Engineering College,17.8726189,83.3712456,,,bus_stop,,platform
+10831955011,node,Boyapalem,17.8694017,83.3680055,,,bus_stop,,platform
+10831955012,node,Boyapalem,17.8692657,83.3682951,,,bus_stop,,platform
+10831955013,node,Marikavalasa,17.8370764,83.3586865,,,bus_stop,,platform
+10831955014,node,Marikavalasa,17.8370702,83.3589547,,,bus_stop,,platform
+10831955015,node,Madhurawada,17.8186425,83.3570105,,,bus_stop,,platform
+10831955016,node,Madhurawada,17.8186638,83.3572343,,,bus_stop,,platform
+10831955017,node,Kommadi Bus Stop,17.8253115,83.3567482,,,bus_stop,,platform
+10831955021,node,Yendada,17.7831798,83.3575511,,,bus_stop,,platform
+10831955022,node,Yendada,17.7829332,83.3579810,,,bus_stop,,platform
+10831955023,node,Zoo Park,17.7689487,83.3437919,,,bus_stop,,platform
+10831955024,node,Zoo Park,17.7687967,83.3441263,,,bus_stop,,platform
+10831955025,node,Hanumanthuwaka,17.7561438,83.3327507,,,bus_stop,,platform
+10831955026,node,Hanumanthuwaka,17.7536854,83.3324924,,,bus_stop,,platform
+10831955027,node,Venkojipalem Junction,17.7463714,83.3283230,,,bus_stop,,platform
+10831955028,node,MVP Colony Bus Stop,17.7428250,83.3277473,,,bus_stop,,platform
+10831955029,node,"APSRTC Bus Stand, Maddilapalem",17.7362338,83.3203240,,,,bus_station,station
+10831955033,node,Asilmetta Bus Stop,17.7246903,83.3089085,,,bus_stop,,platform
+10831955035,node,APSRTC City Bus Terminal,17.7240234,83.3079579,,,,bus_station,station
+10831955036,node,APSRTC Cargo and Logistics,17.7240899,83.3060761,,,,bus_station,station
+10831955037,node,Gurudwara,17.7365186,83.3077063,,,,bus_station,station
+10831955042,node,NAD,17.7441473,83.2364022,,,bus_stop,,platform
+10831955043,node,NAD,17.7445951,83.2370821,,,bus_stop,,platform
+10834383534,node,Old Gajuwaka,17.6860499,83.2042070,,,bus_stop,,platform
+10834383535,node,Old Gajuwaka,17.6861210,83.2038547,,,bus_stop,,platform
+10834383536,node,"APSRTC Bus Station , Gajuwaka",17.6902878,83.2238320,,,,bus_station,station
+10834383548,node,"APSRTC City Bus Stop , RK Beach",17.7113909,83.3182041,,,,bus_station,station
+10834383563,node,Kailasagiri Bus Stop,17.7475439,83.3462254,,,bus_stop,,platform
+10834383573,node,Mdurawada City Bus Stop,17.8050785,83.3539081,,,bus_stop,,platform
+10834383574,node,Car Shed,17.8020602,83.3531408,,,bus_stop,,platform
+10841503827,node,"APSRTC Bus Station , Kurmanapalem ( Steel City )",17.6845351,83.1653360,,,,bus_station,station
+11302704089,node,Appikonda Bus Stop,17.5746845,83.1699701,,,,bus_station,station
+11302704122,node,Murubai Bus Stop,17.5804059,83.1616297,,,,bus_station,station
+11505661137,node,Chinnapuram Junction Bus Stop,18.0556687,83.3585317,,,bus_stop,,platform
+11508179477,node,Kommadi,17.8256179,83.3565714,,,bus_stop,,platform
+11568850051,node,Saripalli,17.8404633,83.1991759,,,bus_stop,,platform
+11568858413,node,Pendurthi,17.8229253,83.2048517,,,bus_stop,,platform
+11568880931,node,Purushottapuram,17.7909600,83.2127314,,,bus_stop,,platform
+11568880932,node,Purushottapuram,17.7903508,83.2130418,,,bus_stop,,platform
+11568880940,node,Vepagunta,17.7770884,83.2163616,,,bus_stop,,platform
+11568880942,node,Vepagunta,17.7751210,83.2164694,,,bus_stop,,platform
+11568880945,node,Naidu Thota,17.7692577,83.2171472,,,bus_stop,,platform
+11568906526,node,Karasa,17.7409448,83.2426635,,,bus_stop,,platform
+11585387267,node,Gopalapatnam,17.7492856,83.2188408,,,bus_stop,,platform
+11585567231,node,Naidu Thota,17.7683153,83.2170194,,,bus_stop,,platform
+11585567238,node,Sujatha Nagar,17.7986359,83.2107136,,,bus_stop,,platform
+11585567242,node,Chinnamushidivada,17.8063886,83.2086317,,,bus_stop,,platform
+11585567243,node,Chinnamushidivada,17.8063484,83.2088005,,,bus_stop,,platform
+11585571651,node,Pendurthi,17.8226429,83.2047755,,,bus_stop,,platform
+11585571653,node,Saripalli,17.8404629,83.1990301,,,bus_stop,,platform
+11585574890,node,Urvasi,17.7344955,83.2723935,,,bus_stop,,platform
+11585574891,node,Urvasi,17.7350067,83.2709818,,,bus_stop,,platform
+11585574901,node,NAD,17.7434982,83.2324009,,,bus_stop,,platform
+11585678469,node,Gopalapatnam,17.7511312,83.2178916,,,bus_stop,,platform
+11585678471,node,Gopalapatnam Bunk,17.7527467,83.2177002,,,bus_stop,,platform
+11585678475,node,,17.7626795,83.2171451,,,bus_stop,,platform
+11609588995,node,BUS BAY LIC STOP,17.7234734,83.3046776,,,bus_stop,,platform
+11609593380,node,APSRTC Complex West Bus Stop,17.7239079,83.3055991,,,,bus_station,station
+11647277520,node,Gurudwara,17.7369039,83.3070417,,,bus_stop,,platform
+11647344276,node,,17.7472360,83.2476705,,,bus_stop,,platform
+11647371245,node,,17.6849908,83.1670391,,,bus_stop,,platform
+11703280592,node,NAD,17.7418436,83.2380816,,,bus_stop,,platform
+11725385053,node,Pendurti College,17.8109338,83.2075945,,,bus_stop,,platform
+11725385058,node,Pendurti College,17.8121652,83.2071140,,,bus_stop,,platform
+11725385106,node,Sujatha Nagar,17.7998242,83.2105318,,,bus_stop,,platform
+11725385211,node,Simhachalam Railway Station,17.7466609,83.2215738,,,bus_stop,,platform
+11725385212,node,Simhachalam Railway Station,17.7466096,83.2215283,,,bus_stop,,platform
+11725385216,node,Baji Junction,17.7441257,83.2279861,,,bus_stop,,platform
+11725385218,node,NAD,17.7435336,83.2329047,,,bus_stop,,platform
+11725385275,node,Marripalem,17.7404330,83.2495589,,,bus_stop,,platform
+11725385276,node,104 Area,17.7389487,83.2570021,,,bus_stop,,platform
+11725385277,node,Industrial Estate,17.7368204,83.2638254,,,bus_stop,,platform
+11725385278,node,Kancharapalem,17.7326271,83.2775564,,,bus_stop,,platform
+11726431493,node,Industrial Estate,17.7362918,83.2654109,,,bus_stop,,platform
+11726431513,node,104 Area,17.7389645,83.2564448,,,bus_stop,,platform
+11726431547,node,Marripalem Bus Stop,17.7402894,83.2495211,,,bus_stop,,platform
+11726451616,node,Gnanapuram,17.7198559,83.2875779,,,bus_stop,,platform
+11726451621,node,Gnanapuram,17.7210917,83.2869877,,,bus_stop,,platform
+11726451622,node,Convent Junction,17.7180036,83.2891605,,,bus_stop,,platform
+11726451627,node,Convent Junction,17.7179431,83.2890157,,,bus_stop,,platform
+11726535893,node,Chinnapuram Junction Bus Stop,18.0557865,83.3584681,,,bus_stop,,platform
+11728007272,node,Baji Junction,17.7438445,83.2288359,,,bus_stop,,platform
+11728007290,node,,17.7743425,83.2267097,,,bus_stop,,platform
+11728007295,node,,17.7740619,83.2283205,,,bus_stop,,platform
+11728007301,node,,17.7722806,83.2329655,,,bus_stop,,platform
+11728007306,node,,17.7718618,83.2346923,,,bus_stop,,platform
+11730346646,node,Kakani Nagar,17.7359691,83.2315249,,,bus_stop,,platform
+11730346647,node,Kakani Nagar,17.7361415,83.2312961,,,bus_stop,,platform
+11730346648,node,Airport,17.7322700,83.2238286,,,bus_stop,,platform
+11730346649,node,Airport,17.7322604,83.2232088,,,bus_stop,,platform
+11730346650,node,Sheela Nagar,17.7184776,83.2039327,,,bus_stop,,platform
+11730346651,node,Sheela Nagar,17.7187707,83.2036009,,,bus_stop,,platform
+11730346652,node,Akkireddy palem,17.7107089,83.2051990,,,bus_stop,,platform
+11730346653,node,Akkireddy palem,17.7102828,83.2048320,,,bus_stop,,platform
+11730387492,node,BHPV,17.7015025,83.2056625,,,bus_stop,,platform
+11730387493,node,BHPV,17.7014244,83.2053126,,,bus_stop,,platform
+11730387543,node,Auto Nagar,17.6937368,83.2055358,,,bus_stop,,platform
+11730387544,node,Auto Nagar,17.6936652,83.2049656,,,bus_stop,,platform
+11738854221,node,,17.9497302,83.4178077,,,bus_stop,,platform
+11738854229,node,Tagarapuvalasa Town,17.9323534,83.4267361,,,bus_stop,,platform
+11739951395,node,Tallavalasa,17.9102725,83.4124648,,,bus_stop,,platform
+11739951396,node,Tallavalasa,17.9103926,83.4119912,,,bus_stop,,platform
+11739951444,node,Peddipalem,17.9020917,83.3998383,,,bus_stop,,platform
+11739951445,node,Peddipalem,17.9026532,83.3999171,,,bus_stop,,platform
+11739951460,node,Anandapuram,17.8952116,83.3788343,,,bus_stop,,platform
+11739951463,node,Bheemili X Road,17.8822871,83.3762158,,,bus_stop,,platform
+11739951464,node,Bheemili X Road,17.8823398,83.3759579,,,bus_stop,,platform
+11739951465,node,Paradesipalem,17.8584428,83.3638809,,,bus_stop,,platform
+11739951466,node,Boravanipalem,17.8456901,83.3593927,,,bus_stop,,platform
+11739951467,node,Boravanipalem,17.8459761,83.3592485,,,bus_stop,,platform
+11739951543,node,Maddilapalem,17.7355643,83.3208149,,,bus_stop,,platform
+11740884409,node,Bullayya College,17.7307705,83.3158887,,,bus_stop,,platform
+11740884413,node,,17.7420862,83.3276600,,,bus_stop,,platform
+11740884418,node,Old Dairy Farm,17.7598198,83.3339167,,,bus_stop,,platform
+11741089416,node,Pedda Gadhili,17.7591421,83.3219468,,,bus_stop,,platform
+11741089420,node,Netaji Nagar,17.7617510,83.3095131,,,bus_stop,,platform
+11741089423,node,,17.7667982,83.2870806,,,bus_stop,,platform
+11741089425,node,,17.7811192,83.2573358,,,bus_stop,,platform
+11741089426,node,Adavivaram Junction,17.7801669,83.2526927,,,bus_stop,,platform
+11741089431,node,,17.7748996,83.2192993,,,bus_stop,,platform
+11741089432,node,,17.7750591,83.2193247,,,bus_stop,,platform
+11741875834,node,Rama Talkies,17.7278055,83.3114480,,,bus_stop,,platform
+11744893143,node,NAD,17.7420004,83.2377676,,,bus_stop,,platform
+11775389955,node,APSRTC Non - Stop Bus Terminal,17.7237999,83.3066698,,,,bus_station,station
+11775389962,node,"APSRTC Bus Station , MVP Colony",17.7404445,83.3361605,,,,bus_station,station
+11816052016,node,,17.7329357,83.3406618,,,bus_stop,,platform
+11816060074,node,Appughar Bus Stop,17.7421997,83.3437849,,,bus_stop,,platform
+11944773008,node,Andhra Pradesh Special Police 5th Battalion Bus Sstop,18.0506680,83.4021210,,,,bus_station,station
+11982604266,node,Kommadi bus stop,17.8235944,83.3567118,,,bus_stop,,platform
+11982624300,node,Gvmc Bus Stop Kommadi,17.8279732,83.3426437,,,bus_stop,,platform
+12061130622,node,"APSRTC Bus Stand & Night Halt , Bheemili ( Bheemunipatnam )",17.8978997,83.4459272,,,,bus_station,station
+12171321608,node,Ravindra Nagar,17.7651706,83.3231333,,,bus_stop,,platform
+12282187671,node,Birla Junction,17.7432802,83.2597310,,,bus_stop,,platform
+12282187672,node,Birla Junction,17.7432887,83.2604463,,,bus_stop,,platform
+12364878520,node,,17.7204867,83.3031519,,,bus_stop,,platform
+12397509912,node,Old Head Post Office Area,17.6953653,83.2924682,,,,bus_station,station
+12438429654,node,Port Hospital,17.7387709,83.2932658,,,bus_stop,,
+12441119183,node,,17.7300267,83.3146953,,,bus_stop,,platform
+12460526415,node,Duvvada Railway Station,17.7041475,83.1517561,,,bus_stop,,platform
+12460526429,node,"APSRTC Bus Station,  Old Gajuwaka",17.6836259,83.1999285,,,,bus_station,station
+12470766542,node,,17.7353310,83.2776828,,,bus_stop,,platform
+12531583245,node,,17.7414492,83.3382416,,,bus_stop,,
+12531584211,node,,17.7289717,83.3279994,,,bus_stop,,platform
+12531584305,node,Sagar Nagar,17.7645311,83.3613448,,,bus_stop,,platform
+12531584306,node,,17.7291157,83.3278373,,,bus_stop,,platform
+12531593663,node,,17.7515317,83.3497511,,,bus_stop,,platform
+12531596095,node,Akayyapalem North,17.7407425,83.2994417,,,bus_stop,,
+12531598713,node,Pedda Waltair,17.7309057,83.3347909,,,bus_stop,,platform
+12531602063,node,Sagar Nagar,17.7640710,83.3609498,,,bus_stop,,platform
+12532234399,node,Thatichetlapalem,17.7353625,83.2881805,,,bus_stop,,platform
+12618255448,node,Visakhapatnam Railway Station,17.7219335,83.2912803,,,bus_stop,,platform
+12713272986,node,KGH In Gate,17.7087614,83.3066926,,,bus_stop,,platform
+12713272988,node,KGH Out Gate,17.7095709,83.3050784,,,bus_stop,,platform
+12713272998,node,APSRTC Complex East City Bus Stop,17.7236785,83.3081027,,,,bus_station,station
+12716203398,node,Hanumanthuwaka,17.7547414,83.3319782,,,bus_stop,,platform
+12837010519,node,,17.6943062,83.2050200,,,bus_stop,,platform
+12837010525,node,Gowri Nagar,17.6849006,83.1591804,,,bus_stop,,platform
+12837010530,node,Kurmannapalem,17.6855952,83.1685541,,,bus_stop,,platform
+12837010532,node,,17.6851811,83.1734202,,,bus_stop,,platform
+12837010536,node,Auto Nagar,17.6836978,83.1886798,,,bus_stop,,platform
+12837010542,node,,17.6834568,83.1965929,,,bus_stop,,platform
+12837010545,node,,17.6855438,83.2041255,,,bus_stop,,platform
+12837010549,node,,17.6857234,83.2143075,,,bus_stop,,platform
+12837010559,node,,17.6902630,83.2242786,,,bus_stop,,platform
+12837010563,node,,17.6902449,83.2332322,,,bus_stop,,platform
+12837010566,node,,17.6887510,83.2454690,,,bus_stop,,platform
+12837010569,node,,17.6875708,83.2608300,,,bus_stop,,platform
+12837010571,node,Scindia Junction,17.6886210,83.2683334,,,bus_stop,,platform
+12837010572,node,Scindia Junction,17.6879511,83.2679792,,,bus_stop,,platform
+12837010573,node,Scindia Junction,17.6881768,83.2679741,,,bus_stop,,platform
+12837010574,node,,17.6872998,83.2604629,,,bus_stop,,platform
+12837010575,node,,17.6884100,83.2462850,,,bus_stop,,platform
+12837010577,node,,17.6895761,83.2375988,,,bus_stop,,platform
+12837010581,node,,17.6900091,83.2240454,,,bus_stop,,platform
+12837010582,node,,17.6854852,83.2140338,,,bus_stop,,platform
+12837023760,node,,17.6888993,83.1129834,,,bus_stop,,platform
+12837023761,node,,17.6881164,83.1252141,,,bus_stop,,platform
+12837023762,node,Aganampudi,17.6888987,83.1352756,,,bus_stop,,platform
+12837273906,node,Airport,17.7336861,83.2261683,,,bus_stop,,platform
+12837273908,node,Kakani Nagar,17.7356340,83.2302337,,,bus_stop,,platform
+12837342330,node,Pendurthi,17.8218905,83.2046257,,,bus_stop,,platform
+12837342355,node,Pinagadi Junction Bus Stop,17.8110805,83.1697226,,,bus_stop,,platform
+12864632995,node,,17.7111908,83.2993581,,,bus_stop,,platform
+12864658092,node,,17.6834781,83.1880231,,,bus_stop,,
+12864663407,node,,17.7025926,83.2945765,,,bus_stop,,platform
+12864702491,node,Jagadamba,17.7115136,83.3023000,,,bus_stop,,platform
+12864704246,node,,17.7079208,83.2971852,,,bus_stop,,platform
+12864704507,node,,17.6922021,83.2682852,,,bus_stop,,
+12864711510,node,,17.6854536,83.1662707,,,bus_stop,,platform
+12864714672,node,Rajiv Nagar Bridge,17.6992907,83.1594023,,,bus_stop,,platform
+12864714674,node,Duvvada Railway Station,17.7039010,83.1517796,,,bus_stop,,platform
+12864714675,node,Mangalapalem,17.7063415,83.1454082,,,bus_stop,,platform
+12864714676,node,,17.7138626,83.1455210,,,bus_stop,,platform
+12864717146,node,Satavahana,17.6978780,83.2694910,,,bus_stop,,
+12864720800,node,,17.6832636,83.1950837,,,bus_stop,,platform
+12864721503,node,,17.7062058,83.2961642,,,bus_stop,,platform
+12864723742,node,,17.7087470,83.3006511,,,bus_stop,,platform
+12864726746,node,,17.6850013,83.1719508,,,bus_stop,,platform
+12864803887,node,RTC Complex,17.7217267,83.3076171,,,bus_stop,,platform
+12864803888,node,RTC Complex North,17.7244765,83.3068681,,,bus_stop,,platform
+12864862192,node,Old Post Office,17.6937572,83.2920290,,,bus_stop,,platform
+12882743841,node,,17.7275715,83.2915319,,,bus_stop,,platform
+12882743842,node,,17.7237109,83.2934449,,,bus_stop,,platform
+12882801550,node,Kancharapalem,17.7323028,83.2779439,,,bus_stop,,platform
+12890339577,node,Srinivasa Nagar,17.7676663,83.2284013,,,bus_stop,,platform
+12890578530,node,Sontyam,17.8672716,83.2872611,,,bus_stop,,platform
+12890578531,node,NSRIT,17.8724946,83.2949965,,,bus_stop,,platform
+12890578532,node,NSRIT,17.8720622,83.2952726,,,bus_stop,,platform
+12890578533,node,Neelakundilu,17.8778996,83.3043882,,,bus_stop,,platform
+12890586309,node,Pendurthi,17.8224205,83.2054194,,,bus_stop,,platform
+12892272829,node,Zoo Park,17.7605570,83.3552119,,,bus_stop,,platform
+12892272830,node,,17.7442353,83.3454900,,,bus_stop,,platform
+12892272831,node,Visakha Eye Hospital,17.7318247,83.3329883,,,bus_stop,,platform
+12892345373,node,,17.8520569,83.4132640,,,bus_stop,,platform
+12892345374,node,INS Kalinga,17.8552846,83.4162043,,,bus_stop,,platform
+12892345375,node,,17.8387963,83.4063030,,,bus_stop,,platform
+12892350304,node,Peda Rushikonda,17.7911475,83.3875962,,,bus_stop,,platform
+12892350305,node,Rushikonda Junction,17.7846189,83.3835125,,,bus_stop,,platform
+12892350306,node,GITAM,17.7809412,83.3808663,,,bus_stop,,platform
+12892350307,node,,17.7772127,83.3793751,,,bus_stop,,platform
+12892352012,node,,17.8142543,83.4091623,,,bus_stop,,platform
+12892352601,node,,17.8873267,83.3305937,,,bus_stop,,platform
+12892352603,node,,17.8930767,83.3722351,,,bus_stop,,platform
+12892454200,node,GITAM,17.7811234,83.3805823,,,bus_stop,,platform
+12892455001,node,Rushikonda Junction,17.7847487,83.3832426,,,bus_stop,,platform
+12892455002,node,Peda Rushikonda,17.7914066,83.3875965,,,bus_stop,,platform
+12892455029,node,Zoo Park,17.7607169,83.3550508,,,bus_stop,,platform
+12892455128,node,Tenneti Park,17.7483001,83.3494569,,,bus_stop,,platform
+12949181538,node,Jerripotulapalem,17.7685677,83.1711941,,,bus_stop,,platform
+12949181539,node,Narava,17.7440792,83.1825051,,,bus_stop,,platform
+12949181540,node,M.E.S. Pump House,17.7397822,83.1996667,,,bus_stop,,platform
+12949181542,node,Bhagat Singh Nagar Junction,17.7386278,83.2123892,,,bus_stop,,platform
+12949181544,node,Kothapalem Junction,17.7476701,83.2149854,,,bus_stop,,platform
+12949181545,node,Old Gopalapatnam,17.7422503,83.2251468,,,bus_stop,,platform
+12972886067,node,Padmanabham,17.9919059,83.3361001,,,bus_stop,,platform
+12982531600,node,,17.7633544,83.3310040,,,bus_stop,,platform
+12982545639,node,,17.7984627,83.3531268,,,bus_stop,,platform
+12982545640,node,,17.8041045,83.3496065,,,bus_stop,,platform
+12982545641,node,,17.8041530,83.3449028,,,bus_stop,,platform
+12982545642,node,,17.8052513,83.3415905,,,bus_stop,,platform
+12982545643,node,,17.8042939,83.3473837,,,bus_stop,,platform
+12982545644,node,,17.8042885,83.3498535,,,bus_stop,,platform
+12982545645,node,Car Shed,17.8054409,83.3538262,,,bus_stop,,platform
+12982545646,node,,17.8319592,83.3350682,,,bus_stop,,platform
+12982545647,node,,17.8319493,83.3364348,,,bus_stop,,platform
+12982545648,node,,17.8317846,83.3363587,,,bus_stop,,platform
+12982545649,node,,17.8268257,83.3478298,,,bus_stop,,platform
+12982545650,node,,17.8181348,83.3571467,,,bus_stop,,platform
+12994125790,node,Netaji Nagar,17.7618239,83.3095145,,,bus_stop,,platform
+12994323976,node,KGH Out Gate,17.7097331,83.3051352,,,bus_stop,,platform
+12994323977,node,KGH In Gate,17.7088993,83.3068934,,,bus_stop,,platform
+12994323978,node,RK Beach,17.7113610,83.3177678,,,bus_stop,,platform
+12994323995,node,Tenneti Park,17.7482981,83.3492632,,,bus_stop,,platform
+12994391718,node,VUDA Park,17.7253811,83.3389394,,,bus_stop,,platform
+12994391719,node,VUDA Park,17.7261418,83.3388912,,,bus_stop,,platform
+12994391721,node,Kailasagiri Bus Stop,17.7474965,83.3460218,,,bus_stop,,platform
+13001117483,node,"APSRTC Bus Station , Visakhapatnam",17.7237967,83.3073440,,,,bus_station,station
+13083819851,node,Old Dairy Farm,17.7631250,83.3361134,,,bus_stop,,platform
+13083819852,node,Paradesipalem,17.8584832,83.3636069,,,bus_stop,,platform
+13083852919,node,,17.7278789,83.2915259,,,bus_stop,,platform
+13083852920,node,Diamond Park,17.7270221,83.3030963,,,bus_stop,,platform
+13083852921,node,,17.7292718,83.3064710,,,bus_stop,,platform
+13083852922,node,Dondaparthy,17.7272480,83.2991262,,,bus_stop,,platform
+13318612059,node,,17.7124310,83.3194189,,,bus_stop,,platform
+13319044892,node,Madhavadara Vuda Colony,17.7504629,83.2470880,,,bus_stop,,platform
+13319047222,node,,17.7502871,83.2498538,,,bus_stop,,platform
+13368779183,node,,17.7238370,83.3375515,,,bus_stop,,platform
+13408906303,node,,17.7336230,83.2875897,,,bus_stop,,platform
+13420003748,node,,17.7475110,83.2476232,,,bus_stop,,platform
+13420003758,node,,17.7399444,83.2662818,,,bus_stop,,platform
+13429829505,node,,17.7368824,83.2714362,,,bus_stop,,platform
+13429829509,node,Kancharapalem,17.7354609,83.2789938,,,bus_stop,,platform
+13429829512,node,,17.7356910,83.2884141,,,bus_stop,,platform
+13467472575,node,,17.7399661,83.3265630,,,bus_stop,,platform
+13542536385,node,"APSRTC Bus Station , Simhachalam",17.7716514,83.2435833,,,,bus_station,station
+13550868845,node,Pinagadi Junction Bus Stop,17.8115341,83.1694509,,,bus_stop,,platform
+13551030358,node,Law College,17.7917309,83.3529212,,,bus_stop,,platform
+13551030359,node,Law College,17.7913892,83.3525935,,,bus_stop,,platform
+13553531733,node,Gidijala X Roads Bus Stop,17.8889228,83.3046672,,,bus_stop,,platform
+13565870436,node,Visakhapatnam Old Bus Stand,17.7095891,83.2942648,,,,bus_station,station
+13568922930,node,Arilova Colony Bus Stop,17.7699180,83.3059605,,,,bus_station,station
+13568922932,node,Old Dairy Farm Bus Stop,17.7611885,83.3338730,,,,bus_station,station
+13568922933,node,Old Dairy Farm Bus Stop,17.7609961,83.3341956,,,,bus_station,station
+13586469142,node,IT SEZ Bus Stop,17.8102959,83.3893041,,,,bus_station,station
+13624323301,node,Railway new colony Bus stop,17.7279618,83.2932584,,,bus_stop,,platform
+13822235651,node,,17.7378653,83.3132464,,,bus_stop,,platform
+13822235661,node,,17.7386734,83.3135979,,,bus_stop,,platform
+13901121247,node,Venkojipalem,17.7471712,83.3309600,,,bus_stop,,platform
+13901121249,node,Satyam,17.7345140,83.3133369,,,bus_stop,,platform
+394944314,way,,17.7361999,83.2536035,platform,,,,platform
+394944315,way,,17.7360734,83.2535658,platform,,,,platform
+394982668,way,,17.7445766,83.2214058,platform,,,,platform
+394982669,way,,17.7447276,83.2214912,platform,,,,platform
+402907982,way,,17.7219137,83.2894893,platform,,,,platform
+402907983,way,,17.7215809,83.2895234,platform,,,,platform
+402908263,way,,17.7219220,83.2900498,platform,,,,platform
+402908825,way,,17.7220887,83.2896501,platform,,,,platform
+402908826,way,,17.7222949,83.2897172,platform,,,,platform
+829669722,way,,17.7513766,83.2104492,platform,,,,platform
+829669724,way,,17.7514947,83.2105478,platform,,,,platform
+922379757,way,Simhachalam Devasthanam Hill Down Free Bus Stop,17.7727131,83.2455427,,,,bus_station,station
+1233001527,way,,17.7604831,83.2173083,,,,bus_station,station
+1389843166,way,"APSRTC Dwaraka Bus Station , Visakhapatnam",17.7238524,83.3069688,,,,bus_station,station
+1392519740,way,"APSRTC Bus Station , Simhachalam",17.7713094,83.2434947,,,,bus_station,station
+1423828475,way,,17.8245870,83.3563081,,,,,platform
