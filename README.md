@@ -10,7 +10,7 @@
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-0055FF?logo=framer&logoColor=white)
 ![License](https://img.shields.io/badge/License-Private-lightgrey)
 
-**Neural City** is a proof-of-concept dashboard for comparing Indian cities on street-level outcomes. It layers public secondary data (OpenStreetMap, municipal budgets, road safety reports, Census 2011) into normalized scores across **Safety**, **Convenience**, and **Governance**, then surfaces rankings, city profiles, and head-to-head comparisons.
+**Neural City** is a proof-of-concept dashboard for comparing Indian cities on street-level outcomes. It layers public secondary data (OpenStreetMap, municipal budgets, road safety reports, Census 2011) into normalized scores across **Safety**, **Convenience**, and **Governance**, then surfaces rankings, city profiles, head-to-head comparisons, and **exportable PDF/CSV reports** with shareable links.
 
 Live demo: [midaksh-neural-city.vercel.app](https://midaksh-neural-city.vercel.app)
 
@@ -18,9 +18,23 @@ Live demo: [midaksh-neural-city.vercel.app](https://midaksh-neural-city.vercel.a
 
 ## Introduction
 
-Indian cities are rarely evaluated on comparable, street-facing signals using open data alone. Neural City tests whether we can build a repeatable pipeline from messy CSV inputs to a clean dashboard: Python scripts normalize raw metrics, JSON artifacts, and the dashboard lets users explore city rankings, drill into a single city, or compare two cities side by side.
+Indian cities are rarely evaluated on comparable, street-facing signals using open data alone. Neural City tests whether we can build a repeatable pipeline from messy CSV inputs to a clean dashboard: Python scripts normalize raw metrics into JSON artifacts, and the Next.js app lets users explore city rankings, drill into a single city, compare two cities side by side, and export findings for meetings or sharing.
 
-This prototype covers **11 cities**: "name of the cities alphabitical order " 
+This prototype covers **11 cities** (alphabetical): Ahmedabad, Bengaluru, Chennai, Delhi, Gurgaon, Hyderabad, Indore, Lucknow, Mumbai, Surat, and Vizag.
+
+---
+
+## Features
+
+| Feature | Route | Description |
+|---------|-------|-------------|
+| **Overview & rankings** | `/` | Sortable table across Safety, Convenience, Governance, and Overall scores |
+| **City profiles** | `/city`, `/city/[id]` | Full drill-down: pillar scores, accident breakdown, transport mix, budget timeline |
+| **Compare cities** | `/compare` | Head-to-head comparison with category charts; shareable URL (`?a=…&b=…`) |
+| **Export & share** | Header (city profile & compare results) | Download branded **PDF** or structured **CSV**; copy page URL to clipboard |
+| **Data sources** | `/data-sources` | Links to GitHub repo and project documentation |
+
+**Export & share** appears in the header when viewing a city profile or comparison results. PDF exports include the Neural City logo, sectioned tables, and contact footer; CSV exports mirror the same structure for Excel/Sheets.
 
 ---
 
@@ -52,6 +66,7 @@ flowchart LR
 
   subgraph app [Next.js app]
     UI[Dashboard / City / Compare]
+    EXP[Export PDF & CSV]
   end
 
   OSM --> S1
@@ -66,9 +81,10 @@ flowchart LR
   S4 --> J4
 
   J1 & J2 & J3 & J4 --> UI
+  UI --> EXP
 ```
 
-**Flow:** raw CSVs are processed by custom Python scripts into scored JSON files under `data/processed/` and `public/data/`. The Next.js app imports these at build time and renders rankings, city detail pages, and compare views.
+**Flow:** raw CSVs are processed by custom Python scripts into scored JSON files under `data/processed/` and `public/data/`. The Next.js app imports these at build time and renders rankings, city detail pages, compare views, and client-side PDF/CSV exports.
 
 ---
 
@@ -79,6 +95,7 @@ flowchart LR
 | Frontend | Next.js 16 (App Router) | Routing, SSR/SSG, city pages |
 | UI | React 19, Tailwind CSS 4 | Components and styling |
 | Motion | Framer Motion | Page and chart animations |
+| Export | jsPDF, jspdf-autotable | Branded PDF reports from city/compare views |
 | Icons | Lucide React | Navigation and section icons |
 | Language | TypeScript | Type-safe app code |
 | Data pipeline | Python 3 (stdlib only) | Score normalization scripts — `csv`, `json`, `math`, `pathlib`, `dataclasses`, `glob`, `statistics` |
@@ -105,6 +122,8 @@ Processed outputs land in `public/data/*.json` and are consumed by the dashboard
 ## Methodology
 
 Scores are normalized to **0–100** across the 11-city cohort. Bands: **Poor** (0–35), **Manageable** (35–65), **Good** (65+).
+
+> **Note on units:** Safety and Convenience use **per 100k population** where noted. Governance investment uses **₹ per resident** (total municipal spend ÷ population), not per 100k.
 
 ### 1. Safety: Infrastructure (signals & signs)
 
@@ -150,7 +169,7 @@ Annualization rules vary by city (e.g. Hyderabad uses 2025 total row, Surat aver
 | Step | Logic |
 |------|--------|
 | Spend ratio | Distance from spending/budget ratio = 1.0; asymmetric penalty for overspend |
-| Invest | Latest municipal spend per lakh residents, sqrt-scaled across cohort |
+| Invest | `latest_spending_rupees ÷ population` = **₹ per resident** (not per 100k); sqrt-scaled across cohort |
 | Composite | `spend_ratio×0.60 + invest×0.40` |
 
 ### 5. Pillar & overall scores (app layer)
@@ -221,8 +240,11 @@ neural-city-project/
 ├── scripts/            # Python scoring pipelines
 └── src/
     ├── app/            # Next.js routes
-    ├── components/     # UI components
+    ├── components/     # UI components (dashboard, city-detail, compare, export)
+    ├── context/        # ExportShareProvider
     ├── data/           # TypeScript data adapters
-    └── lib/            # Helpers and aggregators
+    └── lib/
+        ├── export/     # PDF/CSV builders and download helpers
+        └── ...         # Helpers and aggregators
 ```
 ---

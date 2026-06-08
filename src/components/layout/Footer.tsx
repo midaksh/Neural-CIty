@@ -15,7 +15,7 @@ export function Footer() {
         <div>
           <p className="text-sm font-semibold text-foreground">Neural City</p>
           <p className="mt-1.5 max-w-sm text-xs leading-relaxed text-muted">
-            City Data Stack. GeoAI Analytics with Street Level Data
+            City Data Stack. GeoAI Analytics with Street Level Data. Export profiles and comparisons as PDF or CSV.
           </p>
         </div>
 

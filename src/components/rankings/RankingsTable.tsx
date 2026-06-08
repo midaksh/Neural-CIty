@@ -127,7 +127,7 @@ export function RankingsTable() {
           City Details
         </h2>
         <p className="mt-1.5 mb-10 text-xs text-muted">
-          {cities.length} cities compared by street-level outcomes · Click a row for full city profile
+          {cities.length} cities compared by street-level outcomes · Click a row for full city profile · Export from profile or compare results
         </p>
       </motion.div>
 
@@ -195,7 +195,7 @@ export function RankingsTable() {
             <p className="text-[11px] text-muted">
               Composite = 60% spend ratio (target 1.0; overspend penalized more,
               severe kick only above 1.36× or below 0.69×, floor 10) + 40%
-              per-capita investment (municipal spend per lakh pop, overspend
+              per-capita investment (municipal spend per resident, overspend
               haircut when avg ratio &gt; 1.10). Higher = better governance.
             </p>
           </div>

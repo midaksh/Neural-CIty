@@ -52,3 +52,12 @@ export function getScoreBandStyles(score: number): ScoreBandStyles {
 export function getScoreBandStylesByBand(band: ScoreBand): ScoreBandStyles {
   return bandStyles[band];
 }
+
+/** Format municipal spend or similar INR amounts per resident. */
+export function formatInrPerResident(amount: number): string {
+  if (!Number.isFinite(amount)) return "N/A";
+  if (amount >= 100_000) {
+    return `₹${(amount / 100_000).toLocaleString("en-IN", { maximumFractionDigits: 2 })} lakh`;
+  }
+  return `₹${Math.round(amount).toLocaleString("en-IN")}`;
+}

@@ -30,7 +30,7 @@ export function CityDetailsPageContent() {
             Explore City Details
           </h1>
           <p className="mt-2 max-w-lg text-xs leading-relaxed text-muted md:text-sm">
-            Select a city to view its safety, convenience, and governance profile.
+            Select a city to view its safety, convenience, and governance profile. Export the full report as PDF or CSV from the header.
           </p>
         </motion.div>
       </section>

@@ -25,7 +25,7 @@ export function HeroSection() {
         </h1>
 
         <p className="mt-2 max-w-lg text-xs leading-relaxed text-muted md:text-sm">
-          Layering public secondary data onto street outcomes
+          Layering public secondary data onto street outcomes · Export city profiles and comparisons as PDF or CSV
         </p>
       </motion.div>
     </section>

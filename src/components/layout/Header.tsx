@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { SocialPill } from "@/components/ui/SocialPill";
+import { ExportShareButton } from "@/components/export/ExportShareButton";
 import { GitHubIcon, LinkedInIcon } from "@/components/ui/BrandIcons";
 
 const GITHUB_URL = "https://github.com/midaksh";
@@ -48,6 +49,7 @@ export function Header() {
             label="LinkedIn"
             ariaLabel="midaksh on LinkedIn"
           />
+          <ExportShareButton />
           <ThemeToggle />
         </div>
       </div>

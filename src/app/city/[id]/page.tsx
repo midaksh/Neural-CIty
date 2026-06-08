@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: CityPageProps) {
 
   return {
     title: `${data.cityName} · Neural City`,
-    description: `Street intelligence profile for ${data.cityName}: safety, convenience, and governance scores.`,
+    description: `Street intelligence profile for ${data.cityName}: safety, convenience, and governance scores. Export as PDF or CSV.`,
   };
 }
 

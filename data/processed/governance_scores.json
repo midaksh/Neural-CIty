@@ -5,12 +5,12 @@
     "population_source": "data/raw/population-data.csv (Census 2011)",
     "indicators": {
       "spend_ratio": "Distance from spending/budget ratio = 1.0; overspend penalized 1.35\u00d7 vs underspend; extra penalty beyond ratio 1.36 or below 0.69; floor 10.0",
-      "invest": "Latest municipal spending per lakh residents; sqrt min\u2013max to 15.0\u2013100; haircut when avg ratio > 1.1"
+      "invest": "Latest municipal spending per resident (\u20b9/person/year); sqrt min\u2013max to 15.0\u2013100; haircut when avg ratio > 1.1"
     },
     "formula": {
       "avg_ratio": "Mean of valid non-zero year rows per city",
       "spend_ratio": "100 \u2212 asymmetric_deviation\u00d7100, floor 10",
-      "invest_raw": "latest_spend_rupees / pop \u00d7 100k \u00d7 overspend_haircut",
+      "invest_raw": "latest_spend_rupees / population \u00d7 overspend_haircut",
       "composite": "spend_ratio\u00d70.6 + invest\u00d70.4"
     },
     "bands": {
@@ -62,9 +62,9 @@
       "raw_metrics": {
         "avg_spending_to_budget_ratio": 1.0074,
         "latest_spending_rupees": 166840191000.0,
-        "spend_per_100k_residents": 1515649453.32,
+        "spend_per_resident_rupees": 15156.49,
         "invest_haircut_multiplier": 1.0,
-        "invest_raw_per_100k": 1515649453.32,
+        "invest_raw_per_resident": 15156.49,
         "spend_ratio_score_absolute": 99.0
       },
       "normalized_scores": {
@@ -114,9 +114,9 @@
       "raw_metrics": {
         "avg_spending_to_budget_ratio": 0.6107,
         "latest_spending_rupees": 339400711969.0,
-        "spend_per_100k_residents": 2727781203.55,
+        "spend_per_resident_rupees": 27277.81,
         "invest_haircut_multiplier": 1.0,
-        "invest_raw_per_100k": 2727781203.55,
+        "invest_raw_per_resident": 27277.81,
         "spend_ratio_score_absolute": 59.81
       },
       "normalized_scores": {
@@ -166,9 +166,9 @@
       "raw_metrics": {
         "avg_spending_to_budget_ratio": 1.062,
         "latest_spending_rupees": 44044107515.0,
-        "spend_per_100k_residents": 985812639.09,
+        "spend_per_resident_rupees": 9858.13,
         "invest_haircut_multiplier": 1.0,
-        "invest_raw_per_100k": 985812639.09,
+        "invest_raw_per_resident": 9858.13,
         "spend_ratio_score_absolute": 91.62
       },
       "normalized_scores": {
@@ -218,9 +218,9 @@
       "raw_metrics": {
         "avg_spending_to_budget_ratio": 0.8033,
         "latest_spending_rupees": 58832203521.0,
-        "spend_per_100k_residents": 1056122535.08,
+        "spend_per_resident_rupees": 10561.23,
         "invest_haircut_multiplier": 1.0,
-        "invest_raw_per_100k": 1056122535.08,
+        "invest_raw_per_resident": 10561.23,
         "spend_ratio_score_absolute": 80.33
       },
       "normalized_scores": {
@@ -258,9 +258,9 @@
       "raw_metrics": {
         "avg_spending_to_budget_ratio": 0.914,
         "latest_spending_rupees": 5771072948.0,
-        "spend_per_100k_residents": 658179172.56,
+        "spend_per_resident_rupees": 6581.79,
         "invest_haircut_multiplier": 1.0,
-        "invest_raw_per_100k": 658179172.56,
+        "invest_raw_per_resident": 6581.79,
         "spend_ratio_score_absolute": 91.4
       },
       "normalized_scores": {
@@ -310,9 +310,9 @@
       "raw_metrics": {
         "avg_spending_to_budget_ratio": 0.9184,
         "latest_spending_rupees": 17924917323.0,
-        "spend_per_100k_residents": 636628461.31,
+        "spend_per_resident_rupees": 6366.28,
         "invest_haircut_multiplier": 1.0,
-        "invest_raw_per_100k": 636628461.31,
+        "invest_raw_per_resident": 6366.28,
         "spend_ratio_score_absolute": 91.84
       },
       "normalized_scores": {
@@ -362,9 +362,9 @@
       "raw_metrics": {
         "avg_spending_to_budget_ratio": 0.8903,
         "latest_spending_rupees": 11387150596.0,
-        "spend_per_100k_residents": 658095068.89,
+        "spend_per_resident_rupees": 6580.95,
         "invest_haircut_multiplier": 1.0,
-        "invest_raw_per_100k": 658095068.89,
+        "invest_raw_per_resident": 6580.95,
         "spend_ratio_score_absolute": 89.03
       },
       "normalized_scores": {
@@ -414,9 +414,9 @@
       "raw_metrics": {
         "avg_spending_to_budget_ratio": 0.778,
         "latest_spending_rupees": 16214241758.0,
-        "spend_per_100k_residents": 826990992.08,
+        "spend_per_resident_rupees": 8269.91,
         "invest_haircut_multiplier": 1.0,
-        "invest_raw_per_100k": 826990992.08,
+        "invest_raw_per_resident": 8269.91,
         "spend_ratio_score_absolute": 77.8
       },
       "normalized_scores": {
@@ -466,9 +466,9 @@
       "raw_metrics": {
         "avg_spending_to_budget_ratio": 0.8079,
         "latest_spending_rupees": 33059378000.0,
-        "spend_per_100k_residents": 485455560.01,
+        "spend_per_resident_rupees": 4854.56,
         "invest_haircut_multiplier": 1.0,
-        "invest_raw_per_100k": 485455560.01,
+        "invest_raw_per_resident": 4854.56,
         "spend_ratio_score_absolute": 80.79
       },
       "normalized_scores": {
@@ -511,9 +511,9 @@
       "raw_metrics": {
         "avg_spending_to_budget_ratio": 1.2414,
         "latest_spending_rupees": 64506500000.0,
-        "spend_per_100k_residents": 765567643.84,
+        "spend_per_resident_rupees": 7655.68,
         "invest_haircut_multiplier": 0.7879,
-        "invest_raw_per_100k": 603223870.74,
+        "invest_raw_per_resident": 6032.24,
         "spend_ratio_score_absolute": 67.41
       },
       "normalized_scores": {
@@ -553,9 +553,9 @@
       "raw_metrics": {
         "avg_spending_to_budget_ratio": 2.314,
         "latest_spending_rupees": 39130000000.0,
-        "spend_per_100k_residents": 835916956.89,
+        "spend_per_resident_rupees": 8359.17,
         "invest_haircut_multiplier": 0.65,
-        "invest_raw_per_100k": 543346021.98,
+        "invest_raw_per_resident": 5433.46,
         "spend_ratio_score_absolute": 10.0
       },
       "normalized_scores": {

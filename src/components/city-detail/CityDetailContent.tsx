@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {
@@ -24,7 +25,9 @@ import {
   StatCard,
 } from "@/components/city-detail/shared";
 import type { CityDetailData } from "@/lib/city-detail-data";
-import { cn, getScoreBandStyles } from "@/lib/utils";
+import { useExportShare } from "@/context/ExportShareContext";
+import { buildCityExportPayload } from "@/lib/export/build-city-payload";
+import { cn, formatInrPerResident, getScoreBandStyles } from "@/lib/utils";
 import type { CitySectorScore } from "@/types/city";
 
 function PillarCard({
@@ -68,8 +71,15 @@ function PillarCard({
 }
 
 export function CityDetailContent({ data }: { data: CityDetailData }) {
+  const { setExportPayload } = useExportShare();
   const populationLabel = `${(data.population2011 / 1_000_000).toFixed(2)}M`;
   const areaLabel = `${data.areaKm2.toLocaleString()} km²`;
+
+  useEffect(() => {
+    const shareUrl = `${window.location.origin}/city/${data.cityId}`;
+    setExportPayload(buildCityExportPayload(data, shareUrl));
+    return () => setExportPayload(null);
+  }, [data, setExportPayload]);
 
   return (
     <div className="mx-auto max-w-6xl px-4 pb-16 md:px-8">
@@ -259,9 +269,16 @@ export function CityDetailContent({ data }: { data: CityDetailData }) {
               <ScoreProgressBar
                 label="Investment"
                 score={data.governanceIndicators.invest?.score ?? 0}
-                description="Latest municipal spend per lakh residents, sqrt-scaled across cohort"
+                description="Latest municipal spend per resident, sqrt-scaled across cohort"
               />
               <div className="grid grid-cols-2 gap-3">
+                <StatCard
+                  label="Spend per resident"
+                  value={formatInrPerResident(
+                    data.governanceRaw.raw_metrics.spend_per_resident_rupees,
+                  )}
+                  hint="Latest year municipal spend"
+                />
                 <StatCard
                   label="Avg spend ratio"
                   value={data.governanceRaw.raw_metrics.avg_spending_to_budget_ratio.toFixed(3)}

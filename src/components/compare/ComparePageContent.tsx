@@ -1,15 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { GitCompare, Loader2 } from "lucide-react";
 import { motion } from "framer-motion";
 import { CitySelectDropdown } from "@/components/compare/CitySelectDropdown";
 import { CityComparisonPanel } from "@/components/compare/CityComparisonPanel";
+import { useExportShare } from "@/context/ExportShareContext";
+import { buildCompareExportPayload } from "@/lib/export/build-compare-payload";
 import { getCityCompareData } from "@/lib/compare-data";
 
 type ViewState = "form" | "loading" | "results";
 
 export function ComparePageContent() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const { setExportPayload } = useExportShare();
   const [cityAId, setCityAId] = useState<string | null>(null);
   const [cityBId, setCityBId] = useState<string | null>(null);
   const [view, setView] = useState<ViewState>("form");
@@ -23,10 +29,43 @@ export function ComparePageContent() {
   const cityAData = resultIds ? getCityCompareData(resultIds.a) : null;
   const cityBData = resultIds ? getCityCompareData(resultIds.b) : null;
 
+  useEffect(() => {
+    const paramA = searchParams.get("a");
+    const paramB = searchParams.get("b");
+
+    if (!paramA || !paramB || paramA === paramB) {
+      return;
+    }
+
+    const nextA = getCityCompareData(paramA);
+    const nextB = getCityCompareData(paramB);
+    if (!nextA || !nextB) {
+      return;
+    }
+
+    setCityAId(paramA);
+    setCityBId(paramB);
+    setResultIds({ a: paramA, b: paramB });
+    setView("results");
+  }, [searchParams]);
+
+  useEffect(() => {
+    if (view !== "results" || !cityAData || !cityBData) {
+      setExportPayload(null);
+      return;
+    }
+
+    const shareUrl = `${window.location.origin}/compare?a=${cityAData.cityId}&b=${cityBData.cityId}`;
+    setExportPayload(buildCompareExportPayload(cityAData, cityBData, shareUrl));
+
+    return () => setExportPayload(null);
+  }, [view, cityAData, cityBData, setExportPayload]);
+
   function handleCompare() {
     if (!canCompare || !cityAId || !cityBId) return;
 
     setView("loading");
+    router.replace(`/compare?a=${cityAId}&b=${cityBId}`, { scroll: false });
 
     window.setTimeout(() => {
       setResultIds({ a: cityAId, b: cityBId });
@@ -51,7 +90,7 @@ export function ComparePageContent() {
               Compare Cities
             </h1>
             <p className="mt-2 max-w-lg text-xs leading-relaxed text-muted md:text-sm">
-              Pick the cities for a street fight.
+              Pick two cities for a head-to-head comparison. Results can be exported or shared via URL.
             </p>
           </motion.div>
         </section>
@@ -113,7 +152,7 @@ export function ComparePageContent() {
             Compare Cities
           </h1>
           <p className="mt-2 max-w-lg text-xs leading-relaxed text-muted md:text-sm">
-            Pick the cities for a street fight.
+            Pick two cities for a head-to-head comparison. Results can be exported or shared via URL.
           </p>
         </motion.div>
       </section>

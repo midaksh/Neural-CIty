@@ -118,7 +118,7 @@ interface GovernanceCity {
   raw_metrics: {
     avg_spending_to_budget_ratio: number;
     latest_spending_rupees: number;
-    spend_per_100k_residents: number;
+    spend_per_resident_rupees: number;
     invest_haircut_multiplier: number;
   };
   normalized_scores: {

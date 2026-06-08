@@ -6,7 +6,7 @@ Two indicators (60/40 composite):
   1. Spend Ratio — distance from spending/budget ratio = 1.0
      Severe extra penalty only beyond 1.36× overspend or below 0.69× underspend.
 
-  2. Invest — per-capita municipal spend (₹ per lakh pop)
+  2. Invest — per-capita municipal spend (₹ per resident, latest year)
 
 Composite = spend_ratio_score × 0.60 + invest_score × 0.40
 """
@@ -262,9 +262,9 @@ def main() -> None:
 
         latest_spend_rupees = spending_in_rupees(latest.spending, unit)
         pop = population[city_name]
-        spend_per_100k = (latest_spend_rupees / pop) * 100_000
+        spend_per_resident = latest_spend_rupees / pop
         haircut = invest_haircut(avg_ratio)
-        invest_raw = spend_per_100k * haircut
+        invest_raw = spend_per_resident * haircut
 
         notes: list[str] = []
         if unit == "crore":
@@ -296,16 +296,16 @@ def main() -> None:
                 "raw_metrics": {
                     "avg_spending_to_budget_ratio": round(avg_ratio, 4),
                     "latest_spending_rupees": round(latest_spend_rupees, 2),
-                    "spend_per_100k_residents": round(spend_per_100k, 2),
+                    "spend_per_resident_rupees": round(spend_per_resident, 2),
                     "invest_haircut_multiplier": round(haircut, 4),
-                    "invest_raw_per_100k": round(invest_raw, 2),
+                    "invest_raw_per_resident": round(invest_raw, 2),
                     "spend_ratio_score_absolute": ratio_score,
                 },
             }
         )
 
     invest_raw_map = {
-        r["city_id"]: r["raw_metrics"]["invest_raw_per_100k"] for r in raw_records
+        r["city_id"]: r["raw_metrics"]["invest_raw_per_resident"] for r in raw_records
     }
     invest_scores = normalize_sqrt_min_max(invest_raw_map)
 
@@ -348,14 +348,14 @@ def main() -> None:
                     f"floor {SPEND_RATIO_FLOOR}"
                 ),
                 "invest": (
-                    "Latest municipal spending per lakh residents; sqrt min–max to "
+                    "Latest municipal spending per resident (₹/person/year); sqrt min–max to "
                     f"{INVEST_FLOOR}–100; haircut when avg ratio > {OVERSPEND_HAIRCUT_THRESHOLD}"
                 ),
             },
             "formula": {
                 "avg_ratio": "Mean of valid non-zero year rows per city",
                 "spend_ratio": "100 − asymmetric_deviation×100, floor 10",
-                "invest_raw": "latest_spend_rupees / pop × 100k × overspend_haircut",
+                "invest_raw": "latest_spend_rupees / population × overspend_haircut",
                 "composite": (
                     f"spend_ratio×{SPEND_RATIO_BLEND} + invest×{INVEST_BLEND}"
                 ),
