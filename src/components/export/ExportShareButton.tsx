@@ -8,6 +8,44 @@ import { downloadCsv } from "@/lib/export/export-csv";
 import { downloadPdf } from "@/lib/export/export-pdf";
 import { cn } from "@/lib/utils";
 
+interface ExportFormatButtonProps {
+  label: string;
+  variant: "pdf" | "csv";
+  disabled: boolean;
+  loading: boolean;
+  onClick: () => void;
+}
+
+function ExportFormatButton({
+  label,
+  variant,
+  disabled,
+  loading,
+  onClick,
+}: ExportFormatButtonProps) {
+  return (
+    <motion.button
+      type="button"
+      role="menuitem"
+      disabled={disabled}
+      onClick={onClick}
+      initial={false}
+      whileHover={disabled ? undefined : { y: -2 }}
+      whileTap={disabled ? undefined : { y: 1, scale: 0.972 }}
+      transition={{ type: "spring", stiffness: 520, damping: 26, mass: 0.82 }}
+      className={cn(
+        "liquid-glass-cta liquid-glass-cta--compact",
+        variant === "csv" && "liquid-glass-cta--csv",
+      )}
+    >
+      <span className="liquid-glass-cta__ambient" aria-hidden />
+      <span className="liquid-glass-cta__label">
+        {loading ? "Preparing…" : label}
+      </span>
+    </motion.button>
+  );
+}
+
 export function ExportShareButton() {
   const { payload, showCopiedToast } = useExportShare();
   const [open, setOpen] = useState(false);
@@ -119,24 +157,20 @@ export function ExportShareButton() {
               </div>
 
               <div className="mt-3 flex gap-2">
-                <button
-                  type="button"
-                  role="menuitem"
+                <ExportFormatButton
+                  label="PDF"
+                  variant="pdf"
                   disabled={exporting !== null}
+                  loading={exporting === "pdf"}
                   onClick={() => handleExport("pdf")}
-                  className="flex-1 rounded-lg bg-[#f37021] px-3 py-2 text-xs font-semibold text-white transition-colors hover:bg-[#f5833d] disabled:opacity-60"
-                >
-                  {exporting === "pdf" ? "Preparing…" : "PDF"}
-                </button>
-                <button
-                  type="button"
-                  role="menuitem"
+                />
+                <ExportFormatButton
+                  label="CSV"
+                  variant="csv"
                   disabled={exporting !== null}
+                  loading={exporting === "csv"}
                   onClick={() => handleExport("csv")}
-                  className="flex-1 rounded-lg border border-[#f37021]/35 px-3 py-2 text-xs font-semibold text-[#f37021] transition-colors hover:bg-[#f37021]/10 disabled:opacity-60"
-                >
-                  {exporting === "csv" ? "Preparing…" : "CSV"}
-                </button>
+                />
               </div>
             </div>
 

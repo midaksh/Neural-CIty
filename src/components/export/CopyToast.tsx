@@ -19,11 +19,11 @@ export function CopyToast() {
           role="status"
           aria-live="polite"
         >
-          <div className="flex items-center gap-2 rounded-xl border border-border/80 bg-card/95 px-3.5 py-2.5 shadow-lg backdrop-blur-md">
-            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#f37021]/15 text-[#f37021]">
+          <div className="flex items-center gap-2 rounded-xl border border-sky-300/60 bg-[#d6eaf0] px-3.5 py-2.5 shadow-[0_2px_12px_rgba(186,230,253,0.35),0_0_20px_rgba(214,234,240,0.5)] backdrop-blur-sm">
+            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-slate-900/10 text-slate-900">
               <Check className="h-3.5 w-3.5" strokeWidth={2.5} />
             </span>
-            <span className="text-xs font-semibold text-foreground">
+            <span className="text-xs font-semibold text-slate-900">
               Copied to clipboard
             </span>
           </div>

@@ -354,3 +354,64 @@ body {
     0 8px 20px hsl(0 0% 0% / 0.4),
     0 14px 32px hsl(243 112 33 / 0.1);
 }
+
+/* Compact liquid glass — export dropdown PDF / CSV */
+.liquid-glass-cta--compact {
+  display: inline-flex;
+  flex: 1 1 0%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  padding: 0.625rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--foreground);
+  cursor: pointer;
+}
+
+.liquid-glass-cta--compact:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.liquid-glass-cta--compact .liquid-glass-cta__label {
+  position: relative;
+  z-index: 1;
+}
+
+.liquid-glass-cta--csv .liquid-glass-cta__ambient {
+  background: radial-gradient(
+    circle,
+    rgba(42, 100, 120, 0.32) 0%,
+    rgba(42, 100, 120, 0.12) 42%,
+    transparent 72%
+  );
+}
+
+.liquid-glass-cta--csv:hover {
+  box-shadow:
+    inset 0 1px 0 0 hsl(0 0% 100% / 0.42),
+    inset 0 -1px 0 0 hsl(0 0% 0% / 0.05),
+    0 2px 4px hsl(0 0% 0% / 0.1),
+    0 16px 36px hsl(0 0% 0% / 0.16),
+    0 28px 56px rgba(42, 100, 120, 0.18);
+}
+
+.dark .liquid-glass-cta--csv .liquid-glass-cta__ambient {
+  background: radial-gradient(
+    circle,
+    rgba(72, 140, 165, 0.45) 0%,
+    rgba(42, 100, 120, 0.18) 45%,
+    transparent 74%
+  );
+}
+
+.dark .liquid-glass-cta--csv:hover {
+  box-shadow:
+    inset 0 1px 0 0 hsl(0 0% 100% / 0.14),
+    inset 0 -1px 0 0 hsl(0 0% 0% / 0.4),
+    0 2px 4px hsl(0 0% 0% / 0.4),
+    0 18px 40px hsl(0 0% 0% / 0.52),
+    0 32px 64px rgba(42, 100, 120, 0.22);
+}
