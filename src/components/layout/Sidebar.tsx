@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { isNavItemActive } from "@/lib/navigation";
-import { bottomNavItems, mainNavItems } from "@/data/navigation";
+import { DIGITAL_HEROES_URL, mainNavItems } from "@/data/navigation";
 
 function NavButton({
   href,
@@ -54,6 +54,27 @@ function NavButton({
   );
 }
 
+function DigitalHeroesButton() {
+  return (
+    <motion.a
+      href={DIGITAL_HEROES_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Built for Digital Heroes — visit digitalheroesco.com"
+      initial={false}
+      whileHover={{ y: -2 }}
+      whileTap={{ y: 1, scale: 0.98 }}
+      transition={{ type: "spring", stiffness: 520, damping: 26, mass: 0.82 }}
+      className="liquid-glass-cta liquid-glass-cta--sidebar liquid-glass-cta--ice flex w-full items-center justify-center"
+    >
+      <span className="liquid-glass-cta__ambient" aria-hidden />
+      <span className="liquid-glass-cta__label text-center text-[12px] font-semibold leading-tight tracking-tight">
+        Built for Digital Heroes
+      </span>
+    </motion.a>
+  );
+}
+
 export function Sidebar() {
   const pathname = usePathname();
 
@@ -95,15 +116,7 @@ export function Sidebar() {
         </nav>
 
         <div className="mt-auto space-y-1 border-t border-border pt-4">
-          {bottomNavItems.map((item) => (
-            <NavButton
-              key={item.id}
-              href={item.href}
-              label={item.label}
-              icon={item.icon}
-              isActive={isNavItemActive(pathname, item)}
-            />
-          ))}
+          <DigitalHeroesButton />
 
           <div className="mt-3 rounded-2xl bg-surface p-3">
             <p className="text-[11px] font-semibold text-foreground">

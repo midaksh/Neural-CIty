@@ -4,7 +4,6 @@ import {
   Database,
   GitCompare,
   LayoutGrid,
-  Settings,
 } from "lucide-react";
 
 export interface NavItem {
@@ -21,6 +20,4 @@ export const mainNavItems: NavItem[] = [
   { id: "data", label: "Data Sources", icon: Database, href: "/data-sources" },
 ];
 
-export const bottomNavItems: NavItem[] = [
-  { id: "settings", label: "Settings", icon: Settings, href: "#" },
-];
+export const DIGITAL_HEROES_URL = "https://digitalheroesco.com/";

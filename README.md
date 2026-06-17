@@ -123,8 +123,6 @@ Processed outputs land in `public/data/*.json` and are consumed by the dashboard
 
 Scores are normalized to **0–100** across the 11-city cohort. Bands: **Poor** (0–35), **Manageable** (35–65), **Good** (65+).
 
-> **Note on units:** Safety and Convenience use **per 100k population** where noted. Governance investment uses **₹ per resident** (total municipal spend ÷ population), not per 100k.
-
 ### 1. Safety: Infrastructure (signals & signs)
 
 **Script:** `scripts/process_signals.py`
